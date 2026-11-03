@@ -1,0 +1,246 @@
+{
+  "version": "2.1",
+  "scope": "저장 구조는 세 층이다: ① 프로필 저장소(사용자 단위, 계획표 밖) ② tasteProfile(프로필 한 개) ③ 계획표 문서의 tasteProfileId. 질문별 저장 위치(questionStorage)는 tasteProfile 안의 경로이며 anchorData만 프로필 저장소를 가리킨다.",
+  "profileStore": {
+    "location": "사용자 단위 저장. save 폴더 아래 하위 폴더의 프로필 전용 파일 save/taste/profiles.json(대체 저장 폴더를 쓰는 경우도 같은 상대 위치). save 폴더 바로 아래에 두지 않는다(서버가 save/*.json을 계획표 목록으로 나열하기 때문). 임시 파일 → 이름 바꾸기로 원자 저장한다. 계획표 문서 안에 두지 않는다. localStorage 단독 저장은 금지한다.",
+    "version": "string (프로필 저장소 형식 버전)",
+    "revision": "integer. 저장소를 저장할 때마다 서버가 1 올린다. 클라이언트는 마지막으로 읽은 revision을 함께 보내고, 서버의 현재 값과 다르면 저장을 거부한다(오래된 화면이 최신 내용을 덮어쓰지 않게). 파일이 없으면 0. 백업 파일에는 넣지 않는다.",
+    "profiles": "array of tasteProfile (이 파일의 tasteProfile 정의). 0개 이상.",
+    "anchorData": "anchor.json schema array (phase 2, 1차에서는 빈 배열). V2.3의 명시적 설계 결정: anchorData는 사용자 단위로 누적되는 경험 데이터이며 프로필 단위 데이터가 아니다. 그래서 profiles와 같은 층이 아니라 profileStore의 사용자 단위 데이터로 관리하고 모든 프로필이 공유한다. 프로필 생성·교체·삭제로 바뀌지 않는다. V2.2는 실제 앱 데이터가 없어(구현 전) 사용자 데이터 호환 문제는 없다."
+  },
+  "tasteProfile": {
+    "profileId": "string. 프로필 저장소 안에서 유일하고 변하지 않는다. 생성 방식은 구현 단계에서 정한다.",
+    "profileName": "string. 기본값은 profileFlow.defaultName 규칙(tasteProfile 1, tasteProfile 2 …). 사용자가 바꿀 수 있다.",
+    "createdAt": "string (ISO 시각). 프로필을 최초 생성한 시각. 재테스트·처음부터를 해도 변경하지 않는다.",
+    "region": "string. 프로필 생성 당시 선택한 지역. 고정이며 재테스트해도 변경하지 않는다. 여행 계획 자체의 region(계획표 문서의 region)과 별개이며 서로 대신 쓰지 않는다. 다른 지역 프로필이 필요하면 새 프로필을 만든다.",
+    "testVersion": "string",
+    "status": "in_progress|completed. stateInvariants를 따른다.",
+    "answers": "object: questionId -> answer. single은 optionId, scale은 integer, multi_state(FOOD_GENRE)는 itemId -> state. questionStorage에서 destination이 answers인 질문만 저장한다.",
+    "calculatedAxes": "object: numeric axisId -> integer or null; stateful axes는 저장하지 않는다. jp_experience와 cold_start는 context 축으로 함께 저장한다.",
+    "resultSignals": "string array (axes.json result_signals id)",
+    "resultHighlights": "array of {axisId, value, label}. axes.json result_display 규칙(groups)으로 만든 표시 목록이며 primary 다음 food_detail 순서로 저장한다. fallback 표시 여부는 이 배열의 길이로 판단하지 않는다 — axes.json result_display.fallbackRule에 따라 primary 그룹 후보가 없으면 fallback을 표시한다(food_detail 항목이 있어 배열이 비어 있지 않아도 primary가 비면 fallback을 함께 표시).",
+    "experienceData": {
+      "jpVisitCount": "optionId|null",
+      "foodMemory": "string|null"
+    },
+    "wishlist": {
+      "foodIds": "string array",
+      "otherText": "string|null"
+    },
+    "filters": {
+      "foodAvoidance": "object or null: itemId -> dislike|never_tried"
+    },
+    "safety": {
+      "allergy": {
+        "items": "string array",
+        "otherText": "string|null"
+      },
+      "diet": {
+        "items": "string array",
+        "otherText": "string|null"
+      }
+    },
+    "progress": {
+      "currentSectionId": "string|null",
+      "currentQuestionId": "string|null",
+      "answeredQuestionIds": "string array (질문 destination과 관계없이 응답한 모든 질문 id)",
+      "startedAt": "string|null",
+      "lastSavedAt": "string|null"
+    },
+    "completedAt": "string|null. 마지막 테스트 완료 시각. 진행 중이면 null이다. 재테스트를 시작하면 null이 되고 완료하면 그 시각으로 갱신한다."
+  },
+  "planLink": {
+    "field": "tasteProfileId",
+    "type": "string|null, optional",
+    "location": "계획표 문서(프리셋 저장, 최근 작업, 백업 파일 공통). 계획표마다 따로 가진다. 프로필 내용은 계획표에 복사하지 않는다.",
+    "rules": [
+      "필드가 없거나 null이면 연결된 프로필 없음이다.",
+      "값이 프로필 저장소에 없는 ID이면 오류로 처리하지 않고 연결된 프로필 없음으로 취급한다.",
+      "연결은 프로필을 만들 때 또는 사용 중인 프로필을 고를 때 만든다.",
+      "계획표를 바꾸거나 삭제해도 프로필은 사라지지 않는다.",
+      "데이터 형식 버전(DATA_SCHEMA_VERSION)은 올리지 않는다. optional 필드 추가이기 때문이다.",
+      "연결이 바뀌면(프로필 생성·재사용 선택·설정에서 변경·삭제로 연결 없음) 음식점 수와 관계없이 즉시 계획표(최근 작업)를 저장한다."
+    ]
+  },
+  "questionStorage": {
+    "BASIC_JP_EXPERIENCE": "answers",
+    "BASIC_AGE": "answers",
+    "BASIC_GENDER": "answers",
+    "JP_VISIT_COUNT": "experienceData.jpVisitCount",
+    "JP_FOOD_MEMORY": "experienceData.foodMemory",
+    "FOOD_GENRE": "answers",
+    "RAMEN_BROTH_STYLE": "answers",
+    "RAMEN_NOODLE_TEXTURE": "answers",
+    "SUSHI_RAW_FISH_DETAIL": "answers",
+    "SUSHI_FISH_FATNESS": "answers",
+    "TASTE_SPICY": "answers",
+    "SPICY_DETAIL": "answers",
+    "TASTE_SALT": "answers",
+    "TASTE_SWEET": "answers",
+    "TASTE_SOUR": "answers",
+    "TASTE_UMAMI": "answers",
+    "TASTE_RICHNESS": "answers",
+    "TASTE_FISH_AROMA": "answers",
+    "TASTE_RAW": "answers",
+    "REST_WAITING": "answers",
+    "REST_RESERVATION": "answers",
+    "REST_STYLE": "answers",
+    "REST_PRICE": "answers",
+    "FOOD_WISHLIST": "wishlist.foodIds",
+    "TRIP_DETOUR": "answers",
+    "SAFETY_ALLERGY": "safety.allergy.items",
+    "SAFETY_DIET": "safety.diet.items",
+    "SAFETY_DISLIKE": "filters.foodAvoidance",
+    "ANCHOR_RESTAURANT": "anchorData"
+  },
+  "questionStorageNote": "경로는 tasteProfile 안의 위치다. 예외: ANCHOR_RESTAURANT의 anchorData는 프로필 저장소(profileStore.anchorData)를 가리킨다.",
+  "storageClasses": {
+    "preference_signal": "answers에 저장하고 calculatedAxes 계산에 사용한다.",
+    "safety_only": "safety.* 에만 저장하며 calculatedAxes와 resultHighlights에 포함하지 않는다.",
+    "preference_filter": "filters.foodAvoidance 에 저장하며 Taste Score에 합산하지 않는다."
+  },
+  "otherTextFields": {
+    "wishlistOtherText": "wishlist.otherText",
+    "allergyOtherText": "safety.allergy.otherText",
+    "dietOtherText": "safety.diet.otherText"
+  },
+  "profileFlow": {
+    "defaultName": "tasteProfile {n}. n은 기본 이름을 쓰는 현재 프로필의 최대 번호 + 1이며 첫 프로필은 1이다(번호가 중간에 비어도 다시 채우지 않는다. 가장 큰 번호를 삭제하면 그 번호가 다시 쓰일 수 있다).",
+    "displayName": "화면 표시: profileName이 기본 이름 \"tasteProfile {n}\"이면 화면에는 \"미식 프로필 {n}\"으로 보여준다. 사용자가 바꾼 이름은 그대로 보여준다. 저장값(profileName)은 바꾸지 않는다.",
+    "start": [
+      {
+        "id": "S1",
+        "when": "계획표에 연결된 프로필이 없고 프로필 저장소에 프로필이 0개",
+        "match": {
+          "linked": false,
+          "profiles": "==0"
+        },
+        "action": "create_and_start",
+        "do": "새 프로필(tasteProfile 1)을 만들어 계획표에 연결하고 처음부터 시작한다. 확인창 없음."
+      },
+      {
+        "id": "S2",
+        "when": "계획표에 연결된 프로필이 없고 completed 프로필이 1개 이상",
+        "match": {
+          "linked": false,
+          "completedProfiles": ">=1"
+        },
+        "action": "ask_reuse",
+        "do": "reuseConfirm 확인창을 띄운다. 예: 가장 최근에 완료한 프로필을 계획표에 연결하고 테스트를 다시 하지 않는다. 아니오: 새 프로필을 만들어 연결하고 처음부터 시작한다."
+      },
+      {
+        "id": "S3",
+        "when": "계획표에 연결된 프로필이 없고 프로필이 있으나 완료 프로필이 없음(진행 중만 있음)",
+        "match": {
+          "linked": false,
+          "profiles": ">=1",
+          "completedProfiles": "==0"
+        },
+        "action": "create_and_start",
+        "do": "S1과 같이 새 프로필을 만들어 연결하고 시작한다. 진행 중 프로필은 설정에서 고를 수 있다."
+      },
+      {
+        "id": "S4",
+        "when": "계획표에 연결된 프로필이 있고 status=completed",
+        "match": {
+          "linked": true,
+          "linkedStatus": "completed"
+        },
+        "action": "retest_confirm",
+        "do": "retest.confirm 확인창(재테스트)을 띄운다."
+      },
+      {
+        "id": "S5",
+        "when": "계획표에 연결된 프로필이 있고 status=in_progress",
+        "match": {
+          "linked": true,
+          "linkedStatus": "in_progress"
+        },
+        "action": "resume_or_restart",
+        "do": "이어하기 / 처음부터 선택(retest.inProgress)."
+      }
+    ],
+    "reuseConfirm": {
+      "message": "{days}일 전 {region} 여행용으로 만든 미식 프로필이 있습니다. 반영하시겠습니까?",
+      "yes": "기존 프로필 사용",
+      "no": "새 프로필 만들기",
+      "daysRule": "days는 후보 프로필 completedAt의 날짜부터 오늘까지의 달력 일수이며 0이면 \"오늘\"로 표시한다. createdAt으로 계산하지 않는다. region은 프로필 region(생성 당시 지역)의 표시 이름이다. \"방문 당시\"처럼 실제 방문을 전제하는 표현은 쓰지 않는다(여행 전에 만들 수 있다).",
+      "candidate": "completed 프로필 중 completedAt이 가장 최근인 것 하나. 후보 선택과 days 계산 모두 completedAt 기준이다. 나머지는 설정에서 고른다."
+    },
+    "newProfileSafetyPrefill": "새 프로필을 \"아니오\"로 만들 때 직전 완료 프로필에 safety가 있으면 SAFETY_ALLERGY·SAFETY_DIET의 값을 미리 채워 보여주되, 사용자가 확인하기 전에는 응답으로 저장하지 않는다(미응답을 자동 변환하지 않는 T19와 같은 취지).",
+    "settings": {
+      "scope": "계획표마다 따로 설정한다. 설정에서 바꾸는 것은 현재 계획표의 tasteProfileId다.",
+      "actions": [
+        "사용 중인 프로필 선택(완료·진행 중 모두)",
+        "프로필 이름 변경",
+        "프로필 삭제(확인창, 삭제하면 그 프로필을 쓰던 계획표는 연결 없음이 된다. anchorData는 삭제되지 않는다)",
+        "새 프로필 만들기(현재 계획표에 연결, 기존 프로필은 그대로 둠)"
+      ]
+    },
+    "matchNote": "match는 기계가 읽는 조건이다. linked=계획표의 tasteProfileId가 저장소에 존재하는 프로필을 가리킴(없는 ID는 linked=false). profiles=저장소의 프로필 수, completedProfiles=완료 프로필 수, linkedStatus=연결된 프로필의 status. 가능한 모든 상태는 start 항목 중 정확히 하나에 해당해야 한다.",
+    "orphan": "진행 중(in_progress) 프로필은 자동 삭제하지 않는다. 연결되지 않은 채 남아도 사용자가 설정에서 직접 삭제한다."
+  },
+  "retest": {
+    "trigger": "계획표에 연결된 프로필이 있고 completedAt이 null이 아닌 상태에서 사용자가 테스트를 다시 시작할 때(profileFlow S4)",
+    "target": "계획표에 연결된 프로필 하나. 다른 프로필은 바뀌지 않는다.",
+    "confirm": "시작 시 확인창을 표시한다. 확인하면 그 프로필의 내용(testVersion, answers, calculatedAxes, resultSignals, resultHighlights, experienceData, wishlist, filters, safety, progress)을 새 응답으로 교체하고 status=in_progress, completedAt=null로 시작한다. 완료하면 status=completed, completedAt=현재 시각이다. 취소하면 변경하지 않는다. 확인창에는 \"이 프로필을 사용하는 다른 여행 계획에도 변경사항이 적용됩니다.\"에 해당하는 안내를 항상 포함한다.",
+    "keep": [
+      "profileId",
+      "profileName",
+      "createdAt",
+      "region"
+    ],
+    "preserve": [
+      "anchorData"
+    ],
+    "note": "확인 후 중단하면 이전 완료 내용은 복구되지 않는다(사용자 결정 D). 이전 내용을 남기려면 설정의 \"새 프로필 만들기\"를 쓴다. 이어하기(progress)는 재테스트가 아니므로 확인창 대상이 아니다.",
+    "inProgress": {
+      "trigger": "계획표에 연결된 프로필이 있고 status=in_progress인 상태에서 사용자가 미식 테스트를 시작할 때(profileFlow S5)",
+      "choice": "이어하기 / 처음부터 두 선택지를 보여준다.",
+      "resume": "그 프로필의 progress가 가리키는 지점부터 이어서 진행한다. 데이터는 바뀌지 않는다.",
+      "restart": "그 프로필의 진행분(answers 등 내용과 progress)을 폐기하고 새로 시작한다. profileId, profileName, createdAt, region은 유지하며 status=in_progress, completedAt=null이다. 다른 프로필과 anchorData는 유지한다.",
+      "note": "진행 중 프로필도 프로필 하나로 저장소에 존재하며 완료 프로필과 동시에 존재할 수 있다. 같은 프로필을 여러 계획표가 쓰면 progress는 프로필에 하나뿐이므로 어느 계획표에서든 같은 지점에서 이어진다(동시 편집은 지원하지 않는다)."
+    },
+    "clear": [
+      "completedAt"
+    ],
+    "sharedProfile": "하나의 프로필을 여러 계획표가 공유하는 구조는 유지한다. 공유 프로필을 재테스트하면 그 프로필을 쓰는 모든 계획표에 변경된 프로필이 적용된다. 프로필을 복제하지 않는다."
+  },
+  "backup": {
+    "planDocument": "프리셋 저장·최근 작업·백업 파일의 계획표 문서에는 tasteProfileId만 들어간다.",
+    "backupFile": "백업 파일에는 프로필 저장소 전체(profiles, anchorData)를 tasteProfileStore 필드로, 계획표 연결을 tasteProfileId 필드로 포함한다. revision은 넣지 않는다.",
+    "restore": "동일 ID 충돌 시 기존 데이터 우선 병합. 같은 profileId 또는 같은 anchor id가 이미 있으면 기존 데이터를 덮어쓰지 않고 백업 쪽 그 항목은 무시하며, 없는 ID만 추가한다. 우선순위는 ① 기존 데이터 보호 ② 백업 데이터의 중복 추가 방지 ③ 데이터 손실 방지다.",
+    "oldFiles": "프로필 저장소·tasteProfileId가 없는 구버전 백업과 계획표도 정상 로드한다(연결 없음).",
+    "limit": "이 동작은 덮어쓰는 복원이 아니다. 같은 ID의 프로필을 수정한 뒤 백업으로 이전 상태를 되돌릴 수는 없다. 충돌 해결 UI는 이번 범위 밖이다.",
+    "fieldNames": {
+      "planLink": "tasteProfileId",
+      "store": "tasteProfileStore"
+    }
+  },
+  "rules": [
+    "stateInvariants를 따른다: in_progress이면 completedAt은 null, completed이면 completedAt은 null이 아니다.",
+    "progress는 중단 후 이어하기를 위한 상태이며 Taste Score와 별개다. 프로필마다 하나씩 가진다.",
+    "계획표에 tasteProfileId가 없거나 가리키는 프로필이 없어도 정상 로드하며 연결된 프로필 없음으로 취급한다.",
+    "미응답 값은 저장 구조에서 명시적으로 부재로 표현하며 never_tried로 변환하지 않는다.",
+    "한 질문의 응답은 questionStorage가 지정한 한 곳에만 저장한다(중복 저장 금지).",
+    "재테스트·처음부터·프로필 삭제 어느 경우에도 anchorData는 유지한다.",
+    "프로필 내용은 계획표 문서에 복사하지 않고 프로필 저장소에만 둔다.",
+    "프로필 단위는 계획표마다 따로 연결한다. 한 프로필을 여러 계획표가 쓸 수 있다.",
+    "status=in_progress인 프로필에서 시작하면 이어하기/처음부터를 선택하게 하며, 처음부터는 그 프로필의 진행분을 폐기하고 anchorData는 유지한다.",
+    "createdAt과 region은 프로필 생성 시 정해지고 재테스트·처음부터로 바뀌지 않는다. 마지막 완료 시각은 completedAt이 맡으며 lastRetestedAt 같은 별도 필드는 두지 않는다.",
+    "미완료(in_progress) 프로필은 자동 삭제하지 않는다."
+  ],
+  "stateInvariants": {
+    "in_progress": "completedAt == null",
+    "completed": "completedAt != null",
+    "forbidden": "status와 completedAt이 서로 다른 상태를 나타내는 조합(in_progress+completedAt 있음, completed+completedAt null)은 허용하지 않는다.",
+    "basis": "완료 여부 판정(profileFlow S2·S4·S5, 후보 선택, 설정 표시)은 모두 이 불변식을 기준으로 하며 status와 completedAt이 항상 일치하므로 어느 쪽으로 읽어도 같다.",
+    "transitions": {
+      "create": "status=in_progress, completedAt=null",
+      "complete": "status=completed, completedAt=현재 시각",
+      "retestStart": "status=in_progress, completedAt=null (이전 completedAt을 보존하는 필드는 두지 않는다)",
+      "retestComplete": "status=completed, completedAt=현재 시각",
+      "restart": "status=in_progress, completedAt=null"
+    }
+  }
+}

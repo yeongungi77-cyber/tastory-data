@@ -1,0 +1,86 @@
+{
+  "version": "1.0",
+  "foods": [
+    {
+      "id": "sushi",
+      "label": "초밥"
+    },
+    {
+      "id": "sashimi",
+      "label": "회"
+    },
+    {
+      "id": "ramen",
+      "label": "라멘"
+    },
+    {
+      "id": "yakiniku",
+      "label": "야키니쿠"
+    },
+    {
+      "id": "tonkatsu",
+      "label": "돈카츠"
+    },
+    {
+      "id": "udon",
+      "label": "우동"
+    },
+    {
+      "id": "soba",
+      "label": "소바"
+    },
+    {
+      "id": "tempura",
+      "label": "텐푸라"
+    },
+    {
+      "id": "yakitori",
+      "label": "야키토리"
+    },
+    {
+      "id": "izakaya",
+      "label": "이자카야 음식"
+    },
+    {
+      "id": "eel",
+      "label": "장어"
+    },
+    {
+      "id": "gyudon",
+      "label": "규동"
+    },
+    {
+      "id": "curry",
+      "label": "일본식 카레"
+    },
+    {
+      "id": "okonomiyaki",
+      "label": "오코노미야키"
+    },
+    {
+      "id": "takoyaki",
+      "label": "타코야키"
+    },
+    {
+      "id": "nabe",
+      "label": "나베"
+    },
+    {
+      "id": "oden",
+      "label": "오뎅"
+    },
+    {
+      "id": "regional",
+      "label": "지역 향토 음식"
+    },
+    {
+      "id": "dessert",
+      "label": "일본 디저트"
+    }
+  ],
+  "rules": [
+    "FOOD_GENRE와 FOOD_WISHLIST는 이 사전의 id를 공유한다.",
+    "미응답은 never_tried나 dislike로 자동 변환하지 않는다.",
+    "다른 음식이 하나의 메뉴명으로 묶여 있는 경우 임의로 새 ID를 만들지 않고 이 사전 확장을 별도 작업으로 한다."
+  ]
+}

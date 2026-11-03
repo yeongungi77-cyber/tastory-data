@@ -1,0 +1,9 @@
+미식 테스트 설계 JSON 사본 — 손으로 고치지 않습니다 (tools/copy_taste_json.py 로 복사)
+원본: 프로젝트 gamapp/work/taste/  (설계 V2.3.1 axes 기준)
+복사 시각: 2026-10-02T08:43:31+09:00
+
+파일 SHA-256 설계 파일 버전
+questions.json 16e337cd17151e1c0342355d2656f005cdee38d2c86e9fa4b83d817bb32ec944 2.3
+axes.json 5fdeb0686914aebc0c7a9dbefd0f8b7dc75823fb0332cae0f9d852ffb8d03845 2.3.1
+storage.json 08a3c3676165264ca93c9bd10b1b8392d7eb7aa2e78f3b45fd531ebd61fb260e 2.1
+foods.json 5263856f867fe50f9316c545b45507891542fd19f0c2d3c20e00fc67f58dbeac 1.0

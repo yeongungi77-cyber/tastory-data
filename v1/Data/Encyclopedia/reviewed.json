@@ -1,0 +1,3639 @@
+{
+  "schema": 1,
+  "updated": "2026-11-03",
+  "categories": [
+    {
+      "id": "rice",
+      "code": "20",
+      "title": "밥·덮밥"
+    },
+    {
+      "id": "noodles",
+      "code": "21",
+      "title": "면"
+    },
+    {
+      "id": "sushi",
+      "code": "22",
+      "title": "스시·회"
+    },
+    {
+      "id": "grilled",
+      "code": "25",
+      "title": "구이·고기·꼬치"
+    },
+    {
+      "id": "fried",
+      "code": "26",
+      "title": "튀김"
+    },
+    {
+      "id": "hotpot",
+      "code": "24",
+      "title": "나베·국·오뎅"
+    },
+    {
+      "id": "teppan",
+      "code": "28",
+      "title": "철판·길거리 음식"
+    },
+    {
+      "id": "sides",
+      "code": "27",
+      "title": "반찬·안주·조림·찜"
+    },
+    {
+      "id": "yoshoku",
+      "code": "32",
+      "title": "양식·중화·카레"
+    },
+    {
+      "id": "sweets",
+      "code": "34",
+      "title": "디저트·화과자·빵"
+    },
+    {
+      "id": "drinks",
+      "code": "35",
+      "title": "술·음료"
+    }
+  ],
+  "sources": {
+    "nonramen": "TASTORY_라멘외미식대백과_1차수정확장_v1.1초안.json",
+    "ramen": "TASTORY_관광용라멘대백과_축소통합본_v2.0초안.json",
+    "nonramen_v2": "TASTORY_관광용미식대백과_라멘외81_최종편집본_v2.0.json",
+    "basics_v01": "TASTORY_BASICS_V01_20261025.json",
+    "basics_v02": "TASTORY_BASICS_V02_20261102.json"
+  },
+  "entries": [
+    {
+      "id": "food_nonramen_gyudon",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "gyudon",
+      "category_id": "rice",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "요시노야 규동 소개",
+          "url": "https://www.yoshinoya.com/menu/gyudon/gyu-don/"
+        },
+        {
+          "title": "요시노야 재료·양념·밥 소개",
+          "url": "https://www.yoshinoya.com/kodawari/"
+        },
+        {
+          "title": "기코만 규동",
+          "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00001316/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_gyudon.jpg",
+        "alt": "규동 예시 사진",
+        "caption": "예시 사진 · larryfaerie · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "022ab3606ee695c0777ceb50614ee2e5af9e7de54dcb6198d674e0294e64d20a",
+      "reading": "ぎゅうどん",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_oyakodon",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "oyakodon",
+      "category_id": "rice",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "기코만 오야코동",
+          "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00004703/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_oyakodon.jpg",
+        "alt": "오야코동 예시 사진",
+        "caption": "예시 사진 · Paulo Belato · 퍼블릭 도메인(PDM) — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "e358cdcf13f4e629ef7bc18e1755453b9632097ebec05889b5fa775fb2930c38",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_tendon",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "tendon",
+      "category_id": "rice",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본관광국 덮밥",
+          "url": "https://www.japan.travel/en/blog/real-local-food-where-to-eat-donburi-in-japan/"
+        },
+        {
+          "title": "기코만 덴푸라",
+          "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00057791/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "fbdb9e7d5adbdec574adaf63b25ed6fe15a90539dded70704602e20466a79f4c",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_kaisendon",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "kaisendon",
+      "category_id": "rice",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본관광국 덮밥",
+          "url": "https://www.japan.travel/en/blog/real-local-food-where-to-eat-donburi-in-japan/"
+        },
+        {
+          "title": "초밥을 쓰는 카이센동",
+          "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00001284/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_kaisendon.jpg",
+        "alt": "카이센동 예시 사진",
+        "caption": "예시 사진 · tppay · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "000c701fee67077666bc5ff866334d927d1731f3c32600636015ae9c5981c8dc",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_unadon",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "unadon",
+      "category_id": "rice",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본관광국 덮밥",
+          "url": "https://www.japan.travel/en/blog/real-local-food-where-to-eat-donburi-in-japan/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_unadon.jpg",
+        "alt": "우나동 예시 사진",
+        "caption": "예시 사진 · chooyutshing · 퍼블릭 도메인(PDM) — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "bcd53ea4d5e1144d1d00db83d396dbd0b68180d717cfb1856fcafcba6923eaec",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_butadon",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "butadon",
+      "category_id": "rice",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "기코만 구운 부타동",
+          "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00050428/"
+        },
+        {
+          "title": "기코만 조림형 부타동",
+          "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00054732/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_butadon.jpg",
+        "alt": "부타동 예시 사진",
+        "caption": "예시 사진 · Ocdp · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "70772b2d458eaff6ae479067808252a9b16b779e90c6128bff893d5304e69af0",
+      "season": "사계절",
+      "representative_region": "홋카이도"
+    },
+    {
+      "id": "food_nonramen_chahan",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "chahan",
+      "category_id": "rice",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "기코만 차한",
+          "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00051346/"
+        },
+        {
+          "title": "차한·야키메시 명칭",
+          "url": "https://www.gsfood.co.jp/column/6252"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_chahan.jpg",
+        "alt": "차한 예시 사진",
+        "caption": "예시 사진 · roland · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "0282ea97f9cdac41d63871e315b6f35f476d0f15fab3a172f0dedd9b791bc7b8",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_tenshinhan",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "tenshinhan",
+      "category_id": "rice",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "기코만 텐신항",
+          "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00055597/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "b2501d856691228a2215c5b5c2b9ab1ff9c968da845bc63624a5762c56d167d3",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_udon",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "udon",
+      "category_id": "noodles",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본관광국 우동·소바",
+          "url": "https://www.japan.travel/en/ph/guide/udon-soba/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "8f8099991a12b4bcfeb6c18fd86e7ff0f32f989a01a42559bff64964956ad347",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_soba",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "soba",
+      "category_id": "noodles",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본관광국 우동·소바",
+          "url": "https://www.japan.travel/en/ph/guide/udon-soba/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_soba.jpg",
+        "alt": "소바 예시 사진",
+        "caption": "예시 사진 · 毒島みるく · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "1e9f892e4842c704eb9b188641e7d00315325caf819df85fe2ad36a1cc8a4d41",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_kitsune_udon",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "kitsune_udon",
+      "category_id": "noodles",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "오사카 음식 안내",
+          "url": "https://www.japan-guide.com/e/e4022.html"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_kitsune_udon.jpg",
+        "alt": "키츠네우동 예시 사진",
+        "caption": "예시 사진 · 毒島みるく · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "261ce9ef05838e6bd42a35b4dfb52a68791791cb6b40f50addb67f0790f468cc",
+      "season": "사계절",
+      "representative_region": "오사카"
+    },
+    {
+      "id": "food_nonramen_zaru_soba",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "zaru_soba",
+      "category_id": "noodles",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본관광국 우동·소바",
+          "url": "https://www.japan.travel/en/ph/guide/udon-soba/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "8152911e9250291a7cb3e2d3d8a2dad054b97c108d39512e6d3a07a906b6f46e",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_sanuki_udon",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "sanuki_udon",
+      "category_id": "noodles",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "야마키 사누키·이나니와",
+          "url": "https://www.yamaki.co.jp/katsuobushi-plus/news/202412_gotochi_udon/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "aeb7fe95ff5a597077d900a4f3b81a855427d52df234800b755023fc4da91144",
+      "season": "사계절",
+      "representative_region": "가가와"
+    },
+    {
+      "id": "food_nonramen_inaniwa_udon",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "inaniwa_udon",
+      "category_id": "noodles",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "야마키 사누키·이나니와",
+          "url": "https://www.yamaki.co.jp/katsuobushi-plus/news/202412_gotochi_udon/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "98931d3423e53e0ad6352fc1e82b18187aa2dbadecda2ddcb31dea0a27f19b74",
+      "season": "사계절",
+      "representative_region": "아키타"
+    },
+    {
+      "id": "food_nonramen_nigiri",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "nigiri",
+      "category_id": "sushi",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본관광국 스시",
+          "url": "https://www.japan.travel/en/guide/sushi-in-japan/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "5c8d5e0aad91bf133965183e96e761995458c29b525a4c9b51e2001d794dfe1d",
+      "season": "사계절",
+      "representative_region": "도쿄"
+    },
+    {
+      "id": "food_nonramen_makizushi",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "makizushi",
+      "category_id": "sushi",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본관광국 스시",
+          "url": "https://www.japan.travel/en/guide/sushi-in-japan/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_makizushi.jpg",
+        "alt": "마키즈시 예시 사진",
+        "caption": "예시 사진 · 작가 미상 · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "9fff1d48be920d1e9460916cf624be180c5749cc84468679da16b937e69d1315",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_temaki",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "temaki",
+      "category_id": "sushi",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본관광국 스시",
+          "url": "https://www.japan.travel/en/guide/sushi-in-japan/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "62f459ee6c985fac7fdd600f36869df6709ed8c42a8205acdc343099cab5b3e2",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_chirashi",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "chirashi",
+      "category_id": "sushi",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본관광국 스시",
+          "url": "https://www.japan.travel/en/guide/sushi-in-japan/"
+        },
+        {
+          "title": "농림수산성 오카야마 바라즈시",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_1_okayama.html"
+        },
+        {
+          "title": "농림수산성 가가와 바라즈시",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/bara_zushi_kagawa.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "0deca6c48b81a9f7d01aaf7e3b265352b11128d30dc7dec1bbbd789dc5e15cb6",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_inari",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "inari",
+      "category_id": "sushi",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "이나리즈시 설명",
+          "url": "https://gurunavi.com/en/japanfoodie/s/2017/10/a-guide-to-inarizushi-japans-sweet-sushi-tofu-pockets.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "3c4cd99ad285603dc456741abafa48e2478054579861da52ad829d1e0177af47",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_sashimi",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "sashimi",
+      "category_id": "sushi",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본관광국 스시",
+          "url": "https://www.japan.travel/en/guide/sushi-in-japan/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_sashimi.jpg",
+        "alt": "사시미 예시 사진",
+        "caption": "예시 사진 · clvs7 · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "08b2d45c5aa914159b94c6c4ee7c9c01fe99243ab8e800edf7e2d24550c6b4fc",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_bara_chirashi",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "bara_chirashi",
+      "category_id": "sushi",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "미쓰칸 바라지라시",
+          "url": "https://www.mizkan.co.jp/ouchirecipe/recipe/?menu_id=18042"
+        },
+        {
+          "title": "미쓰칸 봄 바라지라시",
+          "url": "https://www.mizkan.co.jp/ouchirecipe/recipe/?menu_id=5837"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "a7b9b14d0d2238f50f024950d2cfd7c55bd7f01a07b11b8c7c6201018b3ecb72",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_okayama_barazushi",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "okayama_barazushi",
+      "category_id": "sushi",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "농림수산성 오카야마 바라즈시",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_1_okayama.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "1748f48aa2eec332e51812ebf2c65285800b209d2317c4f0bfe2d136e0a669b3",
+      "season": "사계절",
+      "representative_region": "오카야마"
+    },
+    {
+      "id": "food_nonramen_osaka_barazushi",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "osaka_barazushi",
+      "category_id": "sushi",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "농림수산성 오사카 바라즈시",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_3_osaka.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "95815698a0ccefe0ec91ad3820bef0c00583b0b0022710fb4e5e88741c383512",
+      "season": "사계절",
+      "representative_region": "오사카"
+    },
+    {
+      "id": "food_nonramen_kagawa_barazushi",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "kagawa_barazushi",
+      "category_id": "sushi",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "농림수산성 가가와 바라즈시",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/bara_zushi_kagawa.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "4cd8cdc91d9f7d837d6369589a6919a171912029e230252f33c1a0c10d743414",
+      "season": "사계절",
+      "representative_region": "가가와"
+    },
+    {
+      "id": "food_nonramen_tango_barazushi",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "tango_barazushi",
+      "category_id": "sushi",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "농림수산성 교토 바라즈시",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/barazushi_kyoto.html"
+        },
+        {
+          "title": "교토 북부 관광 단고 바라즈시",
+          "url": "https://www.uminokyoto.jp/feature/detail.php?spid=18"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "7cec1ab0fcfd4d3cebfb9d020349ac5a36f71a4965d75d53431b60c201232f29",
+      "season": "사계절",
+      "representative_region": "교토"
+    },
+    {
+      "id": "food_nonramen_yakitori",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "yakitori",
+      "category_id": "grilled",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본관광국 야키토리",
+          "url": "https://www.japan.travel/en/guide/yakitori-a-guide-to-chicken-skewers/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_yakitori.jpg",
+        "alt": "야키토리 예시 사진",
+        "caption": "예시 사진 · Ocdp · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "82b9feeb56ee50f90f6a2c13dd0f450a62ee36da14dbe4bddbc4d1df9d98abf1",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_negima",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "negima",
+      "category_id": "grilled",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본관광국 야키토리",
+          "url": "https://www.japan.travel/en/guide/yakitori-a-guide-to-chicken-skewers/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_negima.jpg",
+        "alt": "네기마 예시 사진",
+        "caption": "예시 사진 · Ocdp · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "d77670995063e1b596d6ba9a73a69096771563d153ad5d16e8d97b612be519f7",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_sasami",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "sasami",
+      "category_id": "grilled",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본관광국 야키토리",
+          "url": "https://www.japan.travel/en/guide/yakitori-a-guide-to-chicken-skewers/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_sasami.jpg",
+        "alt": "사사미 예시 사진",
+        "caption": "예시 사진 · Ocdp · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "4af6a5cf7683a6bd628de32f59516b1ed364392c1f8750233e7ade3d4a72d3bc",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_sunagimo",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "sunagimo",
+      "category_id": "grilled",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본관광국 야키토리",
+          "url": "https://www.japan.travel/en/guide/yakitori-a-guide-to-chicken-skewers/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_sunagimo.jpg",
+        "alt": "스나기모 예시 사진",
+        "caption": "예시 사진 · Ocdp · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "751dc8a8ea86985cc4375635fe4f25ab5dd49af764ed3f0b95a2cd7def42d135",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_hatsu",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "hatsu",
+      "category_id": "grilled",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본관광국 야키토리",
+          "url": "https://www.japan.travel/en/guide/yakitori-a-guide-to-chicken-skewers/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "bf57a37ef08df01f104639ae766151d2df4d619a79ed30fc1506c1167b375d83",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_yakiniku",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "yakiniku",
+      "category_id": "grilled",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본관광국 야키니쿠",
+          "url": "https://www.japan.travel/en/ph/guide/yakiniku/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_yakiniku.jpg",
+        "alt": "야키니쿠 예시 사진",
+        "caption": "예시 사진 · clvs7 · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "263ecbb5b18f82ad85bd73ba673c31b36fba29511aad99f23d5996d12287e337",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_tempura",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "tempura",
+      "category_id": "fried",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "기코만 덴푸라",
+          "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00057791/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_tempura.jpg",
+        "alt": "덴푸라 예시 사진",
+        "caption": "예시 사진 · Ocdp · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "5470b75a3ede616be283aee73da35bba91bd5fd7edb00cfe7f4033ebb176922e",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_tonkatsu",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "tonkatsu",
+      "category_id": "fried",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "돈카츠 설명",
+          "url": "https://savorjapan.com/contents/discover-oishii-japan/a-guide-to-tonkatsu-japanese-pork-cutlets"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_tonkatsu.jpg",
+        "alt": "돈카츠 예시 사진",
+        "caption": "예시 사진 · Syced · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "353509eeed2195ffba393039e2a5e596321b441303671b299d1b4003d25c23f6",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_kushikatsu",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "kushikatsu",
+      "category_id": "fried",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "오사카 음식 안내",
+          "url": "https://www.japan-guide.com/e/e4022.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "e8cf2defce4e7577fc6c097b35a7202a6de022a2290b6be97af0cbd74c036406",
+      "season": "사계절",
+      "representative_region": "오사카"
+    },
+    {
+      "id": "food_nonramen_karaage",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "karaage",
+      "category_id": "fried",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "기코만 가라아게",
+          "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00004001/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_karaage.jpg",
+        "alt": "가라아게 예시 사진",
+        "caption": "예시 사진 · Ocdp · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "87bbdcd3d709d0e41ad75bf341c24a3b652e1c242ffd613689e54d987b0a8d67",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_chicken_nanban",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "chicken_nanban",
+      "category_id": "fried",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "농림수산성 치킨난반",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/chikin_nanban_miyazaki.html"
+        },
+        {
+          "title": "타르타르 없는 치킨난반 사례",
+          "url": "https://nobeokan.jp/naochan/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_chicken_nanban.jpg",
+        "alt": "치킨난반 예시 사진",
+        "caption": "예시 사진 · Syced · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "d0201bdcf95630c63c20fe9226321be5818a84e6d8695e72bd448345f8d3288d",
+      "season": "사계절",
+      "representative_region": "미야자키"
+    },
+    {
+      "id": "food_nonramen_gyukatsu",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "gyukatsu",
+      "category_id": "fried",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "규카츠 모토무라",
+          "url": "https://www.gyukatsu-motomura.com/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "619b192a1ca76edf02ebbe1d859cc4270c2dd82178e40100b0f1d859720f2942",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_shabushabu",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "shabushabu",
+      "category_id": "hotpot",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "나베 설명",
+          "url": "https://japantravel.navitime.com/en/area/jp/guide/NTJnews0683-en/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "ccaa29350808840704f149db9d60d5f20cad1e15af00acfb0ac3387c1fd534bb",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_sukiyaki",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "sukiyaki",
+      "category_id": "hotpot",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "나베 설명",
+          "url": "https://japantravel.navitime.com/en/area/jp/guide/NTJnews0683-en/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "369d832817cc1ce68fc191acd5f314f9303e06afbfb73ce4023d5e8a151a72cf",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_yosenabe",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "yosenabe",
+      "category_id": "hotpot",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "기코만 요세나베",
+          "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00050371/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "f190906b3a1f45a2da89826ffd936a9c9f35a43203fce8d77381fc12ef82d3cf",
+      "season": "가을·겨울",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_oden",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "oden",
+      "category_id": "hotpot",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "나베 설명",
+          "url": "https://japantravel.navitime.com/en/area/jp/guide/NTJnews0683-en/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "166c02002a24f4d34d01f3a86aae1dad8618f4ac83594392b91a36b6d37e74fc",
+      "season": "가을·겨울",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_miso_soup",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "miso_soup",
+      "category_id": "hotpot",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "기코만 미소시루",
+          "url": "https://www.kikkoman.co.jp/homecook/theme/popular/misosoup.html"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_miso_soup.jpg",
+        "alt": "미소시루 예시 사진",
+        "caption": "예시 사진 · roland · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "66b09ad0314190e6e8637b4018f49aa57588caba2bf8c066286c57d434cab5b6",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_motsunabe",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "motsunabe",
+      "category_id": "hotpot",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "후쿠오카 공식 모츠나베·미즈타키",
+          "url": "https://www.crossroadfukuoka.jp/feature/gourmet_2"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "da7d054dc08773dd6088a2d8928e499bde66fe127b57a23833a7e72e3216b0c0",
+      "season": "가을·겨울",
+      "representative_region": "후쿠오카"
+    },
+    {
+      "id": "food_nonramen_mizutaki",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "mizutaki",
+      "category_id": "hotpot",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "후쿠오카 공식 모츠나베·미즈타키",
+          "url": "https://www.crossroadfukuoka.jp/feature/gourmet_2"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "72e80574fd4780fad659a3db55d2f3e63290309ddd6ada9d7f27434c155f857d",
+      "season": "가을·겨울",
+      "representative_region": "후쿠오카"
+    },
+    {
+      "id": "food_nonramen_takoyaki",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "takoyaki",
+      "category_id": "teppan",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "오사카 음식 안내",
+          "url": "https://www.japan-guide.com/e/e4022.html"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_takoyaki.jpg",
+        "alt": "타코야키 예시 사진",
+        "caption": "예시 사진 · clvs7 · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "a72dc49795693edc0771b302db858612df56c91eee461180f6eaf976b8b03d05",
+      "season": "사계절",
+      "representative_region": "오사카"
+    },
+    {
+      "id": "food_nonramen_osaka_okonomiyaki",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "osaka_okonomiyaki",
+      "category_id": "teppan",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본관광국 오코노미야키",
+          "url": "https://www.japan.travel/en/guide/okonomiyaki-guide/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "b7f94b28b196fa453a2a4d3b0fddc0b90599a8f8e9053d923bb6c041c2f6424e",
+      "season": "사계절",
+      "representative_region": "오사카"
+    },
+    {
+      "id": "food_nonramen_hiroshima_okonomiyaki",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "hiroshima_okonomiyaki",
+      "category_id": "teppan",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본관광국 오코노미야키",
+          "url": "https://www.japan.travel/en/guide/okonomiyaki-guide/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "824b66f8b81fc1c3d426ccfac7fbf36f001d0cff687a84a9edcbdb1cc202a3cb",
+      "season": "사계절",
+      "representative_region": "히로시마"
+    },
+    {
+      "id": "food_nonramen_monjayaki",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "monjayaki",
+      "category_id": "teppan",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "농림수산성 몬자야키",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_3_tokyo.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "5ac04ffdc09b8386e5e88f3f2840a4e18b3da38633304885e03fd346e825139c",
+      "season": "사계절",
+      "representative_region": "도쿄"
+    },
+    {
+      "id": "food_nonramen_edamame",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "edamame",
+      "category_id": "sides",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "농림수산성 에다마메·대두",
+          "url": "https://www.maff.go.jp/j/heya/kodomo_sodan/0008/05.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "124d39b3cba3eca1b93a136db4846276630b4527d6487d8108364db781c25859",
+      "season": "여름",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_hiyayakko",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "hiyayakko",
+      "category_id": "sides",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "기코만 히야얏코",
+          "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00059066/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "69ec11818b5e8c095fb9e78a71aaa2c79fe5ee0087d66013ea7d80f7e1252768",
+      "season": "여름",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_chawanmushi",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "chawanmushi",
+      "category_id": "sides",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "농림수산성 차완무시",
+          "url": "https://www.maff.go.jp/j/yusyutu_kokusai/kokuchi/middle_east/japan-cuisine/ja/japan/19/index.html"
+        },
+        {
+          "title": "아오모리 단맛 차완무시",
+          "url": "https://www.umai-aomori.jp/local-cuisine/detail_135.html"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_chawanmushi.jpg",
+        "alt": "차완무시 예시 사진",
+        "caption": "예시 사진 · yanayrosen · 퍼블릭 도메인(PDM) — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "f06f1bb032eef7ba5af7d1daad944d7623acda927ec8696721e3546d16c64d94",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_curry_rice",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "curry_rice",
+      "category_id": "yoshoku",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "농림수산성 카레 인터뷰",
+          "url": "https://nippon-food-shift.maff.go.jp/curry/mery/interview/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_curry_rice.jpg",
+        "alt": "일본식 카레라이스 예시 사진",
+        "caption": "예시 사진 · Uttkrista Chhetri · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "a6ea07f254b14b9b6404617bf2eb1f9b6914673bb1790bb51cb6eecd68290f60",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_omurice",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "omurice",
+      "category_id": "yoshoku",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "기코만 오므라이스",
+          "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00001279/"
+        },
+        {
+          "title": "달걀을 얹는 오므라이스",
+          "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00051267/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "b6976abe89b37e754d1a9cb495b2971f97c9db27f73989ab9849b8186f46bdb5",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_hambagu",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "hambagu",
+      "category_id": "yoshoku",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본 정부 함바그 소개",
+          "url": "https://www.gov-online.go.jp/en/assets/hj_april_2026_p10-11.pdf"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_hambagu.jpg",
+        "alt": "함바그 예시 사진",
+        "caption": "예시 사진 · Kykk wiki · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "024a9f32bc004d2c55f87c818ff47ec556379e668c866f11d915439adf574959",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_hayashi_rice",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "hayashi_rice",
+      "category_id": "yoshoku",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "기코만 하야시라이스",
+          "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00000867/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_hayashi_rice.jpg",
+        "alt": "하야시라이스 예시 사진",
+        "caption": "예시 사진 · 毒島みるく · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "26529e01ff900b955545a825699dc5e85ec9465e3945b4918d83b1119e41d315",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_gyoza",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "gyoza",
+      "category_id": "yoshoku",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "교자 안내",
+          "url": "https://www.japan-guide.com/r/e107.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "74a8cb259b7a01352a3e73ea86a704dd6a5c9894537a0310e9cd60148300425f",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_shumai",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "shumai",
+      "category_id": "yoshoku",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "기코만 슈마이",
+          "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00004022/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "0d7e8f84124db4471f4998035a933e2acdbd863fe4990aa65280173174aa269b",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_daifuku",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "daifuku",
+      "category_id": "sweets",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "토미즈 다이후쿠",
+          "url": "https://tomiz.com/recipe/pro/detail/20240329152422"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_daifuku.jpg",
+        "alt": "다이후쿠 예시 사진",
+        "caption": "예시 사진 · Ocdp · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "5e21ce3985c181cfa59bb6c47ac2dac69e7f600d19a951b697ca94ef27ce052b",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_yokan",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "yokan",
+      "category_id": "sweets",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "농림수산성 과자류",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/bunrui/kashirui.html"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_yokan.jpg",
+        "alt": "요칸 예시 사진",
+        "caption": "예시 사진 · yanayrosen · 퍼블릭 도메인(PDM) — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "85a432715776b4847b9c8795faaac39abf398cd673e32d7c906d8a04f1d1c5e2",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_dorayaki",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "dorayaki",
+      "category_id": "sweets",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "기코만 도라야키 변형",
+          "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00003848/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_dorayaki.jpg",
+        "alt": "도라야키 예시 사진",
+        "caption": "예시 사진 · Ocdp · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "537d7d8242b16d0a14c999de1312460aa7834790acafc4dd8caedf67c0a1b07f",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_castella",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "castella",
+      "category_id": "sweets",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "농림수산성 과자류",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/bunrui/kashirui.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "5230f71378115363d52888d3dd6859a0c2bdb9730f66185634446f2c032cb22a",
+      "season": "사계절",
+      "representative_region": "나가사키"
+    },
+    {
+      "id": "food_nonramen_nerikiri",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "nerikiri",
+      "category_id": "sweets",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "토미즈 네리키리",
+          "url": "https://tomiz.com/recipe/pro/detail/s-201307-15c-01"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "094e1451bf1fd2acbd005f47c6d2629607c7f35d02e834da1419c6fc6eff6007",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_dango",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "dango",
+      "category_id": "sweets",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "당고가루 제조사",
+          "url": "https://shop.gishi.co.jp/products/dangoko-250g"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_dango.jpg",
+        "alt": "당고 예시 사진",
+        "caption": "예시 사진 · Ocdp · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "a325859667f68dee40e243bee26ca2e9d68642fe7c42c6f9e28e0fc4d47b993c",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_warabimochi",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "warabimochi",
+      "category_id": "sweets",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "와라비모치 제조사 설명",
+          "url": "https://www.gishi.co.jp/sp/06.asp"
+        },
+        {
+          "title": "토미즈 와라비모치 원료",
+          "url": "https://tomiz.com/column/warabimochi-recipe-kantan/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_warabimochi.jpg",
+        "alt": "와라비모치 예시 사진",
+        "caption": "예시 사진 · Ocdp · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "ec225c7b6ca4515cdda2a940784fab5bf6f815d1e971a612cd318963e4e312c6",
+      "season": "여름",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_taiyaki",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "taiyaki",
+      "category_id": "sweets",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "타이야키 형태",
+          "url": "https://ja.wikipedia.org/wiki/たいやき"
+        },
+        {
+          "title": "타이야키 제조용 믹스",
+          "url": "https://pro.nisshin-seifun-welna.com/b2b/products/detail/348390/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_taiyaki.jpg",
+        "alt": "타이야키 예시 사진",
+        "caption": "예시 사진 · Ocdp · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "44f5bad4d3e4274d14a53f530be360fb4d215dd979ca6389a823c229109daf03",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_kakigori",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "kakigori",
+      "category_id": "sweets",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "니치레이 카키고오리",
+          "url": "https://www.nichireifoods.co.jp/media/9625/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_kakigori.jpg",
+        "alt": "카키고오리 예시 사진",
+        "caption": "예시 사진 · Faisal Ahammad · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "78e76113e4f07e92a4cf7558282e75eecb47997dc9e270a822fdc943bce48311",
+      "season": "여름",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_parfait",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "parfait",
+      "category_id": "sweets",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "농림수산성 과일 파르페",
+          "url": "https://www.maff.go.jp/j/pr/aff/2403/spe1_03.html"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_parfait.jpg",
+        "alt": "과일 파르페 예시 사진",
+        "caption": "예시 사진 · Tim Sullivan · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "f6c20083e717d1fb1ea2b9480d2b82c227586bd671a5ca6c2be0301fed84330a",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_nihonshu",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "nihonshu",
+      "category_id": "drinks",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본관광국 니혼슈·소주",
+          "url": "https://www.japan.travel/en/guide/sake-shochu/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_nihonshu.jpg",
+        "alt": "니혼슈 예시 사진",
+        "caption": "예시 사진 · Bernard Spragg · 퍼블릭 도메인(PDM) — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "70af41f5005526a1ab6eacbf9179dd07f659bd5dc40a1faad4538fadb8d8bb23",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_shochu",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "shochu",
+      "category_id": "drinks",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본관광국 니혼슈·소주",
+          "url": "https://www.japan.travel/en/guide/sake-shochu/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_shochu.jpg",
+        "alt": "일본 소주 예시 사진",
+        "caption": "예시 사진 · wikimedia · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "9b93882fa7316d25ad223e616a6c0c51dad3e8706f83aaf83e25eedc32065894",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_umeshu",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "umeshu",
+      "category_id": "drinks",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본관광국 니혼슈·소주",
+          "url": "https://www.japan.travel/en/guide/sake-shochu/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_umeshu.jpg",
+        "alt": "우메슈 예시 사진",
+        "caption": "예시 사진 · sayo-ts · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "4081bc689452a536cb789c3e9140e98069bc2dea386ed2a0a0fad4001715ad01",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_matcha",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "matcha",
+      "category_id": "drinks",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "농림수산성 차 표시 자료",
+          "url": "https://www.maff.go.jp/j/seisan/tokusan/cha/attach/pdf/ocha-187.pdf"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_matcha.jpg",
+        "alt": "말차 예시 사진",
+        "caption": "예시 사진 · mkniebes · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "12e7a36c05ec4efa8d87903bb04376ed45ab65db536e1289a727cfdab85e154c",
+      "season": "사계절",
+      "representative_region": "교토"
+    },
+    {
+      "id": "food_nonramen_onigiri",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "onigiri",
+      "category_id": "rice",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "농림수산성 오니기리·텐무스",
+          "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/onigiris.html"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_onigiri.jpg",
+        "alt": "오니기리 예시 사진",
+        "caption": "예시 사진 · Ocdp · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "675fad640a8e732a0257082909212becb98fb78cb13143149fdff917513280c2",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_yaki_onigiri",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "yaki_onigiri",
+      "category_id": "rice",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "기코만 야키오니기리",
+          "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00056144/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "935c631e3df924f26c111d2db31dff648c34c30f1d0361fe11dde6d71fb32bd6",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_ochazuke",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "ochazuke",
+      "category_id": "rice",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "농림수산성 호지차 차즈케",
+          "url": "https://www.maff.go.jp/j/seisan/tokusan/cha/cha2024_recipe04.html"
+        },
+        {
+          "title": "나가타니엔 다시차즈케",
+          "url": "https://www.nagatanien.co.jp/product/detail/16/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "235b3e343a04e98741de3dfe0148e6e5f26586276e92c230c1c8e7dfd2b781c4",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_ekiben",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "ekiben",
+      "category_id": "rice",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "에키벤 일반 정의",
+          "url": "https://ja.wikipedia.org/wiki/駅弁"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "dcc1d50714742af1267fa27bbb4bf9afefffc1983ccad988746512c1c9c8d7e2",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_tenmusu",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "tenmusu",
+      "category_id": "rice",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "농림수산성 오니기리·텐무스",
+          "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/onigiris.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "07ac23cafe6f9702d18969c7af4bcd8f8993897d050e54c20185fefb7f60c807",
+      "season": "사계절",
+      "representative_region": "아이치 미에"
+    },
+    {
+      "id": "food_nonramen_tamago_sando",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "tamago_sando",
+      "category_id": "sweets",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "야마자키 달걀 샌드위치",
+          "url": "https://recipe.yamazakipan.co.jp/recipe.html?id=235"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_tamago_sando.jpg",
+        "alt": "타마고산도 예시 사진",
+        "caption": "예시 사진 · Arisa Nishimura · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "7beaf1bc0058f0c6a1f646cc71288f8013447c36e304a8c4a6c50249015a992f",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_katsu_sando",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "katsu_sando",
+      "category_id": "sweets",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "야마자키 카츠산도",
+          "url": "https://recipe.yamazakipan.co.jp/recipe.html?id=107"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "0e6bf66fd01e7dbc1a4c3606f922d2ff290d574e630414a6d7b96be2c6b3d613",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_fruit_sando",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "fruit_sando",
+      "category_id": "sweets",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "야마자키 과일 샌드위치",
+          "url": "https://recipe.yamazakipan.co.jp/special/202207_01.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "96f3ce4ab2e2553fb8591e3e8185de6ae46014a9124fc999c6d48dddc09a2a85",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_curry_pan",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "curry_pan",
+      "category_id": "sweets",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "일본 빵 보조 자료",
+          "url": "https://japanesetaste.co.uk/blogs/japanese-taste-blog/breadventure-in-japan-7-japanese-breads-taking-sweet-and-savory-to-a-whole-new-level"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/enc_curry_pan.jpg",
+        "alt": "카레빵 예시 사진",
+        "caption": "예시 사진 · Bigul Malayi · CC0 1.0 — 실제 가게 메뉴와 다를 수 있어요"
+      },
+      "source_entry_sha256": "b3825a60fe3d932b8732672d16c380eb6699228d90b4139a6ff58a7a6346a4bf",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_melon_pan",
+      "dataset": "nonramen_v2",
+      "group": "articles",
+      "source_id": "melon_pan",
+      "category_id": "sweets",
+      "status": "초안 · 추후 수정",
+      "reviewed_on": "2026-10-19",
+      "review_scope_ko": "사장님 제공 최종 편집본 v2.0(2026-10-18)을 앱에 먼저 넣음(사장님 결정: 넣고 추후 수정). Claude 는 필수 칸·출처 링크 형식만 확인했고, 원문 사실 재검수·가게별 판매·가격·알레르기·사진은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "야마자키 멜론빵",
+          "url": "https://www.yamazakipan.co.jp/shops/saint_etoile/main.html"
+        },
+        {
+          "title": "일본 빵 보조 자료",
+          "url": "https://japanesetaste.co.uk/blogs/japanese-taste-blog/breadventure-in-japan-7-japanese-breads-taking-sweet-and-savory-to-a-whole-new-level"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "29b719adb5876d80ce89657a984b5dd8d5054b6b389181908ab8bca42ec47964",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_ramen_ramen",
+      "dataset": "ramen",
+      "group": "style_articles",
+      "source_id": "ramen",
+      "category_id": "noodles",
+      "reading": "らーめん",
+      "reviewed_on": "2026-10-18",
+      "review_scope_ko": "국물 라멘의 기본 정의·구성·제공 방식 구분. 지역·점포별 레시피·현재 영업 확인은 포함하지 않음.",
+      "evidence": [
+        {
+          "title": "NAVITIME 라멘·츠케멘·아부라소바 안내",
+          "url": "https://japantravel.navitime.com/en/area/jp/guide/NTJhowto0068-en/"
+        }
+      ],
+      "photo": {
+        "src": "/Assets/Home/cat_noodle.jpg",
+        "caption": "사용자 제공 · 일반 라멘 예시 사진",
+        "alt": "그릇에 담긴 라멘"
+      },
+      "source_entry_sha256": "3753f64968790a64ac7c5f6eaec18cdc6523d2b757627e65ddad21cf0b616d7d",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_ramen_shoyu",
+      "dataset": "basics_v01",
+      "group": "articles",
+      "source_id": "shoyu",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-10-25",
+      "review_scope_ko": "공식·생산자 자료의 관련 발췌를 대조해 기본 정의를 편집. 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·옵션 보장이 아님.",
+      "evidence": [
+        {
+          "title": "JNTO · 일본 라멘 안내",
+          "url": "https://www.japan.travel/en/guide/a-guide-to-ramen-in-japan/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "f2ce69c6847d7c35f4b555f4f87cf4ec1c987815a91e8d557cce6b74bc8980b3",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_ramen_shio",
+      "dataset": "basics_v01",
+      "group": "articles",
+      "source_id": "shio",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-10-25",
+      "review_scope_ko": "공식·생산자 자료의 관련 발췌를 대조해 기본 정의를 편집. 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·옵션 보장이 아님.",
+      "evidence": [
+        {
+          "title": "JNTO · 일본 라멘 안내",
+          "url": "https://www.japan.travel/en/guide/a-guide-to-ramen-in-japan/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "6c87a6161aaea2db21c7d65759058653887dc6896aab2e65b91980c9fd3a5f49",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_ramen_miso",
+      "dataset": "basics_v01",
+      "group": "articles",
+      "source_id": "miso",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-10-25",
+      "review_scope_ko": "공식·생산자 자료의 관련 발췌를 대조해 기본 정의를 편집. 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·옵션 보장이 아님.",
+      "evidence": [
+        {
+          "title": "JNTO · 일본 라멘 안내",
+          "url": "https://www.japan.travel/en/guide/a-guide-to-ramen-in-japan/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "147970b1825df2870cac8dbe7457cc1cdeeda7f87b71abbeb82e55d57e9a0de8",
+      "season": "사계절",
+      "representative_region": "홋카이도"
+    },
+    {
+      "id": "food_ramen_tonkotsu",
+      "dataset": "basics_v01",
+      "group": "articles",
+      "source_id": "tonkotsu",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-10-25",
+      "review_scope_ko": "공식·생산자 자료의 관련 발췌를 대조해 기본 정의를 편집. 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·옵션 보장이 아님.",
+      "evidence": [
+        {
+          "title": "JNTO · 일본 라멘 안내",
+          "url": "https://www.japan.travel/en/guide/a-guide-to-ramen-in-japan/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "f40f9cc7d365149760f78a68f6b9efbe961afb8ac7f70f78972c1deb8a94fc30",
+      "season": "사계절",
+      "representative_region": "후쿠오카"
+    },
+    {
+      "id": "food_ramen_tsukemen",
+      "dataset": "basics_v01",
+      "group": "articles",
+      "source_id": "tsukemen",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-10-25",
+      "review_scope_ko": "공식·생산자 자료의 관련 발췌를 대조해 기본 정의를 편집. 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·옵션 보장이 아님.",
+      "evidence": [
+        {
+          "title": "JNTO · 일본 라멘 안내",
+          "url": "https://www.japan.travel/en/guide/a-guide-to-ramen-in-japan/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "79d0697d54533cb6be80bf1897e8f75a1017a0fd858ed6c6196e0fb915979dd8",
+      "season": "사계절",
+      "representative_region": "도쿄"
+    },
+    {
+      "id": "food_ramen_aburasoba",
+      "dataset": "basics_v01",
+      "group": "articles",
+      "source_id": "aburasoba",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-10-25",
+      "review_scope_ko": "공식·생산자 자료의 관련 발췌를 대조해 기본 정의를 편집. 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·옵션 보장이 아님.",
+      "evidence": [
+        {
+          "title": "도쿄 아부라구미 · 아부라소바 안내",
+          "url": "https://www.tokyo-aburasoba.com/eat/"
+        },
+        {
+          "title": "JNTO · 일본 라멘 안내",
+          "url": "https://www.japan.travel/en/guide/a-guide-to-ramen-in-japan/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "2d30f2b6d911f4b1dd62b635adbd3c38c13db759209197444aadb7520c1d1aba",
+      "season": "사계절",
+      "representative_region": "도쿄"
+    },
+    {
+      "id": "food_nonramen_yakisoba",
+      "dataset": "basics_v01",
+      "group": "articles",
+      "source_id": "yakisoba",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-10-25",
+      "review_scope_ko": "공식·생산자 자료의 관련 발췌를 대조해 기본 정의를 편집. 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·옵션 보장이 아님.",
+      "evidence": [
+        {
+          "title": "기코만 · 야키소바 조리 예시",
+          "url": "https://www.kikkoman.com/en/cookbook/recipe/00000515.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "bc279ffc72de3a51d24fe51cf687e0901fd7a90cded015b1ff4b35a876094363",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_nikujaga",
+      "dataset": "basics_v01",
+      "group": "articles",
+      "source_id": "nikujaga",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-10-25",
+      "review_scope_ko": "공식·생산자 자료의 관련 발췌를 대조해 기본 정의를 편집. 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·옵션 보장이 아님.",
+      "evidence": [
+        {
+          "title": "기코만 · 니쿠자가 소개",
+          "url": "https://www.kikkoman.com/en/cookbook/washoku/nikujaga.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "7d49a7c698422570e8565dea6de0fa2d86558f3600fd522af15aa0e9fdb959dd",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_dashimaki",
+      "dataset": "basics_v01",
+      "group": "articles",
+      "source_id": "dashimaki",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-10-25",
+      "review_scope_ko": "공식·생산자 자료의 관련 발췌를 대조해 기본 정의를 편집. 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·옵션 보장이 아님.",
+      "evidence": [
+        {
+          "title": "일본 농림수산성 · 다시마키",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/menu/dasimaki.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "fcd1074adcdb6ffc8a8b0d2f9d0fac3cbb8a6c215770ed4dd70048f24744b644",
+      "season": "사계절",
+      "representative_region": "교토"
+    },
+    {
+      "id": "food_nonramen_buta_kakuni",
+      "dataset": "basics_v01",
+      "group": "articles",
+      "source_id": "buta_kakuni",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-10-25",
+      "review_scope_ko": "공식·생산자 자료의 관련 발췌를 대조해 기본 정의를 편집. 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·옵션 보장이 아님.",
+      "evidence": [
+        {
+          "title": "일본 농림수산성 · 나가사키 식문화",
+          "url": "https://www.maff.go.jp/e/policies/market/k_ryouri/areastory/1485/index.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "93ccbee580a31927d357839cb217d713fd7d54c6c249769428cf316e30b40bdf",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_tsukemono",
+      "dataset": "basics_v01",
+      "group": "articles",
+      "source_id": "tsukemono",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-10-25",
+      "review_scope_ko": "공식·생산자 자료의 관련 발췌를 대조해 기본 정의를 편집. 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·옵션 보장이 아님.",
+      "evidence": [
+        {
+          "title": "기코만 · 쓰케모노",
+          "url": "https://www.kikkoman.com/en/cookbook/glossary/tsukemono.html"
+        },
+        {
+          "title": "기코만 · 비발효 절임 아사즈케 설명",
+          "url": "https://www.kikkoman.com/en/culture/foodforum/japanese-style/33-3.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "6615215687ed9d6c7b6eeff97e0995a340c4f3e91fcc99639dd1f5f880e66312",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_saba_shioyaki",
+      "dataset": "basics_v01",
+      "group": "articles",
+      "source_id": "saba_shioyaki",
+      "category_id": "grilled",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-10-25",
+      "review_scope_ko": "공식·생산자 자료의 관련 발췌를 대조해 기본 정의를 편집. 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·옵션 보장이 아님.",
+      "evidence": [
+        {
+          "title": "기코만 · 고등어 소금구이 조리 예시",
+          "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00056252/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "2d9dc3f064743f73cdd2bcfab68e59f5acf8e87ca1f10337f29cc8299249669f",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_shogayaki",
+      "dataset": "basics_v01",
+      "group": "articles",
+      "source_id": "shogayaki",
+      "category_id": "grilled",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-10-25",
+      "review_scope_ko": "공식·생산자 자료의 관련 발췌를 대조해 기본 정의를 편집. 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·옵션 보장이 아님.",
+      "evidence": [
+        {
+          "title": "기코만 · 쇼가야키 조리 예시 모음",
+          "url": "https://www.kikkoman.co.jp/homecook/series/syouga/recipe.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "0c0d8251cac448375ad34ebbfcc6970a6f1d2a70046974a8ccf65e0909edc05b",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_gyutan",
+      "dataset": "basics_v01",
+      "group": "articles",
+      "source_id": "gyutan",
+      "category_id": "grilled",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-10-25",
+      "review_scope_ko": "공식·생산자 자료의 관련 발췌를 대조해 기본 정의를 편집. 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·옵션 보장이 아님.",
+      "evidence": [
+        {
+          "title": "JNTO · 센다이 지역 안내",
+          "url": "https://www.japan.travel/en/destinations/tohoku/miyagi/sendai-area"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "d2533d81ebcf9939e0fb6f7397cffd7d6eaa40764ffb89aac3a278d2a5fb0a2c",
+      "season": "사계절",
+      "representative_region": "미야기"
+    },
+    {
+      "id": "food_nonramen_highball",
+      "dataset": "basics_v01",
+      "group": "articles",
+      "source_id": "highball",
+      "category_id": "drinks",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-10-25",
+      "review_scope_ko": "공식·생산자 자료의 관련 발췌를 대조해 기본 정의를 편집. 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·옵션 보장이 아님.",
+      "evidence": [
+        {
+          "title": "산토리 · 하이볼 용어",
+          "url": "https://www.suntory.co.jp/whisky/dictionary/atoz/ha.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "4ef088b098bd1337ecca4e33330218a04f35bf69355b2705c61c00a1e860a189",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_lemon_sour",
+      "dataset": "basics_v01",
+      "group": "articles",
+      "source_id": "lemon_sour",
+      "category_id": "drinks",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-10-25",
+      "review_scope_ko": "공식·생산자 자료의 관련 발췌를 대조해 기본 정의를 편집. 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·옵션 보장이 아님.",
+      "evidence": [
+        {
+          "title": "산토리 · 레몬 사워 제품·조합 예시",
+          "url": "https://www.suntory.co.jp/wnb/kodawarisakaba"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "2ec5abdd2be9d6fff7b5e5f71905beb2e408bcbe803d38dc7cde2f1df19924e5",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_nama_beer",
+      "dataset": "basics_v01",
+      "group": "articles",
+      "source_id": "nama_beer",
+      "category_id": "drinks",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-10-25",
+      "review_scope_ko": "공식·생산자 자료의 관련 발췌를 대조해 기본 정의를 편집. 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·옵션 보장이 아님.",
+      "evidence": [
+        {
+          "title": "기린 · 생맥주의 정의",
+          "url": "https://qa.kirin.co.jp/fa/FAQ/web/knowledge17557.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "a6c5f8d98187e69b158c30e50212490e0a66285d487f35b845559f94d0c2213b",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_hojicha",
+      "dataset": "basics_v01",
+      "group": "articles",
+      "source_id": "hojicha",
+      "category_id": "drinks",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-10-25",
+      "review_scope_ko": "공식·생산자 자료의 관련 발췌를 대조해 기본 정의를 편집. 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·옵션 보장이 아님.",
+      "evidence": [
+        {
+          "title": "이토엔 · 호지차 제품의 볶은 찻잎 설명",
+          "url": "https://www.itoen.jp/products/41434/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "3d23c0cea55a9f6bac3b7380abfa4a44190299f0b518b5b2c58c05d2f98b1caf",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_sencha",
+      "dataset": "basics_v01",
+      "group": "articles",
+      "source_id": "sencha",
+      "category_id": "drinks",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-10-25",
+      "review_scope_ko": "공식·생산자 자료의 관련 발췌를 대조해 기본 정의를 편집. 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·옵션 보장이 아님.",
+      "evidence": [
+        {
+          "title": "이토엔 · 센차와 녹차",
+          "url": "https://www.itoen.jp/customer/faq/38992"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "9a1a3aa461db6a5ae8e1fa99b0891185dd1c85893bc806cd1f8be76d258697ca",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_katsudon",
+      "dataset": "basics_v01",
+      "group": "articles",
+      "source_id": "katsudon",
+      "category_id": "rice",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-10-25",
+      "review_scope_ko": "공식·생산자 자료의 관련 발췌를 대조해 기본 정의를 편집. 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·옵션 보장이 아님.",
+      "evidence": [
+        {
+          "title": "기코만 · 가츠동 기본 조리 예시",
+          "url": "https://www.kikkoman.com/en/cookbook/recipe/00058703.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "f5ebb4a02e04fe8fa17a30383d3fa13e279fbef655f1de7ec3b70f4415c2079b",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_hitsumabushi",
+      "dataset": "basics_v01",
+      "group": "articles",
+      "source_id": "hitsumabushi",
+      "category_id": "rice",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-10-25",
+      "review_scope_ko": "공식·생산자 자료의 관련 발췌를 대조해 기본 정의를 편집. 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·옵션 보장이 아님.",
+      "evidence": [
+        {
+          "title": "JNTO · 아이치 히츠마부시",
+          "url": "https://www.japan.travel/en/japans-local-treasures/try-hitsumabushi-aichi-delicacy-2020"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "d66c039235614cf370914c9058065d9a12156370329c813f67ec6947d3e25141",
+      "season": "사계절",
+      "representative_region": "아이치"
+    },
+    {
+      "id": "food_nonramen_takikomi_gohan",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "takikomi_gohan",
+      "category_id": "rice",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 炊き込みご飯",
+          "url": "https://ja.wikipedia.org/wiki/%E7%82%8A%E3%81%8D%E8%BE%BC%E3%81%BF%E3%81%94%E9%A3%AF"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "4921c0d8ac38f53d0710528bbce22a10de65370682ea704c626ad8700f8ac899",
+      "reading": "たきこみごはん",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_uni_don",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "uni_don",
+      "category_id": "rice",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · ウニ丼",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%83%8B%E4%B8%BC"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "86f3a71e99c51920d14c3157b8b09be3fb13c0337c1adbd1de1ba33aa7302ffc",
+      "reading": "うにどん",
+      "season": "여름",
+      "representative_region": "홋카이도"
+    },
+    {
+      "id": "food_nonramen_kashiwa_meshi",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "kashiwa_meshi",
+      "category_id": "rice",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · かしわめし",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%8B%E3%81%97%E3%82%8F%E3%82%81%E3%81%97"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "8bd8f717135b611f44327414808dd63811ab55f728e24853cffbd3e42bf519e0",
+      "reading": "かしわめし",
+      "season": "사계절",
+      "representative_region": "후쿠오카"
+    },
+    {
+      "id": "food_nonramen_kamameshi",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "kamameshi",
+      "category_id": "rice",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 釜飯",
+          "url": "https://ja.wikipedia.org/wiki/%E9%87%9C%E9%A3%AF"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "e373d1d4b19b6fa018d070225dbc4e0329564f2da9c38e72d881ed59cd8fbb6d",
+      "reading": "かまめし",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_hiyashi_chuka",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "hiyashi_chuka",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 冷やし中華",
+          "url": "https://ja.wikipedia.org/wiki/%E5%86%B7%E3%82%84%E3%81%97%E4%B8%AD%E8%8F%AF"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "5b8cae0e2f26d9feb180d22e380d3dcd6404d56a0b7b521a0bb3354b3aba8bea",
+      "reading": "ひやしちゅうか",
+      "season": "여름",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_nagasaki_champon",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "nagasaki_champon",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "농림수산성 우리의 향토요리 · ちゃんぽん(나가사키)",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_8_nagasaki.html"
+        },
+        {
+          "title": "위키백과(일본어) · ちゃんぽん",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%A1%E3%82%83%E3%82%93%E3%81%BD%E3%82%93"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "e99fec27b70b19e25c721acea410d1ab246b0c7223c2cc236c06227bf84716d8",
+      "reading": "ながさきちゃんぽん",
+      "season": "사계절",
+      "representative_region": "나가사키"
+    },
+    {
+      "id": "food_nonramen_tantanmen",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "tantanmen",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 担担麺",
+          "url": "https://ja.wikipedia.org/wiki/%E6%8B%85%E6%8B%85%E9%BA%BA"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "72604bfe22edf9be1295b896b52c370c9f40021a197ed47be04f628b01cdf572",
+      "reading": "たんたんめん",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_yaki_udon",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "yaki_udon",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 焼きうどん",
+          "url": "https://ja.wikipedia.org/wiki/%E7%84%BC%E3%81%8D%E3%81%86%E3%81%A9%E3%82%93"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "109c53d62b2b6f260a2fe92b6c59abf79eb8cf16ad31055369f29884f404fe34",
+      "reading": "やきうどん",
+      "season": "사계절",
+      "representative_region": "후쿠오카"
+    },
+    {
+      "id": "food_nonramen_sara_udon",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "sara_udon",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "농림수산성 우리의 향토요리 · 皿うどん(나가사키)",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_7_nagasaki.html"
+        },
+        {
+          "title": "위키백과(일본어) · 皿うどん",
+          "url": "https://ja.wikipedia.org/wiki/%E7%9A%BF%E3%81%86%E3%81%A9%E3%82%93"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "7b83e3c11bcd5c1e3679ae4d7cf4d7d20bfb0964d103ee2790be67bb6ec9b342",
+      "reading": "さらうどん",
+      "season": "사계절",
+      "representative_region": "나가사키 후쿠오카"
+    },
+    {
+      "id": "food_nonramen_kishimen",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "kishimen",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "농림수산성 우리의 향토요리 · きしめん(아이치)",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kishimen_aichi.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "f4a9a6676d9508f88ae518383d38a95f184fa84ea21c3b70b446daae725823d6",
+      "reading": "きしめん",
+      "season": "사계절",
+      "representative_region": "아이치"
+    },
+    {
+      "id": "food_ramen_iekei",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "iekei",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 家系ラーメン",
+          "url": "https://ja.wikipedia.org/wiki/%E5%AE%B6%E7%B3%BB%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "f707da2e1a26ae4569c2702cd298241f3b44c804c39c31956a1a6429b54a6cfd",
+      "reading": "いえけいらーめん",
+      "season": "사계절",
+      "representative_region": "가나가와"
+    },
+    {
+      "id": "food_ramen_tori_paitan",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "tori_paitan",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 鶏白湯ラーメン",
+          "url": "https://ja.wikipedia.org/wiki/%E9%B6%8F%E7%99%BD%E6%B9%AF%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "406e8a378725c9b1defcf611f76bf10b45490261d58c617248e24a8b2a3c6516",
+      "reading": "とりぱいたんらーめん",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_okinawa_soba",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "okinawa_soba",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "농림수산성 우리의 향토요리 · 沖縄そば(오키나와)",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_20_okinawa.html"
+        },
+        {
+          "title": "위키백과(일본어) · 沖縄そば",
+          "url": "https://ja.wikipedia.org/wiki/%E6%B2%96%E7%B8%84%E3%81%9D%E3%81%B0"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "af5a6810577562bce00f2fbbef4d9a4aeb46550e9fdaa18947787a5d7b4aa8df",
+      "reading": "おきなわそば",
+      "season": "사계절",
+      "representative_region": "오키나와"
+    },
+    {
+      "id": "food_nonramen_oshizushi",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "oshizushi",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 押し寿司",
+          "url": "https://ja.wikipedia.org/wiki/%E6%8A%BC%E3%81%97%E5%AF%BF%E5%8F%B8"
+        },
+        {
+          "title": "농림수산성 우리의 향토요리 · 押し寿司(도쿠시마)",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_9_tokushima.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "13f702c469eb4141715f65631a34482e3a834cdff585f4eab0784656b4e4597d",
+      "reading": "おしずし",
+      "season": "사계절",
+      "representative_region": "오사카"
+    },
+    {
+      "id": "food_nonramen_battera",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "battera",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "농림수산성 우리의 향토요리 · バッテラ(오사카)",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_5_osaka.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "31819dc48a9871228399ca8a0ef15c230b24781d26f535327df08ab16592a104",
+      "reading": "ばってら",
+      "season": "사계절",
+      "representative_region": "오사카"
+    },
+    {
+      "id": "food_nonramen_katsuo_tataki",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "katsuo_tataki",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "농림수산성 우리의 향토요리 · かつおのたたき(고치)",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/katuonotataki_kochi.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "4284905f2a5982f7cc8f3bfd41341224204f9344b8829fa3fe48d62f08323573",
+      "reading": "かつおのたたき",
+      "season": "봄·가을",
+      "representative_region": "고치"
+    },
+    {
+      "id": "food_nonramen_gunkan",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "gunkan",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 軍艦巻",
+          "url": "https://ja.wikipedia.org/wiki/%E8%BB%8D%E8%89%A6%E5%B7%BB"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "d72d8a7ee6b25887c039e5389bc24779a0fd95ef4e85ec0d63e37c5b1495d5e6",
+      "reading": "ぐんかんまき",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_gomasaba",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "gomasaba",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · ごまさば(胡麻鯖)",
+          "url": "https://ja.wikipedia.org/wiki/%E8%83%A1%E9%BA%BB%E9%AF%96"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "11729195b823ffa97db564fca6d74ceff9d6a133f43dedbbd96280c56227fed8",
+      "reading": "ごまさば",
+      "season": "사계절",
+      "representative_region": "후쿠오카"
+    },
+    {
+      "id": "food_nonramen_basashi",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "basashi",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 馬刺し",
+          "url": "https://ja.wikipedia.org/wiki/%E9%A6%AC%E5%88%BA%E3%81%97"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "2e26d6c8a4d8a5e0bc0321b2f1deca2736b76c6ec43221c549c747aea1229ef1",
+      "reading": "ばさし",
+      "season": "사계절",
+      "representative_region": "구마모토"
+    },
+    {
+      "id": "food_nonramen_fugu",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "fugu",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "농림수산성 우리의 향토요리 · ふく刺し(야마구치)",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_16_yamaguchi.html"
+        },
+        {
+          "title": "위키백과(일본어) · ふぐ料理",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%B5%E3%81%90%E6%96%99%E7%90%86"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "941fd82788abb9e52130e1648473c2373bd6398aee4ba6dd92407e3932ff6143",
+      "reading": "ふぐりょうり",
+      "season": "겨울",
+      "representative_region": "야마구치"
+    },
+    {
+      "id": "food_nonramen_ika_ikizukuri",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "ika_ikizukuri",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 活き造り",
+          "url": "https://ja.wikipedia.org/wiki/%E6%B4%BB%E3%81%8D%E9%80%A0%E3%82%8A"
+        },
+        {
+          "title": "るるぶ&more · 요부코 오징어 활어회",
+          "url": "https://rurubu.jp/andmore/article/22768"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "5047c07d95da764226cef1ae11a5f273e4a5eecaef33867142eb6d43ad706473",
+      "reading": "いかのいきづくり",
+      "season": "사계절",
+      "representative_region": "사가"
+    },
+    {
+      "id": "food_nonramen_jingisukan",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "jingisukan",
+      "category_id": "grilled",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "농림수산성 우리의 향토요리 · ジンギスカン(홋카이도)",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/jingisukan_hokkaido.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "a9496451b98227f43981e0504002b1eb257ce950c88cad61060e68656abdadcc",
+      "reading": "じんぎすかん",
+      "season": "사계절",
+      "representative_region": "홋카이도"
+    },
+    {
+      "id": "food_nonramen_teppanyaki",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "teppanyaki",
+      "category_id": "teppan",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 鉄板焼き",
+          "url": "https://ja.wikipedia.org/wiki/%E9%89%84%E6%9D%BF%E7%84%BC%E3%81%8D"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "174a721bff272c30ba86f060004b0d995db0b2302af58e850573f324b58f3814",
+      "reading": "てっぱんやき",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_horumonyaki",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "horumonyaki",
+      "category_id": "grilled",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · ホルモン焼き",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%9B%E3%83%AB%E3%83%A2%E3%83%B3%E7%84%BC%E3%81%8D"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "67c397a09aaf89686332e944f36be04198d1f8b58587e2513cfa4d48efba6e9b",
+      "reading": "ほるもんやき",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_motsuyaki",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "motsuyaki",
+      "category_id": "grilled",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · やきとん",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%84%E3%81%8D%E3%81%A8%E3%82%93"
+        },
+        {
+          "title": "위키백과(일본어) · ホルモン焼き",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%9B%E3%83%AB%E3%83%A2%E3%83%B3%E7%84%BC%E3%81%8D"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "7dfdd5f0added4f36d4119dd427ce48ca3a07482732bad096f65c16530c76241",
+      "reading": "もつやき",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_misokatsu",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "misokatsu",
+      "category_id": "fried",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 味噌カツ",
+          "url": "https://ja.wikipedia.org/wiki/%E5%91%B3%E5%99%8C%E3%82%AB%E3%83%84"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "28e0651182132996586cc0d2f0eca17b4f396c91f90edac3d04ad5b3aa96dafe",
+      "reading": "みそかつ",
+      "season": "사계절",
+      "representative_region": "아이치"
+    },
+    {
+      "id": "food_nonramen_tebasaki",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "tebasaki",
+      "category_id": "fried",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 手羽先唐揚げ",
+          "url": "https://ja.wikipedia.org/wiki/%E6%89%8B%E7%BE%BD%E5%85%88%E5%94%90%E6%8F%9A%E3%81%92"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "00f4e122b0fc8d81f409ae0083a647aada91b6034ed6512b908b4137785ff718",
+      "reading": "てばさきからあげ",
+      "season": "사계절",
+      "representative_region": "아이치"
+    },
+    {
+      "id": "food_nonramen_torikawa",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "torikawa",
+      "category_id": "grilled",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 焼き鳥",
+          "url": "https://ja.wikipedia.org/wiki/%E7%84%BC%E3%81%8D%E9%B3%A5"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "a1092f776dbc9fb3d4489d493d2ed235d1ce24567e6c39ab141c9b6cb0991f22",
+      "reading": "とりかわ",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_menchikatsu",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "menchikatsu",
+      "category_id": "fried",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · メンチカツ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%B3%E3%83%81%E3%82%AB%E3%83%84"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "4b0d74bf5bb02f9c7e30d481dcefe96730cd3dd8b60c10537de5fd58f75e3ba7",
+      "reading": "めんちかつ",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_aji_fry",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "aji_fry",
+      "category_id": "fried",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · アジフライ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B8%E3%83%95%E3%83%A9%E3%82%A4"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "1db1ce476a846b44d74a1b9e7ff11ff39201d040b14f5d616a801cc8b930a40a",
+      "reading": "あじふらい",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_ikayaki",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "ikayaki",
+      "category_id": "teppan",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · イカ焼き",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%84%E3%81%8B%E7%84%BC%E3%81%8D"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "a5182e14ed6a84453c645360a3c7e2caba0b885e1297bf1f3b68c7e8c9f50be7",
+      "reading": "いかやき",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_yamaimo_teppan",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "yamaimo_teppan",
+      "category_id": "teppan",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · とろろ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%A8%E3%82%8D%E3%82%8D"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "0187a29e68f767dcb8a290acd0bb10851c189e10612052441183f9e0fc3e8a3d",
+      "reading": "やまいものてっぱんやき",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_natto",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "natto",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 納豆",
+          "url": "https://ja.wikipedia.org/wiki/%E7%B4%8D%E8%B1%86"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "852b122bd93f830cb5161f901af1d3cdd80336d7ab2149cb5ca7f71a57963446",
+      "reading": "なっとう",
+      "season": "사계절",
+      "representative_region": "이바라키"
+    },
+    {
+      "id": "food_nonramen_mentaiko",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "mentaiko",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 明太子",
+          "url": "https://ja.wikipedia.org/wiki/%E6%98%8E%E5%A4%AA%E5%AD%90"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "211a9ddaa269bf12328f75b850d11b4576a4ccf5b1c015152c03822848779635",
+      "reading": "めんたいこ",
+      "season": "사계절",
+      "representative_region": "후쿠오카"
+    },
+    {
+      "id": "food_nonramen_gyusuji_nikomi",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "gyusuji_nikomi",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · スジ肉(규스지)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%B8%E8%82%89"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "536e5c45e5fd2aec16d2313e19b6df6aff79d10d7ff3322e6bf1c7055fc43f5c",
+      "reading": "ぎゅうすじにこみ",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_doteni",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "doteni",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "농림수산성 우리의 향토요리 · どて焼き(오사카)",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_23_osaka.html"
+        },
+        {
+          "title": "위키백과(일본어) · どて焼き",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%A9%E3%81%A6%E7%84%BC%E3%81%8D"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "e2d059dfb909efef5f3ff5de8599c9f6852fe15c5ec811ebee322daf63cd70d3",
+      "reading": "どてに",
+      "season": "사계절",
+      "representative_region": "아이치 오사카"
+    },
+    {
+      "id": "food_nonramen_nikudofu",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "nikudofu",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "농림수산성 우리의 향토요리 · 肉豆腐(교토)",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nikudofu_kyoto.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "e52cc3b7b6f28304bca867f23753b28e90be57fa34fbaa2ac0da298515988b6f",
+      "reading": "にくどうふ",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_chikuzenni",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "chikuzenni",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · がめ煮(筑前煮)",
+          "url": "https://ja.wikipedia.org/wiki/%E7%AD%91%E5%89%8D%E7%85%AE"
+        },
+        {
+          "title": "농림수산성 우리의 향토요리 · がめ煮(사가)",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_9_saga.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "1ed3482e4121ef39d221014202f637c7cf6066509b852fea049c793c5a2692ca",
+      "reading": "ちくぜんに",
+      "season": "사계절",
+      "representative_region": "후쿠오카"
+    },
+    {
+      "id": "food_nonramen_nukadaki",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "nukadaki",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · ぬかみそ炊き",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%AC%E3%81%8B%E3%81%BF%E3%81%9D%E7%82%8A%E3%81%8D"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "035049fe58aedfe8ccbc179637a3888f53a76b296ad8023f5f2dae9b75ec39ce",
+      "reading": "ぬかみそだき",
+      "season": "사계절",
+      "representative_region": "후쿠오카"
+    },
+    {
+      "id": "food_nonramen_napolitan",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "napolitan",
+      "category_id": "yoshoku",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · ナポリタン",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%8A%E3%83%9D%E3%83%AA%E3%82%BF%E3%83%B3"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "be5820b22bc43c2a5956957054ab9e326aee05ba2ab4ce2dcc07bd5aae632434",
+      "reading": "なぽりたん",
+      "season": "사계절",
+      "representative_region": "가나가와"
+    },
+    {
+      "id": "food_nonramen_doria",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "doria",
+      "category_id": "yoshoku",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · ドリア",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%AA%E3%82%A2"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "5c471337eedfabc76925736021ca14599a2b04daa551c0af3e76b5a5e6537c66",
+      "reading": "どりあ",
+      "season": "사계절",
+      "representative_region": "가나가와"
+    },
+    {
+      "id": "food_nonramen_ebichili",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "ebichili",
+      "category_id": "yoshoku",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · エビチリ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%93%E3%83%81%E3%83%AA"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "b491c684580e6418c0efa47b717ae73209b966d04eaa333867ad89dac8dc3e68",
+      "reading": "えびちり",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_mapo_tofu",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "mapo_tofu",
+      "category_id": "yoshoku",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 麻婆豆腐",
+          "url": "https://ja.wikipedia.org/wiki/%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "c1ff1565982190fef7c900461315c3fe973b9da2980fa55c28b6d07956cbf798",
+      "reading": "まーぼーどうふ",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_soup_curry",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "soup_curry",
+      "category_id": "yoshoku",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · スープカレー",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%97%E3%82%AB%E3%83%AC%E3%83%BC"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "3eb6a79db2dc83544b60e70b2b31b6bb54dbc5c5c28ea040a9ebbc444ed46514",
+      "reading": "すーぷかれー",
+      "season": "사계절",
+      "representative_region": "홋카이도"
+    },
+    {
+      "id": "food_nonramen_yaki_curry",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "yaki_curry",
+      "category_id": "yoshoku",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 焼きカレー",
+          "url": "https://ja.wikipedia.org/wiki/%E7%84%BC%E3%81%8D%E3%82%AB%E3%83%AC%E3%83%BC"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "54f906b27767fc6cf81dbc64fbeb857d942ebc8e50f3f47fa3a874564a8e8da5",
+      "reading": "やきかれー",
+      "season": "사계절",
+      "representative_region": "후쿠오카"
+    },
+    {
+      "id": "food_nonramen_spice_curry",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "spice_curry",
+      "category_id": "yoshoku",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "오사카 관광국 · 오사카 카레 안내",
+          "url": "https://osaka-info.jp/gourmet/gastronomy-curry/"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "5670ef1c47d8c6fffc709b516cddd394d2e1d39baf9c8ea02b0fbe748572d62c",
+      "reading": "すぱいすかれー",
+      "season": "사계절",
+      "representative_region": "오사카"
+    },
+    {
+      "id": "food_nonramen_chuhai",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "chuhai",
+      "category_id": "drinks",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · チューハイ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A5%E3%83%BC%E3%83%8F%E3%82%A4"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "6d7b30253a90d7ae137210c4577a3b68d52cd56a6f6635d740ea49e2fdbe9715",
+      "reading": "ちゅーはい",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_calpis",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "calpis",
+      "category_id": "drinks",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-02",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-02 추가 목록). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · カルピス",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%AB%E3%83%94%E3%82%B9"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "f112b1b8be11d5234fca5e49a770b671c7389934b19a079acf6b378e6dfb3eaa",
+      "reading": "かるぴす",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_osechi",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "osechi",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-03 월별 행사 음식). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 御節料理",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%8A%E3%81%9B%E3%81%A1%E6%96%99%E7%90%86"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "b7a1560b66e2ce0066d450f2ffda4739696fb245fcd580852e60b9fa37b6bcd1",
+      "reading": "おせちりょうり",
+      "season": "겨울",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_ozoni",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "ozoni",
+      "category_id": "hotpot",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-03 월별 행사 음식). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "농림수산성 우리의 향토요리 · お雑煮(도쿄)",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_7_tokyo.html"
+        },
+        {
+          "title": "위키백과(일본어) · 雑煮",
+          "url": "https://ja.wikipedia.org/wiki/%E9%9B%91%E7%85%AE"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "40ac59775be3c848fb33e271e57af4d6bbd237891cf0cf9b121fab3fea07b340",
+      "reading": "おぞうに",
+      "season": "겨울",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_nanakusa_gayu",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "nanakusa_gayu",
+      "category_id": "rice",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-03 월별 행사 음식). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 七草がゆ",
+          "url": "https://ja.wikipedia.org/wiki/%E4%B8%83%E8%8D%89%E7%B2%A5"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "60008a160c864ced4dbbb3efa4ad84ed22181c535ce20d3149e6790dc0f97ca0",
+      "reading": "ななくさがゆ",
+      "season": "겨울",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_ehomaki",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "ehomaki",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-03 월별 행사 음식). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 恵方巻",
+          "url": "https://ja.wikipedia.org/wiki/%E6%81%B5%E6%96%B9%E5%B7%BB"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "7cc34a18bca53b3a49ba732c453a88cc29a6d961d9f6e35abaaae2951c4da71b",
+      "reading": "えほうまき",
+      "season": "겨울",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_sakuramochi",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "sakuramochi",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-03 월별 행사 음식). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 桜餅",
+          "url": "https://ja.wikipedia.org/wiki/%E6%A1%9C%E9%A4%85"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "0c8d89a7b7b6cb94c5b957c5b1c18ec9b512778f36ee10b282fbee6baf4ef4a7",
+      "reading": "さくらもち",
+      "season": "봄",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_kashiwamochi",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "kashiwamochi",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-03 월별 행사 음식). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 柏餅",
+          "url": "https://ja.wikipedia.org/wiki/%E6%9F%8F%E9%A4%85"
+        },
+        {
+          "title": "농림수산성 우리의 향토요리 · 柏餅(야마구치)",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_15_yamaguchi.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "bd4c93dd9a25618bfc04f7db546437003872c3102c0aa8143b586d2f67b3aa9d",
+      "reading": "かしわもち",
+      "season": "봄",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_somen",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "somen",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-03 월별 행사 음식). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 素麺",
+          "url": "https://ja.wikipedia.org/wiki/%E7%B4%A0%E9%BA%BA"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "16a3973f7b3faccb570c863d7a907ae2aa5737ca994dd96643bc9ea9504cc9f2",
+      "reading": "そうめん",
+      "season": "여름",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_sanma_shioyaki",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "sanma_shioyaki",
+      "category_id": "grilled",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-03 월별 행사 음식). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · サンマ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%B3%E3%83%9E"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "2428a324d2e7a78ca4283df9102c971b0a15555473e360a5ccf5e51ddcbec671",
+      "reading": "さんまのしおやき",
+      "season": "가을",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_kuri_gohan",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "kuri_gohan",
+      "category_id": "rice",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-03 월별 행사 음식). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 栗飯",
+          "url": "https://ja.wikipedia.org/wiki/%E6%A0%97%E3%81%94%E9%A3%AF"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "f44bf9f2730058ddb71a7e9b62bb2d11d5323b2053e45ea3e431592e3bbd4bdb",
+      "reading": "くりごはん",
+      "season": "가을",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_takenoko_gohan",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "takenoko_gohan",
+      "category_id": "rice",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-03 월별 행사 음식). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 炊き込みご飯",
+          "url": "https://ja.wikipedia.org/wiki/%E7%82%8A%E3%81%8D%E8%BE%BC%E3%81%BF%E3%81%94%E9%A3%AF"
+        },
+        {
+          "title": "위키백과(일본어) · タケノコ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%B1%E3%83%8E%E3%82%B3"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "80fb4cdc261b605bceda7e6c3e60e7fce25bcc1c4bc5bf9282a65e4fe7b95301",
+      "reading": "たけのこごはん",
+      "season": "봄",
+      "representative_region": "전국"
+    }
+  ],
+  "discovery_source": "basics_v02",
+  "discovery_sha256": "fe3769157f3e71fb2ac8896c354951e5c2ea7e893f10512a0bd67e2cb7da7364"
+}

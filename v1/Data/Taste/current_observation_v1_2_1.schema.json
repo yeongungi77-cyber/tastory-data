@@ -1,0 +1,433 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tastory.example/schemas/confirmed-food-evaluation-v1.2.1.json",
+  "title": "TASTORY confirmed observation v1.2.1 - reference additive adapter (NOT deployed storage)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "observationId",
+    "mealEventId",
+    "foodExperienceId",
+    "revision",
+    "aspectKey",
+    "targetPart",
+    "sentiment",
+    "intensityMode",
+    "intensityValue",
+    "detailTag",
+    "inputMethod",
+    "evidenceScope",
+    "mealContext",
+    "profileDecision",
+    "reviewStatus",
+    "active",
+    "dictionaryVersion",
+    "evidenceSpeaker",
+    "assertionMode",
+    "claimType",
+    "sourceReviewRevision",
+    "userConfirmedAt",
+    "sourceReviewSha256",
+    "profileDispositionHint",
+    "profileId"
+  ],
+  "properties": {
+    "observationId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "mealEventId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "foodExperienceId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "aspectKey": {
+      "enum": [
+        "aroma_cooked_fish",
+        "aroma_other",
+        "aroma_preserved_seafood",
+        "aroma_raw_fish",
+        "aroma_roasted",
+        "aroma_shellfish",
+        "astringency",
+        "bitterness",
+        "broth_body",
+        "chewiness",
+        "crispiness",
+        "fat_broth",
+        "fat_fish",
+        "fat_general",
+        "fat_meat",
+        "fat_offal",
+        "ferment_aroma_seafood",
+        "ferment_aroma_soy",
+        "ferment_aroma_vegetable",
+        "fish_texture",
+        "flavor_balance",
+        "food_novelty",
+        "greasy_burden",
+        "ingredient_condition",
+        "ingredient_cooking_state",
+        "meat_dryness",
+        "meat_juiciness",
+        "meat_tenderness",
+        "noodle_cooking_state",
+        "noodle_elasticity",
+        "noodle_firmness",
+        "pungency_allium",
+        "pungency_wasabi",
+        "raw_food_preference",
+        "saltiness",
+        "sauce_body",
+        "serving_temperature",
+        "slipperiness",
+        "sourness",
+        "spice_aroma",
+        "spiciness",
+        "sweetness",
+        "umami"
+      ]
+    },
+    "targetPart": {
+      "enum": [
+        "beverage",
+        "broth",
+        "dessert",
+        "egg",
+        "fermented_soy",
+        "fermented_vegetable",
+        "fish",
+        "fried_coating",
+        "ingredient",
+        "meat",
+        "noodle",
+        "offal",
+        "raw_egg",
+        "raw_fish",
+        "raw_meat",
+        "raw_shellfish",
+        "sauce",
+        "seafood_preserved",
+        "shellfish",
+        "whole_dish"
+      ]
+    },
+    "sentiment": {
+      "enum": [
+        "positive",
+        "negative",
+        "uncertain",
+        "descriptive"
+      ]
+    },
+    "intensityMode": {
+      "enum": [
+        "sensory_1_5",
+        "burden_1_5",
+        "state_only",
+        "not_applicable"
+      ]
+    },
+    "intensityValue": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 5
+    },
+    "detailTag": {
+      "oneOf": [
+        {
+          "enum": [
+            "allium_pungency_excessive",
+            "allium_pungency_pleasant",
+            "aroma_pleasant",
+            "aroma_too_strong",
+            "aroma_too_weak",
+            "aroma_unpleasant",
+            "astringency_excessive",
+            "astringency_pleasant",
+            "bitterness_insufficient",
+            "bitterness_pleasant",
+            "chewy_pleasant",
+            "chewy_too_much",
+            "cooked_well",
+            "crisp_insufficient",
+            "crisp_pleasant",
+            "elastic_insufficient",
+            "elastic_pleasant",
+            "fat_insufficient",
+            "fat_level_pleasant",
+            "fish_texture_pleasant",
+            "fish_texture_unpleasant",
+            "flavor_balance_bad",
+            "flavor_balance_good",
+            "greasy_burden_absent",
+            "greasy_burden_present",
+            "ingredient_condition_bad",
+            "ingredient_condition_good",
+            "meat_dry_unpleasant",
+            "meat_juiciness_insufficient",
+            "meat_juicy_pleasant",
+            "meat_moist_pleasant",
+            "meat_tender_pleasant",
+            "meat_tough",
+            "new_flavor_disliked",
+            "new_flavor_enjoyed",
+            "noodle_elasticity_too_much",
+            "noodle_firm_pleasant",
+            "noodle_too_firm",
+            "noodle_too_soft",
+            "noodles_cooked_well",
+            "noodles_overcooked",
+            "noodles_undercooked",
+            "not_sour_enough",
+            "not_spicy_enough",
+            "not_sweet_enough",
+            "off_odor_absent",
+            "off_odor_present",
+            "overcooked",
+            "raw_food_disliked",
+            "raw_food_enjoyed",
+            "raw_food_safety_worry",
+            "raw_texture_disliked",
+            "rich_body_pleasant",
+            "roasted_aroma_excessive",
+            "roasted_aroma_pleasant",
+            "salt_pleasant",
+            "served_too_cold",
+            "served_too_hot",
+            "slippery_pleasant",
+            "slippery_unpleasant",
+            "sourness_pleasant",
+            "spice_aroma_excessive",
+            "spice_aroma_pleasant",
+            "spiciness_burden_discomfort",
+            "spiciness_pleasant",
+            "sweetness_pleasant",
+            "temperature_pleasant",
+            "texture_not_preferred",
+            "too_bitter",
+            "too_fatty",
+            "too_hard_crust",
+            "too_salty",
+            "too_sour",
+            "too_spicy",
+            "too_sweet",
+            "too_thick",
+            "too_thin",
+            "umami_excessive",
+            "umami_insufficient",
+            "umami_pleasant",
+            "under_salted",
+            "undercooked_perceived",
+            "wasabi_pungency_excessive",
+            "wasabi_pungency_pleasant"
+          ]
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "inputMethod": {
+      "enum": [
+        "manual",
+        "ai_confirmed"
+      ]
+    },
+    "evidenceScope": {
+      "enum": [
+        "specific_item",
+        "specific_preparation",
+        "explicit_general_preference"
+      ]
+    },
+    "mealContext": {
+      "enum": [
+        "meal",
+        "dessert",
+        "beverage",
+        "fruit",
+        "vinegar",
+        "coffee",
+        "cacao",
+        "citrus",
+        "vegetable",
+        "other",
+        "unknown"
+      ]
+    },
+    "profileDecision": {
+      "enum": [
+        "pending",
+        "approved",
+        "record_only",
+        "rejected",
+        "revoked"
+      ]
+    },
+    "reviewStatus": {
+      "enum": [
+        "user_confirmed",
+        "needs_review",
+        "not_required"
+      ]
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "evidenceText": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "userIntensityConfirmed": {
+      "type": "boolean"
+    },
+    "foodId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "foodNameRaw": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "foodPartNote": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sourceAnalysisId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sessionRevisionId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "explicitGeneralPreferenceConfirmed": {
+      "type": "boolean"
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dictionaryVersion": {
+      "const": "1.2.1-design"
+    },
+    "evidenceSpeaker": {
+      "enum": [
+        "author",
+        "companion",
+        "quoted",
+        "unknown"
+      ]
+    },
+    "assertionMode": {
+      "enum": [
+        "observed",
+        "negated",
+        "hypothetical",
+        "reported",
+        "uncertain",
+        "comparative"
+      ]
+    },
+    "claimType": {
+      "enum": [
+        "sensory_description",
+        "sensory_evaluation",
+        "preparation_quality",
+        "explicit_general_preference"
+      ]
+    },
+    "sourceReviewRevision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "sourceReviewSha256": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "userConfirmedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "profileDispositionHint": {
+      "enum": [
+        "candidate_only",
+        "record_only",
+        "abstain"
+      ]
+    },
+    "dishMention": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dishMentionStart": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "dishMentionEnd": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1
+    },
+    "idempotencyKey": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidenceSource": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "manual",
+        "ai_confirmed",
+        null
+      ]
+    },
+    "profileId": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Server-bound profile ID, never inferred from LLM or another profile."
+    }
+  }
+}

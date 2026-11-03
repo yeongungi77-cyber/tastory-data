@@ -1,0 +1,2951 @@
+{
+  "dictionaryVersion": "1.2.1-design",
+  "status": "self_feedback_patch_candidate_not_user_approved",
+  "sourceDictionaryVersion": "1.2.0-design",
+  "sourceReference": "TASTORY_Food_Experience_Tag_Dictionary_v1.0_DRAFT.zip; Taste_Profile_Engine_v1.0 PDF",
+  "specPrinciples": [
+    "기초 미식 테스트 원본 불변",
+    "감각 강도≠만족도≠섭취 부담",
+    "음식 특성 관측≠일반 선호 자동 수정",
+    "AI 제안은 사용자 확인 전 추천 입력 금지",
+    "방문 확인≠실제 섭취 확인",
+    "동일 식사/음식/관측 근거의 중복 집계 방지",
+    "안전 정보와 명시적 제외는 최우선 별도 제어"
+  ],
+  "targetParts": {
+    "whole_dish": "음식 전체",
+    "broth": "국물",
+    "sauce": "소스",
+    "ingredient": "재료",
+    "dessert": "디저트",
+    "beverage": "음료",
+    "meat": "육류 (고기/차슈/돈카츠 등)",
+    "fish": "생선",
+    "shellfish": "패류",
+    "seafood_preserved": "젓갈·보존 해산물",
+    "offal": "내장류",
+    "noodle": "면",
+    "egg": "달걀",
+    "raw_fish": "날생선 섭취",
+    "raw_meat": "날고기 섭취",
+    "raw_shellfish": "생패류 섭취",
+    "raw_egg": "날달걀 섭취",
+    "fried_coating": "튀김옷",
+    "fermented_soy": "콩 발효 음식",
+    "fermented_vegetable": "채소 발효 음식"
+  },
+  "evaluationScales": {
+    "sensory_1_5": {
+      "question": "선택한 감각이 어느 정도 강하게 느껴졌나요?",
+      "anchors": {
+        "1": "거의 느껴지지 않음",
+        "2": "약하게 느껴짐",
+        "3": "보통",
+        "4": "강하게 느껴짐",
+        "5": "매우 강하게 느껴짐"
+      },
+      "nullable": true,
+      "readout": "강도만 측정; 선호·만족도·객관적 함량 아님",
+      "reviewPolicy": "미응답은 null; AI 추측 수치 금지; 다른 종류 척도끼리 평균 금지"
+    },
+    "burden_1_5": {
+      "question": "이 감각 때문에 먹기 얼마나 부담스러웠나요?",
+      "anchors": {
+        "1": "거의 부담 없음",
+        "2": "조금 부담",
+        "3": "보통 수준 부담",
+        "4": "상당히 부담",
+        "5": "매우 큰 부담"
+      },
+      "nullable": true,
+      "readout": "섭취 부담; 감각의 물리적 강도 아님",
+      "reviewPolicy": "미응답은 null; AI 추측 수치 금지; 다른 종류 척도끼리 평균 금지"
+    },
+    "state_only": {
+      "question": "해당 상태를 골라 주세요.",
+      "anchors": null,
+      "nullable": true,
+      "readout": "정량 강도를 묻지 않음. 상태 태그만 저장",
+      "reviewPolicy": "미응답은 null; AI 추측 수치 금지; 다른 종류 척도끼리 평균 금지"
+    },
+    "not_applicable": {
+      "question": "경험에 해당하는 설명을 선택해 주세요.",
+      "anchors": null,
+      "nullable": true,
+      "readout": "강도 질문을 제공하지 않음",
+      "reviewPolicy": "미응답은 null; AI 추측 수치 금지; 다른 종류 척도끼리 평균 금지"
+    }
+  },
+  "sentiments": {
+    "positive": "만족",
+    "negative": "불만족",
+    "uncertain": "판단 어려움",
+    "descriptive": "호불호 없는 단순 묘사"
+  },
+  "rawResponseStatus": [
+    "answered",
+    "never_tried",
+    "unknown",
+    "uncertain",
+    "skipped",
+    "not_applicable"
+  ],
+  "profileDecisions": [
+    "pending",
+    "approved",
+    "record_only",
+    "rejected",
+    "revoked"
+  ],
+  "sourceMethods": [
+    "manual",
+    "ai_confirmed"
+  ],
+  "evidenceScopes": [
+    "specific_item",
+    "specific_preparation",
+    "explicit_general_preference"
+  ],
+  "mealContextCodes": [
+    "meal",
+    "dessert",
+    "beverage",
+    "fruit",
+    "vinegar",
+    "coffee",
+    "cacao",
+    "citrus",
+    "vegetable",
+    "other",
+    "unknown"
+  ],
+  "aspects": [
+    {
+      "aspectKey": "saltiness",
+      "labelKo": "짠맛",
+      "category": "taste",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "whole_dish",
+        "broth",
+        "sauce",
+        "ingredient"
+      ],
+      "candidateProfileAxes": [
+        "salt_preference"
+      ],
+      "definition": "섭취한 음식에서 주관적으로 느낀 짠맛",
+      "followupQuestionKo": "선택한 음식 또는 재료의 짠맛이 얼마나 강하게 느껴졌나요?",
+      "profileLinkPolicy": "explicit_user_confirmation_only",
+      "contextToAxis": {},
+      "mappingStatus": "candidate_only",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "notesV12": [
+        "기존 v1.1 질문이 국물에 고정되어 허용 대상 whole_dish/sauce/ingredient와 모순 → 문구 일반화"
+      ]
+    },
+    {
+      "aspectKey": "sweetness",
+      "labelKo": "단맛",
+      "category": "taste",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "whole_dish",
+        "broth",
+        "sauce",
+        "dessert",
+        "beverage"
+      ],
+      "candidateProfileAxes": [
+        "sweetness_meal",
+        "sweetness_dessert",
+        "sweetness_beverage"
+      ],
+      "definition": "음식 맥락에 따라 식사용·디저트·음료 선호를 별개로 참고",
+      "followupQuestionKo": "단맛이 어느 정도 느껴졌나요?",
+      "profileLinkPolicy": "explicit_user_confirmation_only",
+      "contextToAxis": {
+        "meal": "sweetness_meal",
+        "dessert": "sweetness_dessert",
+        "beverage": "sweetness_beverage"
+      },
+      "mappingStatus": "context_required",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "spiciness",
+      "labelKo": "고추 계열 매운맛",
+      "category": "taste",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "whole_dish",
+        "broth",
+        "sauce",
+        "ingredient"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "고추·캡사이신 계열의 매운 자극; 마늘/와사비의 코 자극과 혼합하지 않음",
+      "followupQuestionKo": "고추 계열 매운맛이 어느 정도 강했나요?",
+      "profileLinkPolicy": "explicit_user_confirmation_only",
+      "contextToAxis": {},
+      "mappingStatus": "requires_verified_spicy_question_id",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "sourness",
+      "labelKo": "신맛",
+      "category": "taste",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "whole_dish",
+        "broth",
+        "sauce",
+        "ingredient",
+        "beverage"
+      ],
+      "candidateProfileAxes": [
+        "sourness_fruit",
+        "sourness_vinegar"
+      ],
+      "definition": "과일 산미와 식초·폰즈 산미는 맥락 구분",
+      "followupQuestionKo": "신맛이 얼마나 강했나요?",
+      "profileLinkPolicy": "explicit_user_confirmation_only",
+      "contextToAxis": {
+        "fruit": "sourness_fruit",
+        "vinegar": "sourness_vinegar"
+      },
+      "mappingStatus": "context_required",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "bitterness",
+      "labelKo": "쓴맛",
+      "category": "taste",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "whole_dish",
+        "broth",
+        "sauce",
+        "ingredient",
+        "beverage"
+      ],
+      "candidateProfileAxes": [
+        "bitter_preference",
+        "bitter_coffee",
+        "bitter_cacao",
+        "bitter_citrus",
+        "bitter_vegetable"
+      ],
+      "definition": "떫은 감각과 별개인 쓴맛",
+      "followupQuestionKo": "쓴맛이 얼마나 강했나요?",
+      "profileLinkPolicy": "explicit_user_confirmation_only",
+      "contextToAxis": {
+        "coffee": "bitter_coffee",
+        "cacao": "bitter_cacao",
+        "citrus": "bitter_citrus",
+        "vegetable": "bitter_vegetable"
+      },
+      "mappingStatus": "context_required",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "umami",
+      "labelKo": "감칠맛",
+      "category": "taste",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "whole_dish",
+        "broth",
+        "sauce",
+        "ingredient"
+      ],
+      "candidateProfileAxes": [
+        "umami_preference"
+      ],
+      "definition": "짠맛·기름짐·농후함과 독립된 감칠맛; 사용자 이해 불확실성 허용",
+      "followupQuestionKo": "감칠맛이 얼마나 강하게 느껴졌나요?",
+      "profileLinkPolicy": "explicit_user_confirmation_only",
+      "contextToAxis": {},
+      "mappingStatus": "candidate_only",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "flavor_balance",
+      "labelKo": "맛의 균형",
+      "category": "taste",
+      "intensityMode": "not_applicable",
+      "allowedTargets": [
+        "whole_dish",
+        "broth",
+        "sauce"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "전체 맛의 조화에 대한 평가. 개별 맛 강도 추정 금지",
+      "followupQuestionKo": "전체적인 맛의 조화는 어떠셨나요?",
+      "profileLinkPolicy": "food_experience_observation_only",
+      "contextToAxis": {},
+      "mappingStatus": "no_basic_axis",
+      "intensityQuestionAllowed": false,
+      "recommendedDefault": "state_tag_only",
+      "ratingMeaning": "정량 강도 사용 금지",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "qualitative_experience",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": []
+    },
+    {
+      "aspectKey": "fat_general",
+      "labelKo": "전반적 기름짐",
+      "category": "fat",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "whole_dish",
+        "ingredient"
+      ],
+      "candidateProfileAxes": [
+        "fat_preference"
+      ],
+      "definition": "전체 음식의 기름기",
+      "followupQuestionKo": "음식 전체의 기름기가 얼마나 느껴졌나요?",
+      "profileLinkPolicy": "explicit_user_confirmation_only",
+      "contextToAxis": {},
+      "mappingStatus": "candidate_only",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "fat_broth",
+      "labelKo": "국물 기름기",
+      "category": "fat",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "broth"
+      ],
+      "candidateProfileAxes": [
+        "fat_broth"
+      ],
+      "definition": "국물의 지방감으로 broth_body와 별개",
+      "followupQuestionKo": "국물의 기름기가 얼마나 느껴졌나요?",
+      "profileLinkPolicy": "explicit_user_confirmation_only",
+      "contextToAxis": {},
+      "mappingStatus": "candidate_only",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "fat_meat",
+      "labelKo": "고기 지방감",
+      "category": "fat",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "meat"
+      ],
+      "candidateProfileAxes": [
+        "fat_meat"
+      ],
+      "definition": "고기 지방 조직/마블링의 체감",
+      "followupQuestionKo": "고기에서 지방감을 얼마나 느꼈나요?",
+      "profileLinkPolicy": "explicit_user_confirmation_only",
+      "contextToAxis": {},
+      "mappingStatus": "candidate_only",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "fat_fish",
+      "labelKo": "생선 지방감",
+      "category": "fat",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "fish"
+      ],
+      "candidateProfileAxes": [
+        "fat_fish"
+      ],
+      "definition": "생선의 지방감. 날생선 선호와 구별",
+      "followupQuestionKo": "생선에서 지방감을 얼마나 느꼈나요?",
+      "profileLinkPolicy": "explicit_user_confirmation_only",
+      "contextToAxis": {},
+      "mappingStatus": "candidate_only",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "fat_offal",
+      "labelKo": "내장 지방감",
+      "category": "fat",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "offal"
+      ],
+      "candidateProfileAxes": [
+        "fat_offal"
+      ],
+      "definition": "지방감·내장향·질김을 서로 분리",
+      "followupQuestionKo": "내장의 지방감을 얼마나 느꼈나요?",
+      "profileLinkPolicy": "explicit_user_confirmation_only",
+      "contextToAxis": {},
+      "mappingStatus": "candidate_only",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "greasy_burden",
+      "labelKo": "느끼함 부담",
+      "category": "burden",
+      "intensityMode": "burden_1_5",
+      "allowedTargets": [
+        "whole_dish",
+        "broth",
+        "sauce",
+        "meat",
+        "fish",
+        "offal"
+      ],
+      "candidateProfileAxes": [
+        "fat_burden"
+      ],
+      "definition": "기름짐 강도와 별개인 사용자 부담감: 강도 척도 이름도 구별",
+      "followupQuestionKo": "느끼함 때문에 먹기 얼마나 부담스러웠나요?",
+      "profileLinkPolicy": "explicit_user_confirmation_only",
+      "contextToAxis": {},
+      "mappingStatus": "candidate_only",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "먹기 어려운 부담 정도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "sensory_burden",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "notesV12": [
+        "burden_1_5는 기름짐의 sensory_1_5와 숫자가 같아도 동일 척도가 아님"
+      ]
+    },
+    {
+      "aspectKey": "broth_body",
+      "labelKo": "국물 농후함",
+      "category": "body",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "broth"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "점도·입안의 밀도·농후함. 기름짐과 동치 아님",
+      "followupQuestionKo": "국물의 농후함이 얼마나 강하게 느껴졌나요?",
+      "profileLinkPolicy": "food_experience_observation_only",
+      "contextToAxis": {},
+      "mappingStatus": "no_basic_axis",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "notesV12": [
+        "농후함 ≠ 기름짐. 진하다만으로 fat_broth 태그 제안 금지"
+      ]
+    },
+    {
+      "aspectKey": "sauce_body",
+      "labelKo": "소스 농후함",
+      "category": "body",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "sauce"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "소스 농도·점도의 주관적 체감",
+      "followupQuestionKo": "소스의 농후함이 얼마나 강하게 느껴졌나요?",
+      "profileLinkPolicy": "food_experience_observation_only",
+      "contextToAxis": {},
+      "mappingStatus": "no_basic_axis",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "aroma_cooked_fish",
+      "labelKo": "익힌 생선 향",
+      "category": "aroma",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "fish",
+        "whole_dish"
+      ],
+      "candidateProfileAxes": [
+        "seafood_aroma_cooked_fish"
+      ],
+      "definition": "구운/익힌 생선의 자연스러운 향; 부패취 아님",
+      "followupQuestionKo": "익힌 생선 특유의 향이 얼마나 강했나요?",
+      "profileLinkPolicy": "explicit_user_confirmation_only",
+      "contextToAxis": {},
+      "mappingStatus": "candidate_only",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "aroma_raw_fish",
+      "labelKo": "날생선 향",
+      "category": "aroma",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "fish",
+        "whole_dish"
+      ],
+      "candidateProfileAxes": [
+        "seafood_aroma_raw_fish"
+      ],
+      "definition": "회·초밥 생선의 자연스러운 향",
+      "followupQuestionKo": "날생선 특유의 향이 얼마나 강했나요?",
+      "profileLinkPolicy": "explicit_user_confirmation_only",
+      "contextToAxis": {},
+      "mappingStatus": "candidate_only",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "aroma_shellfish",
+      "labelKo": "조개·패류 향",
+      "category": "aroma",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "shellfish",
+        "broth",
+        "whole_dish"
+      ],
+      "candidateProfileAxes": [
+        "seafood_aroma_shellfish"
+      ],
+      "definition": "패류의 향, 생선 비린향과 별도",
+      "followupQuestionKo": "조개·패류 특유의 향이 얼마나 강했나요?",
+      "profileLinkPolicy": "explicit_user_confirmation_only",
+      "contextToAxis": {},
+      "mappingStatus": "candidate_only",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "aroma_preserved_seafood",
+      "labelKo": "젓갈·숙성 해산물 향",
+      "category": "aroma",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "seafood_preserved",
+        "whole_dish"
+      ],
+      "candidateProfileAxes": [
+        "seafood_aroma_preserved_offal"
+      ],
+      "definition": "새우젓·젓갈·시오카라 등 보존가공 해산물 향. 발효 여부는 별도",
+      "followupQuestionKo": "젓갈·보존 해산물의 향이 얼마나 강했나요?",
+      "profileLinkPolicy": "explicit_user_confirmation_only",
+      "contextToAxis": {},
+      "mappingStatus": "candidate_only",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "ferment_aroma_soy",
+      "labelKo": "콩 발효 향",
+      "category": "aroma",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "fermented_soy",
+        "whole_dish"
+      ],
+      "candidateProfileAxes": [
+        "fermentation_aroma_soy"
+      ],
+      "definition": "낫토 등 콩 발효 특유의 향",
+      "followupQuestionKo": "콩 발효 향이 얼마나 강하게 느껴졌나요?",
+      "profileLinkPolicy": "explicit_user_confirmation_only",
+      "contextToAxis": {},
+      "mappingStatus": "candidate_only",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "ferment_aroma_vegetable",
+      "labelKo": "채소 발효 향",
+      "category": "aroma",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "fermented_vegetable",
+        "whole_dish"
+      ],
+      "candidateProfileAxes": [
+        "fermentation_aroma_vegetable"
+      ],
+      "definition": "누카즈케 등 채소 발효 특유의 향",
+      "followupQuestionKo": "채소 발효 향이 얼마나 강하게 느껴졌나요?",
+      "profileLinkPolicy": "explicit_user_confirmation_only",
+      "contextToAxis": {},
+      "mappingStatus": "candidate_only",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "ferment_aroma_seafood",
+      "labelKo": "해산물 발효·숙성 향",
+      "category": "aroma",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "seafood_preserved",
+        "whole_dish"
+      ],
+      "candidateProfileAxes": [
+        "fermentation_aroma_seafood"
+      ],
+      "definition": "발효 또는 숙성의 기작을 식품별로 확인해야 함; 단순 염장과 자동 동치 불가",
+      "followupQuestionKo": "해산물 발효·숙성 향이 얼마나 강했나요?",
+      "profileLinkPolicy": "explicit_user_confirmation_only",
+      "contextToAxis": {},
+      "mappingStatus": "candidate_only",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "aroma_other",
+      "labelKo": "기타 음식 향",
+      "category": "aroma",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "whole_dish",
+        "broth",
+        "sauce",
+        "ingredient",
+        "meat",
+        "offal"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "구체적 향 분류가 없을 때 원문을 보존하는 임시 항목",
+      "followupQuestionKo": "해당 음식의 특정 향이 얼마나 강했나요?",
+      "profileLinkPolicy": "food_experience_observation_only",
+      "contextToAxis": {},
+      "mappingStatus": "no_basic_axis",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "notesV12": [
+        "특성 대상의 식별이 모호하면 구체적 선호축으로 자동 일반화 금지"
+      ],
+      "notesV121": [
+        "육류·내장 잡내는 aroma_other로 기록. 발효 향·날생선 향으로 일괄 변환 금지",
+        "향의 부재와 향에 대한 긍정 평가는 구별"
+      ]
+    },
+    {
+      "aspectKey": "raw_food_preference",
+      "labelKo": "날음식 섭취 선호",
+      "category": "raw_food",
+      "intensityMode": "not_applicable",
+      "allowedTargets": [
+        "raw_fish",
+        "raw_meat",
+        "raw_shellfish",
+        "raw_egg"
+      ],
+      "candidateProfileAxes": [
+        "raw_fish",
+        "raw_meat",
+        "raw_shellfish",
+        "raw_egg"
+      ],
+      "definition": "날것을 먹는 경험에 대한 반응. 향 선호와 분리",
+      "followupQuestionKo": "이 날음식의 섭취 경험은 어떠셨나요?",
+      "profileLinkPolicy": "explicit_user_confirmation_only",
+      "contextToAxis": {
+        "raw_fish": "raw_fish",
+        "raw_meat": "raw_meat",
+        "raw_shellfish": "raw_shellfish",
+        "raw_egg": "raw_egg"
+      },
+      "mappingStatus": "context_required",
+      "intensityQuestionAllowed": false,
+      "recommendedDefault": "state_tag_only",
+      "ratingMeaning": "정량 강도 사용 금지",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "qualitative_experience",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [],
+      "notesV12": [
+        "사용자 음식별 섭취 경험 기록에 한정. raw_fish 등 기초 테스트 원본 축에 자동 대입하지 않음",
+        "식중독 우려는 알레르기/안전 제한의 자동 생성 근거가 아님"
+      ]
+    },
+    {
+      "aspectKey": "noodle_firmness",
+      "labelKo": "면 단단함",
+      "category": "texture",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "noodle"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "면의 물리적 단단함; 과조리 판단과 다름",
+      "followupQuestionKo": "면의 단단함이 어느 정도였나요?",
+      "profileLinkPolicy": "food_experience_observation_only",
+      "contextToAxis": {},
+      "mappingStatus": "no_basic_axis",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "noodle_elasticity",
+      "labelKo": "면 탄력",
+      "category": "texture",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "noodle"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "면의 탄력성",
+      "followupQuestionKo": "면의 탄력이 얼마나 강했나요?",
+      "profileLinkPolicy": "food_experience_observation_only",
+      "contextToAxis": {},
+      "mappingStatus": "no_basic_axis",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "meat_tenderness",
+      "labelKo": "고기 부드러움",
+      "category": "texture",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "meat"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "육류 연도",
+      "followupQuestionKo": "고기의 부드러움이 얼마나 강했나요?",
+      "profileLinkPolicy": "food_experience_observation_only",
+      "contextToAxis": {},
+      "mappingStatus": "no_basic_axis",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "fish_texture",
+      "labelKo": "생선 식감",
+      "category": "texture",
+      "intensityMode": "state_only",
+      "allowedTargets": [
+        "fish"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "부드러움/질김 등 세부 상태 태그로 분류",
+      "followupQuestionKo": "생선의 어떤 식감이 인상적이었나요?",
+      "profileLinkPolicy": "food_experience_observation_only",
+      "contextToAxis": {},
+      "mappingStatus": "no_basic_axis",
+      "intensityQuestionAllowed": false,
+      "recommendedDefault": "state_tag_only",
+      "ratingMeaning": "정량 강도 사용 금지",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "preparation_or_state",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [],
+      "notesV12": [
+        "특성 대상의 식별이 모호하면 구체적 선호축으로 자동 일반화 금지"
+      ]
+    },
+    {
+      "aspectKey": "crispiness",
+      "labelKo": "바삭함",
+      "category": "texture",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "whole_dish",
+        "fried_coating",
+        "ingredient"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "튀김옷·겉면 바삭함",
+      "followupQuestionKo": "바삭함이 얼마나 강했나요?",
+      "profileLinkPolicy": "food_experience_observation_only",
+      "contextToAxis": {},
+      "mappingStatus": "no_basic_axis",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "chewiness",
+      "labelKo": "쫄깃함",
+      "category": "texture",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "whole_dish",
+        "noodle",
+        "meat",
+        "ingredient"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "씹는 저항감의 주관적 체감; 긍부정 별개",
+      "followupQuestionKo": "쫄깃함이 얼마나 강하게 느껴졌나요?",
+      "profileLinkPolicy": "food_experience_observation_only",
+      "contextToAxis": {},
+      "mappingStatus": "no_basic_axis",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "slipperiness",
+      "labelKo": "미끈함·점성 식감",
+      "category": "texture",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "whole_dish",
+        "ingredient"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "미끈함·점성의 감각. 음식별 예시 필요",
+      "followupQuestionKo": "미끈함·점성이 얼마나 강했나요?",
+      "profileLinkPolicy": "food_experience_observation_only",
+      "contextToAxis": {},
+      "mappingStatus": "no_basic_axis",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "noodle_cooking_state",
+      "labelKo": "면 조리 상태",
+      "category": "cooking",
+      "intensityMode": "state_only",
+      "allowedTargets": [
+        "noodle"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "퍼짐·덜 익음·과조리의 주관적 체감; 일반 면 선호로 자동 전파 금지",
+      "followupQuestionKo": "면의 조리 상태가 어떠했나요?",
+      "profileLinkPolicy": "food_experience_observation_only",
+      "contextToAxis": {},
+      "mappingStatus": "no_basic_axis",
+      "intensityQuestionAllowed": false,
+      "recommendedDefault": "state_tag_only",
+      "ratingMeaning": "정량 강도 사용 금지",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "preparation_or_state",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [],
+      "notesV12": [
+        "면이 퍼졌다 ≠ 사용자가 부드러운 면 전체를 싫어한다"
+      ]
+    },
+    {
+      "aspectKey": "ingredient_cooking_state",
+      "labelKo": "재료 조리 상태",
+      "category": "cooking",
+      "intensityMode": "state_only",
+      "allowedTargets": [
+        "whole_dish",
+        "meat",
+        "fish",
+        "ingredient",
+        "egg"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "덜 익음·과조리·적절함 등 사용자 체감",
+      "followupQuestionKo": "재료의 익힘 상태가 어떠했나요?",
+      "profileLinkPolicy": "food_experience_observation_only",
+      "contextToAxis": {},
+      "mappingStatus": "no_basic_axis",
+      "intensityQuestionAllowed": false,
+      "recommendedDefault": "state_tag_only",
+      "ratingMeaning": "정량 강도 사용 금지",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "preparation_or_state",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": []
+    },
+    {
+      "aspectKey": "serving_temperature",
+      "labelKo": "음식 제공 온도",
+      "category": "cooking",
+      "intensityMode": "state_only",
+      "allowedTargets": [
+        "whole_dish",
+        "broth",
+        "noodle",
+        "meat",
+        "fish",
+        "ingredient",
+        "beverage"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "온도가 좋거나 너무 차갑거나 뜨거움",
+      "followupQuestionKo": "음식이 제공된 온도는 어떠했나요?",
+      "profileLinkPolicy": "food_experience_observation_only",
+      "contextToAxis": {},
+      "mappingStatus": "no_basic_axis",
+      "intensityQuestionAllowed": false,
+      "recommendedDefault": "state_tag_only",
+      "ratingMeaning": "정량 강도 사용 금지",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "preparation_or_state",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": []
+    },
+    {
+      "aspectKey": "ingredient_condition",
+      "labelKo": "재료 상태 체감",
+      "category": "cooking",
+      "intensityMode": "state_only",
+      "allowedTargets": [
+        "whole_dish",
+        "ingredient",
+        "meat",
+        "fish",
+        "shellfish"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "신선도/품질에 대한 사용자 체감. 안전 및 오염의 객관적 사실 단정 금지",
+      "followupQuestionKo": "재료 상태가 어떻게 느껴졌나요?",
+      "profileLinkPolicy": "food_experience_observation_only",
+      "contextToAxis": {},
+      "mappingStatus": "no_basic_axis",
+      "intensityQuestionAllowed": false,
+      "recommendedDefault": "state_tag_only",
+      "ratingMeaning": "정량 강도 사용 금지",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "preparation_or_state",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": []
+    },
+    {
+      "aspectKey": "food_novelty",
+      "labelKo": "새로운 맛 경험",
+      "category": "experience",
+      "intensityMode": "not_applicable",
+      "allowedTargets": [
+        "whole_dish"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "새로움이 만족에 미친 영향, 기본 맛 축과 구분",
+      "followupQuestionKo": "낯선 맛이라는 점이 식사 경험에 어떠한 영향을 주었나요?",
+      "profileLinkPolicy": "food_experience_observation_only",
+      "contextToAxis": {},
+      "mappingStatus": "no_basic_axis",
+      "intensityQuestionAllowed": false,
+      "recommendedDefault": "state_tag_only",
+      "ratingMeaning": "정량 강도 사용 금지",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "qualitative_experience",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": []
+    },
+    {
+      "aspectKey": "pungency_wasabi",
+      "labelKo": "와사비·겨자 코 자극",
+      "category": "pungency",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "whole_dish",
+        "sauce",
+        "ingredient"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "와사비·겨자 계열 코에 치고 올라오는 자극, 고추 매운맛과 구별",
+      "introducedIn": "1.1.0",
+      "followupQuestionKo": "와사비·겨자의 코 자극이 얼마나 강했나요?",
+      "profileLinkPolicy": "food_experience_observation_only",
+      "contextToAxis": {},
+      "mappingStatus": "no_basic_axis",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "pungency_allium",
+      "labelKo": "마늘·파 알싸한 자극",
+      "category": "pungency",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "whole_dish",
+        "sauce",
+        "ingredient"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "마늘·파의 알싸하고 매운 향미, 고추 매운맛과 구별",
+      "introducedIn": "1.1.0",
+      "followupQuestionKo": "마늘·파의 알싸함이 얼마나 강했나요?",
+      "profileLinkPolicy": "food_experience_observation_only",
+      "contextToAxis": {},
+      "mappingStatus": "no_basic_axis",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "aroma_roasted",
+      "labelKo": "구운·볶은 향",
+      "category": "aroma",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "whole_dish",
+        "broth",
+        "sauce",
+        "ingredient",
+        "meat",
+        "fish"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "불향, 볶은향 및 고소한 구운 향 중 직접 특정된 향",
+      "introducedIn": "1.1.0",
+      "followupQuestionKo": "구운·볶은 향이 얼마나 강했나요?",
+      "profileLinkPolicy": "food_experience_observation_only",
+      "contextToAxis": {},
+      "mappingStatus": "no_basic_axis",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "astringency",
+      "labelKo": "떫은 감각",
+      "category": "mouthfeel",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "whole_dish",
+        "beverage",
+        "ingredient",
+        "dessert"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "입안의 수렴감·떫은 느낌. 쓴맛과 구분; 신규 관측 정보로만 사용",
+      "introducedIn": "1.1.0",
+      "followupQuestionKo": "떫은 감각을 얼마나 강하게 느꼈나요?",
+      "profileLinkPolicy": "food_experience_observation_only",
+      "contextToAxis": {},
+      "mappingStatus": "no_basic_axis",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "체감된 감각의 강도",
+      "profileNote": "해당 음식 경험을 보존. 사용자의 일반 선호 수치에 자동 대입하거나 평균내지 않음",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상 또는 감각 속성이 불명확하거나 원문 근거가 없는 경우",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspectKey": "meat_dryness",
+      "labelKo": "육류 퍽퍽함·수분감",
+      "category": "texture",
+      "intensityMode": "state_only",
+      "allowedTargets": [
+        "meat"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "퍽퍽함·촉촉함 등 섭취 중 수분감. 질김(meat_tenderness)과는 독립",
+      "followupQuestionKo": "해당 고기가 퍽퍽했나요, 촉촉했나요?",
+      "profileLinkPolicy": "food_experience_observation_only",
+      "contextToAxis": {},
+      "mappingStatus": "candidate_only",
+      "intensityQuestionAllowed": false,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "상태 태그만 측정; 강도 점수 없음",
+      "profileNote": "음식별 경험으로만 보존. 기초 미각 선호 자동 변경 금지",
+      "collectionMeaning": "observed_state",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상·화자·관측/평가 여부가 불명확하거나 인용 근거가 없을 때",
+      "allowedScaleValues": [],
+      "notesV12": [
+        "기존 v1.1 질문이 국물에 고정되어 허용 대상 whole_dish/sauce/ingredient와 모순 → 문구 일반화"
+      ],
+      "introducedIn": "1.2.1-design",
+      "notesV121": [
+        "동일 식사에서 여러 태그가 나와도 독립 식사로 계산하지 않음"
+      ]
+    },
+    {
+      "aspectKey": "meat_juiciness",
+      "labelKo": "육류 육즙",
+      "category": "texture",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "meat"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "씹을 때 느끼는 육즙. 지방 함량·부드러움으로 자동 환산하지 않음",
+      "followupQuestionKo": "육즙이 얼마나 풍부하게 느껴졌나요?",
+      "profileLinkPolicy": "food_experience_observation_only",
+      "contextToAxis": {},
+      "mappingStatus": "candidate_only",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "맛/향 강도, 만족도와 별개",
+      "profileNote": "음식별 경험으로만 보존. 기초 미각 선호 자동 변경 금지",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상·화자·관측/평가 여부가 불명확하거나 인용 근거가 없을 때",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "notesV12": [
+        "기존 v1.1 질문이 국물에 고정되어 허용 대상 whole_dish/sauce/ingredient와 모순 → 문구 일반화"
+      ],
+      "introducedIn": "1.2.1-design",
+      "notesV121": [
+        "동일 식사에서 여러 태그가 나와도 독립 식사로 계산하지 않음"
+      ]
+    },
+    {
+      "aspectKey": "spice_aroma",
+      "labelKo": "향신료 향",
+      "category": "aroma",
+      "intensityMode": "sensory_1_5",
+      "allowedTargets": [
+        "whole_dish",
+        "broth",
+        "sauce",
+        "ingredient",
+        "meat"
+      ],
+      "candidateProfileAxes": [],
+      "definition": "후추·산초·마라 등의 향신료 향. 고추 매운맛·와사비·마늘 자극과 다름",
+      "followupQuestionKo": "향신료의 향이 얼마나 강하게 느껴졌나요?",
+      "profileLinkPolicy": "food_experience_observation_only",
+      "contextToAxis": {},
+      "mappingStatus": "candidate_only",
+      "intensityQuestionAllowed": true,
+      "recommendedDefault": "optional_followup",
+      "ratingMeaning": "맛/향 강도, 만족도와 별개",
+      "profileNote": "음식별 경험으로만 보존. 기초 미각 선호 자동 변경 금지",
+      "collectionMeaning": "perceived_sensory_intensity",
+      "profileMutation": "never_edit_basic_test; candidate_experience_evidence_only_after_user_approval",
+      "abstainWhen": "대상·화자·관측/평가 여부가 불명확하거나 인용 근거가 없을 때",
+      "allowedScaleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "notesV12": [
+        "기존 v1.1 질문이 국물에 고정되어 허용 대상 whole_dish/sauce/ingredient와 모순 → 문구 일반화"
+      ],
+      "introducedIn": "1.2.1-design",
+      "notesV121": [
+        "동일 식사에서 여러 태그가 나와도 독립 식사로 계산하지 않음"
+      ]
+    }
+  ],
+  "detailTags": [
+    {
+      "tagId": "too_salty",
+      "labelKo": "너무 짰다",
+      "allowedAspectKeys": [
+        "saltiness"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "사용자가 해당 음식의 짠맛을 과도하다고 느끼고 불만족",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "under_salted",
+      "labelKo": "간이 부족했다",
+      "allowedAspectKeys": [
+        "saltiness"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "싱겁게 느꼈고 불만족",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "salt_pleasant",
+      "labelKo": "짠 정도가 좋았다",
+      "allowedAspectKeys": [
+        "saltiness"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "해당 음식의 짠맛 수준을 긍정 평가",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "too_sweet",
+      "labelKo": "너무 달았다",
+      "allowedAspectKeys": [
+        "sweetness"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "단맛 과잉에 대한 불만",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "not_sweet_enough",
+      "labelKo": "단맛이 부족했다",
+      "allowedAspectKeys": [
+        "sweetness"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "단맛 부족에 대한 불만",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "sweetness_pleasant",
+      "labelKo": "단맛이 좋았다",
+      "allowedAspectKeys": [
+        "sweetness"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "단맛 수준을 긍정 평가",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "too_spicy",
+      "labelKo": "너무 매웠다",
+      "allowedAspectKeys": [
+        "spiciness"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "매운 자극 과잉 불만",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "not_spicy_enough",
+      "labelKo": "매운맛이 부족했다",
+      "allowedAspectKeys": [
+        "spiciness"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "매운맛 부족 불만",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "spiciness_pleasant",
+      "labelKo": "매운 정도가 좋았다",
+      "allowedAspectKeys": [
+        "spiciness"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "해당 매운 자극 수준에 만족",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "too_sour",
+      "labelKo": "신맛이 지나쳤다",
+      "allowedAspectKeys": [
+        "sourness"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "신맛이 지나쳤다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "not_sour_enough",
+      "labelKo": "신맛이 부족했다",
+      "allowedAspectKeys": [
+        "sourness"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "신맛이 부족했다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "sourness_pleasant",
+      "labelKo": "신맛이 좋았다",
+      "allowedAspectKeys": [
+        "sourness"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "신맛이 좋았다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "too_bitter",
+      "labelKo": "쓴맛이 너무 강했다",
+      "allowedAspectKeys": [
+        "bitterness"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "쓴맛이 너무 강했다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "bitterness_pleasant",
+      "labelKo": "쌉싸름한 맛이 좋았다",
+      "allowedAspectKeys": [
+        "bitterness"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "쌉싸름한 맛이 좋았다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "umami_pleasant",
+      "labelKo": "감칠맛이 좋았다",
+      "allowedAspectKeys": [
+        "umami"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "감칠맛이 좋았다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "umami_insufficient",
+      "labelKo": "감칠맛이 부족했다",
+      "allowedAspectKeys": [
+        "umami"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "감칠맛이 부족했다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "flavor_balance_good",
+      "labelKo": "맛의 균형이 좋았다",
+      "allowedAspectKeys": [
+        "flavor_balance"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "맛의 균형이 좋았다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "flavor_balance_bad",
+      "labelKo": "맛의 균형이 맞지 않았다",
+      "allowedAspectKeys": [
+        "flavor_balance"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "맛의 균형이 맞지 않았다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "fat_level_pleasant",
+      "labelKo": "기름진 정도가 좋았다",
+      "allowedAspectKeys": [
+        "fat_general",
+        "fat_broth",
+        "fat_meat",
+        "fat_fish",
+        "fat_offal"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "기름진 정도가 좋았다",
+      "requiresExplicitTarget": true,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "too_fatty",
+      "labelKo": "너무 기름졌다",
+      "allowedAspectKeys": [
+        "fat_general",
+        "fat_broth",
+        "fat_meat",
+        "fat_fish",
+        "fat_offal"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "너무 기름졌다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "fat_insufficient",
+      "labelKo": "지방감이 부족했다",
+      "allowedAspectKeys": [
+        "fat_general",
+        "fat_broth",
+        "fat_meat",
+        "fat_fish",
+        "fat_offal"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "지방감이 부족했다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "greasy_burden_present",
+      "labelKo": "느끼함이 부담스러웠다",
+      "allowedAspectKeys": [
+        "greasy_burden"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "높은 지방감 자체와 별도로 부담 반응 기록",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "greasy_burden_absent",
+      "labelKo": "느끼함 없이 먹기 좋았다",
+      "allowedAspectKeys": [
+        "greasy_burden"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "느끼함 없이 먹기 좋았다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "rich_body_pleasant",
+      "labelKo": "농후함이 좋았다",
+      "allowedAspectKeys": [
+        "broth_body",
+        "sauce_body"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "농후함이 좋았다",
+      "requiresExplicitTarget": true,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "too_thick",
+      "labelKo": "너무 걸쭉했다",
+      "allowedAspectKeys": [
+        "broth_body",
+        "sauce_body"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "너무 걸쭉했다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "too_thin",
+      "labelKo": "지나치게 묽었다",
+      "allowedAspectKeys": [
+        "broth_body",
+        "sauce_body"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "지나치게 묽었다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "aroma_pleasant",
+      "labelKo": "해당 향이 좋았다",
+      "allowedAspectKeys": [
+        "aroma_cooked_fish",
+        "aroma_raw_fish",
+        "aroma_shellfish",
+        "aroma_preserved_seafood",
+        "ferment_aroma_soy",
+        "ferment_aroma_vegetable",
+        "ferment_aroma_seafood",
+        "aroma_other"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "해당 향이 좋았다",
+      "requiresExplicitTarget": true,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "aroma_unpleasant",
+      "labelKo": "해당 향이 부담스러웠다",
+      "allowedAspectKeys": [
+        "aroma_cooked_fish",
+        "aroma_raw_fish",
+        "aroma_shellfish",
+        "aroma_preserved_seafood",
+        "ferment_aroma_soy",
+        "ferment_aroma_vegetable",
+        "ferment_aroma_seafood",
+        "aroma_other"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "해당 향이 부담스러웠다",
+      "requiresExplicitTarget": true,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "aroma_too_strong",
+      "labelKo": "향이 지나치게 강했다",
+      "allowedAspectKeys": [
+        "aroma_cooked_fish",
+        "aroma_raw_fish",
+        "aroma_shellfish",
+        "aroma_preserved_seafood",
+        "ferment_aroma_soy",
+        "ferment_aroma_vegetable",
+        "ferment_aroma_seafood",
+        "aroma_other"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "향이 지나치게 강했다",
+      "requiresExplicitTarget": true,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "raw_food_enjoyed",
+      "labelKo": "날음식이 만족스러웠다",
+      "allowedAspectKeys": [
+        "raw_food_preference"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "날음식이 만족스러웠다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "raw_food_disliked",
+      "labelKo": "날음식이 마음에 들지 않았다",
+      "allowedAspectKeys": [
+        "raw_food_preference"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "날음식이 마음에 들지 않았다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "raw_texture_disliked",
+      "labelKo": "날음식의 식감이 부담스러웠다",
+      "allowedAspectKeys": [
+        "raw_food_preference"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "날음식 전체 선호와 혼합 금지; 구체적 식감 태그 있으면 별도 기록",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "noodle_firm_pleasant",
+      "labelKo": "면의 단단함이 좋았다",
+      "allowedAspectKeys": [
+        "noodle_firmness"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "면의 단단함이 좋았다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "noodle_too_firm",
+      "labelKo": "면이 너무 단단했다",
+      "allowedAspectKeys": [
+        "noodle_firmness"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "면이 너무 단단했다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "noodle_too_soft",
+      "labelKo": "면이 너무 부드러웠다",
+      "allowedAspectKeys": [
+        "noodle_firmness"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "면이 너무 부드러웠다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "elastic_pleasant",
+      "labelKo": "탄력이 좋았다",
+      "allowedAspectKeys": [
+        "noodle_elasticity"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "탄력이 좋았다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "elastic_insufficient",
+      "labelKo": "탄력이 부족했다",
+      "allowedAspectKeys": [
+        "noodle_elasticity"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "탄력이 부족했다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "meat_tender_pleasant",
+      "labelKo": "고기가 부드러워서 좋았다",
+      "allowedAspectKeys": [
+        "meat_tenderness"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "고기가 부드러워서 좋았다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "meat_tough",
+      "labelKo": "고기가 질겼다",
+      "allowedAspectKeys": [
+        "meat_tenderness"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "고기가 질겼다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "fish_texture_pleasant",
+      "labelKo": "생선 식감이 좋았다",
+      "allowedAspectKeys": [
+        "fish_texture"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "생선 식감이 좋았다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "fish_texture_unpleasant",
+      "labelKo": "생선 식감이 아쉬웠다",
+      "allowedAspectKeys": [
+        "fish_texture"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "생선 식감이 아쉬웠다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "crisp_pleasant",
+      "labelKo": "바삭함이 좋았다",
+      "allowedAspectKeys": [
+        "crispiness"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "바삭함이 좋았다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "crisp_insufficient",
+      "labelKo": "바삭함이 부족했다",
+      "allowedAspectKeys": [
+        "crispiness"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "바삭함이 부족했다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "too_hard_crust",
+      "labelKo": "겉면이 지나치게 딱딱했다",
+      "allowedAspectKeys": [
+        "crispiness"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "겉면이 지나치게 딱딱했다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "chewy_pleasant",
+      "labelKo": "쫄깃함이 좋았다",
+      "allowedAspectKeys": [
+        "chewiness"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "쫄깃함이 좋았다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "chewy_too_much",
+      "labelKo": "지나치게 질기거나 쫄깃했다",
+      "allowedAspectKeys": [
+        "chewiness"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "지나치게 질기거나 쫄깃했다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "slippery_pleasant",
+      "labelKo": "미끈하거나 점성 있는 식감이 좋았다",
+      "allowedAspectKeys": [
+        "slipperiness"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "미끈하거나 점성 있는 식감이 좋았다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "slippery_unpleasant",
+      "labelKo": "미끈하거나 점성 있는 식감이 싫었다",
+      "allowedAspectKeys": [
+        "slipperiness"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "미끈하거나 점성 있는 식감이 싫었다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "noodles_overcooked",
+      "labelKo": "면이 퍼졌다",
+      "allowedAspectKeys": [
+        "noodle_cooking_state"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "음식점/조리 결과 평가. 부드러운 면 선호 자동 변경 금지",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "noodles_undercooked",
+      "labelKo": "면이 덜 익었다고 느꼈다",
+      "allowedAspectKeys": [
+        "noodle_cooking_state"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "객관적 위생 상태 판단 아님",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "noodles_cooked_well",
+      "labelKo": "면 조리 상태가 좋았다",
+      "allowedAspectKeys": [
+        "noodle_cooking_state"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "면 조리 상태가 좋았다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "overcooked",
+      "labelKo": "지나치게 익혔다",
+      "allowedAspectKeys": [
+        "ingredient_cooking_state"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "지나치게 익혔다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "undercooked_perceived",
+      "labelKo": "덜 익었다고 느꼈다",
+      "allowedAspectKeys": [
+        "ingredient_cooking_state"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "객관적 식품 안전 결론 금지",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only",
+      "safetyNote": "사용자의 느낌으로만 기록. 의학적/위생적 사실 진단 아님"
+    },
+    {
+      "tagId": "cooked_well",
+      "labelKo": "익힘 정도가 좋았다",
+      "allowedAspectKeys": [
+        "ingredient_cooking_state"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "익힘 정도가 좋았다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "served_too_cold",
+      "labelKo": "음식이 너무 차가웠다",
+      "allowedAspectKeys": [
+        "serving_temperature"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "음식이 너무 차가웠다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "served_too_hot",
+      "labelKo": "음식이 너무 뜨거웠다",
+      "allowedAspectKeys": [
+        "serving_temperature"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "음식이 너무 뜨거웠다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "temperature_pleasant",
+      "labelKo": "음식 온도가 적절했다",
+      "allowedAspectKeys": [
+        "serving_temperature"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "음식 온도가 적절했다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "ingredient_condition_good",
+      "labelKo": "재료 상태가 좋아 보였다",
+      "allowedAspectKeys": [
+        "ingredient_condition"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "감각적 인상, 실제 신선도 인증 아님",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "ingredient_condition_bad",
+      "labelKo": "재료 상태가 아쉬웠다",
+      "allowedAspectKeys": [
+        "ingredient_condition"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "감각적 인상, 실제 위생 안전 위험 확정 금지",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only",
+      "safetyNote": "사용자의 느낌으로만 기록. 의학적/위생적 사실 진단 아님"
+    },
+    {
+      "tagId": "new_flavor_enjoyed",
+      "labelKo": "새로운 맛이 좋았다",
+      "allowedAspectKeys": [
+        "food_novelty"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "새로운 맛이 좋았다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "new_flavor_disliked",
+      "labelKo": "낯선 맛이 부담스러웠다",
+      "allowedAspectKeys": [
+        "food_novelty"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "낯선 맛이 부담스러웠다",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "wasabi_pungency_pleasant",
+      "labelKo": "와사비·겨자 자극이 좋았다",
+      "allowedAspectKeys": [
+        "pungency_wasabi"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "와사비·겨자 자극이 좋았다",
+      "introducedIn": "1.1.0",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "wasabi_pungency_excessive",
+      "labelKo": "와사비·겨자 자극이 너무 강했다",
+      "allowedAspectKeys": [
+        "pungency_wasabi"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "와사비·겨자 자극이 너무 강했다",
+      "introducedIn": "1.1.0",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "allium_pungency_pleasant",
+      "labelKo": "마늘·파의 알싸함이 좋았다",
+      "allowedAspectKeys": [
+        "pungency_allium"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "마늘·파의 알싸함이 좋았다",
+      "introducedIn": "1.1.0",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "allium_pungency_excessive",
+      "labelKo": "마늘·파의 알싸함이 너무 강했다",
+      "allowedAspectKeys": [
+        "pungency_allium"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "마늘·파의 알싸함이 너무 강했다",
+      "introducedIn": "1.1.0",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "roasted_aroma_pleasant",
+      "labelKo": "구운·볶은 향이 좋았다",
+      "allowedAspectKeys": [
+        "aroma_roasted"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "구운·볶은 향이 좋았다",
+      "introducedIn": "1.1.0",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "roasted_aroma_excessive",
+      "labelKo": "구운·탄 향이 부담스러웠다",
+      "allowedAspectKeys": [
+        "aroma_roasted"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "구운·탄 향이 부담스러웠다",
+      "introducedIn": "1.1.0",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "astringency_pleasant",
+      "labelKo": "떫은 감각이 마음에 들었다",
+      "allowedAspectKeys": [
+        "astringency"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "떫은 감각이 마음에 들었다",
+      "introducedIn": "1.1.0",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "astringency_excessive",
+      "labelKo": "떫은 감각이 부담스러웠다",
+      "allowedAspectKeys": [
+        "astringency"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "떫은 감각이 부담스러웠다",
+      "introducedIn": "1.1.0",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "spiciness_burden_discomfort",
+      "labelKo": "매운 자극 때문에 섭취가 힘들었다",
+      "allowedAspectKeys": [
+        "spiciness"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "매운 자극 때문에 섭취가 힘들었다",
+      "introducedIn": "1.1.0",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "bitterness_insufficient",
+      "labelKo": "쓴맛이 부족해 아쉬웠다",
+      "allowedAspectKeys": [
+        "bitterness"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "쓴맛이 부족해 아쉬웠다",
+      "introducedIn": "1.1.0",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "umami_excessive",
+      "labelKo": "감칠맛이 과도해 부담스러웠다",
+      "allowedAspectKeys": [
+        "umami"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "감칠맛이 과도해 부담스러웠다",
+      "introducedIn": "1.1.0",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "aroma_too_weak",
+      "labelKo": "향이 기대보다 약했다",
+      "allowedAspectKeys": [
+        "aroma_cooked_fish",
+        "aroma_raw_fish",
+        "aroma_shellfish",
+        "aroma_preserved_seafood",
+        "ferment_aroma_soy",
+        "ferment_aroma_vegetable",
+        "ferment_aroma_seafood",
+        "aroma_other",
+        "aroma_roasted"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "향이 기대보다 약했다",
+      "introducedIn": "1.1.0",
+      "requiresExplicitTarget": true,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "texture_not_preferred",
+      "labelKo": "식감이 취향과 맞지 않았다",
+      "allowedAspectKeys": [
+        "fish_texture"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "식감이 취향과 맞지 않았다",
+      "introducedIn": "1.1.0",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "noodle_elasticity_too_much",
+      "labelKo": "면이 지나치게 탄력 있어 불편했다",
+      "allowedAspectKeys": [
+        "noodle_elasticity"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "면이 지나치게 탄력 있어 불편했다",
+      "introducedIn": "1.1.0",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only"
+    },
+    {
+      "tagId": "raw_food_safety_worry",
+      "labelKo": "날음식 섭취가 위생상 걱정됐다",
+      "allowedAspectKeys": [
+        "raw_food_preference"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "날음식 섭취가 위생상 걱정됐다",
+      "introducedIn": "1.1.0",
+      "requiresExplicitTarget": false,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_target_only",
+      "profileUse": "user_approved_experience_scope_only",
+      "safetyNote": "식품 안전 우려로 분류; G 알레르기 또는 명시 제외 설정으로 자동 승격 금지"
+    },
+    {
+      "tagId": "meat_dry_unpleasant",
+      "labelKo": "고기가 퍽퍽해서 아쉬웠다",
+      "allowedAspectKeys": [
+        "meat_dryness"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "수분감 부족에 대한 불만. 씹기 질긴 것과 다름",
+      "requiresExplicitTarget": true,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_speaker_dish_only",
+      "profileUse": "user_approved_experience_scope_only",
+      "introducedIn": "1.2.1-design",
+      "notesV121": "문장 묘사만으로 일반 미각 선호를 추정하지 않음"
+    },
+    {
+      "tagId": "meat_moist_pleasant",
+      "labelKo": "고기가 촉촉해서 좋았다",
+      "allowedAspectKeys": [
+        "meat_dryness"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "수분감 긍정. 육즙·지방량을 역산하지 않음",
+      "requiresExplicitTarget": true,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_speaker_dish_only",
+      "profileUse": "user_approved_experience_scope_only",
+      "introducedIn": "1.2.1-design",
+      "notesV121": "문장 묘사만으로 일반 미각 선호를 추정하지 않음"
+    },
+    {
+      "tagId": "meat_juicy_pleasant",
+      "labelKo": "육즙이 풍부해서 좋았다",
+      "allowedAspectKeys": [
+        "meat_juiciness"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "육즙 자체를 긍정 평가. 기름짐 선호로 자동 환산 금지",
+      "requiresExplicitTarget": true,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_speaker_dish_only",
+      "profileUse": "user_approved_experience_scope_only",
+      "introducedIn": "1.2.1-design",
+      "notesV121": "문장 묘사만으로 일반 미각 선호를 추정하지 않음"
+    },
+    {
+      "tagId": "meat_juiciness_insufficient",
+      "labelKo": "육즙이 부족해 아쉬웠다",
+      "allowedAspectKeys": [
+        "meat_juiciness"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "육즙 부족에 대한 부정적 평가",
+      "requiresExplicitTarget": true,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_speaker_dish_only",
+      "profileUse": "user_approved_experience_scope_only",
+      "introducedIn": "1.2.1-design",
+      "notesV121": "문장 묘사만으로 일반 미각 선호를 추정하지 않음"
+    },
+    {
+      "tagId": "off_odor_present",
+      "labelKo": "육류·내장에서 잡내가 느껴졌다",
+      "allowedAspectKeys": [
+        "aroma_other"
+      ],
+      "allowedSentiments": [
+        "negative",
+        "descriptive"
+      ],
+      "definition": "잡내가 존재한다는 주관적 관측. 불쾌감은 부정 진술에서만; 대상 meat/offal로 제한",
+      "requiresExplicitTarget": true,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_speaker_dish_only",
+      "profileUse": "user_approved_experience_scope_only",
+      "introducedIn": "1.2.1-design",
+      "notesV121": "문장 묘사만으로 일반 미각 선호를 추정하지 않음"
+    },
+    {
+      "tagId": "off_odor_absent",
+      "labelKo": "육류·내장에서 잡내가 나지 않았다",
+      "allowedAspectKeys": [
+        "aroma_other"
+      ],
+      "allowedSentiments": [
+        "positive",
+        "descriptive"
+      ],
+      "definition": "잡내 부재 표현. 긍정 평가는 “없어서 좋다” 등 명시적 긍정에서만",
+      "requiresExplicitTarget": true,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_speaker_dish_only",
+      "profileUse": "user_approved_experience_scope_only",
+      "introducedIn": "1.2.1-design",
+      "notesV121": "문장 묘사만으로 일반 미각 선호를 추정하지 않음"
+    },
+    {
+      "tagId": "spice_aroma_pleasant",
+      "labelKo": "향신료 향이 좋았다",
+      "allowedAspectKeys": [
+        "spice_aroma"
+      ],
+      "allowedSentiments": [
+        "positive"
+      ],
+      "definition": "향신료 향에 관한 명시적 만족",
+      "requiresExplicitTarget": true,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_speaker_dish_only",
+      "profileUse": "user_approved_experience_scope_only",
+      "introducedIn": "1.2.1-design",
+      "notesV121": "문장 묘사만으로 일반 미각 선호를 추정하지 않음"
+    },
+    {
+      "tagId": "spice_aroma_excessive",
+      "labelKo": "향신료 향이 강해서 부담스러웠다",
+      "allowedAspectKeys": [
+        "spice_aroma"
+      ],
+      "allowedSentiments": [
+        "negative"
+      ],
+      "definition": "향신료 향의 과도함에 대한 명시적 부담",
+      "requiresExplicitTarget": true,
+      "isSubjective": true,
+      "aiEmitRule": "explicit_semantic_evidence_and_valid_speaker_dish_only",
+      "profileUse": "user_approved_experience_scope_only",
+      "introducedIn": "1.2.1-design",
+      "notesV121": "문장 묘사만으로 일반 미각 선호를 추정하지 않음"
+    }
+  ],
+  "retiredIds": [],
+  "newAspects": [
+    "pungency_wasabi",
+    "pungency_allium",
+    "aroma_roasted",
+    "astringency",
+    "meat_dryness",
+    "meat_juiciness",
+    "spice_aroma"
+  ],
+  "newTags": [
+    "wasabi_pungency_pleasant",
+    "wasabi_pungency_excessive",
+    "allium_pungency_pleasant",
+    "allium_pungency_excessive",
+    "roasted_aroma_pleasant",
+    "roasted_aroma_excessive",
+    "astringency_pleasant",
+    "astringency_excessive",
+    "spiciness_burden_discomfort",
+    "bitterness_insufficient",
+    "umami_excessive",
+    "aroma_too_weak",
+    "texture_not_preferred",
+    "noodle_elasticity_too_much",
+    "raw_food_safety_worry",
+    "meat_dry_unpleasant",
+    "meat_moist_pleasant",
+    "meat_juicy_pleasant",
+    "meat_juiciness_insufficient",
+    "off_odor_present",
+    "off_odor_absent",
+    "spice_aroma_pleasant",
+    "spice_aroma_excessive"
+  ],
+  "releasePolicy": "All 40 v1.2 aspect IDs and 76 tag IDs stay unchanged. Add 3 aspects/8 tags; broaden aroma_other target by meat/offal; new schema version required for AI output; requires user acceptance before code integration.",
+  "humanReviewRequiredBeforeRecommendation": true,
+  "scaleSeparation": {
+    "sensory_1_5": "지각 강도. 1 거의 없음, 5 매우 강함. 호오/만족과 무관.",
+    "burden_1_5": "섭취 부담. 1 거의 부담 없음, 5 매우 큰 부담. 자극 강도와 무관.",
+    "state_only": "상태 선택만. 숫자 금지.",
+    "not_applicable": "감각 강도 질문을 적용하지 않음."
+  },
+  "capturePolicy": {
+    "entry": "overall_satisfaction -> positive_or_negative_factors -> selected_aspect_followup -> optional_free_text -> AI_proposals -> user_confirmation -> experience_evidence",
+    "optional_followup": true,
+    "no_autofill_intensity": true,
+    "no_per_review_full_axis_survey": true
+  },
+  "compatibility": "Additive: 40 legacy aspect IDs and 76 legacy tag IDs unchanged; no existing Plan/Taste JSON mutation; new AI schema has explicit version and requires adapter.",
+  "evidenceSpeakers": {
+    "author": "작성자 본인",
+    "companion": "동행인",
+    "quoted": "인용/제3자",
+    "unknown": "주체 불명"
+  },
+  "assertionModes": {
+    "observed": "직접 경험 기술",
+    "negated": "특성의 부재/부정 표현",
+    "hypothetical": "가정/추측",
+    "reported": "간접전달",
+    "uncertain": "확신 없음",
+    "comparative": "과거/타 식사 상대 비교"
+  },
+  "claimTypes": {
+    "sensory_description": "객관적 확정 아닌 감각 묘사",
+    "sensory_evaluation": "해당 음식 경험에 대한 만족/불만족",
+    "preparation_quality": "조리/서비스 등 식사별 평가",
+    "explicit_general_preference": "작성자가 평소 기호를 직접 진술"
+  },
+  "proposalDispositions": {
+    "candidate_only": "사용자 확인 화면의 잠정 후보, 자동 적용 금지",
+    "record_only": "경험 정보로만 보존, 추천 입력 금지",
+    "abstain": "태그 제안 철회, 검토 메모만 보존"
+  },
+  "newSinceV12": {
+    "aspects": [
+      "meat_dryness",
+      "meat_juiciness",
+      "spice_aroma"
+    ],
+    "tags": [
+      "meat_dry_unpleasant",
+      "meat_moist_pleasant",
+      "meat_juicy_pleasant",
+      "meat_juiciness_insufficient",
+      "off_odor_present",
+      "off_odor_absent",
+      "spice_aroma_pleasant",
+      "spice_aroma_excessive"
+    ],
+    "existingAspectUpdated": [
+      "aroma_other"
+    ]
+  }
+}

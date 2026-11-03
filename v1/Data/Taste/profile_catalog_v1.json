@@ -1,0 +1,206 @@
+{
+  "version": "1.0",
+  "attributeStatus": "No verified intensity dataset supplied",
+  "foods": [
+    {
+      "id": "salmon_nigiri",
+      "label": "생연어 니기리 초밥",
+      "genreId": "sushi",
+      "kind": "food",
+      "rawType": "fish",
+      "avoidanceTags": [
+        "seafood"
+      ],
+      "attributes": {},
+      "related": []
+    },
+    {
+      "id": "fish_sashimi",
+      "label": "생선회",
+      "genreId": "sashimi",
+      "kind": "food",
+      "rawType": "fish",
+      "avoidanceTags": [
+        "seafood"
+      ],
+      "attributes": {},
+      "related": []
+    },
+    {
+      "id": "hakata_ramen",
+      "label": "하카타 돈코츠 라멘",
+      "genreId": "ramen",
+      "kind": "food",
+      "rawType": null,
+      "avoidanceTags": [],
+      "attributes": {},
+      "related": []
+    },
+    {
+      "id": "shoyu_ramen",
+      "label": "쇼유 라멘",
+      "genreId": "ramen",
+      "kind": "food",
+      "rawType": null,
+      "avoidanceTags": [],
+      "attributes": {},
+      "related": []
+    },
+    {
+      "id": "miso_ramen",
+      "label": "미소 라멘",
+      "genreId": "ramen",
+      "kind": "food",
+      "rawType": null,
+      "avoidanceTags": [],
+      "attributes": {},
+      "related": []
+    },
+    {
+      "id": "beef_yakiniku",
+      "label": "소고기 야키니쿠",
+      "genreId": "yakiniku",
+      "kind": "food",
+      "rawType": null,
+      "avoidanceTags": [],
+      "attributes": {},
+      "related": []
+    },
+    {
+      "id": "pork_tonkatsu",
+      "label": "돼지고기 돈카츠",
+      "genreId": "tonkatsu",
+      "kind": "food",
+      "rawType": null,
+      "avoidanceTags": [],
+      "attributes": {},
+      "related": []
+    },
+    {
+      "id": "kake_udon",
+      "label": "가케 우동",
+      "genreId": "udon",
+      "kind": "food",
+      "rawType": null,
+      "avoidanceTags": [],
+      "attributes": {},
+      "related": []
+    },
+    {
+      "id": "zaru_soba",
+      "label": "자루 소바",
+      "genreId": "soba",
+      "kind": "food",
+      "rawType": null,
+      "avoidanceTags": [],
+      "attributes": {},
+      "related": []
+    },
+    {
+      "id": "shrimp_tempura",
+      "label": "새우 텐푸라",
+      "genreId": "tempura",
+      "kind": "food",
+      "rawType": null,
+      "avoidanceTags": [
+        "seafood"
+      ],
+      "attributes": {},
+      "related": []
+    },
+    {
+      "id": "chicken_yakitori",
+      "label": "닭고기 야키토리",
+      "genreId": "yakitori",
+      "kind": "food",
+      "rawType": null,
+      "avoidanceTags": [],
+      "attributes": {},
+      "related": []
+    },
+    {
+      "id": "unagi_kabayaki",
+      "label": "장어 가바야키",
+      "genreId": "eel",
+      "kind": "food",
+      "rawType": null,
+      "avoidanceTags": [
+        "seafood"
+      ],
+      "attributes": {},
+      "related": []
+    },
+    {
+      "id": "beef_gyudon",
+      "label": "소고기 규동",
+      "genreId": "gyudon",
+      "kind": "food",
+      "rawType": null,
+      "avoidanceTags": [],
+      "attributes": {},
+      "related": []
+    },
+    {
+      "id": "japanese_curry_rice",
+      "label": "일본식 카레라이스",
+      "genreId": "curry",
+      "kind": "food",
+      "rawType": null,
+      "avoidanceTags": [],
+      "attributes": {},
+      "related": []
+    },
+    {
+      "id": "osaka_okonomiyaki",
+      "label": "오사카 오코노미야키",
+      "genreId": "okonomiyaki",
+      "kind": "food",
+      "rawType": null,
+      "avoidanceTags": [],
+      "attributes": {},
+      "related": []
+    },
+    {
+      "id": "octopus_takoyaki",
+      "label": "문어 타코야키",
+      "genreId": "takoyaki",
+      "kind": "food",
+      "rawType": null,
+      "avoidanceTags": [
+        "seafood"
+      ],
+      "attributes": {},
+      "related": []
+    },
+    {
+      "id": "chicken_nabe",
+      "label": "닭고기 나베",
+      "genreId": "nabe",
+      "kind": "food",
+      "rawType": null,
+      "avoidanceTags": [],
+      "attributes": {},
+      "related": []
+    },
+    {
+      "id": "daikon_oden",
+      "label": "무 오뎅",
+      "genreId": "oden",
+      "kind": "food",
+      "rawType": null,
+      "avoidanceTags": [],
+      "attributes": {},
+      "related": []
+    },
+    {
+      "id": "matcha_icecream",
+      "label": "말차 아이스크림",
+      "genreId": "dessert",
+      "kind": "food",
+      "rawType": null,
+      "avoidanceTags": [],
+      "attributes": {},
+      "related": []
+    }
+  ]
+}

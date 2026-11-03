@@ -1,0 +1,201 @@
+{
+  "format": "tastory-data",
+  "schemaVersion": 1,
+  "files": [
+    {
+      "path": "Data/Bgm/catalog.json",
+      "bytes": 20409,
+      "sha256": "dcabfb2b8d46a2caf641672c4e4db50cfeda6e31457ec0cb7ff8250c26deed7f"
+    },
+    {
+      "path": "Data/City/README.txt",
+      "bytes": 7261,
+      "sha256": "939ead8cd4d53638612c7b561920ece3f07e64e928b2db47b96ea3e3ce37413a"
+    },
+    {
+      "path": "Data/City/fukuoka.json",
+      "bytes": 29887,
+      "sha256": "2305180094f7ef0a2341c402b7ff74dd3d19d551ba55c10c1fad69737127f395"
+    },
+    {
+      "path": "Data/City/kyoto.json",
+      "bytes": 29082,
+      "sha256": "f9542eeb8eb401d4be1585e9185b065067faa56aefe1c6d1cc05a5fdd5081b03"
+    },
+    {
+      "path": "Data/City/okinawa.json",
+      "bytes": 310,
+      "sha256": "6c904f350d8a1ce98f4051789778735aaba77b8d04e122deb4fe830ba212d7f4"
+    },
+    {
+      "path": "Data/City/osaka.json",
+      "bytes": 20957,
+      "sha256": "af69c392fa730dfc0166c723be41728d30bccf0c798f22a2393612d3c7397b87"
+    },
+    {
+      "path": "Data/City/sapporo.json",
+      "bytes": 21983,
+      "sha256": "e81c44983a5776fb48a6509506d3ac4ad72414876f6820cd859be3ecac69d569"
+    },
+    {
+      "path": "Data/City/tokyo.json",
+      "bytes": 34580,
+      "sha256": "2b29cd0e4d6feb30f3dc0ba8738d8c615862cbd7d0071266b7837ae923f52a54"
+    },
+    {
+      "path": "Data/Encyclopedia/README.md",
+      "bytes": 10057,
+      "sha256": "1296880039ee66b090eda9cc46c618278a46d3b828bf6dca3b6c6f397f9d969c"
+    },
+    {
+      "path": "Data/Encyclopedia/catalog.json",
+      "bytes": 556420,
+      "sha256": "811fa6df0d63e0e7214d227049f0dbfcc112b8d4fc6d9266358477642635866f"
+    },
+    {
+      "path": "Data/Encyclopedia/photo_credits.json",
+      "bytes": 37220,
+      "sha256": "c4c1bc37aa2978f3790c2837275ef1d2678d41bd2daf66cb4a99bb6a4745b37b"
+    },
+    {
+      "path": "Data/Encyclopedia/reviewed.json",
+      "bytes": 169180,
+      "sha256": "fdfb4ca91111333a2ab51af8f9e9e11e6eacd0d3c89d59a51c6fa3d2b4cdd023"
+    },
+    {
+      "path": "Data/Home/README.txt",
+      "bytes": 1772,
+      "sha256": "e783b2f6989469f76207077a2e7ceec38f91a39a78f46a7e344e58bdc3258129"
+    },
+    {
+      "path": "Data/Home/monthly.json",
+      "bytes": 12294,
+      "sha256": "5c00bf9be1757345f2ed5c0293afcc4b01782e8c0662c84a9234d4abf5e38516"
+    },
+    {
+      "path": "Data/Home/picks.json",
+      "bytes": 6147,
+      "sha256": "54bef1c712aec9ae7d1f26f61671dde28a9b16e8a75879b73354da54c26a953b"
+    },
+    {
+      "path": "Data/Intro/clips.json",
+      "bytes": 10677,
+      "sha256": "3d6dfbb97b5db0d5e4ebcca743597d5c93f9f73b09f803045e71efe77411fca8"
+    },
+    {
+      "path": "Data/Lodging/README.txt",
+      "bytes": 1722,
+      "sha256": "b779ab8c9133b3955e5301c8cf02a226562dc1843e9cba18eec836cfadc6f002"
+    },
+    {
+      "path": "Data/Lodging/fukuoka.json",
+      "bytes": 505507,
+      "sha256": "08002e84834109a1c39ab8e6ce9b3d3f5fb8de95c7233cf5f00ac884a4b138a3"
+    },
+    {
+      "path": "Data/Lodging/osaka.json",
+      "bytes": 702009,
+      "sha256": "071f649838135a47a6d3c7351489dc0936a6c9c83514c4fb5a7ecc9ddcc76041"
+    },
+    {
+      "path": "Data/Menu/README.txt",
+      "bytes": 8662,
+      "sha256": "9209302c3822684b859dc47af047e7dfb5e30a74a25595491a4f5b480cc8107b"
+    },
+    {
+      "path": "Data/Menu/brands.json",
+      "bytes": 8554,
+      "sha256": "6ba6e7a065b91e1146c96468568b1aebc6dee611fedcd0fcee6c2ef1c62f8360"
+    },
+    {
+      "path": "Data/Menu/names.json",
+      "bytes": 3618,
+      "sha256": "79f84aa43931adc95c069f0851a3f2fadad3ef2d7c02944143e203697e7effbc"
+    },
+    {
+      "path": "Data/Menu/phrases.json",
+      "bytes": 7340,
+      "sha256": "cc069b0b690d2ec97c34ce50b5108ccc4dd9cbb49a1d50d110e8f3a28dfd2dfd"
+    },
+    {
+      "path": "Data/Menu/terms.json",
+      "bytes": 4924,
+      "sha256": "d0a67c298f6ae58a459bf8b668ed9ef35a6a90b443e358829eaf955468c61a11"
+    },
+    {
+      "path": "Data/Menu/words.json",
+      "bytes": 52918,
+      "sha256": "6a08809dc44b2dcb77d859423dbb0576974c7e7957fd3561ce516cd864230c0b"
+    },
+    {
+      "path": "Data/Restaurants/fukuoka.json",
+      "bytes": 223674,
+      "sha256": "8f04e8316acbdf0424d6f933f496771916f029977183f42ba85ffbdc8d7a3623"
+    },
+    {
+      "path": "Data/Skins/skins_v2.json",
+      "bytes": 12641,
+      "sha256": "ba432e31eedf150881d515a41f0cbf0433b5578e20214af6561b199b6b663c65"
+    },
+    {
+      "path": "Data/Taste/SOURCE.txt",
+      "bytes": 585,
+      "sha256": "56eb40d913bf5ff0aff40ca8d3e6c0b98447e16d88040ad9be0287e40c3cf396"
+    },
+    {
+      "path": "Data/Taste/axes.json",
+      "bytes": 14300,
+      "sha256": "5fdeb0686914aebc0c7a9dbefd0f8b7dc75823fb0332cae0f9d852ffb8d03845"
+    },
+    {
+      "path": "Data/Taste/basic_v1.json",
+      "bytes": 77798,
+      "sha256": "af79f0d3c77ba339bfdf34c8ebe994dc3328906c11e37e30c62f4674f342456d"
+    },
+    {
+      "path": "Data/Taste/basic_v1_0_step04.json",
+      "bytes": 141029,
+      "sha256": "782e9de3fb1b7950e05c69599b2d87c5e16b5c33d23a6c80661d2dfd1ec9df52"
+    },
+    {
+      "path": "Data/Taste/basic_v1_1.json",
+      "bytes": 158597,
+      "sha256": "dbc0899230898e4b94a95395d627963413b66b129b8f11e41250ed120919a8ac"
+    },
+    {
+      "path": "Data/Taste/current_observation_v1_2_1.schema.json",
+      "bytes": 9424,
+      "sha256": "0ea9791ca146eef33f70bc0974f4bcc9fbebde924a05ea73499273544c684939"
+    },
+    {
+      "path": "Data/Taste/experience_tags_v1_2_1.json",
+      "bytes": 105659,
+      "sha256": "4021b2dc9975b441ac2b982b9519e843dcd2008585f3803ea481f9597d1948dc"
+    },
+    {
+      "path": "Data/Taste/foods.json",
+      "bytes": 1569,
+      "sha256": "5263856f867fe50f9316c545b45507891542fd19f0c2d3c20e00fc67f58dbeac"
+    },
+    {
+      "path": "Data/Taste/profile_catalog_v1.json",
+      "bytes": 4458,
+      "sha256": "c5c0f5594395bad1109599541f1c14f6961b011b52cf0aa6315846b52871928a"
+    },
+    {
+      "path": "Data/Taste/profile_engine_v1.json",
+      "bytes": 3995,
+      "sha256": "dd4a49fb146ce9d24d2d8b4ca9d5133a4b5fc43ccd0076379fb6f464e995476b"
+    },
+    {
+      "path": "Data/Taste/questions.json",
+      "bytes": 27430,
+      "sha256": "16e337cd17151e1c0342355d2656f005cdee38d2c86e9fa4b83d817bb32ec944"
+    },
+    {
+      "path": "Data/Taste/storage.json",
+      "bytes": 18129,
+      "sha256": "08a3c3676165264ca93c9bd10b1b8392d7eb7aa2e78f3b45fd531ebd61fb260e"
+    }
+  ]
+}

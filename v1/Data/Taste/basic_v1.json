@@ -1,0 +1,3061 @@
+{
+  "version": "basic-1.0",
+  "source": "docs/design/TASTORY_Basic_Taste_Test_v1.0.md",
+  "sections": [
+    {
+      "id": "A",
+      "title": "A · 기본 정보",
+      "note": "연령과 성별은 선택 사항이며 취향 점수를 계산하는 데 사용하지 않아요."
+    },
+    {
+      "id": "B",
+      "title": "B · 일본 방문 경험",
+      "note": "기억에 남는 음식은 평가나 실제 섭취 기록으로 자동 변환하지 않아요."
+    },
+    {
+      "id": "C",
+      "title": "C · 일본 음식 선호",
+      "note": "좋아요·별로예요 선택 개수 제한은 없어요. 고르지 않은 음식과 안 먹어본 음식은 별도로 보관해요."
+    },
+    {
+      "id": "D1",
+      "title": "D1 · 매운맛",
+      "note": "선호, 원하는 강도, 체감 강도와 섭취 부담을 각각 보관해요."
+    },
+    {
+      "id": "D2",
+      "title": "D2 · 단맛",
+      "note": ""
+    },
+    {
+      "id": "D3",
+      "title": "D3 · 짠맛",
+      "note": "평소 외식에서 느끼는 짠 정도는 선호와 평균 내지 않아요."
+    },
+    {
+      "id": "D4",
+      "title": "D4 · 신맛",
+      "note": "다른 맛이나 향보다 신맛 자체를 기준으로 답변해 주세요."
+    },
+    {
+      "id": "D5",
+      "title": "D5 · 감칠맛",
+      "note": "다시마·고기·표고버섯을 우린 육수에서 느낄 수 있는 맛이에요. 짠맛·단맛·기름짐과 달라요. 이 단일 응답은 보관하며 음식 적합도에는 자동 합산하지 않아요."
+    },
+    {
+      "id": "D6",
+      "title": "D6 · 기름짐",
+      "note": "선호와 느끼함의 부담은 별개예요. 예전 농후함 축을 이 응답으로 바꾸지 않아요."
+    },
+    {
+      "id": "D7",
+      "title": "D7 · 해산물 향",
+      "note": "맛이나 식감보다 먹을 때 느끼는 향을 평가해 주세요. 변질된 식품의 냄새는 제외해요."
+    },
+    {
+      "id": "D8",
+      "title": "D8 · 날음식",
+      "note": "생선회·육회·생굴처럼 익히지 않고 먹는 음식에 대한 선호예요. 위생 우려가 있어도 추천 제외 여부는 G영역에서 따로 확인해요."
+    },
+    {
+      "id": "D9",
+      "title": "D9 · 쓴맛",
+      "note": ""
+    },
+    {
+      "id": "D10",
+      "title": "D10 · 발효 향",
+      "note": "낫토·발효 절임 등의 향을 평가해 주세요. 맛·식감·상한 냄새는 제외해요. 0은 적극적 선호, 1은 거부감 없음으로 구별해요."
+    },
+    {
+      "id": "E",
+      "title": "E · 음식점 이용 성향",
+      "note": "음식점 선택 조건으로 보관하며 맛 점수에는 넣지 않아요."
+    },
+    {
+      "id": "F",
+      "title": "F · 다음 일본 미식 여행",
+      "note": "먹고 싶은 음식은 취향 점수나 실제 경험으로 바꾸지 않아요. 선택 개수 제한은 없어요."
+    },
+    {
+      "id": "G",
+      "title": "G · 알레르기·식이 제한·기피",
+      "note": "알레르기와 필수 식이 제한은 취향과 따로 보관해요. 음식점 메뉴의 성분과 교차접촉 가능성은 주문 전에 직접 확인해 주세요."
+    }
+  ],
+  "questions": [
+    {
+      "id": "BASIC_JP_EXPERIENCE",
+      "section": "A",
+      "question": "일본에 가본 적이 있나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "가본 적 있다",
+          "value": "visited",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "아직 가본 적 없다",
+          "value": "not_visited",
+          "score": null,
+          "status": "answered"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "BASIC_AGE",
+      "section": "A",
+      "question": "연령대를 선택해 주세요.",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "10대",
+          "value": "0",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "20대",
+          "value": "1",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "30대",
+          "value": "2",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "40대",
+          "value": "3",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "50대",
+          "value": "4",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "5",
+          "label": "60대 이상",
+          "value": "5",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "6",
+          "label": "응답하지 않음",
+          "value": "6",
+          "score": null,
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "BASIC_GENDER",
+      "section": "A",
+      "question": "성별을 선택해 주세요.",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "남성",
+          "value": "0",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "여성",
+          "value": "1",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "기타",
+          "value": "2",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "응답하지 않음",
+          "value": "3",
+          "score": null,
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "JP_VISIT_COUNT",
+      "section": "B",
+      "question": "일본에 몇 번 정도 방문했나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "1회",
+          "value": "1",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "2~3회",
+          "value": "2to3",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "4~6회",
+          "value": "4to6",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "7회 이상",
+          "value": "7plus",
+          "score": null,
+          "status": "answered"
+        }
+      ],
+      "showIf": {
+        "question": "BASIC_JP_EXPERIENCE",
+        "value": "visited"
+      }
+    },
+    {
+      "id": "JP_FOOD_MEMORY",
+      "section": "B",
+      "question": "방문한 지역과 기억에 남는 음식",
+      "type": "memories",
+      "showIf": {
+        "question": "BASIC_JP_EXPERIENCE",
+        "value": "visited"
+      }
+    },
+    {
+      "id": "FOOD_GENRE",
+      "section": "C",
+      "question": "각 음식의 경험과 선호를 골라 주세요.",
+      "type": "genre_grid"
+    },
+    {
+      "id": "REGIONAL_FOOD_MEMORY",
+      "section": "C",
+      "question": "지역 향토 음식에 대한 경험이나 선호가 있다면 적어 주세요.",
+      "type": "text",
+      "note": "향토 음식은 일반 음식군과 별도로 보관해요."
+    },
+    {
+      "id": "V1_SPICY_LIKING",
+      "section": "D1",
+      "question": "매운 음식을 선호하는 편인가요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "예",
+          "value": "yes",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "아니요",
+          "value": "no",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "어느 쪽도 아니다",
+          "value": "indifferent",
+          "score": null,
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "V1_SPICY_INTENSITY",
+      "section": "D1",
+      "question": "평소 어느 정도의 매운맛을 즐겨 찾으시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "살짝 매콤한 정도",
+          "value": "0",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "매운맛이 분명하게 느껴지는 정도",
+          "value": "1",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "꽤 매운 정도",
+          "value": "2",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "매우 강하게 매운 정도",
+          "value": "3",
+          "score": null,
+          "status": "answered"
+        }
+      ],
+      "showIf": {
+        "question": "V1_SPICY_LIKING",
+        "value": "yes"
+      }
+    },
+    {
+      "id": "V1_SPICY_REASON",
+      "section": "D1",
+      "question": "매운 음식을 선호하지 않는 가장 큰 이유는 무엇인가요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매운맛 자체가 싫어서",
+          "value": "taste",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "입안이 화끈거리거나 아픈 느낌이 싫어서",
+          "value": "pain",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "먹은 뒤 속이 불편해서",
+          "value": "discomfort",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "다른 맛을 더 선호해서",
+          "value": "other_tastes",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "기타 (직접 입력)",
+          "value": "other",
+          "score": null,
+          "status": "answered"
+        }
+      ],
+      "showIf": {
+        "question": "V1_SPICY_LIKING",
+        "value": "no"
+      },
+      "other": true
+    },
+    {
+      "id": "V1_SPICY_CALIBRATION",
+      "section": "D1",
+      "question": "익숙한 기준 음식의 경험·체감 매운맛·섭취 부담",
+      "type": "calibration",
+      "references": [
+        "삼양 불닭볶음면 오리지널",
+        "엽기떡볶이 오리지널",
+        "틈새라면 오리지널",
+        "생청양고추"
+      ],
+      "maxSelections": 3,
+      "note": "최대 3개. 조리·매장 편차가 있으므로 절대 강도나 취향 점수로 바꾸지 않아요."
+    },
+    {
+      "id": "V1_SWEET_MEAL",
+      "section": "D2",
+      "question": "식사 메뉴에서 느껴지는 단맛을 얼마나 선호하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "unknown",
+          "label": "잘 모르겠다",
+          "value": null,
+          "score": null,
+          "status": "unknown"
+        }
+      ],
+      "axis": "sweetness_meal",
+      "note": ""
+    },
+    {
+      "id": "V1_SWEET_DESSERT",
+      "section": "D2",
+      "question": "디저트에서 느껴지는 단맛을 얼마나 선호하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "unknown",
+          "label": "잘 모르겠다",
+          "value": null,
+          "score": null,
+          "status": "unknown"
+        }
+      ],
+      "axis": "sweetness_dessert",
+      "note": ""
+    },
+    {
+      "id": "V1_SWEET_BEVERAGE",
+      "section": "D2",
+      "question": "음료에서 느껴지는 단맛을 얼마나 선호하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "unknown",
+          "label": "잘 모르겠다",
+          "value": null,
+          "score": null,
+          "status": "unknown"
+        }
+      ],
+      "axis": "sweetness_beverage",
+      "note": ""
+    },
+    {
+      "id": "V1_SWEET_INTENSITY",
+      "section": "D2",
+      "question": "단맛이 강한 음식이나 음료에 대해 어떻게 느끼시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "조금만 강해져도 부담스럽다",
+          "value": "burdensome",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "적당히 달콤한 정도를 선호한다",
+          "value": "moderate",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "꽤 달콤해도 부담 없이 즐긴다",
+          "value": "strong",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "매우 강한 단맛도 즐겨 먹는다",
+          "value": "very_strong",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "잘 모르겠다",
+          "value": null,
+          "score": null,
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "V1_SALT_PREFERENCE",
+      "section": "D3",
+      "question": "같은 음식이라면 어느 쪽의 간을 더 선호하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "간이 매우 약한 음식",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "간이 비교적 약한 음식",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "어느 쪽이든 크게 상관없다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "짭짤한 맛이 분명하게 느껴지는 음식",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "간이 강하고 짠맛이 뚜렷한 음식",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        }
+      ],
+      "axis": "taste_salt"
+    },
+    {
+      "id": "V1_SALT_PERCEPTION",
+      "section": "D3",
+      "question": "평소 음식점에서 식사할 때, 음식의 간을 어떻게 느끼는 경우가 많나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "대부분의 음식이 짜게 느껴진다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "다소 짜게 느껴지는 경우가 많다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 짜거나 싱겁게 느껴지는 경우가 많지 않다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "다소 싱겁게 느껴지는 경우가 많다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "대부분의 음식이 싱겁게 느껴진다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "5",
+          "label": "잘 모르겠다 / 외식 경험이 적다",
+          "value": null,
+          "score": null,
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "V1_SOUR_FRUIT",
+      "section": "D4",
+      "question": "과일에서 느껴지는 새콤한 신맛을 얼마나 좋아하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "unknown",
+          "label": "잘 모르겠다",
+          "value": null,
+          "score": null,
+          "status": "unknown"
+        }
+      ],
+      "axis": "sourness_fruit",
+      "note": "신 귤, 새콤한 사과, 키위"
+    },
+    {
+      "id": "V1_SOUR_VINEGAR",
+      "section": "D4",
+      "question": "식초나 새콤한 양념에서 느껴지는 신맛을 얼마나 좋아하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "unknown",
+          "label": "잘 모르겠다",
+          "value": null,
+          "score": null,
+          "status": "unknown"
+        }
+      ],
+      "axis": "sourness_vinegar",
+      "note": "초무침, 초절임, 폰즈 소스"
+    },
+    {
+      "id": "V1_UMAMI",
+      "section": "D5",
+      "question": "음식에서 느껴지는 감칠맛을 얼마나 좋아하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "unknown",
+          "label": "감칠맛이 어떤 맛인지 잘 모르겠다",
+          "value": null,
+          "score": null,
+          "status": "unknown"
+        }
+      ],
+      "axis": "taste_umami",
+      "note": ""
+    },
+    {
+      "id": "V1_FAT_GENERAL",
+      "section": "D6",
+      "question": "기름기가 많은 음식을 얼마나 좋아하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "unknown",
+          "label": "잘 모르겠다",
+          "value": null,
+          "score": null,
+          "status": "unknown"
+        }
+      ],
+      "axis": "taste_fat",
+      "note": "음식의 종류나 조리 방식보다 기름진 정도에 대한 평소 선호를 기준으로 답변해 주세요."
+    },
+    {
+      "id": "V1_FAT_BURDEN",
+      "section": "D6",
+      "question": "기름진 음식을 먹을 때 느끼함이 어느 정도 부담되시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "기름진 음식을 먹어도 느끼함이 거의 부담되지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "많이 기름지지만 않으면 부담되지 않는다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "기름진 음식을 먹으면 비교적 쉽게 느끼해진다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "기름기가 조금만 많아도 느끼해서 먹기 어렵다",
+          "value": 3,
+          "score": 3,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "잘 모르겠다",
+          "value": null,
+          "score": null,
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "V1_FAT_MEAT",
+      "section": "D6",
+      "question": "육류의 지방을 얼마나 선호하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "never_tried",
+          "label": "먹어본 적 없다",
+          "value": null,
+          "score": null,
+          "status": "never_tried"
+        },
+        {
+          "id": "uncertain",
+          "label": "경험했지만 판단하기 어렵다",
+          "value": null,
+          "score": null,
+          "status": "uncertain"
+        }
+      ],
+      "axis": "fat_meat",
+      "note": "삼겹살 비계, 소고기 마블링"
+    },
+    {
+      "id": "V1_FAT_FISH",
+      "section": "D6",
+      "question": "생선의 지방을 얼마나 선호하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "never_tried",
+          "label": "먹어본 적 없다",
+          "value": null,
+          "score": null,
+          "status": "never_tried"
+        },
+        {
+          "id": "uncertain",
+          "label": "경험했지만 판단하기 어렵다",
+          "value": null,
+          "score": null,
+          "status": "uncertain"
+        }
+      ],
+      "axis": "fat_fish",
+      "note": "참치 대뱃살, 기름진 고등어"
+    },
+    {
+      "id": "V1_FAT_BROTH",
+      "section": "D6",
+      "question": "국물의 기름기을 얼마나 선호하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "never_tried",
+          "label": "먹어본 적 없다",
+          "value": null,
+          "score": null,
+          "status": "never_tried"
+        },
+        {
+          "id": "uncertain",
+          "label": "경험했지만 판단하기 어렵다",
+          "value": null,
+          "score": null,
+          "status": "uncertain"
+        }
+      ],
+      "axis": "fat_broth",
+      "note": "돈코츠라멘 기름층, 기름진 고기 육수"
+    },
+    {
+      "id": "V1_FAT_OFFAL",
+      "section": "D6",
+      "question": "내장 요리의 지방을 얼마나 선호하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "never_tried",
+          "label": "먹어본 적 없다",
+          "value": null,
+          "score": null,
+          "status": "never_tried"
+        },
+        {
+          "id": "uncertain",
+          "label": "경험했지만 판단하기 어렵다",
+          "value": null,
+          "score": null,
+          "status": "uncertain"
+        }
+      ],
+      "axis": "fat_offal",
+      "note": "대창 지방"
+    },
+    {
+      "id": "V1_SEAFOOD_AROMA",
+      "section": "D7",
+      "question": "생선이나 해산물에서 느껴지는 특유의 향을 얼마나 좋아하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "unknown",
+          "label": "잘 모르겠다",
+          "value": null,
+          "score": null,
+          "status": "unknown"
+        }
+      ],
+      "axis": "seafood_aroma_preference",
+      "note": ""
+    },
+    {
+      "id": "V1_AROMA_COOKED_FISH",
+      "section": "D7",
+      "question": "조리된 생선의 향을 얼마나 선호하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "never_tried",
+          "label": "먹어본 적 없다",
+          "value": null,
+          "score": null,
+          "status": "never_tried"
+        },
+        {
+          "id": "uncertain",
+          "label": "먹어봤지만 향이 기억나지 않는다",
+          "value": null,
+          "score": null,
+          "status": "uncertain"
+        }
+      ],
+      "axis": "seafood_aroma_cooked_fish",
+      "note": "고등어구이, 꽁치구이, 생선조림"
+    },
+    {
+      "id": "V1_AROMA_RAW_FISH",
+      "section": "D7",
+      "question": "날생선의 향을 얼마나 선호하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "never_tried",
+          "label": "먹어본 적 없다",
+          "value": null,
+          "score": null,
+          "status": "never_tried"
+        },
+        {
+          "id": "uncertain",
+          "label": "먹어봤지만 향이 기억나지 않는다",
+          "value": null,
+          "score": null,
+          "status": "uncertain"
+        }
+      ],
+      "axis": "seafood_aroma_raw_fish",
+      "note": "생선회, 생선 초밥"
+    },
+    {
+      "id": "V1_AROMA_SHELLFISH",
+      "section": "D7",
+      "question": "조개류의 향을 얼마나 선호하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "never_tried",
+          "label": "먹어본 적 없다",
+          "value": null,
+          "score": null,
+          "status": "never_tried"
+        },
+        {
+          "id": "uncertain",
+          "label": "먹어봤지만 향이 기억나지 않는다",
+          "value": null,
+          "score": null,
+          "status": "uncertain"
+        }
+      ],
+      "axis": "seafood_aroma_shellfish",
+      "note": "바지락탕, 조개찜"
+    },
+    {
+      "id": "V1_AROMA_PRESERVED_OFFAL",
+      "section": "D7",
+      "question": "젓갈·해산물 내장의 강한 향을 얼마나 선호하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "never_tried",
+          "label": "먹어본 적 없다",
+          "value": null,
+          "score": null,
+          "status": "never_tried"
+        },
+        {
+          "id": "uncertain",
+          "label": "먹어봤지만 향이 기억나지 않는다",
+          "value": null,
+          "score": null,
+          "status": "uncertain"
+        }
+      ],
+      "axis": "seafood_aroma_preserved_offal",
+      "note": "오징어젓갈, 시오카라, 해산물 내장 요리"
+    },
+    {
+      "id": "V1_RAW_GENERAL",
+      "section": "D8",
+      "question": "익히지 않은 음식에 대해 평소 어떻게 생각하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "익히지 않은 음식은 전반적으로 매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "익힌 음식을 더 선호하는 편이다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "음식의 종류에 따라 선호가 크게 다르다",
+          "value": "depends_on_type",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "익히지 않은 음식도 좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "5",
+          "label": "익히지 않은 음식을 매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "6",
+          "label": "잘 모르겠다",
+          "value": null,
+          "score": null,
+          "status": "unknown"
+        }
+      ],
+      "axis": "raw_general"
+    },
+    {
+      "id": "V1_RAW_FISH",
+      "section": "D8",
+      "question": "날생선를 얼마나 선호하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "never_tried",
+          "label": "먹어본 적 없다",
+          "value": null,
+          "score": null,
+          "status": "never_tried"
+        },
+        {
+          "id": "uncertain",
+          "label": "경험했지만 판단하기 어렵다",
+          "value": null,
+          "score": null,
+          "status": "uncertain"
+        }
+      ],
+      "axis": "raw_fish",
+      "note": "생선회, 생선 네타를 사용하는 초밥"
+    },
+    {
+      "id": "V1_RAW_MEAT",
+      "section": "D8",
+      "question": "날육류를 얼마나 선호하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "never_tried",
+          "label": "먹어본 적 없다",
+          "value": null,
+          "score": null,
+          "status": "never_tried"
+        },
+        {
+          "id": "uncertain",
+          "label": "경험했지만 판단하기 어렵다",
+          "value": null,
+          "score": null,
+          "status": "uncertain"
+        }
+      ],
+      "axis": "raw_meat",
+      "note": "육회, 생고기 요리"
+    },
+    {
+      "id": "V1_RAW_SHELLFISH",
+      "section": "D8",
+      "question": "생굴·날조개류를 얼마나 선호하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "never_tried",
+          "label": "먹어본 적 없다",
+          "value": null,
+          "score": null,
+          "status": "never_tried"
+        },
+        {
+          "id": "uncertain",
+          "label": "경험했지만 판단하기 어렵다",
+          "value": null,
+          "score": null,
+          "status": "uncertain"
+        }
+      ],
+      "axis": "raw_shellfish",
+      "note": "생굴, 익히지 않고 제공되는 조개류"
+    },
+    {
+      "id": "V1_RAW_EGG",
+      "section": "D8",
+      "question": "날달걀를 얼마나 선호하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "never_tried",
+          "label": "먹어본 적 없다",
+          "value": null,
+          "score": null,
+          "status": "never_tried"
+        },
+        {
+          "id": "uncertain",
+          "label": "경험했지만 판단하기 어렵다",
+          "value": null,
+          "score": null,
+          "status": "uncertain"
+        }
+      ],
+      "axis": "raw_egg",
+      "note": "날달걀을 곁들인 밥, 날달걀에 찍어 먹는 요리"
+    },
+    {
+      "id": "V1_RAW_REASONS",
+      "section": "D8",
+      "question": "해당 날음식을 선호하지 않는 이유를 모두 골라 주세요.",
+      "type": "raw_reasons",
+      "options": [
+        {
+          "id": "0",
+          "label": "맛이나 향이 마음에 들지 않아서",
+          "value": "taste_aroma",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "익히지 않은 음식의 식감이 싫어서",
+          "value": "texture",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "위생이나 식중독이 걱정되어서",
+          "value": "safety_concern",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "익히지 않은 음식을 먹는 것이 익숙하지 않아서",
+          "value": "unfamiliar",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "개인적인 식이 원칙 때문에",
+          "value": "dietary_principle",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "5",
+          "label": "기타 — 직접 입력",
+          "value": "other",
+          "score": null,
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "V1_BITTER_GENERAL",
+      "section": "D9",
+      "question": "음식이나 음료에서 느껴지는 쓴맛을 얼마나 좋아하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "unknown",
+          "label": "잘 모르겠다",
+          "value": null,
+          "score": null,
+          "status": "unknown"
+        }
+      ],
+      "axis": "taste_bitter",
+      "note": ""
+    },
+    {
+      "id": "V1_BITTER_COFFEE",
+      "section": "D9",
+      "question": "커피의 쓴맛을 얼마나 선호하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "never_tried",
+          "label": "먹어본 적 없다",
+          "value": null,
+          "score": null,
+          "status": "never_tried"
+        },
+        {
+          "id": "uncertain",
+          "label": "경험했지만 판단하기 어렵다",
+          "value": null,
+          "score": null,
+          "status": "uncertain"
+        }
+      ],
+      "axis": "bitter_coffee",
+      "note": "우유나 설탕을 넣지 않은 블랙커피"
+    },
+    {
+      "id": "V1_BITTER_CACAO",
+      "section": "D9",
+      "question": "카카오의 쓴맛을 얼마나 선호하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "never_tried",
+          "label": "먹어본 적 없다",
+          "value": null,
+          "score": null,
+          "status": "never_tried"
+        },
+        {
+          "id": "uncertain",
+          "label": "경험했지만 판단하기 어렵다",
+          "value": null,
+          "score": null,
+          "status": "uncertain"
+        }
+      ],
+      "axis": "bitter_cacao",
+      "note": "카카오 함량 약 85%의 다크초콜릿"
+    },
+    {
+      "id": "V1_BITTER_CITRUS",
+      "section": "D9",
+      "question": "감귤류의 쓴맛을 얼마나 선호하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "never_tried",
+          "label": "먹어본 적 없다",
+          "value": null,
+          "score": null,
+          "status": "never_tried"
+        },
+        {
+          "id": "uncertain",
+          "label": "경험했지만 판단하기 어렵다",
+          "value": null,
+          "score": null,
+          "status": "uncertain"
+        }
+      ],
+      "axis": "bitter_citrus",
+      "note": "자몽 과육의 특유의 씁쓸한 맛"
+    },
+    {
+      "id": "V1_BITTER_VEGETABLE",
+      "section": "D9",
+      "question": "채소의 쓴맛을 얼마나 선호하시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "매우 싫어한다",
+          "value": -2,
+          "score": -2,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "별로 좋아하지 않는다",
+          "value": -1,
+          "score": -1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "특별히 좋아하거나 싫어하지 않는다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "좋아하는 편이다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "매우 좋아한다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "never_tried",
+          "label": "먹어본 적 없다",
+          "value": null,
+          "score": null,
+          "status": "never_tried"
+        },
+        {
+          "id": "uncertain",
+          "label": "경험했지만 판단하기 어렵다",
+          "value": null,
+          "score": null,
+          "status": "uncertain"
+        }
+      ],
+      "axis": "bitter_vegetable",
+      "note": "도라지나물·도라지무침에서 느껴지는 도라지 자체의 쓴맛"
+    },
+    {
+      "id": "V1_BITTER_BURDEN",
+      "section": "D9",
+      "question": "쓴맛이 강한 음식이나 음료를 먹을 때 어떻게 느끼시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "쓴맛이 강해도 거의 부담스럽지 않다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "쓴맛이 상당히 강하지만 않으면 괜찮다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "쓴맛이 강해지면 먹기 부담스럽다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "쓴맛이 조금만 강해도 먹기 어렵다",
+          "value": 3,
+          "score": 3,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "잘 모르겠다",
+          "value": null,
+          "score": null,
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "V1_FERMENTATION_GENERAL",
+      "section": "D10",
+      "question": "발효 음식 특유의 강한 향에 대해 어떻게 느끼시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "강한 발효 향도 좋아하는 편이다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "특별히 거부감이 없다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "약간 거부감이 있지만 먹는 데 큰 문제는 없다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "강한 발효 향이 불쾌하게 느껴진다",
+          "value": 3,
+          "score": 3,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "발효 향 때문에 음식을 먹기 어려울 때가 있다",
+          "value": 4,
+          "score": 4,
+          "status": "answered"
+        },
+        {
+          "id": "5",
+          "label": "발효 향이 어떤 것인지 잘 모르겠다",
+          "value": null,
+          "score": null,
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "V1_FERMENTATION_SOY",
+      "section": "D10",
+      "question": "콩 발효 향 — 낫토에 대해 어떻게 느끼시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "향을 좋아하는 편이다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "특별히 거부감이 없다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "약간 거부감이 있지만 먹을 수 있다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "향이 불쾌하게 느껴진다",
+          "value": 3,
+          "score": 3,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "향 때문에 먹기 어렵다",
+          "value": 4,
+          "score": 4,
+          "status": "answered"
+        },
+        {
+          "id": "never_tried",
+          "label": "먹어본 적 없고 향도 잘 모른다",
+          "status": "never_tried",
+          "value": null,
+          "score": null
+        },
+        {
+          "id": "uncertain",
+          "label": "경험했지만 향이 기억나지 않는다",
+          "status": "uncertain",
+          "value": null,
+          "score": null
+        }
+      ]
+    },
+    {
+      "id": "V1_FERMENTATION_VEGETABLE",
+      "section": "D10",
+      "question": "채소 발효 향 — 누카즈케(쌀겨 절임)에 대해 어떻게 느끼시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "향을 좋아하는 편이다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "특별히 거부감이 없다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "약간 거부감이 있지만 먹을 수 있다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "향이 불쾌하게 느껴진다",
+          "value": 3,
+          "score": 3,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "향 때문에 먹기 어렵다",
+          "value": 4,
+          "score": 4,
+          "status": "answered"
+        },
+        {
+          "id": "never_tried",
+          "label": "먹어본 적 없고 향도 잘 모른다",
+          "status": "never_tried",
+          "value": null,
+          "score": null
+        },
+        {
+          "id": "uncertain",
+          "label": "경험했지만 향이 기억나지 않는다",
+          "status": "uncertain",
+          "value": null,
+          "score": null
+        }
+      ]
+    },
+    {
+      "id": "V1_FERMENTATION_SEAFOOD",
+      "section": "D10",
+      "question": "해산물 발효·숙성 향 — 시오카라에 대해 어떻게 느끼시나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "향을 좋아하는 편이다",
+          "value": 0,
+          "score": 0,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "특별히 거부감이 없다",
+          "value": 1,
+          "score": 1,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "약간 거부감이 있지만 먹을 수 있다",
+          "value": 2,
+          "score": 2,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "향이 불쾌하게 느껴진다",
+          "value": 3,
+          "score": 3,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "향 때문에 먹기 어렵다",
+          "value": 4,
+          "score": 4,
+          "status": "answered"
+        },
+        {
+          "id": "never_tried",
+          "label": "먹어본 적 없고 향도 잘 모른다",
+          "status": "never_tried",
+          "value": null,
+          "score": null
+        },
+        {
+          "id": "uncertain",
+          "label": "경험했지만 향이 기억나지 않는다",
+          "status": "uncertain",
+          "value": null,
+          "score": null
+        }
+      ]
+    },
+    {
+      "id": "V1_REST_WAIT",
+      "section": "E",
+      "question": "맛있는 음식점을 위해 최대 얼마나 기다릴 수 있나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "대기가 있는 음식점은 피하고 싶다",
+          "value": "0",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "15분 이내",
+          "value": "1",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "16~30분",
+          "value": "2",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "31~60분",
+          "value": "3",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "1시간 이상도 기다릴 수 있다",
+          "value": "4",
+          "score": null,
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "V1_REST_BOOKING",
+      "section": "E",
+      "question": "예약이 필요한 음식점에 대해 어떻게 생각하나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "가능하면 예약이 필요 없는 곳을 선택한다",
+          "value": "0",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "온라인에서 간단하게 예약할 수 있다면 괜찮다",
+          "value": "1",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "예약 방법을 안내받거나 대행받을 수 있다면 괜찮다",
+          "value": "2",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "예약 방식과 관계없이 원하는 음식점이라면 예약한다",
+          "value": "3",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "원하는 음식점을 확실히 방문하기 위해 사전 예약을 선호한다",
+          "value": "4",
+          "score": null,
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "V1_REST_INFO",
+      "section": "E",
+      "question": "일본에서 음식점을 선택할 때 어떤 정보를 가장 중요하게 생각하나요?",
+      "type": "multi",
+      "options": [
+        {
+          "id": "0",
+          "label": "현지인이 자주 방문한다는 정보",
+          "value": "0",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "방문객의 평점과 실제 후기",
+          "value": "1",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "그 음식점을 대표하는 음식이나 전문성",
+          "value": "2",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "SNS·미디어에서의 인기",
+          "value": "3",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "일본 여행자들 사이의 추천",
+          "value": "4",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "5",
+          "label": "직접 확인할 수 있는 메뉴와 음식 사진",
+          "value": "5",
+          "score": null,
+          "status": "answered"
+        }
+      ],
+      "maxSelections": 2
+    },
+    {
+      "id": "V1_REST_BUDGET",
+      "section": "E",
+      "question": "일본에서 일반적인 한 끼 식사에 사용하는 예산은 얼마인가요? (1인 기준)",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "1,000엔 미만",
+          "value": "0",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "1,000~1,999엔",
+          "value": "1",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "2,000~2,999엔",
+          "value": "2",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "3,000~4,999엔",
+          "value": "3",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "5,000엔 이상",
+          "value": "4",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "5",
+          "label": "정해진 예산 없이 음식점에 따라 결정한다",
+          "value": "5",
+          "score": null,
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "FOOD_WISHLIST",
+      "section": "F",
+      "question": "다음 일본 여행에서 꼭 먹어보고 싶은 음식은 무엇인가요?",
+      "type": "multi",
+      "options": [
+        {
+          "id": "sushi",
+          "label": "초밥",
+          "value": "sushi"
+        },
+        {
+          "id": "sashimi",
+          "label": "회",
+          "value": "sashimi"
+        },
+        {
+          "id": "ramen",
+          "label": "라멘",
+          "value": "ramen"
+        },
+        {
+          "id": "yakiniku",
+          "label": "야키니쿠",
+          "value": "yakiniku"
+        },
+        {
+          "id": "tonkatsu",
+          "label": "돈카츠",
+          "value": "tonkatsu"
+        },
+        {
+          "id": "udon",
+          "label": "우동",
+          "value": "udon"
+        },
+        {
+          "id": "soba",
+          "label": "소바",
+          "value": "soba"
+        },
+        {
+          "id": "tempura",
+          "label": "텐푸라",
+          "value": "tempura"
+        },
+        {
+          "id": "yakitori",
+          "label": "야키토리",
+          "value": "yakitori"
+        },
+        {
+          "id": "eel",
+          "label": "장어",
+          "value": "eel"
+        },
+        {
+          "id": "gyudon",
+          "label": "규동",
+          "value": "gyudon"
+        },
+        {
+          "id": "curry",
+          "label": "일본식 카레",
+          "value": "curry"
+        },
+        {
+          "id": "okonomiyaki",
+          "label": "오코노미야키",
+          "value": "okonomiyaki"
+        },
+        {
+          "id": "takoyaki",
+          "label": "타코야키",
+          "value": "takoyaki"
+        },
+        {
+          "id": "nabe",
+          "label": "나베",
+          "value": "nabe"
+        },
+        {
+          "id": "oden",
+          "label": "오뎅",
+          "value": "oden"
+        },
+        {
+          "id": "dessert",
+          "label": "일본 디저트",
+          "value": "dessert"
+        },
+        {
+          "id": "other",
+          "label": "기타 음식 직접 입력",
+          "value": "other"
+        }
+      ],
+      "other": true
+    },
+    {
+      "id": "TRIP_DETOUR",
+      "section": "F",
+      "question": "맛있는 음식점을 위해 여행 동선에서 얼마나 돌아갈 수 있나요?",
+      "type": "single",
+      "options": [
+        {
+          "id": "none",
+          "label": "동선에서 거의 벗어나지 않는다",
+          "value": "none",
+          "score": null
+        },
+        {
+          "id": "short",
+          "label": "조금 돌아가는 정도",
+          "value": "short",
+          "score": null
+        },
+        {
+          "id": "normal",
+          "label": "괜찮은 곳이면 이동한다",
+          "value": "normal",
+          "score": null
+        },
+        {
+          "id": "long",
+          "label": "상당히 돌아가도 찾아간다",
+          "value": "long",
+          "score": null
+        },
+        {
+          "id": "destination",
+          "label": "음식점 자체가 목적지가 될 수 있다",
+          "value": "destination",
+          "score": null
+        }
+      ]
+    },
+    {
+      "id": "SAFETY_ALLERGY",
+      "section": "G",
+      "question": "알레르기 때문에 반드시 피해야 하는 음식이나 식재료가 있나요? 없다면 없음으로 선택해주세요.",
+      "type": "multi",
+      "options": [
+        {
+          "id": "none",
+          "value": "none",
+          "label": "없음"
+        },
+        {
+          "id": "shrimp",
+          "value": "shrimp",
+          "label": "새우"
+        },
+        {
+          "id": "crab",
+          "value": "crab",
+          "label": "게"
+        },
+        {
+          "id": "shellfish",
+          "value": "shellfish",
+          "label": "조개류"
+        },
+        {
+          "id": "fish",
+          "value": "fish",
+          "label": "생선"
+        },
+        {
+          "id": "dairy",
+          "value": "dairy",
+          "label": "우유·유제품"
+        },
+        {
+          "id": "egg",
+          "value": "egg",
+          "label": "달걀"
+        },
+        {
+          "id": "soy",
+          "value": "soy",
+          "label": "대두"
+        },
+        {
+          "id": "wheat",
+          "value": "wheat",
+          "label": "밀"
+        },
+        {
+          "id": "peanut",
+          "value": "peanut",
+          "label": "땅콩"
+        },
+        {
+          "id": "tree_nut",
+          "value": "tree_nut",
+          "label": "견과류"
+        },
+        {
+          "id": "buckwheat",
+          "value": "buckwheat",
+          "label": "메밀"
+        },
+        {
+          "id": "sesame",
+          "value": "sesame",
+          "label": "참깨"
+        },
+        {
+          "id": "other",
+          "value": "other",
+          "label": "기타"
+        }
+      ],
+      "exclusiveNone": true,
+      "other": true
+    },
+    {
+      "id": "SAFETY_DIET",
+      "section": "G",
+      "question": "식이 제한이나 생활상의 이유로 피해야 하는 음식이 있나요?",
+      "type": "multi",
+      "options": [
+        {
+          "id": "none",
+          "value": "none",
+          "label": "없음"
+        },
+        {
+          "id": "pork",
+          "value": "pork",
+          "label": "돼지고기"
+        },
+        {
+          "id": "beef",
+          "value": "beef",
+          "label": "소고기"
+        },
+        {
+          "id": "chicken",
+          "value": "chicken",
+          "label": "닭고기"
+        },
+        {
+          "id": "seafood",
+          "value": "seafood",
+          "label": "해산물"
+        },
+        {
+          "id": "alcohol",
+          "value": "alcohol",
+          "label": "알코올"
+        },
+        {
+          "id": "raw_food",
+          "value": "raw_food",
+          "label": "날것"
+        },
+        {
+          "id": "all_meat",
+          "value": "all_meat",
+          "label": "모든 육류"
+        },
+        {
+          "id": "all_animal",
+          "value": "all_animal",
+          "label": "모든 동물성 식재료"
+        },
+        {
+          "id": "other",
+          "value": "other",
+          "label": "기타"
+        }
+      ],
+      "exclusiveNone": true,
+      "other": true
+    },
+    {
+      "id": "V1_NUT_TYPES",
+      "section": "G",
+      "question": "견과류 알레르기의 세부 종류를 골라 주세요.",
+      "type": "multi",
+      "options": [
+        {
+          "id": "0",
+          "label": "아몬드",
+          "value": "0",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "호두",
+          "value": "1",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "캐슈넛",
+          "value": "2",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "3",
+          "label": "헤이즐넛",
+          "value": "3",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "4",
+          "label": "피스타치오",
+          "value": "4",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "5",
+          "label": "기타 또는 세부 종류를 모름",
+          "value": "5",
+          "score": null,
+          "status": "answered"
+        }
+      ],
+      "note": "선택한 종류는 원본 응답으로 보관하며 전체 견과류 제한을 자동 완화하지 않아요."
+    },
+    {
+      "id": "V1_ALCOHOL_SCOPE",
+      "section": "G",
+      "question": "알코올을 피해야 한다면 범위도 골라 주세요.",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "label": "술·주류 자체를 피함",
+          "value": "beverages",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "조리용 술·미림 등도 피함",
+          "value": "including_cooking",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "해당 없음 / 잘 모르겠다",
+          "value": null,
+          "score": null,
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SAFETY_DISLIKE",
+      "section": "G",
+      "question": "알레르기나 식이 제한은 아니지만, 음식점 추천에서 제외하고 싶은 음식 유형이 있나요?",
+      "type": "multi",
+      "options": [
+        {
+          "id": "none",
+          "value": "none",
+          "label": "없음"
+        },
+        {
+          "id": "seafood",
+          "value": "seafood",
+          "label": "해산물 요리"
+        },
+        {
+          "id": "fermented_food",
+          "value": "fermented_food",
+          "label": "발효 음식"
+        },
+        {
+          "id": "offal",
+          "value": "offal",
+          "label": "내장 요리"
+        },
+        {
+          "id": "strong_aroma",
+          "value": "strong_aroma",
+          "label": "향이 강한 음식"
+        },
+        {
+          "id": "bitter_food",
+          "value": "bitter_food",
+          "label": "쓴맛이 강한 음식"
+        },
+        {
+          "id": "extreme_texture",
+          "value": "extreme_texture",
+          "label": "특정 식감의 음식"
+        },
+        {
+          "id": "other",
+          "value": "other",
+          "label": "기타 — 직접 입력"
+        }
+      ],
+      "exclusiveNone": true,
+      "other": true
+    },
+    {
+      "id": "V1_RAW_EXCLUSION",
+      "section": "G",
+      "question": "날음식에 대한 우려를 음식 추천에 어떻게 적용할까요?",
+      "type": "raw_exclusion",
+      "options": [
+        {
+          "id": "0",
+          "label": "모든 날음식 추천 제외",
+          "value": "all",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "1",
+          "label": "지정 유형만 제외",
+          "value": "types",
+          "score": null,
+          "status": "answered"
+        },
+        {
+          "id": "2",
+          "label": "별도 제외하지 않음",
+          "value": "none",
+          "score": null,
+          "status": "answered"
+        }
+      ],
+      "rawConcern": true
+    }
+  ],
+  "genres": [
+    {
+      "id": "sushi",
+      "label": "초밥"
+    },
+    {
+      "id": "sashimi",
+      "label": "회"
+    },
+    {
+      "id": "ramen",
+      "label": "라멘"
+    },
+    {
+      "id": "yakiniku",
+      "label": "야키니쿠"
+    },
+    {
+      "id": "tonkatsu",
+      "label": "돈카츠"
+    },
+    {
+      "id": "udon",
+      "label": "우동"
+    },
+    {
+      "id": "soba",
+      "label": "소바"
+    },
+    {
+      "id": "tempura",
+      "label": "텐푸라"
+    },
+    {
+      "id": "yakitori",
+      "label": "야키토리"
+    },
+    {
+      "id": "eel",
+      "label": "장어"
+    },
+    {
+      "id": "gyudon",
+      "label": "규동"
+    },
+    {
+      "id": "curry",
+      "label": "일본식 카레"
+    },
+    {
+      "id": "okonomiyaki",
+      "label": "오코노미야키"
+    },
+    {
+      "id": "takoyaki",
+      "label": "타코야키"
+    },
+    {
+      "id": "nabe",
+      "label": "나베"
+    },
+    {
+      "id": "oden",
+      "label": "오뎅"
+    },
+    {
+      "id": "dessert",
+      "label": "일본 디저트"
+    }
+  ],
+  "implementationDecisions": [
+    "A2/A3 optional; E4-A deferred; F2 legacy wording retained; no H question",
+    "Spicy yes/no provides direction +/-1 only; desired intensity and burden never contribute to preference",
+    "Unverified food attributes stay empty; fermentation aversion is not a -2..2 preference axis"
+  ]
+}

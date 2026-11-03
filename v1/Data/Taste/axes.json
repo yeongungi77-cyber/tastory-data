@@ -1,0 +1,559 @@
+{
+  "version": "2.3.1",
+  "aggregation": {
+    "default": "mean",
+    "scale": {
+      "min": -2,
+      "max": 2
+    },
+    "missing": "exclude_from_mean",
+    "null_value": "value가 null인 선택지는 응답으로 기록하되 평균 계산에서 제외한다. 모든 응답이 null이면 축 값은 null이다.",
+    "clamp": true,
+    "display": "label",
+    "internal_values": "integer",
+    "rounding": "half_away_from_zero",
+    "mean_rule": "같은 axis의 numeric value가 2개 이상일 때 mean 후 0에서 먼 쪽으로 반올림한 정수, 1개면 그 값을 그대로 사용"
+  },
+  "axes": [
+    {
+      "id": "taste_spicy",
+      "type": "taste",
+      "label": "매운맛 선호",
+      "range": [
+        -2,
+        2
+      ],
+      "displayLabels": {
+        "-2": "매운맛 거의 없음",
+        "-1": "약한 매운맛 선호",
+        "0": "보통",
+        "1": "매운맛 선호",
+        "2": "강한 매운맛 선호"
+      },
+      "sourceQuestionIds": [
+        "TASTE_SPICY"
+      ]
+    },
+    {
+      "id": "taste_salt",
+      "type": "taste",
+      "label": "짠맛 선호",
+      "range": [
+        -2,
+        2
+      ],
+      "displayLabels": {
+        "-2": "싱거운 맛 선호",
+        "-1": "약간 싱거운 맛 선호",
+        "0": "보통",
+        "1": "짭짤한 맛 선호",
+        "2": "강한 짠맛 선호"
+      },
+      "sourceQuestionIds": [
+        "TASTE_SALT"
+      ]
+    },
+    {
+      "id": "taste_sweet",
+      "type": "taste",
+      "label": "단맛 선호",
+      "range": [
+        -2,
+        2
+      ],
+      "displayLabels": {
+        "-2": "단맛 거의 없음",
+        "-1": "약한 단맛 선호",
+        "0": "보통",
+        "1": "단맛 선호",
+        "2": "강한 단맛 선호"
+      },
+      "sourceQuestionIds": [
+        "TASTE_SWEET"
+      ]
+    },
+    {
+      "id": "taste_sour",
+      "type": "taste",
+      "label": "신맛 선호",
+      "range": [
+        -2,
+        2
+      ],
+      "displayLabels": {
+        "-2": "신맛 거의 없음",
+        "-1": "약한 신맛 선호",
+        "0": "보통",
+        "1": "신맛 선호",
+        "2": "강한 신맛 선호"
+      },
+      "sourceQuestionIds": [
+        "TASTE_SOUR"
+      ]
+    },
+    {
+      "id": "taste_umami",
+      "type": "taste",
+      "label": "감칠맛 선호",
+      "range": [
+        -2,
+        2
+      ],
+      "displayLabels": {
+        "-2": "가벼운 맛 선호",
+        "-1": "약한 감칠맛 선호",
+        "0": "보통",
+        "1": "진한 감칠맛 선호",
+        "2": "매우 진한 감칠맛 선호"
+      },
+      "sourceQuestionIds": [
+        "TASTE_UMAMI"
+      ]
+    },
+    {
+      "id": "taste_richness",
+      "type": "taste",
+      "label": "진한/기름진 풍미 선호",
+      "range": [
+        -2,
+        2
+      ],
+      "displayLabels": {
+        "-2": "담백한 맛 선호",
+        "-1": "조금 담백하게",
+        "0": "보통",
+        "1": "진한 맛 선호",
+        "2": "매우 진한 맛 선호"
+      },
+      "sourceQuestionIds": [
+        "TASTE_RICHNESS"
+      ]
+    },
+    {
+      "id": "taste_fish_aroma",
+      "type": "taste",
+      "label": "해산물 향 허용도",
+      "range": [
+        -2,
+        2
+      ],
+      "displayLabels": {
+        "-2": "향에 민감",
+        "-1": "약한 향까지",
+        "0": "보통",
+        "1": "해산물 향을 좋아하는 편",
+        "2": "강한 향도 선호"
+      },
+      "sourceQuestionIds": [
+        "TASTE_FISH_AROMA"
+      ]
+    },
+    {
+      "id": "taste_raw",
+      "type": "taste",
+      "label": "생식 선호",
+      "range": [
+        -2,
+        2
+      ],
+      "displayLabels": {
+        "-2": "생식을 피하는 편",
+        "-1": "조심해서 먹는 편",
+        "0": "보통",
+        "1": "생식을 좋아하는 편",
+        "2": "생식을 매우 좋아하는 편"
+      },
+      "sourceQuestionIds": [
+        "TASTE_RAW"
+      ]
+    },
+    {
+      "id": "waiting_tolerance",
+      "type": "restaurant",
+      "label": "대기 허용도",
+      "range": [
+        -2,
+        2
+      ],
+      "displayLabels": {
+        "-2": "대기를 피하는 편",
+        "-1": "짧은 대기만 가능",
+        "0": "보통",
+        "1": "긴 대기도 가능",
+        "2": "인기 맛집이면 오래 기다릴 수 있음"
+      },
+      "sourceQuestionIds": [
+        "REST_WAITING"
+      ]
+    },
+    {
+      "id": "reservation_tolerance",
+      "type": "restaurant",
+      "label": "예약 수용도",
+      "range": [
+        -2,
+        2
+      ],
+      "displayLabels": {
+        "-2": "예약을 피하는 편",
+        "-1": "간단한 예약만",
+        "0": "상관없음",
+        "1": "좋은 곳이면 예약 가능",
+        "2": "미리 예약해 방문하는 편"
+      },
+      "sourceQuestionIds": [
+        "REST_RESERVATION"
+      ]
+    },
+    {
+      "id": "restaurant_local_famous",
+      "type": "restaurant",
+      "label": "현지형↔유명형 선호",
+      "range": [
+        -2,
+        2
+      ],
+      "displayLabels": {
+        "-2": "현지인 음식점 선호",
+        "-1": "현지형을 조금 더 선호",
+        "0": "둘 다 비슷",
+        "1": "유명 음식점 선호",
+        "2": "대표·유명 맛집 선호"
+      },
+      "sourceQuestionIds": [
+        "REST_STYLE"
+      ]
+    },
+    {
+      "id": "restaurant_value_premium",
+      "type": "restaurant",
+      "label": "가성비형↔프리미엄형 선호",
+      "range": [
+        -2,
+        2
+      ],
+      "displayLabels": {
+        "-2": "가성비 중심",
+        "-1": "합리적 가격 중심",
+        "0": "가격과 경험 균형",
+        "1": "프리미엄도 고려",
+        "2": "고급 경험을 적극 고려"
+      },
+      "sourceQuestionIds": [
+        "REST_PRICE"
+      ]
+    },
+    {
+      "id": "detour_tolerance",
+      "type": "trip",
+      "label": "음식 목적 우회 허용도",
+      "range": [
+        -2,
+        2
+      ],
+      "displayLabels": {
+        "-2": "동선 우선",
+        "-1": "조금만 우회",
+        "0": "괜찮은 곳이면 이동",
+        "1": "음식을 위해 꽤 우회",
+        "2": "음식점 자체가 목적지"
+      },
+      "sourceQuestionIds": [
+        "TRIP_DETOUR"
+      ]
+    },
+    {
+      "id": "taste_ramen_broth",
+      "type": "food_detail",
+      "label": "라멘 국물 선호",
+      "range": [
+        -1,
+        1
+      ],
+      "displayLabels": {
+        "-1": "맑고 가벼운 국물",
+        "0": "균형 잡힌 국물",
+        "1": "진하고 묵직한 국물"
+      },
+      "sourceQuestionIds": [
+        "RAMEN_BROTH_STYLE"
+      ]
+    },
+    {
+      "id": "taste_ramen_noodle",
+      "type": "food_detail",
+      "label": "라멘 면 식감 선호",
+      "range": [
+        -1,
+        1
+      ],
+      "displayLabels": {
+        "-1": "부드러운 면",
+        "0": "적당한 탄력",
+        "1": "탄탄하고 꼬들한 면"
+      },
+      "sourceQuestionIds": [
+        "RAMEN_NOODLE_TEXTURE"
+      ]
+    },
+    {
+      "id": "taste_sushi_raw",
+      "type": "food_detail",
+      "label": "초밥 생선 선호",
+      "range": [
+        -2,
+        2
+      ],
+      "displayLabels": {
+        "-2": "익힌 재료 선호",
+        "-1": "담백한 흰살 선호",
+        "0": "둘 다",
+        "1": "회 자체 선호",
+        "2": "숙성·진한 생선 맛 선호"
+      },
+      "sourceQuestionIds": [
+        "SUSHI_RAW_FISH_DETAIL"
+      ]
+    },
+    {
+      "id": "taste_sushi_fatness",
+      "type": "food_detail",
+      "label": "초밥 생선 기름기 선호",
+      "range": [
+        -1,
+        1
+      ],
+      "displayLabels": {
+        "-1": "담백한 생선",
+        "0": "적당한 기름기",
+        "1": "기름진 생선"
+      },
+      "sourceQuestionIds": [
+        "SUSHI_FISH_FATNESS"
+      ]
+    },
+    {
+      "id": "taste_spicy_detail",
+      "type": "food_detail",
+      "label": "매운맛 경험 강도 선호",
+      "range": [
+        -1,
+        2
+      ],
+      "displayLabels": {
+        "-1": "향만 느껴지는 정도",
+        "0": "맛과 매운맛 균형",
+        "1": "매운맛이 분명함",
+        "2": "강한 자극도 선호"
+      },
+      "sourceQuestionIds": [
+        "SPICY_DETAIL"
+      ]
+    },
+    {
+      "id": "food_genre",
+      "type": "food",
+      "label": "일본 음식 장르 선호",
+      "stateful": true
+    },
+    {
+      "id": "trip_food_interest",
+      "type": "trip",
+      "label": "일본 음식 위시리스트",
+      "stateful": true
+    },
+    {
+      "id": "experience_anchor",
+      "type": "experience",
+      "label": "실제 음식점 경험",
+      "stateful": true
+    },
+    {
+      "id": "restaurant_similarity",
+      "type": "experience",
+      "label": "경험 음식점 유사도 신호",
+      "stateful": true
+    },
+    {
+      "id": "safety_allergy",
+      "type": "safety",
+      "label": "알레르기",
+      "stateful": true
+    },
+    {
+      "id": "safety_diet",
+      "type": "safety",
+      "label": "식이 제한",
+      "stateful": true
+    },
+    {
+      "id": "food_avoidance",
+      "type": "filter",
+      "label": "명확한 음식 회피",
+      "stateful": true
+    },
+    {
+      "id": "jp_experience",
+      "type": "context",
+      "label": "일본 방문 경험",
+      "range": [
+        0,
+        2
+      ],
+      "computedFrom": "BASIC_JP_EXPERIENCE + JP_VISIT_COUNT (computed_rules.jp_experience)",
+      "displayLabels": {
+        "0": "일본 방문 경험 없음",
+        "1": "일본 방문 경험 있음",
+        "2": "일본 방문 경험이 많음"
+      }
+    },
+    {
+      "id": "cold_start",
+      "type": "context",
+      "label": "신규 사용자 보정",
+      "range": [
+        0,
+        2
+      ],
+      "computedFrom": "BASIC_JP_EXPERIENCE + Anchor 수 (computed_rules.cold_start)",
+      "displayLabels": {
+        "0": "경험 데이터 충분",
+        "1": "초기 경험 데이터",
+        "2": "경험 데이터 부족"
+      }
+    },
+    {
+      "id": "demographic_context",
+      "type": "context",
+      "label": "기본 정보",
+      "stateful": true
+    }
+  ],
+  "computed_rules": {
+    "jp_experience": {
+      "not_visited": 0,
+      "visited": 1,
+      "visitedHighCount": {
+        "questionId": "JP_VISIT_COUNT",
+        "optionIds": [
+          "4_6",
+          "7plus"
+        ],
+        "value": 2
+      },
+      "unansweredVisitCount": "visited로 간주하여 1",
+      "clamp": [
+        0,
+        2
+      ]
+    },
+    "cold_start": {
+      "not_visited": 2,
+      "visited_anchorCount_0": 1,
+      "visited_anchorCount_1plus": 0,
+      "phase1_note": "Anchor는 2차 범위이므로 1차에서는 anchorCount가 항상 0이다. 방문자의 cold_start는 1이다."
+    }
+  },
+  "result_display": {
+    "numericAxisThreshold": 1,
+    "includeWhenAbsoluteValueAtLeast": 1,
+    "eligibleAxisTypes": [
+      "taste",
+      "restaurant",
+      "trip",
+      "food_detail"
+    ],
+    "eligibleRequires": "range가 있는 numeric 축이며 stateful이 아닌 축",
+    "excludedAxisTypes": [
+      "context",
+      "food",
+      "experience",
+      "safety",
+      "filter"
+    ],
+    "groups": [
+      {
+        "id": "primary",
+        "label": "주요 미식 취향",
+        "axisTypes": [
+          "taste",
+          "restaurant",
+          "trip"
+        ],
+        "maxHighlights": 5,
+        "note": "주 미각(taste)·음식점/행동(restaurant·trip) 축. 결과의 전체 취향 요약이다."
+      },
+      {
+        "id": "food_detail",
+        "label": "음식별 세부 취향",
+        "axisTypes": [
+          "food_detail"
+        ],
+        "maxHighlights": 3,
+        "note": "like로 답한 음식·매운 음식에서만 묻는 세부 취향. 주요 취향과 같은 자리를 두고 경쟁하지 않는다.",
+        "contextLabels": {
+          "taste_ramen_broth": "라멘에서는",
+          "taste_ramen_noodle": "라멘에서는",
+          "taste_sushi_raw": "초밥에서는",
+          "taste_sushi_fatness": "초밥에서는",
+          "taste_spicy_detail": "매운 음식을 고를 때는"
+        }
+      }
+    ],
+    "sortBy": "absoluteValueDesc",
+    "tieBreak": "axes 배열 순서",
+    "groupRule": "각 그룹 안에서 sortBy·tieBreak로 정렬하고 그룹별 maxHighlights까지 고른다. 그룹끼리는 경쟁하지 않는다. resultHighlights 저장 형식({axisId, value, label} 배열)은 그대로이며 primary 다음 food_detail 순서로 저장한다. 화면은 axis type으로 두 그룹을 나눠 표시하고, food_detail 항목에는 contextLabels를 앞에 붙여 보여 준다(예: \"라멘에서는 진하고 묵직한 국물\").",
+    "fallback": {
+      "title": "뚜렷한 쏠림이 적어요",
+      "body": "현재 응답에서는 한쪽으로 뚜렷하게 치우친 취향이 적습니다. 실제 일본 음식점 경험이 쌓이면 TASTORY의 추천 기준이 더 구체화될 수 있어요."
+    },
+    "fallbackRule": "primary 그룹 후보가 없으면 fallback 문구를 표시한다. food_detail 후보가 있으면 fallback과 함께 표시한다."
+  },
+  "result_signals": [
+    {
+      "id": "rich_flavor",
+      "label": "진하고 풍부한 맛을 선호하는 편",
+      "condition": {
+        "axis": "taste_richness",
+        "operator": ">=",
+        "value": 1
+      }
+    },
+    {
+      "id": "light_flavor",
+      "label": "담백하고 가벼운 맛을 선호하는 편",
+      "condition": {
+        "axis": "taste_richness",
+        "operator": "<=",
+        "value": -1
+      }
+    },
+    {
+      "id": "local_foodie",
+      "label": "현지 음식점을 더 적극적으로 탐색하는 편",
+      "condition": {
+        "axis": "restaurant_local_famous",
+        "operator": "<=",
+        "value": -1
+      }
+    },
+    {
+      "id": "famous_foodie",
+      "label": "유명·대표 음식점을 더 적극적으로 탐색하는 편",
+      "condition": {
+        "axis": "restaurant_local_famous",
+        "operator": ">=",
+        "value": 1
+      }
+    },
+    {
+      "id": "food_destination",
+      "label": "음식점을 위해 여행 동선을 바꿀 수 있는 편",
+      "condition": {
+        "axis": "detour_tolerance",
+        "operator": ">=",
+        "value": 1
+      }
+    }
+  ]
+}
