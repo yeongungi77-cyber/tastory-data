@@ -6,7 +6,7 @@
     "ramen": "cb13478efad0b8f1ccf8b639ba14a5f21b8094a065391ad1497b2f30ab1ea351",
     "nonramen_v2": "474903f81ce710b9a0d4903ad028a758008ee1f1bd7592139e040b8104bc751a",
     "basics_v01": "f06f689ef641587a7af4d058a08c92cc3c58b1a9ad7ba5a9ec1c9cb06d75266c",
-    "basics_v02": "0a8c04990168c145e12de264ebb3777eacf9a9f533855b513d33698a700956f0"
+    "basics_v02": "a311a7b2f384736db5f5beffc0422e2dd7ec0ef9bf43d018da566a4dd1b11586"
   },
   "entry_sources": {
     "food_nonramen_gyudon": {
@@ -1135,6 +1135,223 @@
       "source_id": "takenoko_gohan",
       "source_entry_sha256": "80fb4cdc261b605bceda7e6c3e60e7fce25bcc1c4bc5bf9282a65e4fe7b95301",
       "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_hanabiramochi": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "hanabiramochi",
+      "source_entry_sha256": "e97c25aec80d73a3df5947c639c70255ea30e38d667894a0f4dd7c4e990a4268",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_zenzai": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "zenzai",
+      "source_entry_sha256": "b8562065ebf1e69d21f4150d9828312a7af3c8c0b809816c88a3fa3e93c454fd",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_uguisumochi": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "uguisumochi",
+      "source_entry_sha256": "9b08ec688ae2c8a0690b80c795699ff149c1ba024b74abce04bc03483cc0f7c9",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_kusamochi": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "kusamochi",
+      "source_entry_sha256": "4aaab0ec4920e1d8b561ffeb5630367aa28f290cdb499604efe4b15e0e0a7911",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_ohagi": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "ohagi",
+      "source_entry_sha256": "8177f88b6921ebb17b58a4417a07f76b79331ebf943f7f33c50facadf9a68f44",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_hanami_dango": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "hanami_dango",
+      "source_entry_sha256": "be0616c99f1fe885c2dd7b79cc7163fcd2ed9ac99026b264557671aae626defa",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_chimaki": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "chimaki",
+      "source_entry_sha256": "e2925545b165d0986c52569b1951a3331195d4d87f65d8452f90587c152cc6a0",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_wakaayu": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "wakaayu",
+      "source_entry_sha256": "b20e341b71c68e2fcf7afadacd567deae88fa6b96deb8603ea77c224c51de2ce",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_minazuki": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "minazuki",
+      "source_entry_sha256": "a4bceccf49912495ec31384b7322a6f27c8e999c8dc8749a091045b2a25bf097",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_mizuyokan": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "mizuyokan",
+      "source_entry_sha256": "8e55ddd2a52e89f3212a4d931526e27f9c3aa8c896af7fd7b01fa9bb8e4c2fbf",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_kuzuzakura": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "kuzuzakura",
+      "source_entry_sha256": "557350d8cd331e15663296389eda0ff8f967bee739c917ae352136b12c4ce6c2",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_zunda_mochi": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "zunda_mochi",
+      "source_entry_sha256": "069b367bdd34eb171647d75c598120965471e8020976b2723f9b48b5df5ca5cd",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_tsukimi_dango": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "tsukimi_dango",
+      "source_entry_sha256": "a85ad97ca78edd8970e65eb04e76f07234b68c625f9a8ffb09517e816c530c7b",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_kurikinton": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "kurikinton",
+      "source_entry_sha256": "f1274f4edef71a2a5e38b5cd7321ed5d20c93cb700cd82dfe0d0254d3c493039",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_kuri_mushi_yokan": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "kuri_mushi_yokan",
+      "source_entry_sha256": "c022b991065b9031eb7c4f91a6ece87ddd8e91d189a82b2c81256badfb721c6e",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_imo_yokan": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "imo_yokan",
+      "source_entry_sha256": "88d0916f1b0ccfc223b20523928cdf79633e78560e3531445131715ded73871a",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_kintsuba": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "kintsuba",
+      "source_entry_sha256": "8b4dbd53850e86b3f2d49128f2d188c24b19106e36774868da3927aaf6ac42bb",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_toshikoshi_soba": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "toshikoshi_soba",
+      "source_entry_sha256": "239de7385b4c2f68aaa18d4548e9535b7d07d0526309f68ed0f181397a99ff91",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_chitoseame": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "chitoseame",
+      "source_entry_sha256": "3d0e37085b1295b605da6acf2c41e9ab6a95ad887be34375184a7e10de25ca61",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_sekihan": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "sekihan",
+      "source_entry_sha256": "4c9c77fbb6b0c7cfb312bfe4084fcf69c64b7aafade6ebd45a869d410ab91052",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_hamaguri_ushiojiru": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "hamaguri_ushiojiru",
+      "source_entry_sha256": "4f2e69216a51ee3f46499465069c8fcf5a531d7419dfe06468b818a32dc467aa",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_taimeshi": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "taimeshi",
+      "source_entry_sha256": "a8375bd9c4f55d340ab364090ada3e6ed5e935b63a7597bb21ff523b3c3d96fc",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_ayu_shioyaki": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "ayu_shioyaki",
+      "source_entry_sha256": "fb3446d7d5595ccd61a02e098f15c68c8ef1b50a4980453ebfa654e576eb72cb",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_shimesaba": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "shimesaba",
+      "source_entry_sha256": "ebd3358b55e1b8be2a597ce83b9bdcf3486553b94c89f3dfcae65f00131ba363",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_saba_misoni": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "saba_misoni",
+      "source_entry_sha256": "6eac55a9be306df26788aa9f193614e1f62cb52dc94fbea287f64bbeddd3208d",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_buri_daikon": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "buri_daikon",
+      "source_entry_sha256": "ec33f852b562fb5fe8ae95fe3f497b991676e5e8bec5f3a18fcab2360ca91779",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_ishikari_nabe": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "ishikari_nabe",
+      "source_entry_sha256": "9b2a7fc28ff9e67e8c12d3c7e47d37641da35590761aa27685a52e4130f7811d",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_anko_nabe": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "anko_nabe",
+      "source_entry_sha256": "d4853e85a94a7a7e83d6bc7a0b0c7cc2cc2399a8b5783f085046447f36580af0",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_serinabe": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "serinabe",
+      "source_entry_sha256": "3ee48384905b8411e5524eebf86d23e8afd78b609147dd02de56f79ce7fa0e6b",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_nishin_soba": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "nishin_soba",
+      "source_entry_sha256": "dc170116dc6ecbe6e4ab8015aac0883eea268b2b48edcc4e217e4f88408cf44b",
+      "reviewed_on": "2026-11-03"
+    },
+    "food_nonramen_shojin_ryori": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "shojin_ryori",
+      "source_entry_sha256": "a2a48f87d55d335137df5b9a11ffa11af148adabce034f8a3427efa152864749",
+      "reviewed_on": "2026-11-03"
     }
   },
   "tocTree": [
@@ -1278,6 +1495,18 @@
               "id": "food_nonramen_takenoko_gohan",
               "code": "",
               "title": "다케노코고항",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_sekihan",
+              "code": "",
+              "title": "세키한",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_taimeshi",
+              "code": "",
+              "title": "타이메시",
               "children": []
             }
           ]
@@ -1430,6 +1659,18 @@
               "code": "",
               "title": "소멘",
               "children": []
+            },
+            {
+              "id": "food_nonramen_toshikoshi_soba",
+              "code": "",
+              "title": "토시코시소바",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_nishin_soba",
+              "code": "",
+              "title": "니신소바",
+              "children": []
             }
           ]
         },
@@ -1557,6 +1798,12 @@
               "code": "",
               "title": "에호마키",
               "children": []
+            },
+            {
+              "id": "food_nonramen_shimesaba",
+              "code": "",
+              "title": "시메사바",
+              "children": []
             }
           ]
         },
@@ -1647,6 +1894,12 @@
               "id": "food_nonramen_sanma_shioyaki",
               "code": "",
               "title": "꽁치 시오야키",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_ayu_shioyaki",
+              "code": "",
+              "title": "은어 소금구이",
               "children": []
             }
           ]
@@ -1769,6 +2022,30 @@
               "id": "food_nonramen_ozoni",
               "code": "",
               "title": "오조니",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_hamaguri_ushiojiru",
+              "code": "",
+              "title": "대합 맑은국",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_ishikari_nabe",
+              "code": "",
+              "title": "이시카리나베",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_anko_nabe",
+              "code": "",
+              "title": "안코나베",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_serinabe",
+              "code": "",
+              "title": "세리나베",
               "children": []
             }
           ]
@@ -1915,6 +2192,24 @@
               "id": "food_nonramen_osechi",
               "code": "",
               "title": "오세치 요리",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_saba_misoni",
+              "code": "",
+              "title": "사바 미소니",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_buri_daikon",
+              "code": "",
+              "title": "부리 다이콘",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_shojin_ryori",
+              "code": "",
+              "title": "쇼진요리",
               "children": []
             }
           ]
@@ -2109,6 +2404,114 @@
               "id": "food_nonramen_kashiwamochi",
               "code": "",
               "title": "가시와모치",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_hanabiramochi",
+              "code": "",
+              "title": "하나비라모치",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_zenzai",
+              "code": "",
+              "title": "젠자이",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_uguisumochi",
+              "code": "",
+              "title": "우구이스모치",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_kusamochi",
+              "code": "",
+              "title": "쿠사모치",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_ohagi",
+              "code": "",
+              "title": "오하기·보타모치",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_hanami_dango",
+              "code": "",
+              "title": "하나미당고",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_chimaki",
+              "code": "",
+              "title": "지마키",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_wakaayu",
+              "code": "",
+              "title": "와카아유",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_minazuki",
+              "code": "",
+              "title": "미나즈키",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_mizuyokan",
+              "code": "",
+              "title": "미즈요칸",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_kuzuzakura",
+              "code": "",
+              "title": "쿠즈자쿠라",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_zunda_mochi",
+              "code": "",
+              "title": "즌다모치",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_tsukimi_dango",
+              "code": "",
+              "title": "쓰키미당고",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_kurikinton",
+              "code": "",
+              "title": "쿠리킨톤",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_kuri_mushi_yokan",
+              "code": "",
+              "title": "쿠리무시요칸",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_imo_yokan",
+              "code": "",
+              "title": "이모요칸",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_kintsuba",
+              "code": "",
+              "title": "킨츠바",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_chitoseame",
+              "code": "",
+              "title": "지토세아메",
               "children": []
             }
           ]
@@ -3798,6 +4201,316 @@
       "isTemplate": false,
       "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>다케노코고항</h2><div class=\"book-ja-name\">筍ご飯 · たけのこごはん</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>밥·덮밥</td></tr><tr><th>음식의 정체</th><td>봄 햇죽순을 넣고 다시·간장으로 지은 밥이에요.</td></tr><tr><th>주요 재료 구성</th><td>쌀 · 죽순 · 유부·다시·간장 · 산초 잎(기노메)</td></tr><tr><th>맛 설명</th><td>아삭한 죽순에 다시와 간장 향이 배요.</td></tr><tr><th>주문·방문 안내</th><td>봄 한정 정식·도시락으로 자주 보여요.</td></tr></tbody></table><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>다키코미고항의 봄 차림이에요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E7%82%8A%E3%81%8D%E8%BE%BC%E3%81%BF%E3%81%94%E9%A3%AF\">위키백과(일본어) · 炊き込みご飯</a></li><li><a href=\"https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%B1%E3%83%8E%E3%82%B3\">위키백과(일본어) · タケノコ</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의를 편집(사장님 지시 2026-11-03 월별 행사 음식). 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
       "searchTags": "다케노코고항 筍ご飯",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_hanabiramochi",
+      "title": "하나비라모치",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>하나비라모치</h2><div class=\"book-ja-name\">菱葩餅 · はなびらもち</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>디저트·화과자·빵</td></tr><tr><th>음식의 정체</th><td>얇게 편 흰 떡에 분홍 떡과 흰 된장 앙금, 달게 졸인 우엉을 올려 반달 모양으로 접은 정월 화과자예요.</td></tr><tr><th>주요 재료 구성</th><td>흰 떡(규히) · 분홍 떡 · 흰 된장 앙금 · 달게 졸인 우엉</td></tr><tr><th>맛 설명</th><td>말랑한 떡에 흰 된장 앙금의 은은한 단짠맛과 우엉의 씹는 맛이 더해져요.</td></tr><tr><th>주문·방문 안내</th><td>연말부터 1월 초까지 교토 화과자점 등에서 한정으로 내는 경우가 많아요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>궁중의 정월 행사에서 먹던 음식에서 비롯됐다고 알려져 있어요. 메이지 시대에 다도 우라센케 유파의 새해 첫 다회(하쓰가마)에 쓰이면서 정월 화과자로 널리 알려졌어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>연말부터 정월 무렵까지 나와요. 새해 다회나 설 인사 선물로 쓰여요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>말차와 함께 한 개씩 먹는 화과자예요. 떡이 얇고 부드러워 손으로 들기보다 화과자용 꼬챙이로 잘라 먹기도 해요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>사쿠라모치·가시와모치처럼 계절 떡과자지만, 우엉과 된장 앙금이 들어가는 점이 달라요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E8%8F%B1%E8%91%A9%E9%A4%85\">위키백과(일본어) · 菱葩餅</a></li><li><a href=\"https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/bunrui/kashirui.html\">농림수산성 전통 식품 도감 · 과자류</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "하나비라모치 菱葩餅",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_zenzai",
+      "title": "젠자이",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>젠자이</h2><div class=\"book-ja-name\">ぜんざい · ぜんざい</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>디저트·화과자·빵</td></tr><tr><th>음식의 정체</th><td>팥을 달게 삶아 떡이나 시라타마(찹쌀 경단)를 넣어 먹는 따뜻한 팥 디저트예요.</td></tr><tr><th>주요 재료 구성</th><td>팥 · 설탕 · 구운 떡 또는 시라타마 · 소금 약간</td></tr><tr><th>맛 설명</th><td>진한 팥의 단맛에 떡의 쫀득함이 어울려요. 짭짤한 시오콘부(다시마 절임)를 곁들이기도 해요.</td></tr><tr><th>주문·방문 안내</th><td>찻집·감미처(아마미도코로)의 겨울 메뉴로 흔해요. 단맛이 강해 녹차와 함께 주문하는 사람이 많아요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>팥을 달게 끓여 떡과 함께 먹는 음식은 에도 시대 문헌에도 보여요. 이름의 유래는 여러 설이 있어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>추운 겨울에 많이 먹어요. 1월 11일 무렵 정월에 모셨던 가가미모치를 깨서 먹는 가가미비라키에 젠자이나 오시루코를 만드는 집이 많아요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>뜨거울 때 떡을 조금씩 잘라 먹어요. 단맛을 쉬게 하려고 함께 나오는 절임이나 차를 사이사이 먹어요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>간토에서는 국물이 없는 팥을 떡에 얹은 것을 젠자이, 국물이 있는 것을 오시루코라 부르는 경우가 많아요. 간사이에서는 팥알이 남은 국물을 젠자이, 곱게 거른 국물을 오시루코라 부르는 경우가 많아요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>오시루코와 비슷하지만 지역마다 부르는 기준이 달라요(아래 지역별 차이).</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%81%9C%E3%82%93%E3%81%96%E3%81%84\">위키백과(일본어) · ぜんざい</a></li><li><a href=\"https://ja.wikipedia.org/wiki/%E6%B1%81%E7%B2%89\">위키백과(일본어) · 汁粉</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "젠자이 ぜんざい",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_uguisumochi",
+      "title": "우구이스모치",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>우구이스모치</h2><div class=\"book-ja-name\">鶯餅 · うぐいすもち</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>디저트·화과자·빵</td></tr><tr><th>음식의 정체</th><td>팥소를 떡으로 감싸 양 끝을 살짝 뾰족하게 빚고 푸른 콩가루를 뿌려 휘파람새(우구이스) 모양을 낸 이른 봄 화과자예요.</td></tr><tr><th>주요 재료 구성</th><td>떡 또는 규히 · 팥소 · 푸른 콩가루(아오키나코)</td></tr><tr><th>맛 설명</th><td>부드러운 떡과 팥소에 고소한 콩가루 향이 나요.</td></tr><tr><th>주문·방문 안내</th><td>2~3월 화과자점에 많이 보여요. 콩가루가 날리기 쉬워 조심해서 드세요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>나라현 야마토코리야마의 성주가 도요토미 히데요시를 대접할 때 낸 떡에 히데요시가 이름을 붙였다는 이야기가 전해져요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>봄을 알리는 휘파람새가 우는 2~3월 무렵에 많이 나와요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>차와 함께 한두 개씩 먹어요. 하루 이틀 안에 먹는 생과자예요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>쿠사모치는 쑥을 섞은 떡이고, 우구이스모치는 떡 겉에 푸른 콩가루를 뿌려 색을 내요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E9%B6%AF%E9%A4%85\">위키백과(일본어) · 鶯餅</a></li><li><a href=\"https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/bunrui/kashirui.html\">농림수산성 전통 식품 도감 · 과자류</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "우구이스모치 鶯餅",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_kusamochi",
+      "title": "쿠사모치",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>쿠사모치</h2><div class=\"book-ja-name\">草餅 · くさもち</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>디저트·화과자·빵</td></tr><tr><th>음식의 정체</th><td>쑥을 넣어 초록빛과 향을 낸 떡에 팥소를 넣거나 곁들인 봄 떡과자예요.</td></tr><tr><th>주요 재료 구성</th><td>찹쌀가루·멥쌀가루 · 쑥 · 팥소</td></tr><tr><th>맛 설명</th><td>쑥 향이 진하고 떡이 쫀득해요. 팥소의 단맛이 쑥의 쌉쌀함을 감싸요.</td></tr><tr><th>주문·방문 안내</th><td>봄에 화과자점·관광지 찻집에서 많이 보여요. 콩가루를 뿌린 가게도 있어요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>쑥 같은 봄풀을 떡에 넣는 풍습은 오래전부터 있었고, 히나마쓰리에 올리는 마름모 떡(히시모치)의 초록 층도 쑥떡이에요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>햇쑥이 나는 3~4월, 특히 3월 3일 히나마쓰리 무렵에 많이 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>그대로 먹거나 살짝 구워 먹어요. 시간이 지나면 굳으니 당일에 먹는 것이 좋아요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>우구이스모치는 콩가루로 초록색을 내고, 쿠사모치는 쑥으로 초록색을 내요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E8%8D%89%E9%A4%85\">위키백과(일본어) · 草餅</a></li><li><a href=\"https://ja.wikipedia.org/wiki/%E8%8F%B1%E9%A4%85\">위키백과(일본어) · 菱餅</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "쿠사모치 草餅",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_ohagi",
+      "title": "오하기·보타모치",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>오하기·보타모치</h2><div class=\"book-ja-name\">おはぎ · おはぎ</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>디저트·화과자·빵</td></tr><tr><th>음식의 정체</th><td>찹쌀과 멥쌀을 섞어 지은 밥을 반쯤 찧어 뭉친 뒤 팥소·콩가루·깨로 감싼 떡과자예요.</td></tr><tr><th>주요 재료 구성</th><td>찹쌀·멥쌀 · 팥소(알갱이·고운 앙금) · 콩가루·깨(일부)</td></tr><tr><th>맛 설명</th><td>밥알이 조금 남은 쫀득한 식감에 팥소가 두툼하게 감싸 단맛이 확실해요.</td></tr><tr><th>주문·방문 안내</th><td>피안 무렵에는 슈퍼·화과자점에 많이 나와요. 크기가 커서 한 개로도 든든해요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>붉은 팥은 액을 막는다고 여겨 조상께 올리는 음식으로 쓰였어요. 같은 음식을 봄에는 모란(보탄)에 빗대 보타모치, 가을에는 싸리꽃(하기)에 빗대 오하기라 부른다는 설명이 널리 알려져 있어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>춘분·추분 전후 일주일인 피안(3월·9월)에 조상 묘에 올리고 나눠 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>젓가락이나 손으로 들어 먹어요. 팥소·콩가루·깨를 한 접시에 모아 맛을 비교하기도 해요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>다이후쿠는 떡으로 팥소를 감싸고, 오하기는 반대로 팥소로 밥떡을 감싸요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%81%BC%E3%81%9F%E3%82%82%E3%81%A1\">위키백과(일본어) · ぼたもち</a></li><li><a href=\"https://ja.wikipedia.org/wiki/%E5%BD%BC%E5%B2%B8\">위키백과(일본어) · 彼岸</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "오하기·보타모치 おはぎ",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_hanami_dango",
+      "title": "하나미당고",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>하나미당고</h2><div class=\"book-ja-name\">花見団子 · はなみだんご</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>디저트·화과자·빵</td></tr><tr><th>음식의 정체</th><td>분홍·흰색·초록 세 가지 색 경단을 한 꼬치에 꽂은 꽃구경 철 당고예요.</td></tr><tr><th>주요 재료 구성</th><td>쌀가루 경단(분홍·흰·초록) · 꼬치</td></tr><tr><th>맛 설명</th><td>양념 없이 은은하게 단 쫀득한 경단이에요.</td></tr><tr><th>주문·방문 안내</th><td>3~4월 벚꽃 철에 화과자점·편의점·축제 노점에서 쉽게 볼 수 있어요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>에도 시대에 꽃구경(하나미)이 서민 놀이로 퍼지면서 꽃구경 과자로 자리 잡았어요. 세 색의 뜻은 벚꽃·눈·새싹이라는 설 등 여러 가지가 전해져요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>벚꽃이 피는 3월 하순~4월에 가장 많이 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>꼬치째 들고 하나씩 빼 먹어요. 꽃구경 도시락과 함께 사 가는 사람이 많아요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>미타라시 당고는 간장 단짠 소스를 바르고, 하나미당고는 색만 입혀 그대로 먹어요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E5%9B%A3%E5%AD%90\">위키백과(일본어) · 団子</a></li><li><a href=\"https://ja.wikipedia.org/wiki/%E8%8A%B1%E8%A6%8B\">위키백과(일본어) · 花見</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "하나미당고 花見団子",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_chimaki",
+      "title": "지마키",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>지마키</h2><div class=\"book-ja-name\">ちまき · ちまき</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>디저트·화과자·빵</td></tr><tr><th>음식의 정체</th><td>떡이나 찹쌀을 조릿대 잎 등으로 길게 싸서 찌거나 삶은 단오 음식이에요.</td></tr><tr><th>주요 재료 구성</th><td>떡 또는 찹쌀 · 조릿대·대나무 잎 · 설탕(단 지마키)</td></tr><tr><th>맛 설명</th><td>잎의 향이 밴 떡이 쫀득해요. 단 지마키는 은은하게 달아요.</td></tr><tr><th>주문·방문 안내</th><td>5월 단오 무렵 간사이 화과자점에 많아요. 잎은 벗기고 속만 먹어요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>중국의 단오 풍습과 함께 전해졌다고 알려져 있어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>5월 5일 단오(어린이날) 무렵에 먹어요. 간토는 가시와모치, 간사이는 지마키를 많이 먹는다고 알려져 있어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>끈을 풀고 잎을 벗겨 먹어요. 찹쌀 지마키는 따뜻하게 데워 먹어요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>간사이는 단 떡을 싼 지마키가 많고, 가고시마에는 잿물에 담근 찹쌀을 대나무 껍질로 싼 아쿠마키가 있어요. 중화 가게에서는 고기·버섯을 넣은 찹쌀밥 지마키(중화 지마키)를 팔아요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>가시와모치는 떡갈나무 잎으로 감싸고, 지마키는 조릿대 잎으로 길게 감싸요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%81%A1%E3%81%BE%E3%81%8D\">위키백과(일본어) · ちまき</a></li><li><a href=\"https://ja.wikipedia.org/wiki/%E7%AB%AF%E5%8D%88\">위키백과(일본어) · 端午</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "지마키 ちまき",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_wakaayu",
+      "title": "와카아유",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>와카아유</h2><div class=\"book-ja-name\">若鮎 · わかあゆ</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>디저트·화과자·빵</td></tr><tr><th>음식의 정체</th><td>카스텔라 같은 반죽을 은어 모양으로 구워 쫀득한 떡(규히)을 감싼 초여름 화과자예요.</td></tr><tr><th>주요 재료 구성</th><td>카스텔라풍 반죽 · 규히(떡) · 팥소(일부)</td></tr><tr><th>맛 설명</th><td>보드라운 반죽 속에 말랑한 떡이 들어 있어 부드럽고 달아요.</td></tr><tr><th>주문·방문 안내</th><td>6~7월 화과자점에 많아요. 은어 눈·지느러미를 구움 자국으로 그려 넣어요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>강의 은어(아유) 낚시가 시작되는 초여름의 상징을 과자로 만든 것이에요. 아유 과자라고도 불러요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>은어 낚시가 풀리는 6월 무렵부터 여름 동안 나와요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>머리부터 한 마리씩 먹어요. 하루 이틀 안에 먹는 생과자예요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>기후·교토·오카야마 등 은어가 유명한 강이 있는 지역마다 이름난 가게가 있어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>도라야키와 반죽은 비슷하지만, 반으로 접어 떡을 감싼 은어 모양이에요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E8%8B%A5%E9%AE%8E\">위키백과(일본어) · 若鮎</a></li><li><a href=\"https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%A6\">위키백과(일본어) · アユ</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "와카아유 若鮎",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_minazuki",
+      "title": "미나즈키",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>미나즈키</h2><div class=\"book-ja-name\">水無月 · みなづき</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>디저트·화과자·빵</td></tr><tr><th>음식의 정체</th><td>흰 우이로(쫀득한 쌀 찜과자) 위에 단팥을 얹어 삼각형으로 자른 교토의 6월 화과자예요.</td></tr><tr><th>주요 재료 구성</th><td>우이로(쌀가루·설탕 찜) · 단팥</td></tr><tr><th>맛 설명</th><td>쫀득하고 촉촉한 반죽에 팥의 단맛이 얹혀요.</td></tr><tr><th>주문·방문 안내</th><td>6월, 특히 6월 30일 전후 교토 화과자점과 슈퍼에 많이 나와요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>삼각형은 더위를 식히던 얼음을, 팥은 액막이를 뜻한다고 알려져 있어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>한 해의 절반이 지나는 6월 30일, 신사에서 액을 씻어 내는 나고시노하라에 때 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>한 조각씩 꼬챙이로 잘라 차와 함께 먹어요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>교토에서 특히 강한 풍습이며, 다른 지역에서도 교토식 과자로 팔아요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>요칸보다 부드럽고 쫀득한 찜과자예요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E6%B0%B4%E7%84%A1%E6%9C%88%20%28%E5%92%8C%E8%8F%93%E5%AD%90%29\">위키백과(일본어) · 水無月 (和菓子)</a></li><li><a href=\"https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%A5%93\">위키백과(일본어) · 大祓</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "미나즈키 水無月",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_mizuyokan",
+      "title": "미즈요칸",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>미즈요칸</h2><div class=\"book-ja-name\">水羊羹 · みずようかん</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>디저트·화과자·빵</td></tr><tr><th>음식의 정체</th><td>물을 많이 넣고 한천을 적게 써 부드럽게 굳힌 요칸이에요. 차갑게 먹어요.</td></tr><tr><th>주요 재료 구성</th><td>팥앙금 · 한천 · 설탕 · 물</td></tr><tr><th>맛 설명</th><td>입에서 사르르 녹을 만큼 부드럽고 단맛이 깔끔해요.</td></tr><tr><th>주문·방문 안내</th><td>여름 선물·편의점 냉장 코너에 많아요. 차갑게 식혀서 드세요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>예전 요칸은 쪄서 만드는 것이었고, 한천으로 굳히는 요칸이 퍼지면서 물을 많이 넣은 부드러운 미즈요칸도 만들어졌어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>대개 여름에 차갑게 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>숟가락이나 꼬챙이로 떠서 먹어요. 녹차·말차와 잘 어울려요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>후쿠이에서는 겨울에 고타쓰(난방 탁자)에서 미즈요칸을 먹는 문화가 알려져 있어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>보통 요칸(네리요칸)은 단단하고 진하며, 미즈요칸은 물이 많아 가볍고 부드러워요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E7%BE%8A%E7%BE%B9\">위키백과(일본어) · 羊羹</a></li><li><a href=\"https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/bunrui/kashirui.html\">농림수산성 전통 식품 도감 · 과자류</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "미즈요칸 水羊羹",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_kuzuzakura",
+      "title": "쿠즈자쿠라",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>쿠즈자쿠라</h2><div class=\"book-ja-name\">葛桜 · くずざくら</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>디저트·화과자·빵</td></tr><tr><th>음식의 정체</th><td>칡가루 반죽으로 팥소를 감싸 반투명하게 찐 뒤 벚잎으로 싼 여름 화과자예요.</td></tr><tr><th>주요 재료 구성</th><td>칡가루(구즈) · 팥소 · 벚잎 절임</td></tr><tr><th>맛 설명</th><td>말랑하고 탱글한 반투명 반죽이 시원하고, 벚잎의 짭짤한 향이 나요.</td></tr><tr><th>주문·방문 안내</th><td>6~8월 화과자점에 많아요. 차갑게 식혀 먹으면 더 탱글해요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>칡가루로 만든 반투명한 만주에 벚잎을 감싼 것을 쿠즈자쿠라라고 불러요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>보기에도 시원해 여름에 많이 내요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>벚잎은 함께 먹어도 되고 벗겨도 돼요. 오래 두면 하얗게 굳으니 당일에 먹어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>사쿠라모치처럼 벚잎을 쓰지만, 반죽이 칡이라 투명하고 탱글해요. 구즈만주라고도 해요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E9%A5%85%E9%A0%AD\">위키백과(일본어) · 饅頭</a></li><li><a href=\"https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/bunrui/kashirui.html\">농림수산성 전통 식품 도감 · 과자류</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "쿠즈자쿠라 葛桜",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_zunda_mochi",
+      "title": "즌다모치",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>즌다모치</h2><div class=\"book-ja-name\">ずんだ餅 · ずんだもち</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>디저트·화과자·빵</td></tr><tr><th>음식의 정체</th><td>삶은 풋콩(에다마메)을 으깨 설탕을 넣은 초록 앙금(즌다)을 떡에 얹은 미야기·센다이 명물이에요.</td></tr><tr><th>주요 재료 구성</th><td>떡 · 풋콩 · 설탕 · 소금 약간</td></tr><tr><th>맛 설명</th><td>풋콩의 고소하고 풋풋한 향에 은은한 단맛이 나요.</td></tr><tr><th>주문·방문 안내</th><td>센다이역 주변 기념품점과 찻집에서 쉽게 볼 수 있어요. 즌다 셰이크도 유명해요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>미야기 등 도호쿠 남부에서 풋콩을 으깨 떡에 묻혀 먹던 향토 음식이에요. 이름의 유래는 여러 설이 있어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>풋콩이 나는 여름이 제철이지만, 지금은 일 년 내내 팔아요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>떡을 즌다와 함께 떠 먹어요. 녹차와 잘 어울려요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>야마가타·후쿠시마 등 이웃 지역에서도 먹고, 지역에 따라 진다·준다라고도 불러요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>팥 대신 풋콩 앙금을 쓰는 떡이에요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%81%9A%E3%82%93%E3%81%A0%E9%A4%85\">위키백과(일본어) · ずんだ餅</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "즌다모치 ずんだ餅",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_tsukimi_dango",
+      "title": "쓰키미당고",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>쓰키미당고</h2><div class=\"book-ja-name\">月見団子 · つきみだんご</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>디저트·화과자·빵</td></tr><tr><th>음식의 정체</th><td>달맞이(쓰키미) 밤에 달에 바치는 흰 경단이에요.</td></tr><tr><th>주요 재료 구성</th><td>쌀가루 경단 · 팥소(간사이식 일부)</td></tr><tr><th>맛 설명</th><td>양념 없이 담백하고 쫀득해요. 팥소를 곁들이면 달아져요.</td></tr><tr><th>주문·방문 안내</th><td>9~10월 화과자점·슈퍼에 쌓아 올린 경단이 나와요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>음력 8월 15일 밤(십오야)에 수확을 감사하며 달에 경단·억새·토란 등을 바치는 풍습이 있어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>십오야는 지금 달력으로 9월 중순~10월 초예요. 음력 9월 13일 밤(쥬산야)에도 달맞이를 해요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>달에 바친 뒤 내려서 나눠 먹어요. 간장·콩가루·팥소를 곁들이기도 해요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>간토는 둥근 경단을 쌓고, 간사이에서는 토란 모양의 길쭉한 경단에 팥소를 감싸는 경우가 많아요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>하나미당고는 세 색 꼬치 경단이고, 쓰키미당고는 흰 경단을 피라미드처럼 쌓아 올려요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E6%9C%88%E8%A6%8B\">위키백과(일본어) · 月見</a></li><li><a href=\"https://ja.wikipedia.org/wiki/%E5%9B%A3%E5%AD%90\">위키백과(일본어) · 団子</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "쓰키미당고 月見団子",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_kurikinton",
+      "title": "쿠리킨톤",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>쿠리킨톤</h2><div class=\"book-ja-name\">栗きんとん · くりきんとん</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>디저트·화과자·빵</td></tr><tr><th>음식의 정체</th><td>삶은 밤을 으깨 설탕을 넣고 밤 모양으로 짜낸 가을 화과자예요. 정월 오세치의 밤 조림도 같은 이름으로 불러요.</td></tr><tr><th>주요 재료 구성</th><td>밤 · 설탕</td></tr><tr><th>맛 설명</th><td>밤 그대로의 고소함과 포슬포슬한 식감, 은은한 단맛이 나요.</td></tr><tr><th>주문·방문 안내</th><td>9~10월 기후현 나카쓰가와 일대 화과자점이 유명해요. 오래 두지 않는 생과자예요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>기후현 나카쓰가와·에나 지역에서 햇밤으로 만드는 과자로 알려져 있어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>햇밤이 나오는 9월부터 가을 동안 나와요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>말차나 녹차와 함께 한 개씩 먹어요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>나카쓰가와식은 밤과 설탕만으로 만들어 포슬포슬하고, 오세치용은 노란 앙금이 끈적하고 달아요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>오세치의 구리킨톤은 고구마 앙금에 밤 조림을 섞은 것으로, 가을 화과자 쿠리킨톤과 모양·식감이 달라요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E6%A0%97%E3%81%8D%E3%82%93%E3%81%A8%E3%82%93\">위키백과(일본어) · 栗きんとん</a></li><li><a href=\"https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/bunrui/kashirui.html\">농림수산성 전통 식품 도감 · 과자류</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "쿠리킨톤 栗きんとん",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_kuri_mushi_yokan",
+      "title": "쿠리무시요칸",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>쿠리무시요칸</h2><div class=\"book-ja-name\">栗蒸し羊羹 · くりむしようかん</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>디저트·화과자·빵</td></tr><tr><th>음식의 정체</th><td>팥앙금에 밀가루·칡가루를 섞고 밤을 넣어 쪄서 굳힌 찐 요칸이에요.</td></tr><tr><th>주요 재료 구성</th><td>팥앙금 · 밀가루·칡가루 · 밤</td></tr><tr><th>맛 설명</th><td>보통 요칸보다 쫀득하고 덜 달며, 밤이 씹혀요.</td></tr><tr><th>주문·방문 안내</th><td>9~11월 화과자점의 가을 상품으로 많아요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>한천을 쓰기 전부터 있던 찐 요칸에 가을 밤을 넣은 것이에요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>밤이 나오는 가을에 많이 나와요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>얇게 썰어 차와 함께 먹어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>보통 요칸은 한천으로 굳히고, 무시요칸은 쪄서 굳혀 식감이 쫀득해요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E6%A0%97%E8%92%B8%E3%81%97%E7%BE%8A%E7%BE%B9\">위키백과(일본어) · 栗蒸し羊羹</a></li><li><a href=\"https://ja.wikipedia.org/wiki/%E7%BE%8A%E7%BE%B9\">위키백과(일본어) · 羊羹</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "쿠리무시요칸 栗蒸し羊羹",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_imo_yokan",
+      "title": "이모요칸",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>이모요칸</h2><div class=\"book-ja-name\">芋羊羹 · いもようかん</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>디저트·화과자·빵</td></tr><tr><th>음식의 정체</th><td>고구마를 쪄서 으깨 설탕을 넣고 네모나게 굳힌 요칸이에요.</td></tr><tr><th>주요 재료 구성</th><td>고구마 · 설탕 · 소금 약간</td></tr><tr><th>맛 설명</th><td>고구마 본래의 단맛과 포슬하면서 촉촉한 식감이 나요.</td></tr><tr><th>주문·방문 안내</th><td>도쿄 아사쿠사의 명물로 알려져 있어요. 기념품점·백화점 화과자 코너에서 많이 팔아요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>메이지 시대 도쿄 아사쿠사에서 비싼 팥 요칸 대신 고구마로 만든 것이 인기를 끌었다고 알려져 있어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>고구마가 나는 가을에 많이 먹지만 일 년 내내 팔아요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>그대로 썰어 먹거나 살짝 구워 먹어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>팥 요칸과 달리 팥 없이 고구마로 만들어요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E8%8A%8B%E7%BE%8A%E7%BE%B9\">위키백과(일본어) · 芋羊羹</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "이모요칸 芋羊羹",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_kintsuba",
+      "title": "킨츠바",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>킨츠바</h2><div class=\"book-ja-name\">きんつば · きんつば</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>디저트·화과자·빵</td></tr><tr><th>음식의 정체</th><td>네모나게 굳힌 팥소에 밀가루 반죽을 얇게 입혀 한 면씩 구운 과자예요.</td></tr><tr><th>주요 재료 구성</th><td>팥소(한천으로 굳힘) · 밀가루 반죽</td></tr><tr><th>맛 설명</th><td>얇은 겉면 안에 팥이 가득해 팥 맛이 진해요.</td></tr><tr><th>주문·방문 안내</th><td>화과자점·기념품점에서 일 년 내내 팔고, 고구마 킨츠바도 있어요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>원래 둥글게 구운 모양이 칼의 날밑(쓰바)을 닮아 이름이 붙었다고 알려져 있어요. 지금은 네모난 모양이 흔해요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>일 년 내내 먹지만, 가을 화과자로도 많이 소개돼요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>살짝 데우면 겉면이 고소해져요. 차와 함께 먹어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>도라야키는 두꺼운 반죽 사이에 팥소를 끼우고, 킨츠바는 얇은 막으로 팥소를 감싸요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%81%8D%E3%82%93%E3%81%A4%E3%81%B0\">위키백과(일본어) · きんつば</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "킨츠바 きんつば",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_toshikoshi_soba",
+      "title": "토시코시소바",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>토시코시소바</h2><div class=\"book-ja-name\">年越し蕎麦 · としこしそば</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>면</td></tr><tr><th>음식의 정체</th><td>섣달그믐(12월 31일)에 한 해를 넘기며 먹는 소바예요.</td></tr><tr><th>주요 재료 구성</th><td>메밀국수 · 쓰유(간장 국물) · 파·튀김 등 고명</td></tr><tr><th>맛 설명</th><td>보통 따뜻한 국물 소바로 먹어요. 메밀 향과 다시 국물 맛이 나요.</td></tr><tr><th>주문·방문 안내</th><td>12월 31일에는 소바집이 붐비고, 슈퍼에서는 토시코시소바용 면·튀김을 많이 팔아요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>가늘고 긴 면처럼 오래 살기를, 잘 끊어지는 면처럼 한 해의 고생을 끊기를 바란다는 등 여러 설이 전해져요. 에도 시대에 퍼진 풍습으로 알려져 있어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>12월 31일 저녁부터 밤까지 먹어요. 해가 바뀌기 전에 다 먹는 것이 좋다고 여기는 집도 있어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>따뜻한 국물 소바에 새우튀김을 얹는 집이 많아요. 차가운 자루소바로 먹기도 해요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>후쿠이에서는 무즙을 올린 에치젠 오로시소바, 가가와 등 일부 지역은 토시코시 우동을 먹기도 해요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>보통 소바와 같은 음식이지만, 섣달그믐에 먹는 풍습을 가리키는 이름이에요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E5%B9%B4%E8%B6%8A%E3%81%97%E8%95%8E%E9%BA%A6\">위키백과(일본어) · 年越し蕎麦</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "토시코시소바 年越し蕎麦",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_chitoseame",
+      "title": "지토세아메",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>지토세아메</h2><div class=\"book-ja-name\">千歳飴 · ちとせあめ</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>디저트·화과자·빵</td></tr><tr><th>음식의 정체</th><td>시치고산(아이 성장 축하 행사) 때 아이에게 주는 가늘고 긴 홍백 엿이에요.</td></tr><tr><th>주요 재료 구성</th><td>설탕·물엿 · 홍백 색</td></tr><tr><th>맛 설명</th><td>단단하고 단 엿이에요.</td></tr><tr><th>주문·방문 안내</th><td>11월 시치고산 무렵 신사와 사진관 주변에서 학·거북이 그려진 긴 봉투에 담아 팔아요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>천 년(지토세)처럼 오래 살기를 바라는 뜻을 담았고, 에도 시대 아사쿠사에서 팔기 시작했다는 이야기가 전해져요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>11월 15일 전후 시치고산(3·5·7살 아이 축하)에 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>길어서 잘라 나눠 먹어요. 단단하니 어린아이가 먹을 때는 작게 잘라 주세요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>보통 엿과 같지만, 길고 가늘게 늘인 축하용 엿이에요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E4%B8%83%E4%BA%94%E4%B8%89\">위키백과(일본어) · 七五三</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "지토세아메 千歳飴",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_sekihan",
+      "title": "세키한",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>세키한</h2><div class=\"book-ja-name\">赤飯 · せきはん</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>밥·덮밥</td></tr><tr><th>음식의 정체</th><td>찹쌀에 팥(또는 동부)을 넣어 붉게 물들여 찐 축하용 밥이에요.</td></tr><tr><th>주요 재료 구성</th><td>찹쌀 · 팥 또는 동부 · 깨소금</td></tr><tr><th>맛 설명</th><td>쫀득한 찹쌀에 팥의 고소함이 배고, 깨소금으로 간을 해요.</td></tr><tr><th>주문·방문 안내</th><td>편의점·슈퍼·화과자점에서 팩이나 오니기리로 팔아요. 축하 도시락에도 들어가요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>붉은색이 액을 막는다고 여겨 경사스러운 날에 짓는 풍습이 오래전부터 있어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>생일·입학·결혼 등 축하할 일이 있을 때 먹어요. 따로 정해진 계절은 없어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>깨소금을 뿌려 먹어요. 식어도 맛있어 도시락으로 많이 써요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>홋카이도 등 일부 지역에서는 단 낫토(아마낫토)를 넣어 단맛이 나는 세키한을 만들어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>오하기와 재료는 비슷하지만, 세키한은 팥소 없이 밥으로 먹어요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E8%B5%A4%E9%A3%AF\">위키백과(일본어) · 赤飯</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "세키한 赤飯",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_hamaguri_ushiojiru",
+      "title": "대합 맑은국",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>대합 맑은국</h2><div class=\"book-ja-name\">蛤の潮汁 · はまぐりのうしおじる</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>나베·국·오뎅</td></tr><tr><th>음식의 정체</th><td>대합을 물에 끓여 소금으로만 간한 맑은 국이에요. 히나마쓰리 상에 자주 올라요.</td></tr><tr><th>주요 재료 구성</th><td>대합 · 다시마 · 소금·술</td></tr><tr><th>맛 설명</th><td>조개에서 우러난 시원한 감칠맛이 진하고 국물이 맑아요.</td></tr><tr><th>주문·방문 안내</th><td>3월 일식집 코스나 히나마쓰리 정식에 나와요. 조개를 먹지 않는 분은 미리 알려 주세요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>대합은 원래 짝이었던 껍데기끼리만 딱 맞아, 좋은 짝을 만나기를 바라는 뜻으로 여자아이 축제에 올린다고 알려져 있어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>3월 3일 히나마쓰리 무렵, 대합이 맛있는 봄에 많이 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>껍데기 속 살을 젓가락으로 떼어 먹고 국물을 마셔요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>미소시루는 된장으로 맛을 내고, 우시오지루는 조개 맛과 소금만으로 맛을 내요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E6%BD%AE%E6%B1%81\">위키백과(일본어) · 潮汁</a></li><li><a href=\"https://ja.wikipedia.org/wiki/%E9%9B%9B%E7%A5%AD%E3%82%8A\">위키백과(일본어) · 雛祭り</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "대합 맑은국 蛤の潮汁",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_taimeshi",
+      "title": "타이메시",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>타이메시</h2><div class=\"book-ja-name\">鯛めし · たいめし</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>밥·덮밥</td></tr><tr><th>음식의 정체</th><td>도미를 넣어 짓거나 얹어 먹는 밥이에요. 에히메에는 방식이 다른 두 가지 타이메시가 있어요.</td></tr><tr><th>주요 재료 구성</th><td>쌀 · 도미 · 다시·간장(지은 밥) 또는 날달걀·간장 양념(우와지마식)</td></tr><tr><th>맛 설명</th><td>도미의 담백한 감칠맛이 밥에 배요. 우와지마식은 양념한 도미회가 고소해요.</td></tr><tr><th>주문·방문 안내</th><td>에히메 마쓰야마·우와지마 식당에서 많이 팔아요. 날것이 싫으면 지은 밥 방식을 고르세요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>도미가 많이 잡히는 세토 내해·우와 해 연안에서 먹어 온 향토 음식이에요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>도미가 맛있는 봄이 제철로 알려져 있지만 일 년 내내 먹어요. 축하 자리에도 내요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>지은 밥은 도미 살을 발라 섞어 먹어요. 우와지마식은 양념에 버무린 도미회를 밥에 올려 국물째 먹어요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>에히메 동부·중부(마쓰야마 등)는 도미를 통째 넣어 짓는 방식, 남부 우와지마는 날 도미회를 양념해 얹는 방식이 대표적이에요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>다키코미고항의 한 종류(지은 방식)이자, 우와지마식은 회덮밥에 가까워요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E9%AF%9B%E3%82%81%E3%81%97\">위키백과(일본어) · 鯛めし</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "타이메시 鯛めし",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_ayu_shioyaki",
+      "title": "은어 소금구이",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>은어 소금구이</h2><div class=\"book-ja-name\">鮎の塩焼き · あゆのしおやき</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>구이·고기·꼬치</td></tr><tr><th>음식의 정체</th><td>강에서 잡은 은어를 꼬치에 꽂아 소금을 뿌리고 숯불에 구운 여름 생선구이예요.</td></tr><tr><th>주요 재료 구성</th><td>은어 · 소금 · 여뀌 식초(다데즈, 일부)</td></tr><tr><th>맛 설명</th><td>담백한 흰살에 은은한 수박·오이 같은 향이 나고, 내장의 쌉쌀함이 특징이에요.</td></tr><tr><th>주문·방문 안내</th><td>6~9월 강가 식당·료칸·축제 노점에서 많이 팔아요. 작은 생선이라 통째로 나와요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>은어는 향이 좋아 향어(香魚)라고도 불러요. 기후 나가라강의 가마우지 낚시(우카이)가 유명해요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>은어 낚시가 풀리는 6월 무렵부터 여름 동안 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>머리부터 통째로 먹거나 등뼈를 빼고 먹어요. 내장의 쌉쌀함이 싫으면 남겨도 돼요. 여뀌 식초에 찍어 먹기도 해요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>교토·시가·고치·와카야마 등 맑은 강이 있는 지역 곳곳에 은어 요리가 있어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>사바 시오야키·꽁치 시오야키처럼 바다 생선이 아니라 강 생선이에요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%A6\">위키백과(일본어) · アユ</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "은어 소금구이 鮎の塩焼き",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_shimesaba",
+      "title": "시메사바",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>시메사바</h2><div class=\"book-ja-name\">〆鯖 · しめさば</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>스시·회</td></tr><tr><th>음식의 정체</th><td>고등어를 소금에 절였다가 식초에 절여 회처럼 썬 요리예요.</td></tr><tr><th>주요 재료 구성</th><td>고등어 · 소금 · 식초</td></tr><tr><th>맛 설명</th><td>기름진 고등어에 식초의 새콤함이 더해져 깔끔해요. 겉은 살짝 익은 듯하고 속은 날것에 가까워요.</td></tr><tr><th>주문·방문 안내</th><td>이자카야·스시집에서 많이 보여요. 완전히 익힌 요리가 아니니 날생선을 피하는 분은 주의하세요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>잡은 뒤 빨리 상하는 고등어를 오래 두고 먹으려고 소금과 식초로 절이는 방법에서 왔어요. 간사이에서는 기즈시라고도 불러요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>고등어에 기름이 오르는 가을~겨울에 많이 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>생강·파·간장을 곁들여 회처럼 먹어요. 스시 위에 올리기도 해요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>고마사바는 간장·깨 양념의 날 고등어회이고, 시메사바는 식초에 절여요. 밧테라는 시메사바를 올린 누름초밥이에요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%81%8D%E3%81%9A%E3%81%97\">위키백과(일본어) · 〆鯖</a></li><li><a href=\"https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%90\">위키백과(일본어) · サバ</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "시메사바 〆鯖",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_saba_misoni",
+      "title": "사바 미소니",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>사바 미소니</h2><div class=\"book-ja-name\">鯖の味噌煮 · さばのみそに</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>반찬·안주·조림·찜</td></tr><tr><th>음식의 정체</th><td>고등어를 된장·설탕·미림·생강으로 달콤짭짤하게 조린 반찬이에요.</td></tr><tr><th>주요 재료 구성</th><td>고등어 · 된장 · 설탕·미림 · 생강</td></tr><tr><th>맛 설명</th><td>진한 단짠 된장 양념이 기름진 고등어에 배요. 생강이 비린 맛을 잡아요.</td></tr><tr><th>주문·방문 안내</th><td>정식집·도시락·편의점 반찬으로 흔해요. 밥과 미소시루가 함께 나오는 정식으로 많이 먹어요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>된장과 생강으로 생선 비린내를 잡는 조림법은 가정 요리로 오래 이어져 왔어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>일 년 내내 먹지만, 고등어가 기름진 가을~겨울에 더 맛있다고 여겨요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>젓가락으로 살을 발라 밥 위에 양념과 함께 얹어 먹어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>사바 시오야키는 소금구이, 사바 미소니는 된장 조림이에요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%90%E3%81%AE%E5%91%B3%E5%99%8C%E7%85%AE\">위키백과(일본어) · サバの味噌煮</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "사바 미소니 鯖の味噌煮",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_buri_daikon",
+      "title": "부리 다이콘",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>부리 다이콘</h2><div class=\"book-ja-name\">ぶり大根 · ぶりだいこん</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>반찬·안주·조림·찜</td></tr><tr><th>음식의 정체</th><td>방어의 서더리·토막과 무를 간장·설탕·미림으로 조린 겨울 반찬이에요.</td></tr><tr><th>주요 재료 구성</th><td>방어(서더리·토막) · 무 · 간장·설탕·미림·술 · 생강</td></tr><tr><th>맛 설명</th><td>방어 기름과 감칠맛이 밴 무가 달콤짭짤하고 부드러워요.</td></tr><tr><th>주문·방문 안내</th><td>겨울 이자카야·정식집에 많아요. 뼈가 있는 부위도 있으니 조심해서 드세요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>겨울에 살이 오른 방어(간부리)와 맛있어지는 무를 함께 조린 가정 요리예요. 도야마의 향토 요리로 소개돼요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>방어와 무가 함께 맛있는 12~2월에 많이 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>무는 젓가락으로 잘라 국물과 함께, 방어는 뼈를 발라 먹어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>니쿠자가처럼 달콤짭짤한 조림이지만, 고기 대신 방어를 써요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%81%B6%E3%82%8A%E5%A4%A7%E6%A0%B9\">위키백과(일본어) · ぶり大根</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "부리 다이콘 ぶり大根",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_ishikari_nabe",
+      "title": "이시카리나베",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>이시카리나베</h2><div class=\"book-ja-name\">石狩鍋 · いしかりなべ</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>나베·국·오뎅</td></tr><tr><th>음식의 정체</th><td>연어 토막과 채소·두부를 미소 국물에 끓인 홋카이도 나베예요.</td></tr><tr><th>주요 재료 구성</th><td>연어 · 양배추·배추·감자 등 채소 · 두부 · 미소 국물 · 버터·산초(일부)</td></tr><tr><th>맛 설명</th><td>연어의 감칠맛이 밴 진한 미소 국물이 구수해요.</td></tr><tr><th>주문·방문 안내</th><td>삿포로·오타루의 향토 요리점이나 겨울 이자카야에서 많이 보여요. 2인분부터 주문하는 가게가 있어요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>연어가 올라오는 홋카이도 이시카리강 하구의 어부 요리에서 시작됐다고 알려져 있어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>연어가 돌아오는 가을부터 겨울까지 많이 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>익은 순서대로 덜어 먹고, 마지막에 밥이나 우동을 넣어 마무리하기도 해요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>요세나베는 여러 재료를 섞는 나베이고, 이시카리나베는 연어와 미소가 중심이에요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E7%9F%B3%E7%8B%A9%E9%8D%8B\">위키백과(일본어) · 石狩鍋</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "이시카리나베 石狩鍋",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_anko_nabe",
+      "title": "안코나베",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>안코나베</h2><div class=\"book-ja-name\">あんこう鍋 · あんこうなべ</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>나베·국·오뎅</td></tr><tr><th>음식의 정체</th><td>아귀의 살과 간·껍질·지느러미 등을 채소와 함께 끓인 겨울 나베예요.</td></tr><tr><th>주요 재료 구성</th><td>아귀(살·간·껍질 등) · 채소·두부 · 간장 또는 미소 국물</td></tr><tr><th>맛 설명</th><td>아귀 간(안키모)이 녹아 국물이 진하고 고소해요. 껍질은 쫄깃해요.</td></tr><tr><th>주문·방문 안내</th><td>이바라키 북부 해안(오아라이·기타이바라키)의 겨울 요리로 유명해요. 예약이 필요한 가게도 있어요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>살부터 간·껍질·위·아가미 등 버릴 곳이 없다는 아귀의 부위를 모두 넣는 요리예요. 이바라키에는 간을 볶아 물을 거의 넣지 않고 채소 수분으로 끓이는 어부식 도부지루도 있어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>아귀 간이 커지는 12~2월이 제철로 알려져 있어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>부위마다 식감이 달라 하나씩 맛보며 먹어요. 마지막에 죽(조스이)으로 마무리해요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>야마구치 시모노세키도 아귀가 많이 잡히는 곳으로 알려져 있어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>복어 나베(텟치리)는 담백하고, 안코나베는 간이 녹아 진해요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%81%82%E3%82%93%E3%81%93%E3%81%86%E9%8D%8B\">위키백과(일본어) · あんこう鍋</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "안코나베 あんこう鍋",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_serinabe",
+      "title": "세리나베",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>세리나베</h2><div class=\"book-ja-name\">せり鍋 · せりなべ</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>나베·국·오뎅</td></tr><tr><th>음식의 정체</th><td>미나리를 뿌리째 듬뿍 넣고 닭·오리 고기와 간장 국물에 끓인 센다이의 겨울 나베예요.</td></tr><tr><th>주요 재료 구성</th><td>미나리(뿌리 포함) · 닭고기 또는 오리고기 · 간장 다시 국물</td></tr><tr><th>맛 설명</th><td>미나리의 향긋하고 아삭한 맛이 진하고, 뿌리는 씹는 맛이 좋아요.</td></tr><tr><th>주문·방문 안내</th><td>겨울 센다이 시내 이자카야·향토 요리점에서 많이 팔아요. 미나리는 살짝만 익혀 먹어요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>미야기는 미나리 산지로, 센다이 등에서 뿌리까지 먹는 미나리 나베가 겨울 명물로 알려졌어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>미나리 뿌리가 맛있어지는 겨울(12~3월)에 많이 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>미나리는 오래 끓이지 말고 숨이 죽을 정도로만 데쳐 먹어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>샤부샤부처럼 살짝 데쳐 먹지만, 고기보다 미나리가 주인공이에요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%81%9B%E3%82%8A%E9%8D%8B\">위키백과(일본어) · せり鍋</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "세리나베 せり鍋",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_nishin_soba",
+      "title": "니신소바",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>니신소바</h2><div class=\"book-ja-name\">にしんそば · にしんそば</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>면</td></tr><tr><th>음식의 정체</th><td>말린 청어를 달콤짭짤하게 조려 따뜻한 소바 위에 얹은 교토 명물이에요.</td></tr><tr><th>주요 재료 구성</th><td>메밀국수 · 달게 조린 청어(미가키니신) · 따뜻한 쓰유 · 파</td></tr><tr><th>맛 설명</th><td>달콤짭짤한 청어 조림이 국물에 녹아 진한 감칠맛이 나요.</td></tr><tr><th>주문·방문 안내</th><td>교토 기온 일대 소바집에서 많이 팔아요. 역 매점·기념품으로도 있어요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>바다에서 먼 교토에서는 홋카이도에서 온 말린 청어가 귀한 단백질이었고, 메이지 시대 교토의 소바집이 이를 소바에 올린 것이 시작으로 알려져 있어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>일 년 내내 먹어요. 교토에서는 섣달그믐에 토시코시소바로 먹기도 해요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>청어는 뼈째 부드럽게 조려져 있어 그대로 먹어요. 국물에 청어 맛이 배어들면 국물도 즐겨요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>홋카이도 에사시 등 청어잡이로 유명했던 지역에도 니신소바가 있어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>키츠네우동은 단 유부를 얹고, 니신소바는 단 청어 조림을 얹어요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%81%AB%E3%81%97%E3%82%93%E3%81%9D%E3%81%B0\">위키백과(일본어) · にしんそば</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "니신소바 にしんそば",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "tocId": "food_nonramen_shojin_ryori",
+      "title": "쇼진요리",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>쇼진요리</h2><div class=\"book-ja-name\">精進料理 · しょうじんりょうり</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>반찬·안주·조림·찜</td></tr><tr><th>음식의 정체</th><td>고기와 생선을 쓰지 않고 채소·콩·해조류·곡물로 만드는 불교 사찰 요리예요.</td></tr><tr><th>주요 재료 구성</th><td>두부·유바·참깨두부 · 제철 채소·산나물 · 다시마·표고 다시</td></tr><tr><th>맛 설명</th><td>담백하고 재료 맛이 살아 있어요. 참깨두부는 고소하고 쫀득해요.</td></tr><tr><th>주문·방문 안내</th><td>교토의 사찰이나 고야산 숙방(슈쿠보)에서 먹을 수 있어요. 예약제인 곳이 많아요. 달걀·유제품 사용 여부는 곳마다 다르니 확인하세요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>살생을 피하는 불교 수행에서 비롯됐고, 가마쿠라 시대 선종과 함께 널리 퍼졌다고 알려져 있어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>일 년 내내 먹어요. 오봉 등 불교 행사 때 가정에서 쇼진 음식을 차리기도 해요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>정해진 순서로 나오는 상차림을 천천히 먹어요. 사찰에서는 식사 예절을 안내받는 경우가 있어요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>교토의 사찰 요리, 와카야마 고야산 숙방 요리, 에도 시대 중국 승려가 전한 후차요리(보차요리) 등이 있어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>가이세키처럼 여러 접시가 나오지만, 동물성 재료를 쓰지 않는 점이 달라요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E7%B2%BE%E9%80%B2%E6%96%99%E7%90%86\">위키백과(일본어) · 精進料理</a></li></ul><p>확인일: 2026-11-03</p><p>관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "쇼진요리 精進料理",
       "updatedAt": "2026-11-03"
     }
   ],
@@ -5733,6 +6446,378 @@
       "taste_description": "아삭한 죽순에 다시와 간장 향이 배요.",
       "season": "봄",
       "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_hanabiramochi",
+      "item_type": "food",
+      "tocId": "food_nonramen_hanabiramochi",
+      "food_name_ko": "하나비라모치",
+      "food_name_ja": "菱葩餅",
+      "basic_description": "얇게 편 흰 떡에 분홍 떡과 흰 된장 앙금, 달게 졸인 우엉을 올려 반달 모양으로 접은 정월 화과자예요.",
+      "ingredients": "흰 떡(규히) · 분홍 떡 · 흰 된장 앙금 · 달게 졸인 우엉",
+      "taste_description": "말랑한 떡에 흰 된장 앙금의 은은한 단짠맛과 우엉의 씹는 맛이 더해져요.",
+      "season": "겨울",
+      "representative_region": "교토"
+    },
+    {
+      "id": "food_nonramen_zenzai",
+      "item_type": "food",
+      "tocId": "food_nonramen_zenzai",
+      "food_name_ko": "젠자이",
+      "food_name_ja": "ぜんざい",
+      "basic_description": "팥을 달게 삶아 떡이나 시라타마(찹쌀 경단)를 넣어 먹는 따뜻한 팥 디저트예요.",
+      "ingredients": "팥 · 설탕 · 구운 떡 또는 시라타마 · 소금 약간",
+      "taste_description": "진한 팥의 단맛에 떡의 쫀득함이 어울려요. 짭짤한 시오콘부(다시마 절임)를 곁들이기도 해요.",
+      "season": "겨울",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_uguisumochi",
+      "item_type": "food",
+      "tocId": "food_nonramen_uguisumochi",
+      "food_name_ko": "우구이스모치",
+      "food_name_ja": "鶯餅",
+      "basic_description": "팥소를 떡으로 감싸 양 끝을 살짝 뾰족하게 빚고 푸른 콩가루를 뿌려 휘파람새(우구이스) 모양을 낸 이른 봄 화과자예요.",
+      "ingredients": "떡 또는 규히 · 팥소 · 푸른 콩가루(아오키나코)",
+      "taste_description": "부드러운 떡과 팥소에 고소한 콩가루 향이 나요.",
+      "season": "겨울·봄",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_kusamochi",
+      "item_type": "food",
+      "tocId": "food_nonramen_kusamochi",
+      "food_name_ko": "쿠사모치",
+      "food_name_ja": "草餅",
+      "basic_description": "쑥을 넣어 초록빛과 향을 낸 떡에 팥소를 넣거나 곁들인 봄 떡과자예요.",
+      "ingredients": "찹쌀가루·멥쌀가루 · 쑥 · 팥소",
+      "taste_description": "쑥 향이 진하고 떡이 쫀득해요. 팥소의 단맛이 쑥의 쌉쌀함을 감싸요.",
+      "season": "봄",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_ohagi",
+      "item_type": "food",
+      "tocId": "food_nonramen_ohagi",
+      "food_name_ko": "오하기·보타모치",
+      "food_name_ja": "おはぎ",
+      "basic_description": "찹쌀과 멥쌀을 섞어 지은 밥을 반쯤 찧어 뭉친 뒤 팥소·콩가루·깨로 감싼 떡과자예요.",
+      "ingredients": "찹쌀·멥쌀 · 팥소(알갱이·고운 앙금) · 콩가루·깨(일부)",
+      "taste_description": "밥알이 조금 남은 쫀득한 식감에 팥소가 두툼하게 감싸 단맛이 확실해요.",
+      "season": "봄·가을",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_hanami_dango",
+      "item_type": "food",
+      "tocId": "food_nonramen_hanami_dango",
+      "food_name_ko": "하나미당고",
+      "food_name_ja": "花見団子",
+      "basic_description": "분홍·흰색·초록 세 가지 색 경단을 한 꼬치에 꽂은 꽃구경 철 당고예요.",
+      "ingredients": "쌀가루 경단(분홍·흰·초록) · 꼬치",
+      "taste_description": "양념 없이 은은하게 단 쫀득한 경단이에요.",
+      "season": "봄",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_chimaki",
+      "item_type": "food",
+      "tocId": "food_nonramen_chimaki",
+      "food_name_ko": "지마키",
+      "food_name_ja": "ちまき",
+      "basic_description": "떡이나 찹쌀을 조릿대 잎 등으로 길게 싸서 찌거나 삶은 단오 음식이에요.",
+      "ingredients": "떡 또는 찹쌀 · 조릿대·대나무 잎 · 설탕(단 지마키)",
+      "taste_description": "잎의 향이 밴 떡이 쫀득해요. 단 지마키는 은은하게 달아요.",
+      "season": "봄",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_wakaayu",
+      "item_type": "food",
+      "tocId": "food_nonramen_wakaayu",
+      "food_name_ko": "와카아유",
+      "food_name_ja": "若鮎",
+      "basic_description": "카스텔라 같은 반죽을 은어 모양으로 구워 쫀득한 떡(규히)을 감싼 초여름 화과자예요.",
+      "ingredients": "카스텔라풍 반죽 · 규히(떡) · 팥소(일부)",
+      "taste_description": "보드라운 반죽 속에 말랑한 떡이 들어 있어 부드럽고 달아요.",
+      "season": "여름",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_minazuki",
+      "item_type": "food",
+      "tocId": "food_nonramen_minazuki",
+      "food_name_ko": "미나즈키",
+      "food_name_ja": "水無月",
+      "basic_description": "흰 우이로(쫀득한 쌀 찜과자) 위에 단팥을 얹어 삼각형으로 자른 교토의 6월 화과자예요.",
+      "ingredients": "우이로(쌀가루·설탕 찜) · 단팥",
+      "taste_description": "쫀득하고 촉촉한 반죽에 팥의 단맛이 얹혀요.",
+      "season": "여름",
+      "representative_region": "교토"
+    },
+    {
+      "id": "food_nonramen_mizuyokan",
+      "item_type": "food",
+      "tocId": "food_nonramen_mizuyokan",
+      "food_name_ko": "미즈요칸",
+      "food_name_ja": "水羊羹",
+      "basic_description": "물을 많이 넣고 한천을 적게 써 부드럽게 굳힌 요칸이에요. 차갑게 먹어요.",
+      "ingredients": "팥앙금 · 한천 · 설탕 · 물",
+      "taste_description": "입에서 사르르 녹을 만큼 부드럽고 단맛이 깔끔해요.",
+      "season": "여름",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_kuzuzakura",
+      "item_type": "food",
+      "tocId": "food_nonramen_kuzuzakura",
+      "food_name_ko": "쿠즈자쿠라",
+      "food_name_ja": "葛桜",
+      "basic_description": "칡가루 반죽으로 팥소를 감싸 반투명하게 찐 뒤 벚잎으로 싼 여름 화과자예요.",
+      "ingredients": "칡가루(구즈) · 팥소 · 벚잎 절임",
+      "taste_description": "말랑하고 탱글한 반투명 반죽이 시원하고, 벚잎의 짭짤한 향이 나요.",
+      "season": "여름",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_zunda_mochi",
+      "item_type": "food",
+      "tocId": "food_nonramen_zunda_mochi",
+      "food_name_ko": "즌다모치",
+      "food_name_ja": "ずんだ餅",
+      "basic_description": "삶은 풋콩(에다마메)을 으깨 설탕을 넣은 초록 앙금(즌다)을 떡에 얹은 미야기·센다이 명물이에요.",
+      "ingredients": "떡 · 풋콩 · 설탕 · 소금 약간",
+      "taste_description": "풋콩의 고소하고 풋풋한 향에 은은한 단맛이 나요.",
+      "season": "여름",
+      "representative_region": "미야기"
+    },
+    {
+      "id": "food_nonramen_tsukimi_dango",
+      "item_type": "food",
+      "tocId": "food_nonramen_tsukimi_dango",
+      "food_name_ko": "쓰키미당고",
+      "food_name_ja": "月見団子",
+      "basic_description": "달맞이(쓰키미) 밤에 달에 바치는 흰 경단이에요.",
+      "ingredients": "쌀가루 경단 · 팥소(간사이식 일부)",
+      "taste_description": "양념 없이 담백하고 쫀득해요. 팥소를 곁들이면 달아져요.",
+      "season": "가을",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_kurikinton",
+      "item_type": "food",
+      "tocId": "food_nonramen_kurikinton",
+      "food_name_ko": "쿠리킨톤",
+      "food_name_ja": "栗きんとん",
+      "basic_description": "삶은 밤을 으깨 설탕을 넣고 밤 모양으로 짜낸 가을 화과자예요. 정월 오세치의 밤 조림도 같은 이름으로 불러요.",
+      "ingredients": "밤 · 설탕",
+      "taste_description": "밤 그대로의 고소함과 포슬포슬한 식감, 은은한 단맛이 나요.",
+      "season": "가을",
+      "representative_region": "기후"
+    },
+    {
+      "id": "food_nonramen_kuri_mushi_yokan",
+      "item_type": "food",
+      "tocId": "food_nonramen_kuri_mushi_yokan",
+      "food_name_ko": "쿠리무시요칸",
+      "food_name_ja": "栗蒸し羊羹",
+      "basic_description": "팥앙금에 밀가루·칡가루를 섞고 밤을 넣어 쪄서 굳힌 찐 요칸이에요.",
+      "ingredients": "팥앙금 · 밀가루·칡가루 · 밤",
+      "taste_description": "보통 요칸보다 쫀득하고 덜 달며, 밤이 씹혀요.",
+      "season": "가을",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_imo_yokan",
+      "item_type": "food",
+      "tocId": "food_nonramen_imo_yokan",
+      "food_name_ko": "이모요칸",
+      "food_name_ja": "芋羊羹",
+      "basic_description": "고구마를 쪄서 으깨 설탕을 넣고 네모나게 굳힌 요칸이에요.",
+      "ingredients": "고구마 · 설탕 · 소금 약간",
+      "taste_description": "고구마 본래의 단맛과 포슬하면서 촉촉한 식감이 나요.",
+      "season": "가을",
+      "representative_region": "도쿄"
+    },
+    {
+      "id": "food_nonramen_kintsuba",
+      "item_type": "food",
+      "tocId": "food_nonramen_kintsuba",
+      "food_name_ko": "킨츠바",
+      "food_name_ja": "きんつば",
+      "basic_description": "네모나게 굳힌 팥소에 밀가루 반죽을 얇게 입혀 한 면씩 구운 과자예요.",
+      "ingredients": "팥소(한천으로 굳힘) · 밀가루 반죽",
+      "taste_description": "얇은 겉면 안에 팥이 가득해 팥 맛이 진해요.",
+      "season": "가을",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_toshikoshi_soba",
+      "item_type": "food",
+      "tocId": "food_nonramen_toshikoshi_soba",
+      "food_name_ko": "토시코시소바",
+      "food_name_ja": "年越し蕎麦",
+      "basic_description": "섣달그믐(12월 31일)에 한 해를 넘기며 먹는 소바예요.",
+      "ingredients": "메밀국수 · 쓰유(간장 국물) · 파·튀김 등 고명",
+      "taste_description": "보통 따뜻한 국물 소바로 먹어요. 메밀 향과 다시 국물 맛이 나요.",
+      "season": "겨울",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_chitoseame",
+      "item_type": "food",
+      "tocId": "food_nonramen_chitoseame",
+      "food_name_ko": "지토세아메",
+      "food_name_ja": "千歳飴",
+      "basic_description": "시치고산(아이 성장 축하 행사) 때 아이에게 주는 가늘고 긴 홍백 엿이에요.",
+      "ingredients": "설탕·물엿 · 홍백 색",
+      "taste_description": "단단하고 단 엿이에요.",
+      "season": "가을",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_sekihan",
+      "item_type": "food",
+      "tocId": "food_nonramen_sekihan",
+      "food_name_ko": "세키한",
+      "food_name_ja": "赤飯",
+      "basic_description": "찹쌀에 팥(또는 동부)을 넣어 붉게 물들여 찐 축하용 밥이에요.",
+      "ingredients": "찹쌀 · 팥 또는 동부 · 깨소금",
+      "taste_description": "쫀득한 찹쌀에 팥의 고소함이 배고, 깨소금으로 간을 해요.",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_hamaguri_ushiojiru",
+      "item_type": "food",
+      "tocId": "food_nonramen_hamaguri_ushiojiru",
+      "food_name_ko": "대합 맑은국",
+      "food_name_ja": "蛤の潮汁",
+      "basic_description": "대합을 물에 끓여 소금으로만 간한 맑은 국이에요. 히나마쓰리 상에 자주 올라요.",
+      "ingredients": "대합 · 다시마 · 소금·술",
+      "taste_description": "조개에서 우러난 시원한 감칠맛이 진하고 국물이 맑아요.",
+      "season": "봄",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_taimeshi",
+      "item_type": "food",
+      "tocId": "food_nonramen_taimeshi",
+      "food_name_ko": "타이메시",
+      "food_name_ja": "鯛めし",
+      "basic_description": "도미를 넣어 짓거나 얹어 먹는 밥이에요. 에히메에는 방식이 다른 두 가지 타이메시가 있어요.",
+      "ingredients": "쌀 · 도미 · 다시·간장(지은 밥) 또는 날달걀·간장 양념(우와지마식)",
+      "taste_description": "도미의 담백한 감칠맛이 밥에 배요. 우와지마식은 양념한 도미회가 고소해요.",
+      "season": "봄",
+      "representative_region": "에히메"
+    },
+    {
+      "id": "food_nonramen_ayu_shioyaki",
+      "item_type": "food",
+      "tocId": "food_nonramen_ayu_shioyaki",
+      "food_name_ko": "은어 소금구이",
+      "food_name_ja": "鮎の塩焼き",
+      "basic_description": "강에서 잡은 은어를 꼬치에 꽂아 소금을 뿌리고 숯불에 구운 여름 생선구이예요.",
+      "ingredients": "은어 · 소금 · 여뀌 식초(다데즈, 일부)",
+      "taste_description": "담백한 흰살에 은은한 수박·오이 같은 향이 나고, 내장의 쌉쌀함이 특징이에요.",
+      "season": "여름",
+      "representative_region": "기후"
+    },
+    {
+      "id": "food_nonramen_shimesaba",
+      "item_type": "food",
+      "tocId": "food_nonramen_shimesaba",
+      "food_name_ko": "시메사바",
+      "food_name_ja": "〆鯖",
+      "basic_description": "고등어를 소금에 절였다가 식초에 절여 회처럼 썬 요리예요.",
+      "ingredients": "고등어 · 소금 · 식초",
+      "taste_description": "기름진 고등어에 식초의 새콤함이 더해져 깔끔해요. 겉은 살짝 익은 듯하고 속은 날것에 가까워요.",
+      "season": "가을·겨울",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_saba_misoni",
+      "item_type": "food",
+      "tocId": "food_nonramen_saba_misoni",
+      "food_name_ko": "사바 미소니",
+      "food_name_ja": "鯖の味噌煮",
+      "basic_description": "고등어를 된장·설탕·미림·생강으로 달콤짭짤하게 조린 반찬이에요.",
+      "ingredients": "고등어 · 된장 · 설탕·미림 · 생강",
+      "taste_description": "진한 단짠 된장 양념이 기름진 고등어에 배요. 생강이 비린 맛을 잡아요.",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_buri_daikon",
+      "item_type": "food",
+      "tocId": "food_nonramen_buri_daikon",
+      "food_name_ko": "부리 다이콘",
+      "food_name_ja": "ぶり大根",
+      "basic_description": "방어의 서더리·토막과 무를 간장·설탕·미림으로 조린 겨울 반찬이에요.",
+      "ingredients": "방어(서더리·토막) · 무 · 간장·설탕·미림·술 · 생강",
+      "taste_description": "방어 기름과 감칠맛이 밴 무가 달콤짭짤하고 부드러워요.",
+      "season": "겨울",
+      "representative_region": "도야마"
+    },
+    {
+      "id": "food_nonramen_ishikari_nabe",
+      "item_type": "food",
+      "tocId": "food_nonramen_ishikari_nabe",
+      "food_name_ko": "이시카리나베",
+      "food_name_ja": "石狩鍋",
+      "basic_description": "연어 토막과 채소·두부를 미소 국물에 끓인 홋카이도 나베예요.",
+      "ingredients": "연어 · 양배추·배추·감자 등 채소 · 두부 · 미소 국물 · 버터·산초(일부)",
+      "taste_description": "연어의 감칠맛이 밴 진한 미소 국물이 구수해요.",
+      "season": "가을·겨울",
+      "representative_region": "홋카이도"
+    },
+    {
+      "id": "food_nonramen_anko_nabe",
+      "item_type": "food",
+      "tocId": "food_nonramen_anko_nabe",
+      "food_name_ko": "안코나베",
+      "food_name_ja": "あんこう鍋",
+      "basic_description": "아귀의 살과 간·껍질·지느러미 등을 채소와 함께 끓인 겨울 나베예요.",
+      "ingredients": "아귀(살·간·껍질 등) · 채소·두부 · 간장 또는 미소 국물",
+      "taste_description": "아귀 간(안키모)이 녹아 국물이 진하고 고소해요. 껍질은 쫄깃해요.",
+      "season": "겨울",
+      "representative_region": "이바라키"
+    },
+    {
+      "id": "food_nonramen_serinabe",
+      "item_type": "food",
+      "tocId": "food_nonramen_serinabe",
+      "food_name_ko": "세리나베",
+      "food_name_ja": "せり鍋",
+      "basic_description": "미나리를 뿌리째 듬뿍 넣고 닭·오리 고기와 간장 국물에 끓인 센다이의 겨울 나베예요.",
+      "ingredients": "미나리(뿌리 포함) · 닭고기 또는 오리고기 · 간장 다시 국물",
+      "taste_description": "미나리의 향긋하고 아삭한 맛이 진하고, 뿌리는 씹는 맛이 좋아요.",
+      "season": "겨울",
+      "representative_region": "미야기"
+    },
+    {
+      "id": "food_nonramen_nishin_soba",
+      "item_type": "food",
+      "tocId": "food_nonramen_nishin_soba",
+      "food_name_ko": "니신소바",
+      "food_name_ja": "にしんそば",
+      "basic_description": "말린 청어를 달콤짭짤하게 조려 따뜻한 소바 위에 얹은 교토 명물이에요.",
+      "ingredients": "메밀국수 · 달게 조린 청어(미가키니신) · 따뜻한 쓰유 · 파",
+      "taste_description": "달콤짭짤한 청어 조림이 국물에 녹아 진한 감칠맛이 나요.",
+      "season": "사계절",
+      "representative_region": "교토"
+    },
+    {
+      "id": "food_nonramen_shojin_ryori",
+      "item_type": "food",
+      "tocId": "food_nonramen_shojin_ryori",
+      "food_name_ko": "쇼진요리",
+      "food_name_ja": "精進料理",
+      "basic_description": "고기와 생선을 쓰지 않고 채소·콩·해조류·곡물로 만드는 불교 사찰 요리예요.",
+      "ingredients": "두부·유바·참깨두부 · 제철 채소·산나물 · 다시마·표고 다시",
+      "taste_description": "담백하고 재료 맛이 살아 있어요. 참깨두부는 고소하고 쫀득해요.",
+      "season": "사계절",
+      "representative_region": "교토"
     }
   ],
   "images": [],
@@ -6174,7 +7259,8 @@
           "food_nonramen_uni_don",
           "food_nonramen_butadon",
           "food_nonramen_kaisendon",
-          "food_nonramen_parfait"
+          "food_nonramen_parfait",
+          "food_nonramen_ishikari_nabe"
         ],
         "evidence": [
           {
@@ -6196,6 +7282,10 @@
           {
             "title": "기코만 구운 부타동",
             "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00050428/"
+          },
+          {
+            "title": "일본관광국 덮밥",
+            "url": "https://www.japan.travel/en/blog/real-local-food-where-to-eat-donburi-in-japan/"
           }
         ],
         "basis": "literature",
@@ -6206,13 +7296,15 @@
       {
         "id": "region_sendai",
         "title": "센다이",
-        "summary": "규탄구이와 히야시추카를 읽어요.",
+        "summary": "규탄구이·즌다모치·세리나베와 히야시추카를 읽어요.",
         "paragraphs": [
           "지역을 대표하는 음식의 예시이며 이곳에서만 먹을 수 있다는 뜻은 아니에요. 현재 영업·판매 메뉴는 가게 정보에서 따로 확인하세요.",
           "히야시추카는 센다이가 발상지라는 설이 알려져 있지만 지금은 전국에서 먹어요."
         ],
         "food_ids": [
           "food_nonramen_gyutan",
+          "food_nonramen_zunda_mochi",
+          "food_nonramen_serinabe",
           "food_nonramen_hiyashi_chuka"
         ],
         "evidence": [
@@ -6223,6 +7315,14 @@
           {
             "title": "위키백과(일본어) · 冷やし中華",
             "url": "https://ja.wikipedia.org/wiki/%E5%86%B7%E3%82%84%E3%81%97%E4%B8%AD%E8%8F%AF"
+          },
+          {
+            "title": "위키백과(일본어) · ずんだ餅",
+            "url": "https://ja.wikipedia.org/wiki/%E3%81%9A%E3%82%93%E3%81%A0%E9%A4%85"
+          },
+          {
+            "title": "위키백과(일본어) · せり鍋",
+            "url": "https://ja.wikipedia.org/wiki/%E3%81%9B%E3%82%8A%E9%8D%8B"
           }
         ],
         "basis": "literature",
@@ -6275,7 +7375,7 @@
       {
         "id": "region_kyoto",
         "title": "교토",
-        "summary": "다시마키·쓰케모노·말차와 교토의 바라즈시를 읽어요.",
+        "summary": "니신소바·쇼진요리·다시마키·쓰케모노와 교토 화과자를 읽어요.",
         "paragraphs": [
           "농림수산성의 교토 다시마키 소개를 바탕으로 연결했어요. 교토 음식 전체나 모든 가게의 조리법을 뜻하지 않아요."
         ],
@@ -6284,7 +7384,11 @@
           "food_nonramen_tsukemono",
           "food_nonramen_matcha",
           "food_nonramen_tango_barazushi",
-          "food_nonramen_nikudofu"
+          "food_nonramen_nikudofu",
+          "food_nonramen_nishin_soba",
+          "food_nonramen_hanabiramochi",
+          "food_nonramen_minazuki",
+          "food_nonramen_shojin_ryori"
         ],
         "evidence": [
           {
@@ -6306,6 +7410,10 @@
           {
             "title": "농림수산성 우리의 향토요리 · 肉豆腐(교토)",
             "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nikudofu_kyoto.html"
+          },
+          {
+            "title": "위키백과(일본어) · にしんそば",
+            "url": "https://ja.wikipedia.org/wiki/%E3%81%AB%E3%81%97%E3%82%93%E3%81%9D%E3%81%B0"
           }
         ],
         "basis": "literature",
@@ -6372,7 +7480,8 @@
           "food_nonramen_tendon",
           "food_ramen_tsukemen",
           "food_ramen_aburasoba",
-          "food_nonramen_unadon"
+          "food_nonramen_unadon",
+          "food_nonramen_imo_yokan"
         ],
         "evidence": [
           {
@@ -6394,6 +7503,10 @@
           {
             "title": "도쿄 아부라구미 · 아부라소바 안내",
             "url": "https://www.tokyo-aburasoba.com/eat/"
+          },
+          {
+            "title": "위키백과(일본어) · 芋羊羹",
+            "url": "https://ja.wikipedia.org/wiki/%E8%8A%8B%E7%BE%8A%E7%BE%B9"
           }
         ],
         "basis": "literature",
@@ -6561,12 +7674,37 @@
           "food_nonramen_sukiyaki",
           "food_nonramen_shabushabu",
           "food_nonramen_motsunabe",
-          "food_nonramen_mizutaki"
+          "food_nonramen_mizutaki",
+          "food_nonramen_anko_nabe",
+          "food_nonramen_serinabe",
+          "food_nonramen_buri_daikon",
+          "food_nonramen_ishikari_nabe",
+          "food_nonramen_zenzai"
         ],
         "evidence": [
           {
             "title": "JNTO · 겨울의 나베",
             "url": "https://www.japan.travel/en/uk/inspiration/winter-delicacies-all-about-nabe"
+          },
+          {
+            "title": "기코만 요세나베",
+            "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00050371/"
+          },
+          {
+            "title": "나베 설명",
+            "url": "https://japantravel.navitime.com/en/area/jp/guide/NTJnews0683-en/"
+          },
+          {
+            "title": "후쿠오카 공식 모츠나베·미즈타키",
+            "url": "https://www.crossroadfukuoka.jp/feature/gourmet_2"
+          },
+          {
+            "title": "위키백과(일본어) · あんこう鍋",
+            "url": "https://ja.wikipedia.org/wiki/%E3%81%82%E3%82%93%E3%81%93%E3%81%86%E9%8D%8B"
+          },
+          {
+            "title": "위키백과(일본어) · せり鍋",
+            "url": "https://ja.wikipedia.org/wiki/%E3%81%9B%E3%82%8A%E9%8D%8B"
           }
         ],
         "basis": "literature",
@@ -6588,7 +7726,10 @@
           "food_nonramen_hiyashi_chuka",
           "food_nonramen_warabimochi",
           "food_nonramen_hiyayakko",
-          "food_nonramen_uni_don"
+          "food_nonramen_uni_don",
+          "food_nonramen_mizuyokan",
+          "food_nonramen_kuzuzakura",
+          "food_nonramen_ayu_shioyaki"
         ],
         "evidence": [
           {
@@ -6610,6 +7751,10 @@
           {
             "title": "와라비모치 제조사 설명",
             "url": "https://www.gishi.co.jp/sp/06.asp"
+          },
+          {
+            "title": "기코만 히야얏코",
+            "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00059066/"
           }
         ],
         "basis": "literature",
@@ -6629,7 +7774,11 @@
           "food_nonramen_sakuramochi",
           "food_nonramen_kashiwamochi",
           "food_nonramen_takenoko_gohan",
-          "food_nonramen_katsuo_tataki"
+          "food_nonramen_katsuo_tataki",
+          "food_nonramen_kusamochi",
+          "food_nonramen_hanami_dango",
+          "food_nonramen_taimeshi",
+          "food_nonramen_hamaguri_ushiojiru"
         ],
         "evidence": [
           {
@@ -6647,6 +7796,14 @@
           {
             "title": "농림수산성 우리의 향토요리 · かつおのたたき(고치)",
             "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/katuonotataki_kochi.html"
+          },
+          {
+            "title": "위키백과(일본어) · 草餅",
+            "url": "https://ja.wikipedia.org/wiki/%E8%8D%89%E9%A4%85"
+          },
+          {
+            "title": "위키백과(일본어) · 団子",
+            "url": "https://ja.wikipedia.org/wiki/%E5%9B%A3%E5%AD%90"
           }
         ],
         "basis": "literature",
@@ -6666,7 +7823,11 @@
           "food_nonramen_sanma_shioyaki",
           "food_nonramen_kuri_gohan",
           "food_nonramen_dango",
-          "food_nonramen_katsuo_tataki"
+          "food_nonramen_katsuo_tataki",
+          "food_nonramen_kurikinton",
+          "food_nonramen_ohagi",
+          "food_nonramen_shimesaba",
+          "food_nonramen_imo_yokan"
         ],
         "evidence": [
           {
@@ -6684,6 +7845,14 @@
           {
             "title": "농림수산성 우리의 향토요리 · かつおのたたき(고치)",
             "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/katuonotataki_kochi.html"
+          },
+          {
+            "title": "위키백과(일본어) · 栗きんとん",
+            "url": "https://ja.wikipedia.org/wiki/%E6%A0%97%E3%81%8D%E3%82%93%E3%81%A8%E3%82%93"
+          },
+          {
+            "title": "위키백과(일본어) · ぼたもち",
+            "url": "https://ja.wikipedia.org/wiki/%E3%81%BC%E3%81%9F%E3%82%82%E3%81%A1"
           }
         ],
         "basis": "literature",
@@ -6695,16 +7864,19 @@
       {
         "id": "month_01",
         "title": "1월 · 설(오쇼가쓰) 음식",
-        "summary": "오세치·오조니·나나쿠사가유로 설을 읽어요.",
+        "summary": "오세치·오조니·나나쿠사가유와 정월 화과자 하나비라모치, 가가미비라키의 젠자이를 읽어요.",
         "paragraphs": [
           "그 달에 흔히 먹는 행사 음식의 예시예요. 지역·집안마다 다르고, 가게의 판매 기간을 뜻하지 않아요.",
-          "설날에는 미리 만든 오세치와 떡국인 오조니를 먹고, 1월 7일에는 나나쿠사가유를 먹는 풍습이 있어요."
+          "설날에는 미리 만든 오세치와 떡국인 오조니를 먹고, 1월 7일에는 나나쿠사가유를 먹는 풍습이 있어요.",
+          "1월 11일 무렵 가가미비라키에는 정월에 모신 떡을 깨서 젠자이를 끓여 먹고, 다회에서는 하나비라모치를 내요."
         ],
         "food_ids": [
           "food_nonramen_osechi",
           "food_nonramen_ozoni",
           "food_nonramen_nanakusa_gayu",
-          "food_nonramen_chikuzenni"
+          "food_nonramen_chikuzenni",
+          "food_nonramen_hanabiramochi",
+          "food_nonramen_zenzai"
         ],
         "evidence": [
           {
@@ -6722,6 +7894,14 @@
           {
             "title": "위키백과(일본어) · がめ煮(筑前煮)",
             "url": "https://ja.wikipedia.org/wiki/%E7%AD%91%E5%89%8D%E7%85%AE"
+          },
+          {
+            "title": "위키백과(일본어) · 菱葩餅",
+            "url": "https://ja.wikipedia.org/wiki/%E8%8F%B1%E8%91%A9%E9%A4%85"
+          },
+          {
+            "title": "위키백과(일본어) · ぜんざい",
+            "url": "https://ja.wikipedia.org/wiki/%E3%81%9C%E3%82%93%E3%81%96%E3%81%84"
           }
         ],
         "basis": "literature",
@@ -6736,14 +7916,15 @@
       {
         "id": "month_02",
         "title": "2월 · 세츠분",
-        "summary": "세츠분의 에호마키와 김초밥을 읽어요.",
+        "summary": "세츠분의 에호마키와 이른 봄 화과자 우구이스모치를 읽어요.",
         "paragraphs": [
           "그 달에 흔히 먹는 행사 음식의 예시예요. 지역·집안마다 다르고, 가게의 판매 기간을 뜻하지 않아요.",
           "세츠분(2월 3일 무렵)에는 그해 좋은 방향을 보며 에호마키를 먹는 풍습이 있어요. 콩 뿌리기·정어리 요리를 함께 하는 지역도 있어요."
         ],
         "food_ids": [
           "food_nonramen_ehomaki",
-          "food_nonramen_makizushi"
+          "food_nonramen_makizushi",
+          "food_nonramen_uguisumochi"
         ],
         "evidence": [
           {
@@ -6757,6 +7938,10 @@
           {
             "title": "일본관광국 스시",
             "url": "https://www.japan.travel/en/guide/sushi-in-japan/"
+          },
+          {
+            "title": "위키백과(일본어) · 鶯餅",
+            "url": "https://ja.wikipedia.org/wiki/%E9%B6%AF%E9%A4%85"
           }
         ],
         "basis": "literature",
@@ -6771,14 +7956,18 @@
       {
         "id": "month_03",
         "title": "3월 · 히나마츠리",
-        "summary": "히나마츠리의 지라시즈시와 사쿠라모치를 읽어요.",
+        "summary": "히나마츠리의 지라시즈시·대합 맑은국·쿠사모치와 춘분 피안의 보타모치를 읽어요.",
         "paragraphs": [
           "그 달에 흔히 먹는 행사 음식의 예시예요. 지역·집안마다 다르고, 가게의 판매 기간을 뜻하지 않아요.",
-          "3월 3일 히나마츠리(여자아이의 날)에는 지라시즈시나 대합국, 히나 과자를 차리는 집이 많아요."
+          "3월 3일 히나마츠리(여자아이의 날)에는 지라시즈시나 대합국, 히나 과자를 차리는 집이 많아요.",
+          "춘분 전후 일주일(봄 피안)에는 보타모치를 조상께 올리고 나눠 먹어요."
         ],
         "food_ids": [
           "food_nonramen_chirashi",
-          "food_nonramen_sakuramochi"
+          "food_nonramen_sakuramochi",
+          "food_nonramen_hamaguri_ushiojiru",
+          "food_nonramen_kusamochi",
+          "food_nonramen_ohagi"
         ],
         "evidence": [
           {
@@ -6792,6 +7981,18 @@
           {
             "title": "위키백과(일본어) · 桜餅",
             "url": "https://ja.wikipedia.org/wiki/%E6%A1%9C%E9%A4%85"
+          },
+          {
+            "title": "위키백과(일본어) · 潮汁",
+            "url": "https://ja.wikipedia.org/wiki/%E6%BD%AE%E6%B1%81"
+          },
+          {
+            "title": "위키백과(일본어) · 草餅",
+            "url": "https://ja.wikipedia.org/wiki/%E8%8D%89%E9%A4%85"
+          },
+          {
+            "title": "위키백과(일본어) · ぼたもち",
+            "url": "https://ja.wikipedia.org/wiki/%E3%81%BC%E3%81%9F%E3%82%82%E3%81%A1"
           }
         ],
         "basis": "literature",
@@ -6806,28 +8007,24 @@
       {
         "id": "month_04",
         "title": "4월 · 꽃구경(하나미)",
-        "summary": "벚꽃 철의 사쿠라모치·당고·죽순밥을 읽어요.",
+        "summary": "벚꽃 철의 하나미당고·사쿠라모치와 죽순밥을 읽어요.",
         "paragraphs": [
           "그 달에 흔히 먹는 행사 음식의 예시예요. 지역·집안마다 다르고, 가게의 판매 기간을 뜻하지 않아요.",
           "벚꽃 아래에서 도시락과 화과자를 즐기는 하나미 철에는 사쿠라모치와 꽃구경 당고가 많이 보여요. 햇죽순이 나오는 때이기도 해요."
         ],
         "food_ids": [
+          "food_nonramen_hanami_dango",
           "food_nonramen_sakuramochi",
-          "food_nonramen_dango",
           "food_nonramen_takenoko_gohan"
         ],
         "evidence": [
           {
-            "title": "농림수산성 aff · 花見と桜餅",
-            "url": "https://www.maff.go.jp/j/pr/aff/2604/index.html"
+            "title": "위키백과(일본어) · 団子",
+            "url": "https://ja.wikipedia.org/wiki/%E5%9B%A3%E5%AD%90"
           },
           {
             "title": "위키백과(일본어) · 桜餅",
             "url": "https://ja.wikipedia.org/wiki/%E6%A1%9C%E9%A4%85"
-          },
-          {
-            "title": "당고가루 제조사",
-            "url": "https://shop.gishi.co.jp/products/dangoko-250g"
           },
           {
             "title": "위키백과(일본어) · 炊き込みご飯",
@@ -6846,14 +8043,15 @@
       {
         "id": "month_05",
         "title": "5월 · 단오(어린이날)와 첫 가다랑어",
-        "summary": "가시와모치와 가쓰오 타타키를 읽어요.",
+        "summary": "단오의 가시와모치·지마키와 첫 가다랑어를 읽어요.",
         "paragraphs": [
           "그 달에 흔히 먹는 행사 음식의 예시예요. 지역·집안마다 다르고, 가게의 판매 기간을 뜻하지 않아요.",
           "5월 5일 단오에는 가시와모치를 먹는 풍습이 있어요. 봄에 올라오는 첫 가다랑어(하쓰가쓰오)도 이 무렵의 맛으로 알려져 있어요."
         ],
         "food_ids": [
           "food_nonramen_kashiwamochi",
-          "food_nonramen_katsuo_tataki"
+          "food_nonramen_katsuo_tataki",
+          "food_nonramen_chimaki"
         ],
         "evidence": [
           {
@@ -6867,6 +8065,10 @@
           {
             "title": "농림수산성 우리의 향토요리 · かつおのたたき(고치)",
             "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/katuonotataki_kochi.html"
+          },
+          {
+            "title": "위키백과(일본어) · ちまき",
+            "url": "https://ja.wikipedia.org/wiki/%E3%81%A1%E3%81%BE%E3%81%8D"
           }
         ],
         "basis": "literature",
@@ -6879,16 +8081,58 @@
         ]
       },
       {
+        "id": "month_06",
+        "title": "6월 · 은어 낚시와 나고시노하라에",
+        "summary": "와카아유·은어 소금구이와 6월 30일의 미나즈키를 읽어요.",
+        "paragraphs": [
+          "그 달에 흔히 먹는 행사 음식의 예시예요. 지역·집안마다 다르고, 가게의 판매 기간을 뜻하지 않아요.",
+          "강의 은어 낚시가 풀리는 6월에는 은어 소금구이와 은어 모양 과자 와카아유가 나와요. 6월 30일 나고시노하라에(여름 액막이)에는 교토를 중심으로 미나즈키를 먹어요."
+        ],
+        "food_ids": [
+          "food_nonramen_minazuki",
+          "food_nonramen_wakaayu",
+          "food_nonramen_ayu_shioyaki"
+        ],
+        "evidence": [
+          {
+            "title": "행사 음식 연감(行事食年鑑)",
+            "url": "https://gyojishoku.com/nenkan/"
+          },
+          {
+            "title": "위키백과(일본어) · 水無月 (和菓子)",
+            "url": "https://ja.wikipedia.org/wiki/%E6%B0%B4%E7%84%A1%E6%9C%88%20%28%E5%92%8C%E8%8F%93%E5%AD%90%29"
+          },
+          {
+            "title": "위키백과(일본어) · 若鮎",
+            "url": "https://ja.wikipedia.org/wiki/%E8%8B%A5%E9%AE%8E"
+          },
+          {
+            "title": "위키백과(일본어) · アユ",
+            "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%A6"
+          }
+        ],
+        "basis": "literature",
+        "reviewed_on": "2026-11-03",
+        "review_scope": "자료의 관련 발췌를 바탕으로 쓴 기본 안내. 비교·묶음·주문 제안은 편집 판단이며 감각 측정·개인 취향 판정·현재 판매 정보가 아닙니다.",
+        "kind": "season",
+        "season": "여름",
+        "months": [
+          6
+        ]
+      },
+      {
         "id": "month_07",
         "title": "7월 · 도요노우시 장어",
-        "summary": "한여름 도요노우시의 날에 먹는 장어를 읽어요.",
+        "summary": "도요노우시의 장어와 시원한 여름 화과자를 읽어요.",
         "paragraphs": [
           "그 달에 흔히 먹는 행사 음식의 예시예요. 지역·집안마다 다르고, 가게의 판매 기간을 뜻하지 않아요.",
           "여름 도요노우시의 날(7월 하순 무렵)에는 기운을 차리려고 장어를 먹는 풍습이 있어요."
         ],
         "food_ids": [
           "food_nonramen_unadon",
-          "food_nonramen_hitsumabushi"
+          "food_nonramen_hitsumabushi",
+          "food_nonramen_mizuyokan",
+          "food_nonramen_kuzuzakura"
         ],
         "evidence": [
           {
@@ -6902,6 +8146,14 @@
           {
             "title": "JNTO · 아이치 히츠마부시",
             "url": "https://www.japan.travel/en/japans-local-treasures/try-hitsumabushi-aichi-delicacy-2020"
+          },
+          {
+            "title": "위키백과(일본어) · 羊羹",
+            "url": "https://ja.wikipedia.org/wiki/%E7%BE%8A%E7%BE%B9"
+          },
+          {
+            "title": "위키백과(일본어) · 饅頭",
+            "url": "https://ja.wikipedia.org/wiki/%E9%A5%85%E9%A0%AD"
           }
         ],
         "basis": "literature",
@@ -6916,7 +8168,7 @@
       {
         "id": "month_08",
         "title": "8월 · 한여름의 시원한 음식",
-        "summary": "소멘·히야시추카·카키고오리를 읽어요.",
+        "summary": "소멘·히야시추카·카키고오리와 여름 풋콩의 즌다모치를 읽어요.",
         "paragraphs": [
           "그 달에 흔히 먹는 행사 음식의 예시예요. 지역·집안마다 다르고, 가게의 판매 기간을 뜻하지 않아요.",
           "더운 한여름에는 차가운 면과 빙수, 맥주와 곁들이는 안주가 많이 보여요."
@@ -6925,7 +8177,8 @@
           "food_nonramen_somen",
           "food_nonramen_hiyashi_chuka",
           "food_nonramen_kakigori",
-          "food_nonramen_edamame"
+          "food_nonramen_edamame",
+          "food_nonramen_zunda_mochi"
         ],
         "evidence": [
           {
@@ -6947,6 +8200,10 @@
           {
             "title": "농림수산성 에다마메·대두",
             "url": "https://www.maff.go.jp/j/heya/kodomo_sodan/0008/05.html"
+          },
+          {
+            "title": "위키백과(일본어) · ずんだ餅",
+            "url": "https://ja.wikipedia.org/wiki/%E3%81%9A%E3%82%93%E3%81%A0%E9%A4%85"
           }
         ],
         "basis": "literature",
@@ -6961,23 +8218,25 @@
       {
         "id": "month_09",
         "title": "9월 · 쓰키미(달맞이)",
-        "summary": "달맞이 당고와 가을 꽁치를 읽어요.",
+        "summary": "달맞이 당고, 가을 피안의 오하기, 가을 꽁치를 읽어요.",
         "paragraphs": [
           "그 달에 흔히 먹는 행사 음식의 예시예요. 지역·집안마다 다르고, 가게의 판매 기간을 뜻하지 않아요.",
-          "음력 8월 15일(지금 달력으로 9~10월) 십오야에는 달맞이 당고를 차려요. 꽁치가 많이 나오기 시작하는 때이기도 해요."
+          "음력 8월 15일(지금 달력으로 9~10월) 십오야에는 달맞이 당고를 차려요. 꽁치가 많이 나오기 시작하는 때이기도 해요.",
+          "추분 전후 일주일(가을 피안)에는 오하기를 조상께 올리고 나눠 먹어요."
         ],
         "food_ids": [
-          "food_nonramen_dango",
+          "food_nonramen_tsukimi_dango",
+          "food_nonramen_ohagi",
           "food_nonramen_sanma_shioyaki"
         ],
         "evidence": [
           {
-            "title": "농림수산성 aff · 十五夜とお月見団子",
-            "url": "https://www.maff.go.jp/j/pr/aff/2510/index.html"
+            "title": "위키백과(일본어) · 月見",
+            "url": "https://ja.wikipedia.org/wiki/%E6%9C%88%E8%A6%8B"
           },
           {
-            "title": "당고가루 제조사",
-            "url": "https://shop.gishi.co.jp/products/dangoko-250g"
+            "title": "위키백과(일본어) · ぼたもち",
+            "url": "https://ja.wikipedia.org/wiki/%E3%81%BC%E3%81%9F%E3%82%82%E3%81%A1"
           },
           {
             "title": "위키백과(일본어) · サンマ",
@@ -6996,7 +8255,7 @@
       {
         "id": "month_10",
         "title": "10월 · 햇쌀과 가을 밥",
-        "summary": "밤밥과 다키코미고항, 꽁치를 읽어요.",
+        "summary": "밤밥·다키코미고항과 햇밤 화과자 쿠리킨톤·쿠리무시요칸을 읽어요.",
         "paragraphs": [
           "그 달에 흔히 먹는 행사 음식의 예시예요. 지역·집안마다 다르고, 가게의 판매 기간을 뜻하지 않아요.",
           "햇쌀과 밤·버섯이 나오는 가을에는 재료를 넣어 지은 밥이 많이 보여요."
@@ -7004,7 +8263,9 @@
         "food_ids": [
           "food_nonramen_kuri_gohan",
           "food_nonramen_takikomi_gohan",
-          "food_nonramen_sanma_shioyaki"
+          "food_nonramen_sanma_shioyaki",
+          "food_nonramen_kurikinton",
+          "food_nonramen_kuri_mushi_yokan"
         ],
         "evidence": [
           {
@@ -7018,6 +8279,14 @@
           {
             "title": "위키백과(일본어) · サンマ",
             "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%B3%E3%83%9E"
+          },
+          {
+            "title": "위키백과(일본어) · 栗きんとん",
+            "url": "https://ja.wikipedia.org/wiki/%E6%A0%97%E3%81%8D%E3%82%93%E3%81%A8%E3%82%93"
+          },
+          {
+            "title": "위키백과(일본어) · 栗蒸し羊羹",
+            "url": "https://ja.wikipedia.org/wiki/%E6%A0%97%E8%92%B8%E3%81%97%E7%BE%8A%E7%BE%B9"
           }
         ],
         "basis": "literature",
@@ -7030,26 +8299,72 @@
         ]
       },
       {
+        "id": "month_11",
+        "title": "11월 · 시치고산과 늦가을 과자",
+        "summary": "시치고산의 지토세아메와 고구마 이모요칸·킨츠바를 읽어요.",
+        "paragraphs": [
+          "그 달에 흔히 먹는 행사 음식의 예시예요. 지역·집안마다 다르고, 가게의 판매 기간을 뜻하지 않아요.",
+          "11월 15일 무렵 시치고산에는 아이의 장수를 비는 지토세아메를 주고, 늦가을에는 고구마·팥 과자가 많이 나와요. 연어가 돌아오는 홋카이도에서는 이시카리나베도 제철이에요."
+        ],
+        "food_ids": [
+          "food_nonramen_chitoseame",
+          "food_nonramen_imo_yokan",
+          "food_nonramen_kintsuba",
+          "food_nonramen_ishikari_nabe"
+        ],
+        "evidence": [
+          {
+            "title": "행사 음식 연감(行事食年鑑)",
+            "url": "https://gyojishoku.com/nenkan/"
+          },
+          {
+            "title": "위키백과(일본어) · 七五三",
+            "url": "https://ja.wikipedia.org/wiki/%E4%B8%83%E4%BA%94%E4%B8%89"
+          },
+          {
+            "title": "위키백과(일본어) · 芋羊羹",
+            "url": "https://ja.wikipedia.org/wiki/%E8%8A%8B%E7%BE%8A%E7%BE%B9"
+          },
+          {
+            "title": "위키백과(일본어) · きんつば",
+            "url": "https://ja.wikipedia.org/wiki/%E3%81%8D%E3%82%93%E3%81%A4%E3%81%B0"
+          },
+          {
+            "title": "위키백과(일본어) · 石狩鍋",
+            "url": "https://ja.wikipedia.org/wiki/%E7%9F%B3%E7%8B%A9%E9%8D%8B"
+          }
+        ],
+        "basis": "literature",
+        "reviewed_on": "2026-11-03",
+        "review_scope": "자료의 관련 발췌를 바탕으로 쓴 기본 안내. 비교·묶음·주문 제안은 편집 판단이며 감각 측정·개인 취향 판정·현재 판매 정보가 아닙니다.",
+        "kind": "season",
+        "season": "가을",
+        "months": [
+          11
+        ]
+      },
+      {
         "id": "month_12",
         "title": "12월 · 섣달그믐 토시코시 소바",
-        "summary": "한 해 마지막 날의 소바와 겨울 나베를 읽어요.",
+        "summary": "섣달그믐의 토시코시소바와 겨울 방어 조림, 연말 나베를 읽어요.",
         "paragraphs": [
           "그 달에 흔히 먹는 행사 음식의 예시예요. 지역·집안마다 다르고, 가게의 판매 기간을 뜻하지 않아요.",
           "12월 31일 섣달그믐에는 한 해를 넘기며 토시코시 소바를 먹는 풍습이 있어요. 연말 모임에는 나베와 복어 요리도 많이 보여요."
         ],
         "food_ids": [
-          "food_nonramen_soba",
+          "food_nonramen_toshikoshi_soba",
+          "food_nonramen_buri_daikon",
           "food_nonramen_yosenabe",
           "food_nonramen_fugu"
         ],
         "evidence": [
           {
-            "title": "농림수산성 aff · 大晦日と年越しそば",
-            "url": "https://www.maff.go.jp/j/pr/aff/2512/index.html"
+            "title": "위키백과(일본어) · 年越し蕎麦",
+            "url": "https://ja.wikipedia.org/wiki/%E5%B9%B4%E8%B6%8A%E3%81%97%E8%95%8E%E9%BA%A6"
           },
           {
-            "title": "일본관광국 우동·소바",
-            "url": "https://www.japan.travel/en/ph/guide/udon-soba/"
+            "title": "위키백과(일본어) · ぶり大根",
+            "url": "https://ja.wikipedia.org/wiki/%E3%81%B6%E3%82%8A%E5%A4%A7%E6%A0%B9"
           },
           {
             "title": "기코만 요세나베",

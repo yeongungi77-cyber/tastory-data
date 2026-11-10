@@ -3632,8 +3632,723 @@
       "reading": "たけのこごはん",
       "season": "봄",
       "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_hanabiramochi",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "hanabiramochi",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 菱葩餅",
+          "url": "https://ja.wikipedia.org/wiki/%E8%8F%B1%E8%91%A9%E9%A4%85"
+        },
+        {
+          "title": "농림수산성 전통 식품 도감 · 과자류",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/bunrui/kashirui.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "e97c25aec80d73a3df5947c639c70255ea30e38d667894a0f4dd7c4e990a4268",
+      "reading": "はなびらもち",
+      "season": "겨울",
+      "representative_region": "교토"
+    },
+    {
+      "id": "food_nonramen_zenzai",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "zenzai",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · ぜんざい",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%9C%E3%82%93%E3%81%96%E3%81%84"
+        },
+        {
+          "title": "위키백과(일본어) · 汁粉",
+          "url": "https://ja.wikipedia.org/wiki/%E6%B1%81%E7%B2%89"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "b8562065ebf1e69d21f4150d9828312a7af3c8c0b809816c88a3fa3e93c454fd",
+      "reading": "ぜんざい",
+      "season": "겨울",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_uguisumochi",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "uguisumochi",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 鶯餅",
+          "url": "https://ja.wikipedia.org/wiki/%E9%B6%AF%E9%A4%85"
+        },
+        {
+          "title": "농림수산성 전통 식품 도감 · 과자류",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/bunrui/kashirui.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "9b08ec688ae2c8a0690b80c795699ff149c1ba024b74abce04bc03483cc0f7c9",
+      "reading": "うぐいすもち",
+      "season": "겨울·봄",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_kusamochi",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "kusamochi",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 草餅",
+          "url": "https://ja.wikipedia.org/wiki/%E8%8D%89%E9%A4%85"
+        },
+        {
+          "title": "위키백과(일본어) · 菱餅",
+          "url": "https://ja.wikipedia.org/wiki/%E8%8F%B1%E9%A4%85"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "4aaab0ec4920e1d8b561ffeb5630367aa28f290cdb499604efe4b15e0e0a7911",
+      "reading": "くさもち",
+      "season": "봄",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_ohagi",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "ohagi",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · ぼたもち",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%BC%E3%81%9F%E3%82%82%E3%81%A1"
+        },
+        {
+          "title": "위키백과(일본어) · 彼岸",
+          "url": "https://ja.wikipedia.org/wiki/%E5%BD%BC%E5%B2%B8"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "8177f88b6921ebb17b58a4417a07f76b79331ebf943f7f33c50facadf9a68f44",
+      "reading": "おはぎ",
+      "season": "봄·가을",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_hanami_dango",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "hanami_dango",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 団子",
+          "url": "https://ja.wikipedia.org/wiki/%E5%9B%A3%E5%AD%90"
+        },
+        {
+          "title": "위키백과(일본어) · 花見",
+          "url": "https://ja.wikipedia.org/wiki/%E8%8A%B1%E8%A6%8B"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "be0616c99f1fe885c2dd7b79cc7163fcd2ed9ac99026b264557671aae626defa",
+      "reading": "はなみだんご",
+      "season": "봄",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_chimaki",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "chimaki",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · ちまき",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%A1%E3%81%BE%E3%81%8D"
+        },
+        {
+          "title": "위키백과(일본어) · 端午",
+          "url": "https://ja.wikipedia.org/wiki/%E7%AB%AF%E5%8D%88"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "e2925545b165d0986c52569b1951a3331195d4d87f65d8452f90587c152cc6a0",
+      "reading": "ちまき",
+      "season": "봄",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_wakaayu",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "wakaayu",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 若鮎",
+          "url": "https://ja.wikipedia.org/wiki/%E8%8B%A5%E9%AE%8E"
+        },
+        {
+          "title": "위키백과(일본어) · アユ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%A6"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "b20e341b71c68e2fcf7afadacd567deae88fa6b96deb8603ea77c224c51de2ce",
+      "reading": "わかあゆ",
+      "season": "여름",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_minazuki",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "minazuki",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 水無月 (和菓子)",
+          "url": "https://ja.wikipedia.org/wiki/%E6%B0%B4%E7%84%A1%E6%9C%88%20%28%E5%92%8C%E8%8F%93%E5%AD%90%29"
+        },
+        {
+          "title": "위키백과(일본어) · 大祓",
+          "url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%A5%93"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "a4bceccf49912495ec31384b7322a6f27c8e999c8dc8749a091045b2a25bf097",
+      "reading": "みなづき",
+      "season": "여름",
+      "representative_region": "교토"
+    },
+    {
+      "id": "food_nonramen_mizuyokan",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "mizuyokan",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 羊羹",
+          "url": "https://ja.wikipedia.org/wiki/%E7%BE%8A%E7%BE%B9"
+        },
+        {
+          "title": "농림수산성 전통 식품 도감 · 과자류",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/bunrui/kashirui.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "8e55ddd2a52e89f3212a4d931526e27f9c3aa8c896af7fd7b01fa9bb8e4c2fbf",
+      "reading": "みずようかん",
+      "season": "여름",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_kuzuzakura",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "kuzuzakura",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 饅頭",
+          "url": "https://ja.wikipedia.org/wiki/%E9%A5%85%E9%A0%AD"
+        },
+        {
+          "title": "농림수산성 전통 식품 도감 · 과자류",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/bunrui/kashirui.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "557350d8cd331e15663296389eda0ff8f967bee739c917ae352136b12c4ce6c2",
+      "reading": "くずざくら",
+      "season": "여름",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_zunda_mochi",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "zunda_mochi",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · ずんだ餅",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%9A%E3%82%93%E3%81%A0%E9%A4%85"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "069b367bdd34eb171647d75c598120965471e8020976b2723f9b48b5df5ca5cd",
+      "reading": "ずんだもち",
+      "season": "여름",
+      "representative_region": "미야기"
+    },
+    {
+      "id": "food_nonramen_tsukimi_dango",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "tsukimi_dango",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 月見",
+          "url": "https://ja.wikipedia.org/wiki/%E6%9C%88%E8%A6%8B"
+        },
+        {
+          "title": "위키백과(일본어) · 団子",
+          "url": "https://ja.wikipedia.org/wiki/%E5%9B%A3%E5%AD%90"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "a85ad97ca78edd8970e65eb04e76f07234b68c625f9a8ffb09517e816c530c7b",
+      "reading": "つきみだんご",
+      "season": "가을",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_kurikinton",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "kurikinton",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 栗きんとん",
+          "url": "https://ja.wikipedia.org/wiki/%E6%A0%97%E3%81%8D%E3%82%93%E3%81%A8%E3%82%93"
+        },
+        {
+          "title": "농림수산성 전통 식품 도감 · 과자류",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/bunrui/kashirui.html"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "f1274f4edef71a2a5e38b5cd7321ed5d20c93cb700cd82dfe0d0254d3c493039",
+      "reading": "くりきんとん",
+      "season": "가을",
+      "representative_region": "기후"
+    },
+    {
+      "id": "food_nonramen_kuri_mushi_yokan",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "kuri_mushi_yokan",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 栗蒸し羊羹",
+          "url": "https://ja.wikipedia.org/wiki/%E6%A0%97%E8%92%B8%E3%81%97%E7%BE%8A%E7%BE%B9"
+        },
+        {
+          "title": "위키백과(일본어) · 羊羹",
+          "url": "https://ja.wikipedia.org/wiki/%E7%BE%8A%E7%BE%B9"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "c022b991065b9031eb7c4f91a6ece87ddd8e91d189a82b2c81256badfb721c6e",
+      "reading": "くりむしようかん",
+      "season": "가을",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_imo_yokan",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "imo_yokan",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 芋羊羹",
+          "url": "https://ja.wikipedia.org/wiki/%E8%8A%8B%E7%BE%8A%E7%BE%B9"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "88d0916f1b0ccfc223b20523928cdf79633e78560e3531445131715ded73871a",
+      "reading": "いもようかん",
+      "season": "가을",
+      "representative_region": "도쿄"
+    },
+    {
+      "id": "food_nonramen_kintsuba",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "kintsuba",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · きんつば",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%8D%E3%82%93%E3%81%A4%E3%81%B0"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "8b4dbd53850e86b3f2d49128f2d188c24b19106e36774868da3927aaf6ac42bb",
+      "reading": "きんつば",
+      "season": "가을",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_toshikoshi_soba",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "toshikoshi_soba",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 年越し蕎麦",
+          "url": "https://ja.wikipedia.org/wiki/%E5%B9%B4%E8%B6%8A%E3%81%97%E8%95%8E%E9%BA%A6"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "239de7385b4c2f68aaa18d4548e9535b7d07d0526309f68ed0f181397a99ff91",
+      "reading": "としこしそば",
+      "season": "겨울",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_chitoseame",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "chitoseame",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 七五三",
+          "url": "https://ja.wikipedia.org/wiki/%E4%B8%83%E4%BA%94%E4%B8%89"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "3d0e37085b1295b605da6acf2c41e9ab6a95ad887be34375184a7e10de25ca61",
+      "reading": "ちとせあめ",
+      "season": "가을",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_sekihan",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "sekihan",
+      "category_id": "rice",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 赤飯",
+          "url": "https://ja.wikipedia.org/wiki/%E8%B5%A4%E9%A3%AF"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "4c9c77fbb6b0c7cfb312bfe4084fcf69c64b7aafade6ebd45a869d410ab91052",
+      "reading": "せきはん",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_hamaguri_ushiojiru",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "hamaguri_ushiojiru",
+      "category_id": "hotpot",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 潮汁",
+          "url": "https://ja.wikipedia.org/wiki/%E6%BD%AE%E6%B1%81"
+        },
+        {
+          "title": "위키백과(일본어) · 雛祭り",
+          "url": "https://ja.wikipedia.org/wiki/%E9%9B%9B%E7%A5%AD%E3%82%8A"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "4f2e69216a51ee3f46499465069c8fcf5a531d7419dfe06468b818a32dc467aa",
+      "reading": "はまぐりのうしおじる",
+      "season": "봄",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_taimeshi",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "taimeshi",
+      "category_id": "rice",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 鯛めし",
+          "url": "https://ja.wikipedia.org/wiki/%E9%AF%9B%E3%82%81%E3%81%97"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "a8375bd9c4f55d340ab364090ada3e6ed5e935b63a7597bb21ff523b3c3d96fc",
+      "reading": "たいめし",
+      "season": "봄",
+      "representative_region": "에히메"
+    },
+    {
+      "id": "food_nonramen_ayu_shioyaki",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "ayu_shioyaki",
+      "category_id": "grilled",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · アユ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%A6"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "fb3446d7d5595ccd61a02e098f15c68c8ef1b50a4980453ebfa654e576eb72cb",
+      "reading": "あゆのしおやき",
+      "season": "여름",
+      "representative_region": "기후"
+    },
+    {
+      "id": "food_nonramen_shimesaba",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "shimesaba",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 〆鯖",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%8D%E3%81%9A%E3%81%97"
+        },
+        {
+          "title": "위키백과(일본어) · サバ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%90"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "ebd3358b55e1b8be2a597ce83b9bdcf3486553b94c89f3dfcae65f00131ba363",
+      "reading": "しめさば",
+      "season": "가을·겨울",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_saba_misoni",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "saba_misoni",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · サバの味噌煮",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%90%E3%81%AE%E5%91%B3%E5%99%8C%E7%85%AE"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "6eac55a9be306df26788aa9f193614e1f62cb52dc94fbea287f64bbeddd3208d",
+      "reading": "さばのみそに",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_buri_daikon",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "buri_daikon",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · ぶり大根",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%B6%E3%82%8A%E5%A4%A7%E6%A0%B9"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "ec33f852b562fb5fe8ae95fe3f497b991676e5e8bec5f3a18fcab2360ca91779",
+      "reading": "ぶりだいこん",
+      "season": "겨울",
+      "representative_region": "도야마"
+    },
+    {
+      "id": "food_nonramen_ishikari_nabe",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "ishikari_nabe",
+      "category_id": "hotpot",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 石狩鍋",
+          "url": "https://ja.wikipedia.org/wiki/%E7%9F%B3%E7%8B%A9%E9%8D%8B"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "9b2a7fc28ff9e67e8c12d3c7e47d37641da35590761aa27685a52e4130f7811d",
+      "reading": "いしかりなべ",
+      "season": "가을·겨울",
+      "representative_region": "홋카이도"
+    },
+    {
+      "id": "food_nonramen_anko_nabe",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "anko_nabe",
+      "category_id": "hotpot",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · あんこう鍋",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%82%E3%82%93%E3%81%93%E3%81%86%E9%8D%8B"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "d4853e85a94a7a7e83d6bc7a0b0c7cc2cc2399a8b5783f085046447f36580af0",
+      "reading": "あんこうなべ",
+      "season": "겨울",
+      "representative_region": "이바라키"
+    },
+    {
+      "id": "food_nonramen_serinabe",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "serinabe",
+      "category_id": "hotpot",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · せり鍋",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%9B%E3%82%8A%E9%8D%8B"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "3ee48384905b8411e5524eebf86d23e8afd78b609147dd02de56f79ce7fa0e6b",
+      "reading": "せりなべ",
+      "season": "겨울",
+      "representative_region": "미야기"
+    },
+    {
+      "id": "food_nonramen_nishin_soba",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "nishin_soba",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · にしんそば",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%AB%E3%81%97%E3%82%93%E3%81%9D%E3%81%B0"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "dc170116dc6ecbe6e4ab8015aac0883eea268b2b48edcc4e217e4f88408cf44b",
+      "reading": "にしんそば",
+      "season": "사계절",
+      "representative_region": "교토"
+    },
+    {
+      "id": "food_nonramen_shojin_ryori",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "shojin_ryori",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-03",
+      "review_scope_ko": "관광·공공 자료와 백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-03 월별초안 v0.1 반영). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 精進料理",
+          "url": "https://ja.wikipedia.org/wiki/%E7%B2%BE%E9%80%B2%E6%96%99%E7%90%86"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "a2a48f87d55d335137df5b9a11ffa11af148adabce034f8a3427efa152864749",
+      "reading": "しょうじんりょうり",
+      "season": "사계절",
+      "representative_region": "교토"
     }
   ],
   "discovery_source": "basics_v02",
-  "discovery_sha256": "fe3769157f3e71fb2ac8896c354951e5c2ea7e893f10512a0bd67e2cb7da7364"
+  "discovery_sha256": "47fafe5b85d56e29ed869d73a7136f1d96a7cc745b586650ef7f2fb0327fb778"
 }
