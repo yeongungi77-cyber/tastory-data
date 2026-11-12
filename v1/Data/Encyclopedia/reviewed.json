@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-03",
+  "updated": "2026-11-12",
   "categories": [
     {
       "id": "rice",
@@ -4347,8 +4347,832 @@
       "reading": "しょうじんりょうり",
       "season": "사계절",
       "representative_region": "교토"
+    },
+    {
+      "id": "food_nonramen_maguro",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "maguro",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · マグロ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%B0%E3%83%AD"
+        },
+        {
+          "title": "위키백과(일본어) · 寿司",
+          "url": "https://ja.wikipedia.org/wiki/%E5%AF%BF%E5%8F%B8"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "924e4d4aedf032bf857fbb33f5b35e5939b863fb2abd3489cb29652edab540cf",
+      "reading": "まぐろ",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_toro",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "toro",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · トロ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%AD"
+        },
+        {
+          "title": "위키백과(일본어) · マグロ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%B0%E3%83%AD"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "b9ddf89c4c951f85a5a6981cd051c0876e23eb9bc5656697d31f97636c32faa1",
+      "reading": "とろ",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_salmon",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "salmon",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · サケ(サーモン)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%B1"
+        },
+        {
+          "title": "위키백과(일본어) · 寿司",
+          "url": "https://ja.wikipedia.org/wiki/%E5%AF%BF%E5%8F%B8"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "e0842ff01693e4243f351d52839bf2a57815e34fcda09779115eca7b565dce07",
+      "reading": "さーもん",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_ikura",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "ikura",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · イクラ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AF%E3%83%A9"
+        },
+        {
+          "title": "위키백과(일본어) · 筋子",
+          "url": "https://ja.wikipedia.org/wiki/%E7%AD%8B%E5%AD%90"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "044ed1001946a8fee21972e03d7287c99d5661b77f01c9391f93e572a101d929",
+      "reading": "いくら",
+      "season": "사계절",
+      "representative_region": "홋카이도"
+    },
+    {
+      "id": "food_nonramen_anago",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "anago",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · アナゴ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%8A%E3%82%B4"
+        },
+        {
+          "title": "위키백과(일본어) · 寿司",
+          "url": "https://ja.wikipedia.org/wiki/%E5%AF%BF%E5%8F%B8"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "fdbed75ba4ee54984d3b400d9ccf63163bc558596cb072b0d99cd10288486d6e",
+      "reading": "あなご",
+      "season": "사계절",
+      "representative_region": "도쿄"
+    },
+    {
+      "id": "food_nonramen_ebi_sushi",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "ebi_sushi",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · エビ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%93"
+        },
+        {
+          "title": "위키백과(일본어) · ホッコクアカエビ(甘エビ)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%9B%E3%83%83%E3%82%B3%E3%82%AF%E3%82%A2%E3%82%AB%E3%82%A8%E3%83%93"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "ef74e192e1bbf6f93220e890e4b59f6fec51078a30874d1aa685245d7b7eabd0",
+      "reading": "えび",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_hotate",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "hotate",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · ホタテガイ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%9B%E3%82%BF%E3%83%86%E3%82%AC%E3%82%A4"
+        },
+        {
+          "title": "위키백과(일본어) · 寿司",
+          "url": "https://ja.wikipedia.org/wiki/%E5%AF%BF%E5%8F%B8"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "f728731b465e29cecf0fa3a9b1e50b82354182b602ef059a888a4cd15a5e3986",
+      "reading": "ほたて",
+      "season": "사계절",
+      "representative_region": "홋카이도"
+    },
+    {
+      "id": "food_nonramen_ika",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "ika",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · イカ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AB"
+        },
+        {
+          "title": "위키백과(일본어) · 寿司",
+          "url": "https://ja.wikipedia.org/wiki/%E5%AF%BF%E5%8F%B8"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "5210dba56b9bab8a8d9fbc1236893432075b6c662501fc364a33de6483a1a7dd",
+      "reading": "いか",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_tako",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "tako",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · タコ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%B3"
+        },
+        {
+          "title": "위키백과(일본어) · 寿司",
+          "url": "https://ja.wikipedia.org/wiki/%E5%AF%BF%E5%8F%B8"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "24500aa1fd183848bf860602ac93d09a33bedc16ccc18f18a89b8dab43887473",
+      "reading": "たこ",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_engawa",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "engawa",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · えんがわ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%88%E3%82%93%E3%81%8C%E3%82%8F"
+        },
+        {
+          "title": "위키백과(일본어) · 寿司",
+          "url": "https://ja.wikipedia.org/wiki/%E5%AF%BF%E5%8F%B8"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "b582c58aac50b8651319ba90de2eadbad4e212173864218ae66f9afab906517b",
+      "reading": "えんがわ",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_kappamaki",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "kappamaki",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · かっぱ巻き",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%8B%E3%81%A3%E3%81%B1%E5%B7%BB%E3%81%8D"
+        },
+        {
+          "title": "위키백과(일본어) · 巻き寿司",
+          "url": "https://ja.wikipedia.org/wiki/%E5%B7%BB%E3%81%8D%E5%AF%BF%E5%8F%B8"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "7d0942e858b7693242346049ad03d8abfa60f2e3b4f64a8afcaeb5607b4947fe",
+      "reading": "かっぱまき",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_tekkamaki",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "tekkamaki",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 鉄火巻",
+          "url": "https://ja.wikipedia.org/wiki/%E9%89%84%E7%81%AB%E5%B7%BB"
+        },
+        {
+          "title": "위키백과(일본어) · 巻き寿司",
+          "url": "https://ja.wikipedia.org/wiki/%E5%B7%BB%E3%81%8D%E5%AF%BF%E5%8F%B8"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "e18a1c58f2f77727a0052704caa7084760ffab3c53051257be17a1191e33937d",
+      "reading": "てっかまき",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_negitoro",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "negitoro",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · ネギトロ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%8D%E3%82%AE%E3%83%88%E3%83%AD"
+        },
+        {
+          "title": "위키백과(일본어) · 寿司",
+          "url": "https://ja.wikipedia.org/wiki/%E5%AF%BF%E5%8F%B8"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "a4eb94f10c5f178a327ac44215f2db86c0ee41f03db5f596e9fc042baeb43274",
+      "reading": "ねぎとろ",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_korokke",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "korokke",
+      "category_id": "fried",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · コロッケ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%AD%E3%83%83%E3%82%B1"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "6d9f4add56793a0d7ab88a30b6b7d858fd45e66ee0059d5407a2701c4d758496",
+      "reading": "ころっけ",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_ebi_fry",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "ebi_fry",
+      "category_id": "fried",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · エビフライ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%93%E3%83%95%E3%83%A9%E3%82%A4"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "04dacbfc267460296663669d227c9633536e54bd25dd86483da0e8c81becfb1b",
+      "reading": "えびふらい",
+      "season": "사계절",
+      "representative_region": "아이치"
+    },
+    {
+      "id": "food_nonramen_kaki_fry",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "kaki_fry",
+      "category_id": "fried",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · カキフライ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%AD%E3%83%95%E3%83%A9%E3%82%A4"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "99b6737b5f3963fe54467436911049e8897111d9095101804e7578a7884aeca2",
+      "reading": "かきふらい",
+      "season": "겨울",
+      "representative_region": "히로시마"
+    },
+    {
+      "id": "food_nonramen_kakiage",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "kakiage",
+      "category_id": "fried",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · かき揚げ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%8B%E3%81%8D%E6%8F%9A%E3%81%92"
+        },
+        {
+          "title": "위키백과(일본어) · 天ぷら",
+          "url": "https://ja.wikipedia.org/wiki/%E5%A4%A9%E3%81%B7%E3%82%89"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "c3d6efbb88370f47788d385a3d6f87f90805326dab0e83d7f187110d8ef52a52",
+      "reading": "かきあげ",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_toriten",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "toriten",
+      "category_id": "fried",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · とり天",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%A8%E3%82%8A%E5%A4%A9"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "4f45a20dd8bb4d7f45f93572781896ded78943ee166a62ebe0de1d46598905aa",
+      "reading": "とりてん",
+      "season": "사계절",
+      "representative_region": "오이타"
+    },
+    {
+      "id": "food_nonramen_zangi",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "zangi",
+      "category_id": "fried",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · から揚げ(ザンギ)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%8B%E3%82%89%E6%8F%9A%E3%81%92"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "ed7cbd7ba5d9d20d206de34ce203ad6fa5a61d25844d0d05529fa48c8d146b31",
+      "reading": "ざんぎ",
+      "season": "사계절",
+      "representative_region": "홋카이도"
+    },
+    {
+      "id": "food_nonramen_chicken_katsu",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "chicken_katsu",
+      "category_id": "fried",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · チキンカツ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%81%E3%82%AD%E3%83%B3%E3%82%AB%E3%83%84"
+        },
+        {
+          "title": "위키백과(일본어) · カツレツ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%84%E3%83%AC%E3%83%84"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "d9e09d351b9e6d703e2d95837bbc28fc49fe3eeabcb1b3b21eb94755416f4c91",
+      "reading": "ちきんかつ",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_ham_katsu",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "ham_katsu",
+      "category_id": "fried",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · ハムカツ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%A0%E3%82%AB%E3%83%84"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "58af836df771e7ed2f67a0aaffacac8f04f3d3a3a5dd822ed18f7e891bc1f055",
+      "reading": "はむかつ",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_agedashi_tofu",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "agedashi_tofu",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 揚げ出し豆腐",
+          "url": "https://ja.wikipedia.org/wiki/%E6%8F%9A%E3%81%92%E5%87%BA%E3%81%97%E8%B1%86%E8%85%90"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "9bda9838e7e2d953d5f6dc4e67c09273b25109bc689f6f7bb6f6a147e4b29408",
+      "reading": "あげだしどうふ",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_potato_salad",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "potato_salad",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · ポテトサラダ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%83%86%E3%83%88%E3%82%B5%E3%83%A9%E3%83%80"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "f2afcf64a1c1763efc49ba74b02262057c09bc36644171cbd86725166214c680",
+      "reading": "ぽてとさらだ",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_kinpira",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "kinpira",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · きんぴら",
+          "url": "https://ja.wikipedia.org/wiki/%E9%87%91%E5%B9%B3"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "e966e12b4962f886c5966244bf8ba1179f9aed4b42efa524345c6fea06746cf2",
+      "reading": "きんぴらごぼう",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_hijiki_ni",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "hijiki_ni",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · ヒジキ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%92%E3%82%B8%E3%82%AD"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "4621717d38cfd86445ef730f333157252f14804d891ee8211078c8df05390cf7",
+      "reading": "ひじきのにもの",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_ohitashi",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "ohitashi",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · おひたし",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%8A%E3%81%B2%E3%81%9F%E3%81%97"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "ab0245a44ab4a09c45d2daa93b365cd9ad2529cffcb3903841e83937171228f1",
+      "reading": "おひたし",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_sunomono",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "sunomono",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 膾(酢の物)",
+          "url": "https://ja.wikipedia.org/wiki/%E8%86%BE"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "92c8aaf8f19db6be43c033b86fcc5c11f73dc494225f812b1fef4c341120261c",
+      "reading": "すのもの",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_takowasa",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "takowasa",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · たこわさび",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%9F%E3%81%93%E3%82%8F%E3%81%95%E3%81%B3"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "896a46c440956cd706dec18b335d0e169b3afce64c0a5d8ff91225dbff7a6dea",
+      "reading": "たこわさび",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_shiokara",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "shiokara",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 塩辛",
+          "url": "https://ja.wikipedia.org/wiki/%E5%A1%A9%E8%BE%9B"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "239ea2cdcc6f248772abeece4b3a0476140d7d0063386b15a85a03174f25d6aa",
+      "reading": "しおから",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_mozukusu",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "mozukusu",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · モズク",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%A2%E3%82%BA%E3%82%AF"
+        },
+        {
+          "title": "위키백과(일본어) · オキナワモズク",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%AA%E3%82%AD%E3%83%8A%E3%83%AF%E3%83%A2%E3%82%BA%E3%82%AF"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "193bfa721168f93d36e6e7abd3c014ae669015bd8dc346d2d24c8e8a69baf692",
+      "reading": "もずくす",
+      "season": "사계절",
+      "representative_region": "오키나와"
+    },
+    {
+      "id": "food_nonramen_atsuage",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "atsuage",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 厚揚げ",
+          "url": "https://ja.wikipedia.org/wiki/%E5%8E%9A%E6%8F%9A%E3%81%92"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "e88ba2649d77baab23ecd94da957cea40769a02a4906002b909895b3035dded2",
+      "reading": "あつあげ",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_satsumaage",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "satsumaage",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 薩摩揚げ",
+          "url": "https://ja.wikipedia.org/wiki/%E8%96%A9%E6%91%A9%E6%8F%9A%E3%81%92"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "ccab27dde9a797ad4f7896f9d19013fd2bf05600e95cd3867f334280bc002d72",
+      "reading": "さつまあげ",
+      "season": "사계절",
+      "representative_region": "가고시마"
+    },
+    {
+      "id": "food_nonramen_shishamo",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "shishamo",
+      "category_id": "grilled",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · シシャモ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%B7%E3%83%A3%E3%83%A2"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "6c55b31c35cf6c95088e63a0e1c0cabbfe4c526661337f01dcb7eda8cb4eda83",
+      "reading": "ししゃも",
+      "season": "가을",
+      "representative_region": "홋카이도"
+    },
+    {
+      "id": "food_nonramen_tsukune",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "tsukune",
+      "category_id": "grilled",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · つくね",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%A4%E3%81%8F%E3%81%AD"
+        },
+        {
+          "title": "위키백과(일본어) · 焼き鳥",
+          "url": "https://ja.wikipedia.org/wiki/%E7%84%BC%E3%81%8D%E9%B3%A5"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "95a9c72c504388f772f2acd408e034acc54a35e72da08f59cd05db260f0ab2ba",
+      "reading": "つくね",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_hokke",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "hokke",
+      "category_id": "grilled",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · ホッケ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%9B%E3%83%83%E3%82%B1"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "b74bf8b98c523dcb736f9497c09628b407a6e2aeacb8290b8761082069db47d1",
+      "reading": "ほっけ",
+      "season": "사계절",
+      "representative_region": "홋카이도"
+    },
+    {
+      "id": "food_nonramen_sake_shioyaki",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "sake_shioyaki",
+      "category_id": "grilled",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-12",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · サケ(塩鮭)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%B1"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "87249bc5ecdf6537e24c4ef1b0e665059316c0e8d009cd0d2fe9d594e3419adf",
+      "reading": "さけのしおやき",
+      "season": "사계절",
+      "representative_region": "전국"
     }
   ],
   "discovery_source": "basics_v02",
-  "discovery_sha256": "47fafe5b85d56e29ed869d73a7136f1d96a7cc745b586650ef7f2fb0327fb778"
+  "discovery_sha256": "b7075b4120f30a46d0450485ea9bcfc55bb82e2f13b069aadefb95501dfa69c0"
 }
