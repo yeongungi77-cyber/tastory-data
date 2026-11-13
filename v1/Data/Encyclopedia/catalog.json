@@ -1,12 +1,12 @@
 {
   "catalog_schema": 1,
-  "updatedAt": "2026-11-12",
+  "updatedAt": "2026-11-13",
   "source_hashes": {
     "nonramen": "d53a3f592d1ba32bdd13f17265880d90b02d98b6f05849d634edb2b91048cd90",
     "ramen": "cb13478efad0b8f1ccf8b639ba14a5f21b8094a065391ad1497b2f30ab1ea351",
     "nonramen_v2": "474903f81ce710b9a0d4903ad028a758008ee1f1bd7592139e040b8104bc751a",
     "basics_v01": "f06f689ef641587a7af4d058a08c92cc3c58b1a9ad7ba5a9ec1c9cb06d75266c",
-    "basics_v02": "800bf3bd38caadf9afa375938e7b527eb2bf66efe2a19bf1f849ffc13619b16e"
+    "basics_v02": "c6155e527a82bf0ba4d0296e2455d78d5009b6394d1b75af67381ab1ce58fd92"
   },
   "entry_sources": {
     "food_nonramen_gyudon": {
@@ -1604,6 +1604,265 @@
       "source_id": "sake_shioyaki",
       "source_entry_sha256": "87249bc5ecdf6537e24c4ef1b0e665059316c0e8d009cd0d2fe9d594e3419adf",
       "reviewed_on": "2026-11-12"
+    },
+    "food_nonramen_senbeijiru": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "senbeijiru",
+      "source_entry_sha256": "c157035ad2b489bdbde467c5a16b8c39fe4635d1055f00b13fde24188fae5c07",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_wanko_soba": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "wanko_soba",
+      "source_entry_sha256": "9c599b3b87a1ab537d59a81c830ad8e98dd81d8f1f08bf54482a678976d37cfb",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_morioka_reimen": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "morioka_reimen",
+      "source_entry_sha256": "33766761ee97f4c0258ab49537b513dfe91f63315b9a1e40f595e897f705841a",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_jajamen": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "jajamen",
+      "source_entry_sha256": "5684ae2c8b8318b97a42e51c929ac0dabf5dc78af0669e6d6e954104f66b2456",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_imoni": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "imoni",
+      "source_entry_sha256": "c04f30dc180d36ed65b5f7567b5f94670d5834eec0fa47bfe516820a9a222ed0",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_kitakata_ramen": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "kitakata_ramen",
+      "source_entry_sha256": "91c167c1fdea280d29f709a4034b434e6275ce6e13f194864bc4faed5de9a88c",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_yuba": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "yuba",
+      "source_entry_sha256": "b3f8197bfde3abd7413bda24ea4b445ff974dbd48b62c624582568d62b32de89",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_yaki_manju": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "yaki_manju",
+      "source_entry_sha256": "fafe58ba7a72fdd73b934cc64d4166320a0cdf118ba80b604c6851ae73653cee",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_soka_senbei": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "soka_senbei",
+      "source_entry_sha256": "4c094233ed77c902e3ca8cd620817a15b0f38639c6d2e3bdb71520d2ea03e693",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_namero": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "namero",
+      "source_entry_sha256": "d5603e8f7fc0824ec330bdc0dfa31e708f1fa5322c16509edad3d3a91988f838",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_hegisoba": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "hegisoba",
+      "source_entry_sha256": "d562674d167d6945235aaac82ea3c00cf9ef86b66dfe6bf047a7a3ee60497c63",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_sasa_dango": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "sasa_dango",
+      "source_entry_sha256": "da872b134e59086f192afe57a9823a84d6b733ea0fd6c4154e2f7ad8d4fa2e5a",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_jibuni": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "jibuni",
+      "source_entry_sha256": "5b5c16cd0f5fd782fc8454014d3c5a4e0e9987cec80532bbae52699a4b010772",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_oyaki": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "oyaki",
+      "source_entry_sha256": "dfe4f30bda9fb77877782d6ef328d46a949337f2e703923be7306f0f99dc2890",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_gohei_mochi": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "gohei_mochi",
+      "source_entry_sha256": "01b37119b53142ef3b52fa63c71be956e48e58c2d63ffae2ddc26be460f26e2e",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_funazushi": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "funazushi",
+      "source_entry_sha256": "8defcbd6154f7871fe27deb74d8569d5f61f896f711bbaed16a59e0362aa2ed9",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_akashiyaki": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "akashiyaki",
+      "source_entry_sha256": "d934bcb64408c8e8112b62e97295c878a4b7826b79d6462f45712734879a4ab3",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_kakinoha_zushi": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "kakinoha_zushi",
+      "source_entry_sha256": "1313513496a165486fee7f824d33119eb522383060cc5814328b4ab783ffd4d3",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_meharizushi": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "meharizushi",
+      "source_entry_sha256": "d922c1e3affafb6bea3083405299e1e062d36fd4ad71af1ede0f24e0b46962b5",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_echizen_soba": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "echizen_soba",
+      "source_entry_sha256": "59d610d7690b3fe1456b5e9ce418aaf829f34c5911dfc6b59c1843a021871fff",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_sauce_katsudon": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "sauce_katsudon",
+      "source_entry_sha256": "2221c8c70ac4ff60d6f99bb1a35965132c91b53bfff7779825ee7db2cf2d9ea9",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_houtou": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "houtou",
+      "source_entry_sha256": "90e936250a2db93b13f780e193815d83be986e984c9464e0ec100bd18218fb52",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_shizuoka_oden": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "shizuoka_oden",
+      "source_entry_sha256": "9d0ce356ccd6cdf17e611ee585cf449afb661f67ecfe9fbf832bffcbea01cbb1",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_matsubagani": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "matsubagani",
+      "source_entry_sha256": "f17d890775780e03d3cc103c78be6d29a8497ecce77d194d709bc8a8edc6c9f7",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_tofu_chikuwa": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "tofu_chikuwa",
+      "source_entry_sha256": "8a6bd1cd2167ea2071d8d46090e47c74885729aa12c40f8661e4e7e6b855e7e6",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_izumo_soba": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "izumo_soba",
+      "source_entry_sha256": "e681e14b27005d705266bdc220d84463904c2c8e905462a73619827841a801f1",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_tokushima_ramen": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "tokushima_ramen",
+      "source_entry_sha256": "288d57959af20e37f549b4c103532edacf7be8b282000da0edbe0f09fa1fe8a1",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_chanko_nabe": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "chanko_nabe",
+      "source_entry_sha256": "872705b84889f56b78d216e622b2ec9d035f63c7e611c927d6002d638541e2d5",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_yudofu": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "yudofu",
+      "source_entry_sha256": "703d1d4db896288787790a2a83b0ccecf5424472aa72b8ff64af117e3f81e373",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_tonjiru": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "tonjiru",
+      "source_entry_sha256": "c7af25fdda1be89cd503e62fef2a9baff02b7ccac78247feefcdf6e968f6f4d4",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_kenchinjiru": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "kenchinjiru",
+      "source_entry_sha256": "8f046c746107f63ff34b748af1c8d7415fcc3d7c75166e517bc63604abe46762",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_kamo_nabe": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "kamo_nabe",
+      "source_entry_sha256": "5d573ecf0009567e358d9cedc5ed8006013900a598ca00c3b5814984dfae075e",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_harumaki": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "harumaki",
+      "source_entry_sha256": "6aaa636f2f749650d30d483ea409849ca38dfbf45e9ac00179b89ce016c0ae9e",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_subuta": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "subuta",
+      "source_entry_sha256": "1aa9c04fce34ad6bd3f46b352159264659dbbdad5a860d9f514e68e0ff85fe75",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_nikuman": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "nikuman",
+      "source_entry_sha256": "d5c1eebb113c0e809a8140d8b6ebe1df5e2c3379872eadb6af0a90cf3b83315d",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_tanmen": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "tanmen",
+      "source_entry_sha256": "1ad83e9f31fd19dda4782bc8a95e365c380a68437b2f82a9b31758093d97ddfc",
+      "reviewed_on": "2026-11-13"
+    },
+    "food_nonramen_rebanira": {
+      "dataset_id": "tastory_basics_v0.2_20261102",
+      "source_group": "articles",
+      "source_id": "rebanira",
+      "source_entry_sha256": "bf3890d89835b130d83b76d3e6e63841c56acdc7013e521bbae01dce3a466074",
+      "reviewed_on": "2026-11-13"
     }
   },
   "tocTree": [
@@ -1759,6 +2018,12 @@
               "id": "food_nonramen_taimeshi",
               "code": "",
               "title": "타이메시",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_sauce_katsudon",
+              "code": "",
+              "title": "소스카츠동",
               "children": []
             }
           ]
@@ -1922,6 +2187,66 @@
               "id": "food_nonramen_nishin_soba",
               "code": "",
               "title": "니신소바",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_wanko_soba",
+              "code": "",
+              "title": "완코소바",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_morioka_reimen",
+              "code": "",
+              "title": "모리오카 레이멘",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_jajamen",
+              "code": "",
+              "title": "모리오카 자자멘",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_kitakata_ramen",
+              "code": "",
+              "title": "기타카타 라멘",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_hegisoba",
+              "code": "",
+              "title": "헤기소바",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_echizen_soba",
+              "code": "",
+              "title": "에치젠 오로시소바",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_houtou",
+              "code": "",
+              "title": "호토",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_izumo_soba",
+              "code": "",
+              "title": "이즈모소바",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_tokushima_ramen",
+              "code": "",
+              "title": "도쿠시마 라멘",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_tanmen",
+              "code": "",
+              "title": "탄멘",
               "children": []
             }
           ]
@@ -2133,6 +2458,24 @@
               "id": "food_nonramen_negitoro",
               "code": "",
               "title": "네기토로",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_funazushi",
+              "code": "",
+              "title": "후나즈시",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_kakinoha_zushi",
+              "code": "",
+              "title": "가키노하즈시",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_meharizushi",
+              "code": "",
+              "title": "메하리즈시",
               "children": []
             }
           ]
@@ -2449,6 +2792,60 @@
               "code": "",
               "title": "세리나베",
               "children": []
+            },
+            {
+              "id": "food_nonramen_senbeijiru",
+              "code": "",
+              "title": "센베이지루",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_imoni",
+              "code": "",
+              "title": "이모니",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_shizuoka_oden",
+              "code": "",
+              "title": "시즈오카 오뎅",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_matsubagani",
+              "code": "",
+              "title": "마쓰바가니(대게)",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_chanko_nabe",
+              "code": "",
+              "title": "창코나베",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_yudofu",
+              "code": "",
+              "title": "유도후",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_tonjiru",
+              "code": "",
+              "title": "돈지루(돼지고기 미소국)",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_kenchinjiru",
+              "code": "",
+              "title": "겐친지루",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_kamo_nabe",
+              "code": "",
+              "title": "가모나베(오리 나베)",
+              "children": []
             }
           ]
         },
@@ -2497,6 +2894,12 @@
               "id": "food_nonramen_yamaimo_teppan",
               "code": "",
               "title": "야마이모 테판야키",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_akashiyaki",
+              "code": "",
+              "title": "아카시야키",
               "children": []
             }
           ]
@@ -2679,6 +3082,30 @@
               "code": "",
               "title": "사쓰마아게",
               "children": []
+            },
+            {
+              "id": "food_nonramen_yuba",
+              "code": "",
+              "title": "유바",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_namero",
+              "code": "",
+              "title": "나메로",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_jibuni",
+              "code": "",
+              "title": "지부니",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_tofu_chikuwa",
+              "code": "",
+              "title": "도후치쿠와",
+              "children": []
             }
           ]
         },
@@ -2763,6 +3190,30 @@
               "id": "food_nonramen_spice_curry",
               "code": "",
               "title": "스파이스 카레",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_harumaki",
+              "code": "",
+              "title": "하루마키(춘권)",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_subuta",
+              "code": "",
+              "title": "스부타(탕수육)",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_nikuman",
+              "code": "",
+              "title": "니쿠망(고기 중화빵)",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_rebanira",
+              "code": "",
+              "title": "레바니라(간 부추 볶음)",
               "children": []
             }
           ]
@@ -2980,6 +3431,36 @@
               "id": "food_nonramen_chitoseame",
               "code": "",
               "title": "지토세아메",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_yaki_manju",
+              "code": "",
+              "title": "야키만주",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_soka_senbei",
+              "code": "",
+              "title": "소카센베이",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_sasa_dango",
+              "code": "",
+              "title": "사사당고",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_oyaki",
+              "code": "",
+              "title": "오야키",
+              "children": []
+            },
+            {
+              "id": "food_nonramen_gohei_mochi",
+              "code": "",
+              "title": "고헤이모치",
               "children": []
             }
           ]
@@ -5340,6 +5821,376 @@
       "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>사케 시오야키(연어 소금구이)</h2><div class=\"book-ja-name\">鮭の塩焼き · さけのしおやき</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>구이·고기·꼬치</td></tr><tr><th>음식의 정체</th><td>소금에 절인 연어 토막을 구운 음식이에요. 일본 아침 정식의 대표 반찬이에요.</td></tr><tr><th>주요 재료 구성</th><td>소금 절인 연어 · 무즙(일부)</td></tr><tr><th>맛 설명</th><td>짭짤하고 살이 촉촉해요. 껍질은 바삭하게 구워져요.</td></tr><tr><th>주문·방문 안내</th><td>정식집·호텔 아침 식사·도시락에 흔해요. 소금 세기에 따라 아마쿠치(약한 간)와 가라쿠치(짠 간)가 있어요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>연어를 소금에 절여 보존하는 방식은 오래됐어요. 통째로 절인 아라마키자케는 연말 선물로도 쓰였어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요. 자연산 연어는 가을에 잡혀요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>밥·미소시루와 함께 먹어요. 짠 것은 밥에 조금씩 올려 먹거나 오차즈케로 먹어요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>홋카이도·도호쿠가 대표 산지예요. 니가타 무라카미는 소금 절여 말린 연어(시오비키자케)로 알려져 있어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>초밥의 사몬은 날로 먹는 양식 연어, 사케 시오야키는 소금에 절여 굽는 연어예요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%B1\">위키백과(일본어) · サケ(塩鮭)</a></li></ul><p>확인일: 2026-11-12</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-12 목차 확장 1차: 스시 재료·튀김·이자카야 반찬). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
       "searchTags": "사케 시오야키(연어 소금구이) 鮭の塩焼き",
       "updatedAt": "2026-11-12"
+    },
+    {
+      "tocId": "food_nonramen_senbeijiru",
+      "title": "센베이지루",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>센베이지루</h2><div class=\"book-ja-name\">せんべい汁 · せんべいじる</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>나베·국·오뎅</td></tr><tr><th>음식의 정체</th><td>전용 난부센베이(밀 전병)를 간장 국물에 넣어 끓이는 아오모리현 하치노헤의 향토 음식이에요.</td></tr><tr><th>주요 재료 구성</th><td>국물용 난부센베이 · 닭고기 또는 돼지고기 · 채소·버섯 · 간장 다시 국물</td></tr><tr><th>맛 설명</th><td>전병이 국물을 머금어 쫀득하게 풀리고, 간장 다시의 감칠맛이 진해요.</td></tr><tr><th>주문·방문 안내</th><td>하치노헤 일대의 정식집·향토 음식점에 있어요. 전병을 너무 오래 끓이면 풀어지니 적당할 때 건져 먹어요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>에도 시대에 아오모리현 하치노헤 주변에서 생겼다고 알려져 있어요. 국물에 넣어도 풀어지지 않는 전용 난부센베이를 써요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>추운 겨울에 많이 먹어요. 지역을 알리는 음식으로 「하치노헤 센베이지루」라는 이름으로 널리 소개됐어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>국물이 끓으면 전병을 넣고 살짝 익혀 먹어요. 밥 없이 한 그릇으로 먹거나 나베처럼 여럿이 나눠 먹어요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>하치노헤를 중심으로 한 아오모리현 남부와 이와테현 북부에서 먹어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>수이톤(밀가루 반죽 국)과 비슷하지만, 센베이지루는 구워 둔 전병을 넣어 쫀득한 식감이 달라요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%81%9B%E3%82%93%E3%81%B9%E3%81%84%E6%B1%81\">위키백과(일본어) · せんべい汁</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "센베이지루 せんべい汁",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_wanko_soba",
+      "title": "완코소바",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>완코소바</h2><div class=\"book-ja-name\">わんこそば · わんこそば</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>면</td></tr><tr><th>음식의 정체</th><td>작은 그릇에 담은 소바를 다 먹을 때까지 계속 채워 주는 이와테현의 소바 문화예요.</td></tr><tr><th>주요 재료 구성</th><td>소바 · 쓰유 · 고명(참치회·무즙·파·낫토 등)</td></tr><tr><th>맛 설명</th><td>한 그릇이 한두 입이라 소바의 향과 쓰유 맛을 가볍게 즐겨요.</td></tr><tr><th>주문·방문 안내</th><td>모리오카·하나마키의 전문점에서 해요. 그만 먹겠다는 뜻으로 그릇 뚜껑을 덮으면 멈춰요. 먹은 그릇 수를 세어 주는 가게가 많아요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>손님에게 소바를 조금씩 계속 권하던 접대 풍습에서 왔다고 알려져 있어요. 이와테현 하나마키와 모리오카에 전해져요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 해요. 관광객이 체험으로 많이 하지만 지역 행사로도 열려요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>빈 그릇에 바로 다음 소바가 들어와요. 고명을 바꿔 가며 먹고, 멈출 때는 그릇을 비우지 않은 채 뚜껑을 덮어요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>모리오카에서는 완코소바·모리오카 레이멘·모리오카 자자멘을 「모리오카 3대 면」이라고 불러요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>자루소바는 한 번에 담아 주고, 완코소바는 작은 그릇으로 계속 채워 주는 방식이에요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%82%8F%E3%82%93%E3%81%93%E3%81%9D%E3%81%B0\">위키백과(일본어) · わんこそば</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "완코소바 わんこそば",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_morioka_reimen",
+      "title": "모리오카 레이멘",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>모리오카 레이멘</h2><div class=\"book-ja-name\">盛岡冷麺 · もりおかれいめん</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>면</td></tr><tr><th>음식의 정체</th><td>투명하고 쫄깃한 면을 차가운 소고기 국물에 넣어 먹는 모리오카의 명물 면 요리예요.</td></tr><tr><th>주요 재료 구성</th><td>전분·밀가루 면 · 차가운 소고기 육수 · 김치 · 삶은 달걀 · 수박이나 배</td></tr><tr><th>맛 설명</th><td>면이 아주 쫄깃하고 국물은 시원하고 감칠맛이 있어요. 김치의 매운맛을 따로 넣어 조절해요.</td></tr><tr><th>주문·방문 안내</th><td>야키니쿠집의 마무리 메뉴로 흔해요. 매운맛을 「보통·조금·많이」로 고를 수 있는 가게가 많아요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>한반도의 냉면을 모리오카에서 변형한 음식으로 알려져 있어요. 완코소바·자자멘과 함께 「모리오카 3대 면」으로 불려요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹지만 여름에 특히 많이 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>김치를 국물에 풀어 매운맛을 맞춰 먹어요. 면이 질기게 느껴지면 가위로 잘라 달라고 할 수 있어요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>모리오카를 중심으로 이와테현 전역의 야키니쿠집에 있어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>한반도의 냉면에서 비롯됐지만, 면이 더 투명하고 쫄깃하며 과일을 올리는 점이 달라요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E7%9B%9B%E5%B2%A1%E5%86%B7%E9%BA%BA\">위키백과(일본어) · 盛岡冷麺</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "모리오카 레이멘 盛岡冷麺",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_jajamen",
+      "title": "모리오카 자자멘",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>모리오카 자자멘</h2><div class=\"book-ja-name\">盛岡じゃじゃ麺 · もりおかじゃじゃめん</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>면</td></tr><tr><th>음식의 정체</th><td>납작한 우동 같은 면에 특제 된장 양념과 오이·파를 올려 비벼 먹는 모리오카의 향토 면 요리예요.</td></tr><tr><th>주요 재료 구성</th><td>굵고 납작한 밀면 · 고기 된장 양념(자자 미소) · 오이 · 파 · 생강</td></tr><tr><th>맛 설명</th><td>된장 양념이 고소하고 짭짤하며 오이가 아삭해요. 매운맛은 거의 없어요.</td></tr><tr><th>주문·방문 안내</th><td>면을 다 먹고 남은 그릇에 날달걀과 면수를 넣어 「치탄탄」이라는 국을 만들어 먹는 것이 이 음식의 방식이에요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>중국 둥베이 지역의 자장면을 모리오카에서 변형한 음식으로 알려져 있어요. 「모리오카 3대 면」의 하나예요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>양념과 면을 잘 비벼 먹고, 중간에 마늘·생강·고추 양념을 더해요. 마지막에 그릇에 날달걀을 깨 넣고 면수를 부어 달라고 하면 치탄탄이 돼요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>모리오카 시내의 전문점을 중심으로 먹어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>중국의 자장면 계열이지만, 된장 양념이 달지 않고 오이·파를 듬뿍 올려요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E7%9B%9B%E5%B2%A1%E3%81%98%E3%82%83%E3%81%98%E3%82%83%E9%BA%BA\">위키백과(일본어) · 盛岡じゃじゃ麺</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "모리오카 자자멘 盛岡じゃじゃ麺",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_imoni",
+      "title": "이모니",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>이모니</h2><div class=\"book-ja-name\">芋煮 · いもに</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>나베·국·오뎅</td></tr><tr><th>음식의 정체</th><td>토란을 중심으로 소고기·채소를 넣어 간장으로 끓이는 도호쿠 지방의 야외 나베 음식이에요.</td></tr><tr><th>주요 재료 구성</th><td>토란 · 소고기 · 곤약 · 파 · 간장 국물</td></tr><tr><th>맛 설명</th><td>토란이 포슬하고 미끌하게 풀리며 간장 국물이 달콤 짭짤해요.</td></tr><tr><th>주문·방문 안내</th><td>가을에 강가에서 여럿이 모여 큰 솥에 끓여 먹는 「이모니카이」가 야마가타·미야기의 가을 행사예요. 식당에서는 한 그릇으로 팔아요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>도호쿠 지방에서 가을에 토란을 거둬 야외에서 끓여 먹던 모임(이모니카이)에서 이어진 음식이에요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>토란이 나오는 가을에 먹어요. 9월부터 10월 사이 강가에서 모임이 열려요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>국물까지 함께 떠서 먹어요. 남은 국물에 카레 가루나 우동을 넣어 두 번째 음식으로 먹는 모임도 있어요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>야마가타는 소고기와 간장, 미야기는 돼지고기와 미소로 끓이는 경우가 많아요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>니쿠자가가 감자 조림이라면, 이모니는 토란을 넣고 국물을 넉넉히 끓인 국 같은 나베예요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E8%8A%8B%E7%85%AE%E4%BC%9A\">위키백과(일본어) · 芋煮会(芋煮)</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "이모니 芋煮",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_kitakata_ramen",
+      "title": "기타카타 라멘",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>기타카타 라멘</h2><div class=\"book-ja-name\">喜多方ラーメン · きたかたラーメン</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>면</td></tr><tr><th>음식의 정체</th><td>굵고 납작한 수분 많은 면을 쓰는 후쿠시마현 기타카타시의 지역 라멘이에요.</td></tr><tr><th>주요 재료 구성</th><td>굵고 납작한 곱슬면 · 간장 돼지·멸치 국물 · 차슈 · 파 · 멘마</td></tr><tr><th>맛 설명</th><td>면이 폭신하면서 쫀득하고, 국물은 간장 맛이 맑고 담백해요.</td></tr><tr><th>주문·방문 안내</th><td>기타카타에서는 아침부터 라멘을 먹는 「아사라」 문화가 있어서 아침에 문을 여는 가게가 있어요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>후쿠시마현 기타카타시에서 퍼진 지역 라멘이에요. 간장 국물에 수분이 많은 굵은 면을 쓰는 가게가 많아요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요. 아침에 먹는 손님이 많은 지역이에요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>면이 굵어 금방 국물을 머금으니 나오면 바로 먹어요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>같은 기타카타 안에서도 국물은 간장·소금·미소로 갈려요. 삿포로·하카타와 함께 일본 3대 라멘으로 소개되는 경우가 많아요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>삿포로 미소 라멘이나 하카타 돈코츠보다 국물이 맑고 가벼워요. 면의 굵기와 납작함이 특징이에요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E5%96%9C%E5%A4%9A%E6%96%B9%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3\">위키백과(일본어) · 喜多方ラーメン</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "기타카타 라멘 喜多方ラーメン",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_yuba",
+      "title": "유바",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>유바</h2><div class=\"book-ja-name\">湯波 · ゆば</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>반찬·안주·조림·찜</td></tr><tr><th>음식의 정체</th><td>두유를 끓일 때 표면에 생기는 얇은 막을 걷어 낸 대두 가공식품이에요.</td></tr><tr><th>주요 재료 구성</th><td>두유 막(유바) · 다시 간장 · 와사비(일부)</td></tr><tr><th>맛 설명</th><td>부드럽고 매끈하며 콩의 고소한 단맛이 은은해요. 맛이 아주 담백해요.</td></tr><tr><th>주문·방문 안내</th><td>닛코·교토의 유바 요리 전문점이 있어요. 생유바는 회처럼, 말린 유바는 국·조림으로 내요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>절의 정진 요리에 빠지지 않는 전통 식재료예요. 두유를 가열할 때 생기는 막을 걷어 만들어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>생유바는 간장이나 와사비 간장에 찍어 먹어요. 말린 유바는 국물에 넣어 불려 먹어요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>도치기현 닛코에서는 「湯波」라고 쓰고 겹쳐서 두껍게 만들며, 교토에서는 「湯葉」라고 쓰고 얇게 만드는 경우가 많아요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>두부는 두유를 굳힌 것이고, 유바는 두유 표면의 막만 걷은 것이에요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%82%86%E3%81%B0\">위키백과(일본어) · ゆば(湯波・湯葉)</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "유바 湯波",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_yaki_manju",
+      "title": "야키만주",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>야키만주</h2><div class=\"book-ja-name\">焼きまんじゅう · やきまんじゅう</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>디저트·화과자·빵</td></tr><tr><th>음식의 정체</th><td>찐 밀 반죽 만주를 꼬챙이에 꿰어 단 된장 양념을 바르고 구운 군마현의 향토 간식이에요.</td></tr><tr><th>주요 재료 구성</th><td>밀 반죽 만주(보통 속은 없음) · 된장·설탕 양념</td></tr><tr><th>맛 설명</th><td>겉은 양념이 달콤 짭짤하게 그을리고 속은 폭신해요. 된장 향이 진해요.</td></tr><tr><th>주문·방문 안내</th><td>군마의 축제·상점가 노점에 많아요. 보통 네 개가 한 꼬치예요. 양념이 뜨겁고 잘 묻으니 조심하세요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>군마현에서 먹어 온 향토 간식이에요. 속을 넣지 않은 만주를 구워 단 된장 양념을 바르는 방식이에요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요. 축제나 장이 열릴 때 특히 많이 보여요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>꼬치째 들고 먹어요. 양념이 묻기 쉬워서 앉아서 먹을 수 있는 가게도 있어요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>마에바시·다카사키 등 군마 전역에서 먹고, 속에 팥소를 넣은 종류를 내는 가게도 있어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>다른 지역의 만주는 속에 팥소가 들어가지만, 야키만주는 속이 없는 반죽을 구워 양념을 발라요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E7%84%BC%E3%81%8D%E3%81%BE%E3%82%93%E3%81%98%E3%82%85%E3%81%86\">위키백과(일본어) · 焼きまんじゅう</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "야키만주 焼きまんじゅう",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_soka_senbei",
+      "title": "소카센베이",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>소카센베이</h2><div class=\"book-ja-name\">草加煎餅 · そうかせんべい</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>디저트·화과자·빵</td></tr><tr><th>음식의 정체</th><td>쌀가루 반죽을 구워 간장을 바른 단단한 쌀 전병이에요. 사이타마현 소카시의 명산품이에요.</td></tr><tr><th>주요 재료 구성</th><td>멥쌀가루 · 간장 · 김·고추 등(종류별)</td></tr><tr><th>맛 설명</th><td>딱딱하게 바삭 부서지고 간장의 짭짤한 맛과 구운 쌀 향이 나요.</td></tr><tr><th>주문·방문 안내</th><td>손으로 구운 「데야키」를 파는 가게가 있어요. 딱딱하니 이가 약하면 얇은 종류를 고르세요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>사이타마현 소카시의 명산품으로, 조합이 지역 단체 상표로 등록해 두고 있어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요. 선물용으로도 많이 사요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>그대로 먹어요. 김을 두른 것, 고추를 넣은 것, 설탕 간장 종류도 있어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>달고 부드러운 과자가 아니라 간장 맛이 중심인 짠 과자예요. 차와 잘 어울려요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E8%8D%89%E5%8A%A0%E7%85%8E%E9%A4%85\">위키백과(일본어) · 草加煎餅</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "소카센베이 草加煎餅",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_namero",
+      "title": "나메로",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>나메로</h2><div class=\"book-ja-name\">なめろう · なめろう</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>반찬·안주·조림·찜</td></tr><tr><th>음식의 정체</th><td>생선살을 미소와 양념과 함께 도마에서 다져 만드는 지바현 보소 반도의 어부 음식이에요.</td></tr><tr><th>주요 재료 구성</th><td>전갱이 등 생선살 · 미소 · 파·생강·차조기</td></tr><tr><th>맛 설명</th><td>미소의 짭짤한 맛과 생선의 기름이 섞여 진하고, 끈적하게 뭉쳐져요.</td></tr><tr><th>주문·방문 안내</th><td>이자카야에서는 그대로 안주로, 정식집에서는 밥에 올려 줘요. 구워서 「산가야키」로 내는 가게도 있어요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>보소 반도 연안에서 생겼다고 알려져 있어요. 배 위에서 갓 잡은 생선으로 만들던 어부 음식이에요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요. 전갱이가 많이 잡히는 여름에 특히 잘 맞아요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>밥이나 김에 올려 먹거나 술안주로 조금씩 먹어요. 날생선이 부담되면 구운 산가야키를 고르세요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>지바를 넘어 이자카야 메뉴로 퍼졌고, 쓰는 생선과 미소 양이 가게마다 달라요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>타타키가 생선을 굵게 다진 것이라면, 나메로는 미소와 함께 더 곱게 다져 끈적하게 만들어요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%81%AA%E3%82%81%E3%82%8D%E3%81%86\">위키백과(일본어) · なめろう</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "나메로 なめろう",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_hegisoba",
+      "title": "헤기소바",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>헤기소바</h2><div class=\"book-ja-name\">へぎそば · へぎそば</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>면</td></tr><tr><th>음식의 정체</th><td>해조(후노리)를 반죽에 넣어 매끈하게 만든 소바를 한입 크기로 말아 나무 그릇에 담아 내는 니가타현의 소바예요.</td></tr><tr><th>주요 재료 구성</th><td>후노리를 넣은 소바 · 쓰유 · 겨자나 파(고명)</td></tr><tr><th>맛 설명</th><td>면이 매끈하고 탄력이 있어요. 소바 향에 해조의 은은한 향이 더해져요.</td></tr><tr><th>주문·방문 안내</th><td>우오누마·도카마치·오지야 지역의 전문점에 있어요. 와사비 대신 겨자를 내는 가게가 있어요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>니가타현 우오누마 지방에서 생긴 소바예요. 반죽을 잇는 재료로 후노리라는 해조를 쓰고, 「헤기」라고 부르는 그릇에 담아 내요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>한입씩 말아 둔 덩이를 그대로 쓰유에 적셔 먹어요. 겨자를 조금 올려 먹는 방식도 있어요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>도카마치와 오지야가 각각 이름을 상표로 등록해 두고 있어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>보통 소바보다 면이 매끈하고 쫄깃해요. 한입씩 말아 담은 모양도 달라요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%81%B8%E3%81%8E%E3%81%9D%E3%81%B0\">위키백과(일본어) · へぎそば</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "헤기소바 へぎそば",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_sasa_dango",
+      "title": "사사당고",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>사사당고</h2><div class=\"book-ja-name\">笹団子 · ささだんご</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>디저트·화과자·빵</td></tr><tr><th>음식의 정체</th><td>쑥을 넣은 떡에 팥소를 넣고 조릿대 잎으로 감싸 찐 니가타현의 향토 떡과자예요.</td></tr><tr><th>주요 재료 구성</th><td>쑥을 넣은 떡 · 팥소 · 조릿대 잎</td></tr><tr><th>맛 설명</th><td>쑥 향이 진하고 떡이 쫀득해요. 조릿대 잎의 향이 함께 나요.</td></tr><tr><th>주문·방문 안내</th><td>니가타의 역·선물 가게에 흔해요. 잎은 먹지 않고 벗겨요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>니가타현에서 먹어 온 향토 과자예요. 조릿대 잎으로 감싸면 오래 두고 먹을 수 있어 휴대 음식으로도 쓰였어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 팔지만 쑥이 나는 봄부터 여름에 특히 잘 맞아요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>잎의 끈을 풀고 벗겨서 떡만 먹어요. 차와 함께 먹어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>쿠사모치와 재료가 비슷하지만, 조릿대 잎으로 감싸 쪄서 향과 보존성이 달라요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E7%AC%B9%E5%9B%A3%E5%AD%90\">위키백과(일본어) · 笹団子</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "사사당고 笹団子",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_jibuni",
+      "title": "지부니",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>지부니</h2><div class=\"book-ja-name\">治部煮 · じぶに</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>반찬·안주·조림·찜</td></tr><tr><th>음식의 정체</th><td>오리고기나 닭고기에 밀가루를 묻혀 채소·밀기울 떡과 함께 간장 국물에 조린 가나자와의 향토 요리예요.</td></tr><tr><th>주요 재료 구성</th><td>오리고기 또는 닭고기 · 스다레후(밀기울 떡) · 채소 · 간장·미림 국물 · 와사비</td></tr><tr><th>맛 설명</th><td>밀가루 때문에 국물이 살짝 걸쭉하고 달콤 짭짤해요. 고기가 부드러워요.</td></tr><tr><th>주문·방문 안내</th><td>가나자와의 가가 요리 전문점·여관 식사에 나와요. 와사비를 올려 먹는 것이 이 지역 방식이에요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>이시카와현 가나자와를 대표하는 가가 요리의 하나예요. 이름의 유래는 여러 설이 있어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>오리가 맛있는 겨울에 특히 많이 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>와사비를 조금 올려 국물과 함께 떠서 먹어요. 걸쭉한 국물이 밥과 잘 맞아요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>가나자와를 중심으로 이시카와현에서 먹어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>보통 조림보다 국물이 걸쭉하고, 고기에 밀가루를 묻히는 점이 달라요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%81%98%E3%81%B6%E7%85%AE\">위키백과(일본어) · じぶ煮(治部煮)</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "지부니 治部煮",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_oyaki",
+      "title": "오야키",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>오야키</h2><div class=\"book-ja-name\">おやき · おやき</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>디저트·화과자·빵</td></tr><tr><th>음식의 정체</th><td>밀가루나 메밀가루 반죽에 조린 채소나 팥소를 넣고 둥글게 구운 나가노현의 향토 간식이에요.</td></tr><tr><th>주요 재료 구성</th><td>밀가루·메밀가루 반죽 · 조린 채소(가지·호박·우엉 등) 또는 팥소</td></tr><tr><th>맛 설명</th><td>반죽은 투박하게 쫀득하고 속은 간장으로 조린 채소가 짭짤해요. 팥소를 넣은 것은 달아요.</td></tr><tr><th>주문·방문 안내</th><td>지름 8~10cm 정도예요. 채소 속과 팥소 속 중에 고를 수 있어요. 역·휴게소에서 쪄서 팔아요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>나가노현의 전통 음식이에요. 나가노현은 「야키모치」라는 이름으로 지역 무형 민속 문화재(맛의 문화재)로 지정해 두고 있어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>따뜻할 때 손으로 들고 먹어요. 가게에 따라 화로에 구워 겉을 바삭하게 해 줘요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>지역마다 야키모치·안빈 등 다른 이름으로도 불러요. 굽는 방식과 반죽 비율이 가게마다 달라요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>만주는 보통 팥소를 넣어 달지만, 오야키는 짭짤한 채소 속이 기본이에요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%81%8A%E3%82%84%E3%81%8D\">위키백과(일본어) · おやき</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "오야키 おやき",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_gohei_mochi",
+      "title": "고헤이모치",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>고헤이모치</h2><div class=\"book-ja-name\">五平餅 · ごへいもち</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>디저트·화과자·빵</td></tr><tr><th>음식의 정체</th><td>지은 밥을 반쯤 찧어 납작하게 꼬챙이에 붙이고 호두·참깨 된장 양념을 발라 구운 간식이에요.</td></tr><tr><th>주요 재료 구성</th><td>밥 · 된장 또는 간장 양념 · 호두·참깨·들깨</td></tr><tr><th>맛 설명</th><td>겉은 양념이 고소하고 달콤 짭짤하게 그을리고, 속은 밥알이 남아 쫀득해요.</td></tr><tr><th>주문·방문 안내</th><td>나가노 남부·기후·아이치의 산간 지역 휴게소에 많아요. 모양은 납작한 타원형과 둥근 경단형이 있어요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>나가노현 남부와 기후·아이치의 산간 지역에서 먹어 온 향토 간식이에요. 이름의 유래는 여러 설이 있어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요. 축제나 손님 접대에 쓰였어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>꼬치째 들고 먹어요. 양념이 뜨거우니 식혀서 드세요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>양념에 호두를 쓰는 곳, 들깨나 참깨를 쓰는 곳이 지역마다 달라요. 모양도 왕초리형·경단형으로 갈려요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>야키오니기리는 간장만 발라 굽지만, 고헤이모치는 호두·참깨 된장 양념을 발라 더 고소해요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E4%BA%94%E5%B9%B3%E9%A4%85\">위키백과(일본어) · 五平餅</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "고헤이모치 五平餅",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_funazushi",
+      "title": "후나즈시",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>후나즈시</h2><div class=\"book-ja-name\">鮒寿司 · ふなずし</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>스시·회</td></tr><tr><th>음식의 정체</th><td>붕어를 소금과 밥에 담가 오래 발효시킨 시가현의 전통 발효 초밥(나레즈시)이에요.</td></tr><tr><th>주요 재료 구성</th><td>니고로부나(붕어) · 밥 · 소금</td></tr><tr><th>맛 설명</th><td>발효 향과 신맛이 아주 강하고 짜요. 치즈 같은 진한 감칠맛이 있어요.</td></tr><tr><th>주문·방문 안내</th><td>얇게 썰어 몇 점만 안주로 팔아요. 향이 매우 강해서 처음이면 조금만 주문하세요. 값이 높은 편이에요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>고대부터 비와호의 붕어로 만들어 온 시가현(옛 오미 지방)의 향토 음식이에요. 일본 초밥의 오래된 형태로 알려져 있어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요. 담그는 것은 여름, 먹는 것은 몇 달에서 해를 넘긴 뒤예요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>얇게 썰어 그대로 먹거나 술과 함께 먹어요. 밥알째 먹기도 하고, 차에 넣어 먹는 방식도 있어요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>시가현 비와호 주변에서 만들어요. 집집마다 담그는 기간과 소금 양이 달라요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>지금의 초밥은 식초를 쓰지만, 후나즈시는 밥을 발효시켜 신맛을 내는 옛 방식이에요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E9%AE%92%E5%AF%BF%E5%8F%B8\">위키백과(일본어) · 鮒寿司</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "후나즈시 鮒寿司",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_akashiyaki",
+      "title": "아카시야키",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>아카시야키</h2><div class=\"book-ja-name\">明石焼き · あかしやき</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>철판·길거리 음식</td></tr><tr><th>음식의 정체</th><td>달걀을 많이 넣은 묽은 반죽에 문어를 넣어 구운 뒤 따뜻한 다시 국물에 적셔 먹는 효고현 아카시의 향토 음식이에요.</td></tr><tr><th>주요 재료 구성</th><td>달걀 · 밀 전분(우키코) · 문어 · 다시 국물</td></tr><tr><th>맛 설명</th><td>아주 부드럽고 몽글하게 풀려요. 소스 대신 다시 국물의 담백한 감칠맛으로 먹어요.</td></tr><tr><th>주문·방문 안내</th><td>현지에서는 「다마고야키」라고 불러요. 한 판에 10~15개 정도예요. 국물에 적셔 먹는 방식이라 소스는 없어요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>효고현 아카시시의 향토 음식이에요. 아카시 주변에서는 그냥 「다마고야키」라고 부르고, 다른 지역에서는 달걀말이와 구분하기 위해 「아카시야키」라고 부르는 경우가 많아요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>따뜻한 다시 국물에 적셔 한 개씩 먹어요. 아주 부드러워서 젓가락으로 집을 때 조심해야 해요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>아카시·히가시하리마·고베 서부에서는 다마고야키라고 불러요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>타코야키는 소스와 마요네즈를 뿌려 먹고 속이 묽지만, 아카시야키는 달걀이 많아 더 부드럽고 다시 국물에 적셔 먹어요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E7%8E%89%E5%AD%90%E7%84%BC_%28%E6%98%8E%E7%9F%B3%E5%B8%82%29\">위키백과(일본어) · 玉子焼(明石市)</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "아카시야키 明石焼き",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_kakinoha_zushi",
+      "title": "가키노하즈시",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>가키노하즈시</h2><div class=\"book-ja-name\">柿の葉寿司 · かきのはずし</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>스시·회</td></tr><tr><th>음식의 정체</th><td>소금에 절인 고등어나 연어를 초밥 밥에 올려 감잎으로 감싸 눌러 둔 나라·와카야마의 향토 초밥이에요.</td></tr><tr><th>주요 재료 구성</th><td>초밥 밥 · 소금 절인 고등어 또는 연어 · 감잎</td></tr><tr><th>맛 설명</th><td>밥은 새콤하고 생선은 짭짤해요. 감잎의 향이 밥에 옮겨 와요.</td></tr><tr><th>주문·방문 안내</th><td>선물·도시락으로 많이 팔아요. 감잎은 먹지 않고 벗겨요. 하루 정도 두면 맛이 더 밴다고 해요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>나라현과 와카야마현, 그리고 이시카와현 가가 지방과 돗토리현 지즈 지방의 향토 음식이에요. 바다에서 먼 산간 지역에서 소금에 절인 생선을 쓰던 방식이에요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요. 여름 축제 음식으로도 쓰였어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>잎을 벗겨 손으로 들고 먹어요. 간장은 보통 찍지 않아요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>나라는 고등어, 와카야마는 연어나 고등어를 많이 쓰고, 지역마다 쓰는 생선과 잎 싸는 방식이 달라요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>니기리 초밥처럼 바로 먹는 초밥이 아니라, 눌러 두고 시간이 지나 먹는 보존 초밥이에요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E6%9F%BF%E3%81%AE%E8%91%89%E5%AF%BF%E5%8F%B8\">위키백과(일본어) · 柿の葉寿司</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "가키노하즈시 柿の葉寿司",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_meharizushi",
+      "title": "메하리즈시",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>메하리즈시</h2><div class=\"book-ja-name\">めはりずし · めはりずし</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>스시·회</td></tr><tr><th>음식의 정체</th><td>밥을 주먹밥처럼 뭉쳐 절인 갓(다카나) 잎으로 감싼 와카야마현 구마노 지방의 향토 음식이에요.</td></tr><tr><th>주요 재료 구성</th><td>밥 · 절인 갓 잎 · 간장·참기름(일부)</td></tr><tr><th>맛 설명</th><td>갓 잎이 짭짤하고 살짝 쌉쌀하며 아삭해요. 밥은 간이 약해 담백해요.</td></tr><tr><th>주문·방문 안내</th><td>주먹밥보다 크게 만드는 가게가 있어요. 산길을 걸을 때 먹는 도시락으로 팔아요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>와카야마현 남부 구마노 지방에서 일하러 나갈 때 들고 가던 음식으로 알려져 있어요. 눈을 크게 뜰 만큼 크다는 데서 이름이 왔다는 이야기가 전해져요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>손으로 들고 잎째 먹어요. 잎이 짜니 밥과 함께 한입에 먹는 것이 좋아요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>구마노·신구 일대에서 먹고, 미에현 남부에서도 만들어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>오니기리는 김으로 감싸지만, 메하리즈시는 절인 갓 잎으로 감싸요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%82%81%E3%81%AF%E3%82%8A%E3%81%9A%E3%81%97\">위키백과(일본어) · めはりずし</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "메하리즈시 めはりずし",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_echizen_soba",
+      "title": "에치젠 오로시소바",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>에치젠 오로시소바</h2><div class=\"book-ja-name\">越前おろしそば · えちぜんおろしそば</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>면</td></tr><tr><th>음식의 정체</th><td>무즙을 넣은 쓰유와 함께 먹는 후쿠이현의 소바예요. 그냥 「오로시소바」라고도 불러요.</td></tr><tr><th>주요 재료 구성</th><td>소바 · 간 무 · 다시 간장 쓰유 · 가쓰오부시·파</td></tr><tr><th>맛 설명</th><td>무즙의 알싸하고 시원한 맛이 소바 향과 어울려요. 쓰유가 담백해요.</td></tr><tr><th>주문·방문 안내</th><td>쓰유를 면에 부어 먹는 방식과 찍어 먹는 방식이 있어요. 가게마다 무즙의 양이 달라요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>후쿠이현 레이호쿠 지방에서 먹어 온 소바예요. 반죽을 잇는 재료로 강력분을 쓰는 경우가 많아요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요. 가을에 새 메밀이 나오면 특히 찾아요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>쓰유를 부어 먹는 「붓카케」, 무 짠 물에 간장을 더해 찍어 먹는 「시보리」 등 방식이 갈려요. 무즙이 알싸하니 조금씩 섞어 가며 먹어요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>후쿠이현 안에서도 쓰유를 붓는 집과 찍어 먹게 내는 집이 달라요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>자루소바는 쓰유에 찍어 먹고, 오로시소바는 무즙이 들어간 쓰유를 끼얹거나 찍어 먹어요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E8%B6%8A%E5%89%8D%E3%81%9D%E3%81%B0\">위키백과(일본어) · 越前そば(越前おろしそば)</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "에치젠 오로시소바 越前おろしそば",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_sauce_katsudon",
+      "title": "소스카츠동",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>소스카츠동</h2><div class=\"book-ja-name\">ソースカツ丼 · そーすかつどん</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>밥·덮밥</td></tr><tr><th>음식의 정체</th><td>밥에 돈카츠를 올리고 우스터 계열 소스를 끼얹은 덮밥이에요. 달걀로 덮지 않아요.</td></tr><tr><th>주요 재료 구성</th><td>밥 · 돈카츠 · 우스터 계열 소스 · 양배추채(가게마다)</td></tr><tr><th>맛 설명</th><td>튀김옷이 바삭하고 소스가 새콤달콤해요. 달걀로 덮은 가츠동보다 가벼워요.</td></tr><tr><th>주문·방문 안내</th><td>후쿠이에서는 「카츠동」이라고 하면 소스 카츠동이 나오는 가게가 많아요. 나가노 고마가네와 군마에도 있어요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>후쿠이와 나가노 고마가네 등 여러 지역이 발상지로 알려져 있어요. 달걀로 덮는 가츠동과는 다른 계열이에요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>소스가 밥까지 배어 있어 그대로 먹어요. 가게에 따라 양배추채를 밥 위에 깔아 줘요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>후쿠이는 소스만, 나가노 고마가네는 양배추를 깔고, 군마는 소스에 담갔다 올리는 등 방식이 갈려요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>보통 가츠동은 단 다시 양념과 달걀로 덮고, 소스 카츠동은 소스만 끼얹어요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%AB%E3%83%84%E4%B8%BC\">위키백과(일본어) · カツ丼(ソースカツ丼)</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "소스카츠동 ソースカツ丼",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_houtou",
+      "title": "호토",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>호토</h2><div class=\"book-ja-name\">ほうとう · ほうとう</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>면</td></tr><tr><th>음식의 정체</th><td>넓고 두꺼운 밀면을 호박·채소와 함께 미소 국물에 끓인 야마나시현의 향토 음식이에요.</td></tr><tr><th>주요 재료 구성</th><td>넓은 생밀면 · 호박 · 채소·버섯 · 미소 국물</td></tr><tr><th>맛 설명</th><td>국물이 호박의 단맛으로 걸쭉하고 미소 맛이 진해요. 면은 투박하고 쫀득해요.</td></tr><tr><th>주문·방문 안내</th><td>한 사람용 무쇠 냄비로 내는 가게가 많아요. 아주 뜨겁게 나와요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>야마나시현을 중심으로 한 향토 요리예요. 2007년 농림수산성의 「농산어촌 향토 요리 100선」에 뽑혔어요. 예전 야마나시에는 「호토를 못 밀면 시집을 못 보낸다」는 말이 있었다고 해요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>추운 겨울에 특히 많이 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>국물까지 함께 떠서 먹어요. 면이 국물을 계속 머금으니 나오면 바로 먹는 것이 좋아요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>야마나시 안에서도 호박을 많이 넣는 집과 적게 넣는 집이 갈려요. 비슷한 면 음식으로 군마의 오키리코미가 있어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>우동과 달리 면을 소금에 재우지 않고 국물에 바로 끓여서 국물이 걸쭉해져요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%81%BB%E3%81%86%E3%81%A8%E3%81%86\">위키백과(일본어) · ほうとう</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "호토 ほうとう",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_shizuoka_oden",
+      "title": "시즈오카 오뎅",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>시즈오카 오뎅</h2><div class=\"book-ja-name\">静岡おでん · しずおかおでん</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>나베·국·오뎅</td></tr><tr><th>음식의 정체</th><td>진한 간장 국물에 오래 끓여 색이 짙은 오뎅이에요. 꼬치에 꿰어 팔고 생선 가루와 푸른 김을 뿌려 먹어요.</td></tr><tr><th>주요 재료 구성</th><td>검은 어묵(구로한페이) · 소 힘줄 · 곤약·무·달걀 · 진한 간장 국물 · 생선 가루·푸른 김</td></tr><tr><th>맛 설명</th><td>국물이 진하고 짭짤해요. 뿌려 먹는 생선 가루의 감칠맛과 푸른 김 향이 더해져요.</td></tr><tr><th>주문·방문 안내</th><td>꼬치 단위로 골라 주문해요. 시즈오카의 「오뎅 거리」나 막과자 가게에서도 팔아요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>오뎅은 다시에 간을 해 여러 재료를 오래 끓인 일본의 조림이에요. 시즈오카에서는 진한 간장 국물에 꼬치를 꿰어 파는 방식이 자리 잡았어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요. 추운 계절에 특히 많이 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>꼬치를 들고 생선 가루와 푸른 김을 직접 뿌려 먹어요. 간이 세니 국물은 조금만 떠 먹어요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>간토는 진한 간장, 간사이는 연한 간장, 나고야는 미소를 쓰는 등 오뎅의 국물은 지역마다 달라요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>보통 오뎅은 가쓰오·다시마 국물로 색이 연하지만, 시즈오카 오뎅은 국물이 검고 가루를 뿌려 먹어요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%81%8A%E3%81%A7%E3%82%93\">위키백과(일본어) · おでん(静岡おでん)</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "시즈오카 오뎅 静岡おでん",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_matsubagani",
+      "title": "마쓰바가니(대게)",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>마쓰바가니(대게)</h2><div class=\"book-ja-name\">松葉がに · まつばがに</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>나베·국·오뎅</td></tr><tr><th>음식의 정체</th><td>산인 지방에서 수컷 대게를 부르는 이름이에요. 찜·구이·나베·회로 먹어요.</td></tr><tr><th>주요 재료 구성</th><td>대게(즈와이가니) · 폰즈나 소금 · 나베 국물·채소(나베일 때)</td></tr><tr><th>맛 설명</th><td>살이 탱글하고 단맛이 진해요. 내장(게 미소)은 진하고 고소해요.</td></tr><tr><th>주문·방문 안내</th><td>겨울 한정이고 값이 높아요. 다리 한두 개부터 한 마리 코스까지 있어요. 산지 증명 꼬리표가 붙은 것도 있어요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>깊은 바다에 사는 큰 게예요. 산인 지방에서는 수컷 대게를 마쓰바가니, 후쿠이에서는 에치젠가니라고 불러요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>어기가 열리는 11월부터 이듬해 초봄까지가 제철이에요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>찐 것은 그대로, 구운 것은 소금만 뿌려 먹어요. 나베는 마지막에 국물로 죽을 끓여 먹는 가게가 많아요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>돗토리·시마네·효고(가스미)·후쿠이가 대표 산지로, 지역마다 부르는 이름이 달라요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>홍대게(베니즈와이)는 값이 싸고 살이 더 묽어요. 털게·왕게는 다른 종류예요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%82%BA%E3%83%AF%E3%82%A4%E3%82%AC%E3%83%8B\">위키백과(일본어) · ズワイガニ(松葉がに)</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "마쓰바가니(대게) 松葉がに",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_tofu_chikuwa",
+      "title": "도후치쿠와",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>도후치쿠와</h2><div class=\"book-ja-name\">とうふちくわ · とうふちくわ</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>반찬·안주·조림·찜</td></tr><tr><th>음식의 정체</th><td>으깬 두부와 생선살을 섞어 치쿠와처럼 구워 만든 돗토리현 동부의 향토 음식이에요.</td></tr><tr><th>주요 재료 구성</th><td>두부 · 생선살 반죽 · 소금·설탕</td></tr><tr><th>맛 설명</th><td>보통 치쿠와보다 부드럽고 담백해요. 두부의 고소한 맛이 나요.</td></tr><tr><th>주문·방문 안내</th><td>돗토리시 주변의 반찬 가게·슈퍼에 있어요. 생강 간장을 곁들여 먹는 경우가 많아요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>돗토리현 동부에서 먹어 온 향토 음식이에요. 열량이 낮고 단백질이 많은 식품으로도 소개돼요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>그대로 썰어 생강 간장에 찍어 먹거나 살짝 구워 먹어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>치쿠와는 생선살만으로 만들어 탱탱하지만, 도후치쿠와는 두부가 들어가 부드러워요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%81%A8%E3%81%86%E3%81%B5%E3%81%A1%E3%81%8F%E3%82%8F\">위키백과(일본어) · とうふちくわ</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "도후치쿠와 とうふちくわ",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_izumo_soba",
+      "title": "이즈모소바",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>이즈모소바</h2><div class=\"book-ja-name\">出雲そば · いずもそば</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>면</td></tr><tr><th>음식의 정체</th><td>메밀을 껍질째 갈아 색이 짙은 시마네현 이즈모 지방의 소바예요. 일본 3대 소바의 하나로 꼽혀요.</td></tr><tr><th>주요 재료 구성</th><td>껍질째 간 메밀 · 쓰유 · 무즙·파·김·메추리알(고명)</td></tr><tr><th>맛 설명</th><td>면 색이 짙고 메밀 향이 진해요. 쓰유는 진한 편이에요.</td></tr><tr><th>주문·방문 안내</th><td>세 단으로 겹친 그릇에 담아 쓰유를 부어 먹는 「와리코소바」와, 삶은 물째 담아 주는 「가마아게소바」가 있어요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>시마네현 이즈모 지방에서 널리 먹는 향토 소바예요. 일본 3대 소바의 하나로 꼽혀요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요. 10월에는 이즈모타이샤 참배와 함께 찾는 사람이 많아요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>와리코소바는 위 칸부터 쓰유를 부어 먹고, 남은 쓰유를 아래 칸에 옮겨 가며 먹어요. 가마아게소바는 삶은 물에 쓰유를 넣어 간을 맞춰요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>이즈모·마쓰에를 중심으로 먹고, 가게마다 쓰유의 진하기와 담는 방식이 달라요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>사라시나 계열의 흰 소바보다 향이 훨씬 진하고 색이 어두워요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E5%87%BA%E9%9B%B2%E3%81%9D%E3%81%B0\">위키백과(일본어) · 出雲そば</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "이즈모소바 出雲そば",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_tokushima_ramen",
+      "title": "도쿠시마 라멘",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>도쿠시마 라멘</h2><div class=\"book-ja-name\">徳島ラーメン · とくしまラーメン</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>면</td></tr><tr><th>음식의 정체</th><td>달게 조린 돼지 삼겹살과 날달걀을 올리는 도쿠시마현의 지역 라멘이에요.</td></tr><tr><th>주요 재료 구성</th><td>중간 굵기 면 · 돼지뼈·간장 국물 · 달게 조린 삼겹살 · 날달걀 · 콩나물</td></tr><tr><th>맛 설명</th><td>국물이 진하고 달콤 짭짤해요. 날달걀을 풀면 부드러워져요.</td></tr><tr><th>주문·방문 안내</th><td>국물은 갈색·흰색·노란색 계열로 갈려요. 날달걀은 「다마고 이리」로 따로 주문하는 가게가 많아요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>도쿠시마현의 지역 라멘이에요. 1998년 신요코하마 라멘 박물관에 기간 한정으로 문을 연 것을 계기로 전국에 알려졌다고 해요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>날달걀을 넣었으면 면과 잘 섞어 먹어요. 밥을 함께 주문해 국물에 적셔 먹는 손님이 많아요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>국물 색으로 갈색·흰색·노란색 세 계열로 나눠 소개해요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>다른 지역 라멘과 달리 차슈 대신 달게 조린 삼겹살을 올리고 날달걀을 깨 넣어요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E5%BE%B3%E5%B3%B6%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3\">위키백과(일본어) · 徳島ラーメン</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "도쿠시마 라멘 徳島ラーメン",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_chanko_nabe",
+      "title": "창코나베",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>창코나베</h2><div class=\"book-ja-name\">ちゃんこ鍋 · ちゃんこなべ</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>나베·국·오뎅</td></tr><tr><th>음식의 정체</th><td>스모 선수들이 먹는 나베 요리예요. 고기·생선·채소를 넉넉히 넣어 끓여요.</td></tr><tr><th>주요 재료 구성</th><td>닭고기나 생선·다진 고기 완자 · 배추·파·버섯 · 두부 · 국물(소금·간장·미소·된장)</td></tr><tr><th>맛 설명</th><td>국물이 재료의 감칠맛으로 진하고 양이 많아요. 간은 가게마다 갈려요.</td></tr><tr><th>주문·방문 안내</th><td>은퇴한 스모 선수가 하는 「창코집」이 료고쿠 주변에 많아요. 2인분부터 주문하는 가게가 많아요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>스모 선수들이 머무는 스모 부야에서 매일 먹는 나베 요리예요. 원래 「창코」는 부야에서 당번이 만드는 음식 전체를 뜻해요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹지만 겨울에 특히 많이 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>건더기를 먼저 먹고 국물에 밥이나 면을 넣어 마무리해요. 부야에서는 네 발 짐승보다 닭을 쓴다는 이야기가 전해져요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>부야마다 국물과 재료가 달라서 가게마다 간이 갈려요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>요세나베와 재료가 비슷하지만, 창코나베는 양이 많고 몸을 만들기 위한 음식이라는 배경이 있어요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%81%A1%E3%82%83%E3%82%93%E3%81%93%E9%8D%8B\">위키백과(일본어) · ちゃんこ鍋</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "창코나베 ちゃんこ鍋",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_yudofu",
+      "title": "유도후",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>유도후</h2><div class=\"book-ja-name\">湯豆腐 · ゆどうふ</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>나베·국·오뎅</td></tr><tr><th>음식의 정체</th><td>두부를 다시마 국물에 데워 양념간장에 찍어 먹는 담백한 나베예요.</td></tr><tr><th>주요 재료 구성</th><td>두부 · 다시마 국물 · 폰즈나 간장 · 파·무즙·가쓰오부시</td></tr><tr><th>맛 설명</th><td>맛이 아주 담백하고 두부가 부드러워요. 양념간장으로 간을 맞춰 먹어요.</td></tr><tr><th>주문·방문 안내</th><td>교토 난젠지 주변의 유도후 전문점이 알려져 있어요. 두부가 부서지기 쉬워 국자로 떠요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>두부를 뜨거운 국물에 데워 먹는 간단한 요리예요. 정진 요리와 함께 절 주변에서 발달했어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>추운 겨울에 많이 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>두부가 떠오르면 건져 양념간장에 찍어 먹어요. 너무 끓이면 두부가 단단해지니 약한 불로 둬요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>교토는 다시마 국물과 담백한 양념, 간토는 폰즈나 가쓰오부시 간장을 쓰는 경우가 많아요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>아게다시도후는 튀겨서 국물을 붓고, 유도후는 두부를 데우기만 해요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E6%B9%AF%E8%B1%86%E8%85%90\">위키백과(일본어) · 湯豆腐</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "유도후 湯豆腐",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_tonjiru",
+      "title": "돈지루(돼지고기 미소국)",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>돈지루(돼지고기 미소국)</h2><div class=\"book-ja-name\">豚汁 · とんじる</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>나베·국·오뎅</td></tr><tr><th>음식의 정체</th><td>돼지고기와 채소를 넉넉히 넣어 미소로 간을 한 국이에요.</td></tr><tr><th>주요 재료 구성</th><td>돼지고기 · 무·당근·우엉·감자 · 곤약 · 미소</td></tr><tr><th>맛 설명</th><td>돼지고기의 기름과 미소가 어우러져 진하고 구수해요. 건더기가 많아요.</td></tr><tr><th>주문·방문 안내</th><td>정식집·사원 식당에서 밥과 함께 나와요. 「부타지루」라고도 읽어요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>돼지고기와 채소를 끓여 미소로 간을 한 일본 요리예요. 건더기가 많은 미소국의 한 종류예요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹지만 추운 때 특히 많이 먹어요. 행사나 야외 모임에서 큰 솥으로 끓이기도 해요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>밥과 함께 먹어요. 시치미(고춧가루 양념)를 뿌려 먹는 사람도 많아요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>지역에 따라 미소 종류와 넣는 채소가 달라요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>미소시루보다 건더기가 많고 돼지고기가 들어가 진해요. 겐친지루는 고기를 넣지 않아요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E8%B1%9A%E6%B1%81\">위키백과(일본어) · 豚汁</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "돈지루(돼지고기 미소국) 豚汁",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_kenchinjiru",
+      "title": "겐친지루",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>겐친지루</h2><div class=\"book-ja-name\">けんちん汁 · けんちんじる</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>나베·국·오뎅</td></tr><tr><th>음식의 정체</th><td>두부와 뿌리채소를 기름에 볶아 다시 국물에 끓인 맑은 국이에요. 고기를 넣지 않아요.</td></tr><tr><th>주요 재료 구성</th><td>두부 · 무·당근·우엉·토란 · 곤약 · 간장 다시 국물 · 참기름</td></tr><tr><th>맛 설명</th><td>참기름에 볶은 고소한 향이 나고 간장 국물이 담백해요.</td></tr><tr><th>주문·방문 안내</th><td>정식의 국물로 나오고, 절 음식점에도 있어요. 고기·생선을 뺀 음식이라 정진 요리로도 먹어요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>국물 요리의 한 종류예요. 가마쿠라의 겐초지에서 비롯됐다는 이야기가 전해지지만 설이 여러 가지예요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>뿌리채소가 맛있는 가을·겨울에 많이 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>밥과 함께 먹어요. 두부를 손으로 부숴 넣는 것이 흔한 방식이에요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>간장 국물이 기본이지만 지역에 따라 미소로 간하는 곳도 있어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>돈지루는 돼지고기를 넣고 미소로 간하지만, 겐친지루는 고기 없이 간장으로 간해요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%81%91%E3%82%93%E3%81%A1%E3%82%93%E6%B1%81\">위키백과(일본어) · けんちん汁</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "겐친지루 けんちん汁",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_kamo_nabe",
+      "title": "가모나베(오리 나베)",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>가모나베(오리 나베)</h2><div class=\"book-ja-name\">鴨鍋 · かもなべ</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>나베·국·오뎅</td></tr><tr><th>음식의 정체</th><td>오리고기를 파·두부와 함께 끓이는 나베 요리예요.</td></tr><tr><th>주요 재료 구성</th><td>오리고기 · 파 · 두부 · 간장·미림 국물 · 미나리·버섯</td></tr><tr><th>맛 설명</th><td>오리 기름이 국물에 녹아 진하고 고소해요. 파의 단맛이 어울려요.</td></tr><tr><th>주문·방문 안내</th><td>겨울 한정으로 내는 가게가 많아요. 마지막에 오리 국물로 소바를 삶아 먹는 「가모난반」 마무리가 흔해요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>오리고기를 파 같은 채소와 두부와 함께 끓이는 나베예요. 오리와 파를 함께 쓰는 조합은 오래됐어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>오리가 맛있는 겨울에 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>오리고기는 오래 끓이면 질겨지니 색이 바뀌면 바로 건져 먹어요. 남은 국물에 소바를 넣어 마무리해요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>교토와 시가(비와호 주변)에서 오리 요리가 알려져 있어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>같은 오리 음식인 가모난반소바는 소바에 오리와 파를 올린 국수예요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E9%B4%A8%E9%8D%8B\">위키백과(일본어) · 鴨鍋</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "가모나베(오리 나베) 鴨鍋",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_harumaki",
+      "title": "하루마키(춘권)",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>하루마키(춘권)</h2><div class=\"book-ja-name\">春巻き · はるまき</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>양식·중화·카레</td></tr><tr><th>음식의 정체</th><td>채소·고기 속을 얇은 피로 말아 튀긴 중화 요리예요.</td></tr><tr><th>주요 재료 구성</th><td>춘권피(밀가루) · 숙주·죽순·돼지고기·목이버섯 · 간장·소금 양념</td></tr><tr><th>맛 설명</th><td>겉이 바삭하고 속은 채소의 단맛과 감칠맛이 어울려요.</td></tr><tr><th>주문·방문 안내</th><td>중화 음식점·이자카야·반찬 가게에 흔해요. 겨자 간장이나 식초 간장을 곁들여요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>중화 요리 딤섬의 한 종류예요. 일본에서도 중화 음식점과 가정 반찬으로 널리 퍼졌어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>뜨거울 때 먹어요. 속이 아주 뜨거우니 한 번 잘라 식혀 먹는 것이 좋아요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>일본에서는 겨자 간장을 곁들이는 가게가 많고, 생춘권(튀기지 않은 것)을 내는 곳도 있어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>같은 튀김 만두 계열인 아게교자는 피가 두껍고 속이 다진 고기 중심이에요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E6%98%A5%E5%B7%BB%E3%81%8D\">위키백과(일본어) · 春巻き</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "하루마키(춘권) 春巻き",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_subuta",
+      "title": "스부타(탕수육)",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>스부타(탕수육)</h2><div class=\"book-ja-name\">酢豚 · すぶた</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>양식·중화·카레</td></tr><tr><th>음식의 정체</th><td>밑간한 돼지고기를 네모나게 썰어 튀기고 새콤달콤한 소스에 버무린 중화 요리예요.</td></tr><tr><th>주요 재료 구성</th><td>돼지고기 · 피망·양파·당근 · 새콤달콤한 소스 · 파인애플(가게마다)</td></tr><tr><th>맛 설명</th><td>소스가 새콤달콤하고 고기는 겉이 바삭해요. 채소가 아삭해요.</td></tr><tr><th>주문·방문 안내</th><td>일본의 중화 음식점 기본 메뉴예요. 파인애플이 들어가는지는 가게마다 달라 호불호가 갈려요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>중화 요리예요. 일본의 중화 음식점에서 기본 메뉴로 자리 잡았고, 가정에서도 많이 만들어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>밥과 함께 먹어요. 시간이 지나면 튀김옷이 소스를 머금어 물러지니 나오면 바로 먹어요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>파인애플을 넣는 가게와 넣지 않는 가게가 갈려요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>한국의 탕수육과 같은 계열이지만, 소스에 채소를 함께 볶아 버무려 내는 경우가 많아요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E9%85%A2%E8%B1%9A\">위키백과(일본어) · 酢豚</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "스부타(탕수육) 酢豚",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_nikuman",
+      "title": "니쿠망(고기 중화빵)",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>니쿠망(고기 중화빵)</h2><div class=\"book-ja-name\">肉まん · にくまん</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>양식·중화·카레</td></tr><tr><th>음식의 정체</th><td>발효시킨 밀 반죽에 다진 고기 속을 넣어 찐 중화만이에요.</td></tr><tr><th>주요 재료 구성</th><td>밀 반죽(발효) · 다진 돼지고기 · 양파·죽순 · 간장 양념</td></tr><tr><th>맛 설명</th><td>빵이 폭신하고 속은 짭짤하고 육즙이 있어요. 반죽에 단맛이 조금 있어요.</td></tr><tr><th>주문·방문 안내</th><td>겨울에 편의점 계산대 옆에서 팔아요. 간사이에서는 「부타망」이라고 부르는 경우가 많아요. 겨자나 소스를 주는 가게도 있어요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>밀가루 반죽을 발효시켜 여러 속을 넣고 찐 중화만의 한 종류예요. 속에 따라 니쿠망·안망 등으로 나눠 불러요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>추운 계절에 많이 먹어요. 편의점에서는 가을부터 봄까지 팔아요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>종이째 들고 먹어요. 속이 뜨거우니 조심하세요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>간토는 니쿠망, 간사이는 부타망이라고 부르는 경우가 많고, 간사이에서는 겨자 간장을 곁들이기도 해요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>안망은 같은 반죽에 팥소를 넣은 단 종류예요. 피자망·카레망 같은 변형도 있어요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E3%81%BE%E3%82%93\">위키백과(일본어) · 中華まん(肉まん)</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "니쿠망(고기 중화빵) 肉まん",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_tanmen",
+      "title": "탄멘",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>탄멘</h2><div class=\"book-ja-name\">タンメン · たんめん</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>면</td></tr><tr><th>음식의 정체</th><td>볶은 채소를 올린 소금 국물 중화면이에요. 주로 간토 지방에서 먹어요.</td></tr><tr><th>주요 재료 구성</th><td>중화면 · 볶은 채소(양배추·숙주·당근) · 돼지고기 · 소금 국물</td></tr><tr><th>맛 설명</th><td>국물이 맑고 담백하며 채소의 단맛이 녹아 있어요. 기름기는 가게마다 달라요.</td></tr><tr><th>주문·방문 안내</th><td>간토의 중화 음식점·라멘집 메뉴예요. 채소가 많아 한 그릇으로 든든해요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>주로 간토 지방에서 먹는 일본식 중화 면 요리예요. 요코하마와 간토권에서 1955년 무렵부터 이어진 메뉴로 소개돼요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>채소와 면을 함께 떠서 먹어요. 식초나 고추기름을 조금 더하는 손님도 있어요.</p></section><section class=\"book-section\"><h3>지역별 차이</h3><p>최근에는 기후 탄멘, 오다와라 탄멘처럼 지역 이름을 붙인 가게도 생겼어요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>시오 라멘과 비슷하지만, 탄멘은 채소를 기름에 볶아 국물과 함께 올려요. 매운 양념을 더하면 「고탄멘」이 돼요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%82%BF%E3%83%B3%E3%83%A1%E3%83%B3\">위키백과(일본어) · タンメン</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "탄멘 タンメン",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "tocId": "food_nonramen_rebanira",
+      "title": "레바니라(간 부추 볶음)",
+      "status": "기본 정의·편집 안내",
+      "formPresetId": "book-food",
+      "isTemplate": false,
+      "contentHtml": "<article class=\"book-page\"><header class=\"book-page-heading\"><h2>레바니라(간 부추 볶음)</h2><div class=\"book-ja-name\">レバニラ炒め · ればにらいため</div></header><table class=\"book-facts\"><tbody><tr><th>대표 분류</th><td>양식·중화·카레</td></tr><tr><th>음식의 정체</th><td>돼지 간과 부추를 센 불에 볶은 중화 요리예요. 「니라레바」라고도 불러요.</td></tr><tr><th>주요 재료 구성</th><td>돼지 간 · 부추 · 숙주 · 간장·마늘 양념</td></tr><tr><th>맛 설명</th><td>간의 쇠 맛과 쌉쌀함이 있고 부추 향이 강해요. 간장 양념이 짭짤해요.</td></tr><tr><th>주문·방문 안내</th><td>중화 음식점·정식집의 기본 메뉴예요. 간 특유의 맛이 강해 호불호가 갈려요.</td></tr></tbody></table><section class=\"book-section\"><h3>유래와 역사</h3><p>간과 부추를 볶은 중화 요리예요. 일본의 중화 음식점과 정식집에 널리 퍼졌어요.</p></section><section class=\"book-section\"><h3>언제 먹나</h3><p>사계절 먹어요.</p></section><section class=\"book-section\"><h3>먹는 법</h3><p>밥과 함께 먹어요. 간이 식으면 맛이 강해지니 뜨거울 때 먹는 것이 좋아요.</p></section><section class=\"book-section\"><h3>비슷한 음식과의 차이</h3><p>야키니쿠의 레바(간 구이)는 소 간을 굽고, 레바니라는 돼지 간을 부추와 볶아요.</p></section><section class=\"book-section\"><h3>주문 전 확인할 점</h3><p>대표 구성과 맛은 가게·메뉴에 따라 달라요. 재료와 알레르기는 주문 전에 가게에 확인하세요.</p></section><section class=\"book-section\"><h3>출처·검토 범위</h3><ul><li><a href=\"https://ja.wikipedia.org/wiki/%E3%83%AC%E3%83%90%E3%83%8B%E3%83%A9%E7%82%92%E3%82%81\">위키백과(일본어) · レバニラ炒め</a></li></ul><p>확인일: 2026-11-13</p><p>백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.</p></section></article>",
+      "searchTags": "레바니라(간 부추 볶음) レバニラ炒め",
+      "updatedAt": "2026-11-13"
     }
   ],
   "foods": [
@@ -8078,6 +8929,450 @@
       "taste_description": "짭짤하고 살이 촉촉해요. 껍질은 바삭하게 구워져요.",
       "season": "사계절",
       "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_senbeijiru",
+      "item_type": "food",
+      "tocId": "food_nonramen_senbeijiru",
+      "food_name_ko": "센베이지루",
+      "food_name_ja": "せんべい汁",
+      "basic_description": "전용 난부센베이(밀 전병)를 간장 국물에 넣어 끓이는 아오모리현 하치노헤의 향토 음식이에요.",
+      "ingredients": "국물용 난부센베이 · 닭고기 또는 돼지고기 · 채소·버섯 · 간장 다시 국물",
+      "taste_description": "전병이 국물을 머금어 쫀득하게 풀리고, 간장 다시의 감칠맛이 진해요.",
+      "season": "겨울",
+      "representative_region": "아오모리"
+    },
+    {
+      "id": "food_nonramen_wanko_soba",
+      "item_type": "food",
+      "tocId": "food_nonramen_wanko_soba",
+      "food_name_ko": "완코소바",
+      "food_name_ja": "わんこそば",
+      "basic_description": "작은 그릇에 담은 소바를 다 먹을 때까지 계속 채워 주는 이와테현의 소바 문화예요.",
+      "ingredients": "소바 · 쓰유 · 고명(참치회·무즙·파·낫토 등)",
+      "taste_description": "한 그릇이 한두 입이라 소바의 향과 쓰유 맛을 가볍게 즐겨요.",
+      "season": "사계절",
+      "representative_region": "이와테"
+    },
+    {
+      "id": "food_nonramen_morioka_reimen",
+      "item_type": "food",
+      "tocId": "food_nonramen_morioka_reimen",
+      "food_name_ko": "모리오카 레이멘",
+      "food_name_ja": "盛岡冷麺",
+      "basic_description": "투명하고 쫄깃한 면을 차가운 소고기 국물에 넣어 먹는 모리오카의 명물 면 요리예요.",
+      "ingredients": "전분·밀가루 면 · 차가운 소고기 육수 · 김치 · 삶은 달걀 · 수박이나 배",
+      "taste_description": "면이 아주 쫄깃하고 국물은 시원하고 감칠맛이 있어요. 김치의 매운맛을 따로 넣어 조절해요.",
+      "season": "여름",
+      "representative_region": "이와테"
+    },
+    {
+      "id": "food_nonramen_jajamen",
+      "item_type": "food",
+      "tocId": "food_nonramen_jajamen",
+      "food_name_ko": "모리오카 자자멘",
+      "food_name_ja": "盛岡じゃじゃ麺",
+      "basic_description": "납작한 우동 같은 면에 특제 된장 양념과 오이·파를 올려 비벼 먹는 모리오카의 향토 면 요리예요.",
+      "ingredients": "굵고 납작한 밀면 · 고기 된장 양념(자자 미소) · 오이 · 파 · 생강",
+      "taste_description": "된장 양념이 고소하고 짭짤하며 오이가 아삭해요. 매운맛은 거의 없어요.",
+      "season": "사계절",
+      "representative_region": "이와테"
+    },
+    {
+      "id": "food_nonramen_imoni",
+      "item_type": "food",
+      "tocId": "food_nonramen_imoni",
+      "food_name_ko": "이모니",
+      "food_name_ja": "芋煮",
+      "basic_description": "토란을 중심으로 소고기·채소를 넣어 간장으로 끓이는 도호쿠 지방의 야외 나베 음식이에요.",
+      "ingredients": "토란 · 소고기 · 곤약 · 파 · 간장 국물",
+      "taste_description": "토란이 포슬하고 미끌하게 풀리며 간장 국물이 달콤 짭짤해요.",
+      "season": "가을",
+      "representative_region": "야마가타"
+    },
+    {
+      "id": "food_nonramen_kitakata_ramen",
+      "item_type": "food",
+      "tocId": "food_nonramen_kitakata_ramen",
+      "food_name_ko": "기타카타 라멘",
+      "food_name_ja": "喜多方ラーメン",
+      "basic_description": "굵고 납작한 수분 많은 면을 쓰는 후쿠시마현 기타카타시의 지역 라멘이에요.",
+      "ingredients": "굵고 납작한 곱슬면 · 간장 돼지·멸치 국물 · 차슈 · 파 · 멘마",
+      "taste_description": "면이 폭신하면서 쫀득하고, 국물은 간장 맛이 맑고 담백해요.",
+      "season": "사계절",
+      "representative_region": "후쿠시마"
+    },
+    {
+      "id": "food_nonramen_yuba",
+      "item_type": "food",
+      "tocId": "food_nonramen_yuba",
+      "food_name_ko": "유바",
+      "food_name_ja": "湯波",
+      "basic_description": "두유를 끓일 때 표면에 생기는 얇은 막을 걷어 낸 대두 가공식품이에요.",
+      "ingredients": "두유 막(유바) · 다시 간장 · 와사비(일부)",
+      "taste_description": "부드럽고 매끈하며 콩의 고소한 단맛이 은은해요. 맛이 아주 담백해요.",
+      "season": "사계절",
+      "representative_region": "도치기"
+    },
+    {
+      "id": "food_nonramen_yaki_manju",
+      "item_type": "food",
+      "tocId": "food_nonramen_yaki_manju",
+      "food_name_ko": "야키만주",
+      "food_name_ja": "焼きまんじゅう",
+      "basic_description": "찐 밀 반죽 만주를 꼬챙이에 꿰어 단 된장 양념을 바르고 구운 군마현의 향토 간식이에요.",
+      "ingredients": "밀 반죽 만주(보통 속은 없음) · 된장·설탕 양념",
+      "taste_description": "겉은 양념이 달콤 짭짤하게 그을리고 속은 폭신해요. 된장 향이 진해요.",
+      "season": "사계절",
+      "representative_region": "군마"
+    },
+    {
+      "id": "food_nonramen_soka_senbei",
+      "item_type": "food",
+      "tocId": "food_nonramen_soka_senbei",
+      "food_name_ko": "소카센베이",
+      "food_name_ja": "草加煎餅",
+      "basic_description": "쌀가루 반죽을 구워 간장을 바른 단단한 쌀 전병이에요. 사이타마현 소카시의 명산품이에요.",
+      "ingredients": "멥쌀가루 · 간장 · 김·고추 등(종류별)",
+      "taste_description": "딱딱하게 바삭 부서지고 간장의 짭짤한 맛과 구운 쌀 향이 나요.",
+      "season": "사계절",
+      "representative_region": "사이타마"
+    },
+    {
+      "id": "food_nonramen_namero",
+      "item_type": "food",
+      "tocId": "food_nonramen_namero",
+      "food_name_ko": "나메로",
+      "food_name_ja": "なめろう",
+      "basic_description": "생선살을 미소와 양념과 함께 도마에서 다져 만드는 지바현 보소 반도의 어부 음식이에요.",
+      "ingredients": "전갱이 등 생선살 · 미소 · 파·생강·차조기",
+      "taste_description": "미소의 짭짤한 맛과 생선의 기름이 섞여 진하고, 끈적하게 뭉쳐져요.",
+      "season": "사계절",
+      "representative_region": "치바"
+    },
+    {
+      "id": "food_nonramen_hegisoba",
+      "item_type": "food",
+      "tocId": "food_nonramen_hegisoba",
+      "food_name_ko": "헤기소바",
+      "food_name_ja": "へぎそば",
+      "basic_description": "해조(후노리)를 반죽에 넣어 매끈하게 만든 소바를 한입 크기로 말아 나무 그릇에 담아 내는 니가타현의 소바예요.",
+      "ingredients": "후노리를 넣은 소바 · 쓰유 · 겨자나 파(고명)",
+      "taste_description": "면이 매끈하고 탄력이 있어요. 소바 향에 해조의 은은한 향이 더해져요.",
+      "season": "사계절",
+      "representative_region": "니가타"
+    },
+    {
+      "id": "food_nonramen_sasa_dango",
+      "item_type": "food",
+      "tocId": "food_nonramen_sasa_dango",
+      "food_name_ko": "사사당고",
+      "food_name_ja": "笹団子",
+      "basic_description": "쑥을 넣은 떡에 팥소를 넣고 조릿대 잎으로 감싸 찐 니가타현의 향토 떡과자예요.",
+      "ingredients": "쑥을 넣은 떡 · 팥소 · 조릿대 잎",
+      "taste_description": "쑥 향이 진하고 떡이 쫀득해요. 조릿대 잎의 향이 함께 나요.",
+      "season": "봄·여름",
+      "representative_region": "니가타"
+    },
+    {
+      "id": "food_nonramen_jibuni",
+      "item_type": "food",
+      "tocId": "food_nonramen_jibuni",
+      "food_name_ko": "지부니",
+      "food_name_ja": "治部煮",
+      "basic_description": "오리고기나 닭고기에 밀가루를 묻혀 채소·밀기울 떡과 함께 간장 국물에 조린 가나자와의 향토 요리예요.",
+      "ingredients": "오리고기 또는 닭고기 · 스다레후(밀기울 떡) · 채소 · 간장·미림 국물 · 와사비",
+      "taste_description": "밀가루 때문에 국물이 살짝 걸쭉하고 달콤 짭짤해요. 고기가 부드러워요.",
+      "season": "겨울",
+      "representative_region": "이시카와"
+    },
+    {
+      "id": "food_nonramen_oyaki",
+      "item_type": "food",
+      "tocId": "food_nonramen_oyaki",
+      "food_name_ko": "오야키",
+      "food_name_ja": "おやき",
+      "basic_description": "밀가루나 메밀가루 반죽에 조린 채소나 팥소를 넣고 둥글게 구운 나가노현의 향토 간식이에요.",
+      "ingredients": "밀가루·메밀가루 반죽 · 조린 채소(가지·호박·우엉 등) 또는 팥소",
+      "taste_description": "반죽은 투박하게 쫀득하고 속은 간장으로 조린 채소가 짭짤해요. 팥소를 넣은 것은 달아요.",
+      "season": "사계절",
+      "representative_region": "나가노"
+    },
+    {
+      "id": "food_nonramen_gohei_mochi",
+      "item_type": "food",
+      "tocId": "food_nonramen_gohei_mochi",
+      "food_name_ko": "고헤이모치",
+      "food_name_ja": "五平餅",
+      "basic_description": "지은 밥을 반쯤 찧어 납작하게 꼬챙이에 붙이고 호두·참깨 된장 양념을 발라 구운 간식이에요.",
+      "ingredients": "밥 · 된장 또는 간장 양념 · 호두·참깨·들깨",
+      "taste_description": "겉은 양념이 고소하고 달콤 짭짤하게 그을리고, 속은 밥알이 남아 쫀득해요.",
+      "season": "사계절",
+      "representative_region": "나가노"
+    },
+    {
+      "id": "food_nonramen_funazushi",
+      "item_type": "food",
+      "tocId": "food_nonramen_funazushi",
+      "food_name_ko": "후나즈시",
+      "food_name_ja": "鮒寿司",
+      "basic_description": "붕어를 소금과 밥에 담가 오래 발효시킨 시가현의 전통 발효 초밥(나레즈시)이에요.",
+      "ingredients": "니고로부나(붕어) · 밥 · 소금",
+      "taste_description": "발효 향과 신맛이 아주 강하고 짜요. 치즈 같은 진한 감칠맛이 있어요.",
+      "season": "사계절",
+      "representative_region": "시가"
+    },
+    {
+      "id": "food_nonramen_akashiyaki",
+      "item_type": "food",
+      "tocId": "food_nonramen_akashiyaki",
+      "food_name_ko": "아카시야키",
+      "food_name_ja": "明石焼き",
+      "basic_description": "달걀을 많이 넣은 묽은 반죽에 문어를 넣어 구운 뒤 따뜻한 다시 국물에 적셔 먹는 효고현 아카시의 향토 음식이에요.",
+      "ingredients": "달걀 · 밀 전분(우키코) · 문어 · 다시 국물",
+      "taste_description": "아주 부드럽고 몽글하게 풀려요. 소스 대신 다시 국물의 담백한 감칠맛으로 먹어요.",
+      "season": "사계절",
+      "representative_region": "효고"
+    },
+    {
+      "id": "food_nonramen_kakinoha_zushi",
+      "item_type": "food",
+      "tocId": "food_nonramen_kakinoha_zushi",
+      "food_name_ko": "가키노하즈시",
+      "food_name_ja": "柿の葉寿司",
+      "basic_description": "소금에 절인 고등어나 연어를 초밥 밥에 올려 감잎으로 감싸 눌러 둔 나라·와카야마의 향토 초밥이에요.",
+      "ingredients": "초밥 밥 · 소금 절인 고등어 또는 연어 · 감잎",
+      "taste_description": "밥은 새콤하고 생선은 짭짤해요. 감잎의 향이 밥에 옮겨 와요.",
+      "season": "사계절",
+      "representative_region": "나라"
+    },
+    {
+      "id": "food_nonramen_meharizushi",
+      "item_type": "food",
+      "tocId": "food_nonramen_meharizushi",
+      "food_name_ko": "메하리즈시",
+      "food_name_ja": "めはりずし",
+      "basic_description": "밥을 주먹밥처럼 뭉쳐 절인 갓(다카나) 잎으로 감싼 와카야마현 구마노 지방의 향토 음식이에요.",
+      "ingredients": "밥 · 절인 갓 잎 · 간장·참기름(일부)",
+      "taste_description": "갓 잎이 짭짤하고 살짝 쌉쌀하며 아삭해요. 밥은 간이 약해 담백해요.",
+      "season": "사계절",
+      "representative_region": "와카야마"
+    },
+    {
+      "id": "food_nonramen_echizen_soba",
+      "item_type": "food",
+      "tocId": "food_nonramen_echizen_soba",
+      "food_name_ko": "에치젠 오로시소바",
+      "food_name_ja": "越前おろしそば",
+      "basic_description": "무즙을 넣은 쓰유와 함께 먹는 후쿠이현의 소바예요. 그냥 「오로시소바」라고도 불러요.",
+      "ingredients": "소바 · 간 무 · 다시 간장 쓰유 · 가쓰오부시·파",
+      "taste_description": "무즙의 알싸하고 시원한 맛이 소바 향과 어울려요. 쓰유가 담백해요.",
+      "season": "사계절",
+      "representative_region": "후쿠이"
+    },
+    {
+      "id": "food_nonramen_sauce_katsudon",
+      "item_type": "food",
+      "tocId": "food_nonramen_sauce_katsudon",
+      "food_name_ko": "소스카츠동",
+      "food_name_ja": "ソースカツ丼",
+      "basic_description": "밥에 돈카츠를 올리고 우스터 계열 소스를 끼얹은 덮밥이에요. 달걀로 덮지 않아요.",
+      "ingredients": "밥 · 돈카츠 · 우스터 계열 소스 · 양배추채(가게마다)",
+      "taste_description": "튀김옷이 바삭하고 소스가 새콤달콤해요. 달걀로 덮은 가츠동보다 가벼워요.",
+      "season": "사계절",
+      "representative_region": "후쿠이"
+    },
+    {
+      "id": "food_nonramen_houtou",
+      "item_type": "food",
+      "tocId": "food_nonramen_houtou",
+      "food_name_ko": "호토",
+      "food_name_ja": "ほうとう",
+      "basic_description": "넓고 두꺼운 밀면을 호박·채소와 함께 미소 국물에 끓인 야마나시현의 향토 음식이에요.",
+      "ingredients": "넓은 생밀면 · 호박 · 채소·버섯 · 미소 국물",
+      "taste_description": "국물이 호박의 단맛으로 걸쭉하고 미소 맛이 진해요. 면은 투박하고 쫀득해요.",
+      "season": "겨울",
+      "representative_region": "야마나시"
+    },
+    {
+      "id": "food_nonramen_shizuoka_oden",
+      "item_type": "food",
+      "tocId": "food_nonramen_shizuoka_oden",
+      "food_name_ko": "시즈오카 오뎅",
+      "food_name_ja": "静岡おでん",
+      "basic_description": "진한 간장 국물에 오래 끓여 색이 짙은 오뎅이에요. 꼬치에 꿰어 팔고 생선 가루와 푸른 김을 뿌려 먹어요.",
+      "ingredients": "검은 어묵(구로한페이) · 소 힘줄 · 곤약·무·달걀 · 진한 간장 국물 · 생선 가루·푸른 김",
+      "taste_description": "국물이 진하고 짭짤해요. 뿌려 먹는 생선 가루의 감칠맛과 푸른 김 향이 더해져요.",
+      "season": "사계절",
+      "representative_region": "시즈오카"
+    },
+    {
+      "id": "food_nonramen_matsubagani",
+      "item_type": "food",
+      "tocId": "food_nonramen_matsubagani",
+      "food_name_ko": "마쓰바가니(대게)",
+      "food_name_ja": "松葉がに",
+      "basic_description": "산인 지방에서 수컷 대게를 부르는 이름이에요. 찜·구이·나베·회로 먹어요.",
+      "ingredients": "대게(즈와이가니) · 폰즈나 소금 · 나베 국물·채소(나베일 때)",
+      "taste_description": "살이 탱글하고 단맛이 진해요. 내장(게 미소)은 진하고 고소해요.",
+      "season": "겨울",
+      "representative_region": "돗토리"
+    },
+    {
+      "id": "food_nonramen_tofu_chikuwa",
+      "item_type": "food",
+      "tocId": "food_nonramen_tofu_chikuwa",
+      "food_name_ko": "도후치쿠와",
+      "food_name_ja": "とうふちくわ",
+      "basic_description": "으깬 두부와 생선살을 섞어 치쿠와처럼 구워 만든 돗토리현 동부의 향토 음식이에요.",
+      "ingredients": "두부 · 생선살 반죽 · 소금·설탕",
+      "taste_description": "보통 치쿠와보다 부드럽고 담백해요. 두부의 고소한 맛이 나요.",
+      "season": "사계절",
+      "representative_region": "돗토리"
+    },
+    {
+      "id": "food_nonramen_izumo_soba",
+      "item_type": "food",
+      "tocId": "food_nonramen_izumo_soba",
+      "food_name_ko": "이즈모소바",
+      "food_name_ja": "出雲そば",
+      "basic_description": "메밀을 껍질째 갈아 색이 짙은 시마네현 이즈모 지방의 소바예요. 일본 3대 소바의 하나로 꼽혀요.",
+      "ingredients": "껍질째 간 메밀 · 쓰유 · 무즙·파·김·메추리알(고명)",
+      "taste_description": "면 색이 짙고 메밀 향이 진해요. 쓰유는 진한 편이에요.",
+      "season": "사계절",
+      "representative_region": "시마네"
+    },
+    {
+      "id": "food_nonramen_tokushima_ramen",
+      "item_type": "food",
+      "tocId": "food_nonramen_tokushima_ramen",
+      "food_name_ko": "도쿠시마 라멘",
+      "food_name_ja": "徳島ラーメン",
+      "basic_description": "달게 조린 돼지 삼겹살과 날달걀을 올리는 도쿠시마현의 지역 라멘이에요.",
+      "ingredients": "중간 굵기 면 · 돼지뼈·간장 국물 · 달게 조린 삼겹살 · 날달걀 · 콩나물",
+      "taste_description": "국물이 진하고 달콤 짭짤해요. 날달걀을 풀면 부드러워져요.",
+      "season": "사계절",
+      "representative_region": "도쿠시마"
+    },
+    {
+      "id": "food_nonramen_chanko_nabe",
+      "item_type": "food",
+      "tocId": "food_nonramen_chanko_nabe",
+      "food_name_ko": "창코나베",
+      "food_name_ja": "ちゃんこ鍋",
+      "basic_description": "스모 선수들이 먹는 나베 요리예요. 고기·생선·채소를 넉넉히 넣어 끓여요.",
+      "ingredients": "닭고기나 생선·다진 고기 완자 · 배추·파·버섯 · 두부 · 국물(소금·간장·미소·된장)",
+      "taste_description": "국물이 재료의 감칠맛으로 진하고 양이 많아요. 간은 가게마다 갈려요.",
+      "season": "겨울",
+      "representative_region": "도쿄"
+    },
+    {
+      "id": "food_nonramen_yudofu",
+      "item_type": "food",
+      "tocId": "food_nonramen_yudofu",
+      "food_name_ko": "유도후",
+      "food_name_ja": "湯豆腐",
+      "basic_description": "두부를 다시마 국물에 데워 양념간장에 찍어 먹는 담백한 나베예요.",
+      "ingredients": "두부 · 다시마 국물 · 폰즈나 간장 · 파·무즙·가쓰오부시",
+      "taste_description": "맛이 아주 담백하고 두부가 부드러워요. 양념간장으로 간을 맞춰 먹어요.",
+      "season": "겨울",
+      "representative_region": "교토"
+    },
+    {
+      "id": "food_nonramen_tonjiru",
+      "item_type": "food",
+      "tocId": "food_nonramen_tonjiru",
+      "food_name_ko": "돈지루(돼지고기 미소국)",
+      "food_name_ja": "豚汁",
+      "basic_description": "돼지고기와 채소를 넉넉히 넣어 미소로 간을 한 국이에요.",
+      "ingredients": "돼지고기 · 무·당근·우엉·감자 · 곤약 · 미소",
+      "taste_description": "돼지고기의 기름과 미소가 어우러져 진하고 구수해요. 건더기가 많아요.",
+      "season": "겨울",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_kenchinjiru",
+      "item_type": "food",
+      "tocId": "food_nonramen_kenchinjiru",
+      "food_name_ko": "겐친지루",
+      "food_name_ja": "けんちん汁",
+      "basic_description": "두부와 뿌리채소를 기름에 볶아 다시 국물에 끓인 맑은 국이에요. 고기를 넣지 않아요.",
+      "ingredients": "두부 · 무·당근·우엉·토란 · 곤약 · 간장 다시 국물 · 참기름",
+      "taste_description": "참기름에 볶은 고소한 향이 나고 간장 국물이 담백해요.",
+      "season": "가을·겨울",
+      "representative_region": "가나가와"
+    },
+    {
+      "id": "food_nonramen_kamo_nabe",
+      "item_type": "food",
+      "tocId": "food_nonramen_kamo_nabe",
+      "food_name_ko": "가모나베(오리 나베)",
+      "food_name_ja": "鴨鍋",
+      "basic_description": "오리고기를 파·두부와 함께 끓이는 나베 요리예요.",
+      "ingredients": "오리고기 · 파 · 두부 · 간장·미림 국물 · 미나리·버섯",
+      "taste_description": "오리 기름이 국물에 녹아 진하고 고소해요. 파의 단맛이 어울려요.",
+      "season": "겨울",
+      "representative_region": "교토"
+    },
+    {
+      "id": "food_nonramen_harumaki",
+      "item_type": "food",
+      "tocId": "food_nonramen_harumaki",
+      "food_name_ko": "하루마키(춘권)",
+      "food_name_ja": "春巻き",
+      "basic_description": "채소·고기 속을 얇은 피로 말아 튀긴 중화 요리예요.",
+      "ingredients": "춘권피(밀가루) · 숙주·죽순·돼지고기·목이버섯 · 간장·소금 양념",
+      "taste_description": "겉이 바삭하고 속은 채소의 단맛과 감칠맛이 어울려요.",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_subuta",
+      "item_type": "food",
+      "tocId": "food_nonramen_subuta",
+      "food_name_ko": "스부타(탕수육)",
+      "food_name_ja": "酢豚",
+      "basic_description": "밑간한 돼지고기를 네모나게 썰어 튀기고 새콤달콤한 소스에 버무린 중화 요리예요.",
+      "ingredients": "돼지고기 · 피망·양파·당근 · 새콤달콤한 소스 · 파인애플(가게마다)",
+      "taste_description": "소스가 새콤달콤하고 고기는 겉이 바삭해요. 채소가 아삭해요.",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_nikuman",
+      "item_type": "food",
+      "tocId": "food_nonramen_nikuman",
+      "food_name_ko": "니쿠망(고기 중화빵)",
+      "food_name_ja": "肉まん",
+      "basic_description": "발효시킨 밀 반죽에 다진 고기 속을 넣어 찐 중화만이에요.",
+      "ingredients": "밀 반죽(발효) · 다진 돼지고기 · 양파·죽순 · 간장 양념",
+      "taste_description": "빵이 폭신하고 속은 짭짤하고 육즙이 있어요. 반죽에 단맛이 조금 있어요.",
+      "season": "겨울",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_tanmen",
+      "item_type": "food",
+      "tocId": "food_nonramen_tanmen",
+      "food_name_ko": "탄멘",
+      "food_name_ja": "タンメン",
+      "basic_description": "볶은 채소를 올린 소금 국물 중화면이에요. 주로 간토 지방에서 먹어요.",
+      "ingredients": "중화면 · 볶은 채소(양배추·숙주·당근) · 돼지고기 · 소금 국물",
+      "taste_description": "국물이 맑고 담백하며 채소의 단맛이 녹아 있어요. 기름기는 가게마다 달라요.",
+      "season": "사계절",
+      "representative_region": "도쿄"
+    },
+    {
+      "id": "food_nonramen_rebanira",
+      "item_type": "food",
+      "tocId": "food_nonramen_rebanira",
+      "food_name_ko": "레바니라(간 부추 볶음)",
+      "food_name_ja": "レバニラ炒め",
+      "basic_description": "돼지 간과 부추를 센 불에 볶은 중화 요리예요. 「니라레바」라고도 불러요.",
+      "ingredients": "돼지 간 · 부추 · 숙주 · 간장·마늘 양념",
+      "taste_description": "간의 쇠 맛과 쌉쌀함이 있고 부추 향이 강해요. 간장 양념이 짭짤해요.",
+      "season": "사계절",
+      "representative_region": "전국"
     }
   ],
   "images": [],
@@ -8658,7 +9953,9 @@
           "food_nonramen_nishin_soba",
           "food_nonramen_hanabiramochi",
           "food_nonramen_minazuki",
-          "food_nonramen_shojin_ryori"
+          "food_nonramen_shojin_ryori",
+          "food_nonramen_yudofu",
+          "food_nonramen_kamo_nabe"
         ],
         "evidence": [
           {
@@ -8687,7 +9984,7 @@
           }
         ],
         "basis": "literature",
-        "reviewed_on": "2026-11-03",
+        "reviewed_on": "2026-11-13",
         "review_scope": "자료의 관련 발췌를 바탕으로 쓴 기본 안내. 비교·묶음·주문 제안은 편집 판단이며 감각 측정·개인 취향 판정·현재 판매 정보가 아닙니다.",
         "kind": "region"
       },
@@ -8752,7 +10049,9 @@
           "food_ramen_aburasoba",
           "food_nonramen_unadon",
           "food_nonramen_imo_yokan",
-          "food_nonramen_anago"
+          "food_nonramen_anago",
+          "food_nonramen_chanko_nabe",
+          "food_nonramen_tanmen"
         ],
         "evidence": [
           {
@@ -8781,7 +10080,7 @@
           }
         ],
         "basis": "literature",
-        "reviewed_on": "2026-11-12",
+        "reviewed_on": "2026-11-13",
         "review_scope": "자료의 관련 발췌를 바탕으로 쓴 기본 안내. 비교·묶음·주문 제안은 편집 판단이며 감각 측정·개인 취향 판정·현재 판매 정보가 아닙니다.",
         "kind": "region"
       },
@@ -8853,7 +10152,8 @@
         "food_ids": [
           "food_ramen_iekei",
           "food_nonramen_napolitan",
-          "food_nonramen_doria"
+          "food_nonramen_doria",
+          "food_nonramen_kenchinjiru"
         ],
         "evidence": [
           {
@@ -8867,10 +10167,14 @@
           {
             "title": "위키백과(일본어) · ドリア",
             "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%AA%E3%82%A2"
+          },
+          {
+            "title": "위키백과(일본어) · けんちん汁",
+            "url": "https://ja.wikipedia.org/wiki/%E3%81%91%E3%82%93%E3%81%A1%E3%82%93%E6%B1%81"
           }
         ],
         "basis": "literature",
-        "reviewed_on": "2026-11-03",
+        "reviewed_on": "2026-11-13",
         "review_scope": "자료의 관련 발췌를 바탕으로 쓴 기본 안내. 비교·묶음·주문 제안은 편집 판단이며 감각 측정·개인 취향 판정·현재 판매 정보가 아닙니다.",
         "kind": "region"
       },
@@ -8961,7 +10265,15 @@
           "food_nonramen_buri_daikon",
           "food_nonramen_ishikari_nabe",
           "food_nonramen_zenzai",
-          "food_nonramen_kaki_fry"
+          "food_nonramen_kaki_fry",
+          "food_nonramen_houtou",
+          "food_nonramen_yudofu",
+          "food_nonramen_tonjiru",
+          "food_nonramen_chanko_nabe",
+          "food_nonramen_kamo_nabe",
+          "food_nonramen_matsubagani",
+          "food_nonramen_senbeijiru",
+          "food_nonramen_nikuman"
         ],
         "evidence": [
           {
@@ -8990,7 +10302,7 @@
           }
         ],
         "basis": "literature",
-        "reviewed_on": "2026-11-12",
+        "reviewed_on": "2026-11-13",
         "review_scope": "자료의 관련 발췌를 바탕으로 쓴 기본 안내. 비교·묶음·주문 제안은 편집 판단이며 감각 측정·개인 취향 판정·현재 판매 정보가 아닙니다.",
         "kind": "season",
         "season": "겨울"
@@ -9011,7 +10323,8 @@
           "food_nonramen_uni_don",
           "food_nonramen_mizuyokan",
           "food_nonramen_kuzuzakura",
-          "food_nonramen_ayu_shioyaki"
+          "food_nonramen_ayu_shioyaki",
+          "food_nonramen_morioka_reimen"
         ],
         "evidence": [
           {
@@ -9040,7 +10353,7 @@
           }
         ],
         "basis": "literature",
-        "reviewed_on": "2026-11-03",
+        "reviewed_on": "2026-11-13",
         "review_scope": "자료의 관련 발췌를 바탕으로 쓴 기본 안내. 비교·묶음·주문 제안은 편집 판단이며 감각 측정·개인 취향 판정·현재 판매 정보가 아닙니다.",
         "kind": "season",
         "season": "여름"
@@ -9110,7 +10423,9 @@
           "food_nonramen_ohagi",
           "food_nonramen_shimesaba",
           "food_nonramen_imo_yokan",
-          "food_nonramen_shishamo"
+          "food_nonramen_shishamo",
+          "food_nonramen_imoni",
+          "food_nonramen_kenchinjiru"
         ],
         "evidence": [
           {
@@ -9139,7 +10454,7 @@
           }
         ],
         "basis": "literature",
-        "reviewed_on": "2026-11-12",
+        "reviewed_on": "2026-11-13",
         "review_scope": "자료의 관련 발췌를 바탕으로 쓴 기본 안내. 비교·묶음·주문 제안은 편집 판단이며 감각 측정·개인 취향 판정·현재 판매 정보가 아닙니다.",
         "kind": "season",
         "season": "가을"
@@ -9677,16 +10992,39 @@
         "food_ids": [
           "food_nonramen_tonkatsu",
           "food_nonramen_shogayaki",
-          "food_nonramen_saba_shioyaki"
+          "food_nonramen_saba_shioyaki",
+          "food_nonramen_sauce_katsudon",
+          "food_nonramen_houtou",
+          "food_nonramen_tanmen"
         ],
         "evidence": [
           {
             "title": "JNTO · 일본 외식 안내",
             "url": "https://www.japan.travel/it/story/dining-out-in-japan/"
+          },
+          {
+            "title": "돈카츠 설명",
+            "url": "https://savorjapan.com/contents/discover-oishii-japan/a-guide-to-tonkatsu-japanese-pork-cutlets"
+          },
+          {
+            "title": "기코만 · 쇼가야키 조리 예시 모음",
+            "url": "https://www.kikkoman.co.jp/homecook/series/syouga/recipe.html"
+          },
+          {
+            "title": "기코만 · 고등어 소금구이 조리 예시",
+            "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00056252/"
+          },
+          {
+            "title": "위키백과(일본어) · カツ丼(ソースカツ丼)",
+            "url": "https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%AB%E3%83%84%E4%B8%BC"
+          },
+          {
+            "title": "위키백과(일본어) · ほうとう",
+            "url": "https://ja.wikipedia.org/wiki/%E3%81%BB%E3%81%86%E3%81%A8%E3%81%86"
           }
         ],
         "basis": "editorial",
-        "reviewed_on": "2026-10-25",
+        "reviewed_on": "2026-11-13",
         "review_scope": "자료의 관련 발췌를 바탕으로 쓴 기본 안내. 비교·묶음·주문 제안은 편집 판단이며 감각 측정·개인 취향 판정·현재 판매 정보가 아닙니다.",
         "kind": "situation"
       },
@@ -9703,7 +11041,10 @@
           "food_nonramen_yakitori",
           "food_nonramen_hokke",
           "food_nonramen_potato_salad",
-          "food_nonramen_zangi"
+          "food_nonramen_zangi",
+          "food_nonramen_chanko_nabe",
+          "food_nonramen_matsubagani",
+          "food_nonramen_harumaki"
         ],
         "evidence": [
           {
@@ -9732,7 +11073,7 @@
           }
         ],
         "basis": "editorial",
-        "reviewed_on": "2026-11-12",
+        "reviewed_on": "2026-11-13",
         "review_scope": "자료의 관련 발췌를 바탕으로 쓴 기본 안내. 비교·묶음·주문 제안은 편집 판단이며 감각 측정·개인 취향 판정·현재 판매 정보가 아닙니다.",
         "kind": "situation"
       },

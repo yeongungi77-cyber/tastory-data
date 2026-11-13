@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "categories": [
     {
       "id": "rice",
@@ -5171,8 +5171,785 @@
       "reading": "さけのしおやき",
       "season": "사계절",
       "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_senbeijiru",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "senbeijiru",
+      "category_id": "hotpot",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · せんべい汁",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%9B%E3%82%93%E3%81%B9%E3%81%84%E6%B1%81"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "c157035ad2b489bdbde467c5a16b8c39fe4635d1055f00b13fde24188fae5c07",
+      "reading": "せんべいじる",
+      "season": "겨울",
+      "representative_region": "아오모리"
+    },
+    {
+      "id": "food_nonramen_wanko_soba",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "wanko_soba",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · わんこそば",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%8F%E3%82%93%E3%81%93%E3%81%9D%E3%81%B0"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "9c599b3b87a1ab537d59a81c830ad8e98dd81d8f1f08bf54482a678976d37cfb",
+      "reading": "わんこそば",
+      "season": "사계절",
+      "representative_region": "이와테"
+    },
+    {
+      "id": "food_nonramen_morioka_reimen",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "morioka_reimen",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 盛岡冷麺",
+          "url": "https://ja.wikipedia.org/wiki/%E7%9B%9B%E5%B2%A1%E5%86%B7%E9%BA%BA"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "33766761ee97f4c0258ab49537b513dfe91f63315b9a1e40f595e897f705841a",
+      "reading": "もりおかれいめん",
+      "season": "여름",
+      "representative_region": "이와테"
+    },
+    {
+      "id": "food_nonramen_jajamen",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "jajamen",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 盛岡じゃじゃ麺",
+          "url": "https://ja.wikipedia.org/wiki/%E7%9B%9B%E5%B2%A1%E3%81%98%E3%82%83%E3%81%98%E3%82%83%E9%BA%BA"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "5684ae2c8b8318b97a42e51c929ac0dabf5dc78af0669e6d6e954104f66b2456",
+      "reading": "もりおかじゃじゃめん",
+      "season": "사계절",
+      "representative_region": "이와테"
+    },
+    {
+      "id": "food_nonramen_imoni",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "imoni",
+      "category_id": "hotpot",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 芋煮会(芋煮)",
+          "url": "https://ja.wikipedia.org/wiki/%E8%8A%8B%E7%85%AE%E4%BC%9A"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "c04f30dc180d36ed65b5f7567b5f94670d5834eec0fa47bfe516820a9a222ed0",
+      "reading": "いもに",
+      "season": "가을",
+      "representative_region": "야마가타"
+    },
+    {
+      "id": "food_nonramen_kitakata_ramen",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "kitakata_ramen",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 喜多方ラーメン",
+          "url": "https://ja.wikipedia.org/wiki/%E5%96%9C%E5%A4%9A%E6%96%B9%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "91c167c1fdea280d29f709a4034b434e6275ce6e13f194864bc4faed5de9a88c",
+      "reading": "きたかたラーメン",
+      "season": "사계절",
+      "representative_region": "후쿠시마"
+    },
+    {
+      "id": "food_nonramen_yuba",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "yuba",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · ゆば(湯波・湯葉)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%86%E3%81%B0"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "b3f8197bfde3abd7413bda24ea4b445ff974dbd48b62c624582568d62b32de89",
+      "reading": "ゆば",
+      "season": "사계절",
+      "representative_region": "도치기"
+    },
+    {
+      "id": "food_nonramen_yaki_manju",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "yaki_manju",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 焼きまんじゅう",
+          "url": "https://ja.wikipedia.org/wiki/%E7%84%BC%E3%81%8D%E3%81%BE%E3%82%93%E3%81%98%E3%82%85%E3%81%86"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "fafe58ba7a72fdd73b934cc64d4166320a0cdf118ba80b604c6851ae73653cee",
+      "reading": "やきまんじゅう",
+      "season": "사계절",
+      "representative_region": "군마"
+    },
+    {
+      "id": "food_nonramen_soka_senbei",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "soka_senbei",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 草加煎餅",
+          "url": "https://ja.wikipedia.org/wiki/%E8%8D%89%E5%8A%A0%E7%85%8E%E9%A4%85"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "4c094233ed77c902e3ca8cd620817a15b0f38639c6d2e3bdb71520d2ea03e693",
+      "reading": "そうかせんべい",
+      "season": "사계절",
+      "representative_region": "사이타마"
+    },
+    {
+      "id": "food_nonramen_namero",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "namero",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · なめろう",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%AA%E3%82%81%E3%82%8D%E3%81%86"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "d5603e8f7fc0824ec330bdc0dfa31e708f1fa5322c16509edad3d3a91988f838",
+      "reading": "なめろう",
+      "season": "사계절",
+      "representative_region": "치바"
+    },
+    {
+      "id": "food_nonramen_hegisoba",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "hegisoba",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · へぎそば",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%B8%E3%81%8E%E3%81%9D%E3%81%B0"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "d562674d167d6945235aaac82ea3c00cf9ef86b66dfe6bf047a7a3ee60497c63",
+      "reading": "へぎそば",
+      "season": "사계절",
+      "representative_region": "니가타"
+    },
+    {
+      "id": "food_nonramen_sasa_dango",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "sasa_dango",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 笹団子",
+          "url": "https://ja.wikipedia.org/wiki/%E7%AC%B9%E5%9B%A3%E5%AD%90"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "da872b134e59086f192afe57a9823a84d6b733ea0fd6c4154e2f7ad8d4fa2e5a",
+      "reading": "ささだんご",
+      "season": "봄·여름",
+      "representative_region": "니가타"
+    },
+    {
+      "id": "food_nonramen_jibuni",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "jibuni",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · じぶ煮(治部煮)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%98%E3%81%B6%E7%85%AE"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "5b5c16cd0f5fd782fc8454014d3c5a4e0e9987cec80532bbae52699a4b010772",
+      "reading": "じぶに",
+      "season": "겨울",
+      "representative_region": "이시카와"
+    },
+    {
+      "id": "food_nonramen_oyaki",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "oyaki",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · おやき",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%8A%E3%82%84%E3%81%8D"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "dfe4f30bda9fb77877782d6ef328d46a949337f2e703923be7306f0f99dc2890",
+      "reading": "おやき",
+      "season": "사계절",
+      "representative_region": "나가노"
+    },
+    {
+      "id": "food_nonramen_gohei_mochi",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "gohei_mochi",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 五平餅",
+          "url": "https://ja.wikipedia.org/wiki/%E4%BA%94%E5%B9%B3%E9%A4%85"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "01b37119b53142ef3b52fa63c71be956e48e58c2d63ffae2ddc26be460f26e2e",
+      "reading": "ごへいもち",
+      "season": "사계절",
+      "representative_region": "나가노"
+    },
+    {
+      "id": "food_nonramen_funazushi",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "funazushi",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 鮒寿司",
+          "url": "https://ja.wikipedia.org/wiki/%E9%AE%92%E5%AF%BF%E5%8F%B8"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "8defcbd6154f7871fe27deb74d8569d5f61f896f711bbaed16a59e0362aa2ed9",
+      "reading": "ふなずし",
+      "season": "사계절",
+      "representative_region": "시가"
+    },
+    {
+      "id": "food_nonramen_akashiyaki",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "akashiyaki",
+      "category_id": "teppan",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 玉子焼(明石市)",
+          "url": "https://ja.wikipedia.org/wiki/%E7%8E%89%E5%AD%90%E7%84%BC_%28%E6%98%8E%E7%9F%B3%E5%B8%82%29"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "d934bcb64408c8e8112b62e97295c878a4b7826b79d6462f45712734879a4ab3",
+      "reading": "あかしやき",
+      "season": "사계절",
+      "representative_region": "효고"
+    },
+    {
+      "id": "food_nonramen_kakinoha_zushi",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "kakinoha_zushi",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 柿の葉寿司",
+          "url": "https://ja.wikipedia.org/wiki/%E6%9F%BF%E3%81%AE%E8%91%89%E5%AF%BF%E5%8F%B8"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "1313513496a165486fee7f824d33119eb522383060cc5814328b4ab783ffd4d3",
+      "reading": "かきのはずし",
+      "season": "사계절",
+      "representative_region": "나라"
+    },
+    {
+      "id": "food_nonramen_meharizushi",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "meharizushi",
+      "category_id": "sushi",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · めはりずし",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%81%E3%81%AF%E3%82%8A%E3%81%9A%E3%81%97"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "d922c1e3affafb6bea3083405299e1e062d36fd4ad71af1ede0f24e0b46962b5",
+      "reading": "めはりずし",
+      "season": "사계절",
+      "representative_region": "와카야마"
+    },
+    {
+      "id": "food_nonramen_echizen_soba",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "echizen_soba",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 越前そば(越前おろしそば)",
+          "url": "https://ja.wikipedia.org/wiki/%E8%B6%8A%E5%89%8D%E3%81%9D%E3%81%B0"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "59d610d7690b3fe1456b5e9ce418aaf829f34c5911dfc6b59c1843a021871fff",
+      "reading": "えちぜんおろしそば",
+      "season": "사계절",
+      "representative_region": "후쿠이"
+    },
+    {
+      "id": "food_nonramen_sauce_katsudon",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "sauce_katsudon",
+      "category_id": "rice",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · カツ丼(ソースカツ丼)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%AB%E3%83%84%E4%B8%BC"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "2221c8c70ac4ff60d6f99bb1a35965132c91b53bfff7779825ee7db2cf2d9ea9",
+      "reading": "そーすかつどん",
+      "season": "사계절",
+      "representative_region": "후쿠이"
+    },
+    {
+      "id": "food_nonramen_houtou",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "houtou",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · ほうとう",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%BB%E3%81%86%E3%81%A8%E3%81%86"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "90e936250a2db93b13f780e193815d83be986e984c9464e0ec100bd18218fb52",
+      "reading": "ほうとう",
+      "season": "겨울",
+      "representative_region": "야마나시"
+    },
+    {
+      "id": "food_nonramen_shizuoka_oden",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "shizuoka_oden",
+      "category_id": "hotpot",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · おでん(静岡おでん)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%8A%E3%81%A7%E3%82%93"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "9d0ce356ccd6cdf17e611ee585cf449afb661f67ecfe9fbf832bffcbea01cbb1",
+      "reading": "しずおかおでん",
+      "season": "사계절",
+      "representative_region": "시즈오카"
+    },
+    {
+      "id": "food_nonramen_matsubagani",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "matsubagani",
+      "category_id": "hotpot",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · ズワイガニ(松葉がに)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%BA%E3%83%AF%E3%82%A4%E3%82%AC%E3%83%8B"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "f17d890775780e03d3cc103c78be6d29a8497ecce77d194d709bc8a8edc6c9f7",
+      "reading": "まつばがに",
+      "season": "겨울",
+      "representative_region": "돗토리"
+    },
+    {
+      "id": "food_nonramen_tofu_chikuwa",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "tofu_chikuwa",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · とうふちくわ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%A8%E3%81%86%E3%81%B5%E3%81%A1%E3%81%8F%E3%82%8F"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "8a6bd1cd2167ea2071d8d46090e47c74885729aa12c40f8661e4e7e6b855e7e6",
+      "reading": "とうふちくわ",
+      "season": "사계절",
+      "representative_region": "돗토리"
+    },
+    {
+      "id": "food_nonramen_izumo_soba",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "izumo_soba",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 出雲そば",
+          "url": "https://ja.wikipedia.org/wiki/%E5%87%BA%E9%9B%B2%E3%81%9D%E3%81%B0"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "e681e14b27005d705266bdc220d84463904c2c8e905462a73619827841a801f1",
+      "reading": "いずもそば",
+      "season": "사계절",
+      "representative_region": "시마네"
+    },
+    {
+      "id": "food_nonramen_tokushima_ramen",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "tokushima_ramen",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 徳島ラーメン",
+          "url": "https://ja.wikipedia.org/wiki/%E5%BE%B3%E5%B3%B6%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "288d57959af20e37f549b4c103532edacf7be8b282000da0edbe0f09fa1fe8a1",
+      "reading": "とくしまラーメン",
+      "season": "사계절",
+      "representative_region": "도쿠시마"
+    },
+    {
+      "id": "food_nonramen_chanko_nabe",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "chanko_nabe",
+      "category_id": "hotpot",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · ちゃんこ鍋",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%A1%E3%82%83%E3%82%93%E3%81%93%E9%8D%8B"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "872705b84889f56b78d216e622b2ec9d035f63c7e611c927d6002d638541e2d5",
+      "reading": "ちゃんこなべ",
+      "season": "겨울",
+      "representative_region": "도쿄"
+    },
+    {
+      "id": "food_nonramen_yudofu",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "yudofu",
+      "category_id": "hotpot",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 湯豆腐",
+          "url": "https://ja.wikipedia.org/wiki/%E6%B9%AF%E8%B1%86%E8%85%90"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "703d1d4db896288787790a2a83b0ccecf5424472aa72b8ff64af117e3f81e373",
+      "reading": "ゆどうふ",
+      "season": "겨울",
+      "representative_region": "교토"
+    },
+    {
+      "id": "food_nonramen_tonjiru",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "tonjiru",
+      "category_id": "hotpot",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 豚汁",
+          "url": "https://ja.wikipedia.org/wiki/%E8%B1%9A%E6%B1%81"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "c7af25fdda1be89cd503e62fef2a9baff02b7ccac78247feefcdf6e968f6f4d4",
+      "reading": "とんじる",
+      "season": "겨울",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_kenchinjiru",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "kenchinjiru",
+      "category_id": "hotpot",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · けんちん汁",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%91%E3%82%93%E3%81%A1%E3%82%93%E6%B1%81"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "8f046c746107f63ff34b748af1c8d7415fcc3d7c75166e517bc63604abe46762",
+      "reading": "けんちんじる",
+      "season": "가을·겨울",
+      "representative_region": "가나가와"
+    },
+    {
+      "id": "food_nonramen_kamo_nabe",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "kamo_nabe",
+      "category_id": "hotpot",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 鴨鍋",
+          "url": "https://ja.wikipedia.org/wiki/%E9%B4%A8%E9%8D%8B"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "5d573ecf0009567e358d9cedc5ed8006013900a598ca00c3b5814984dfae075e",
+      "reading": "かもなべ",
+      "season": "겨울",
+      "representative_region": "교토"
+    },
+    {
+      "id": "food_nonramen_harumaki",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "harumaki",
+      "category_id": "yoshoku",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 春巻き",
+          "url": "https://ja.wikipedia.org/wiki/%E6%98%A5%E5%B7%BB%E3%81%8D"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "6aaa636f2f749650d30d483ea409849ca38dfbf45e9ac00179b89ce016c0ae9e",
+      "reading": "はるまき",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_subuta",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "subuta",
+      "category_id": "yoshoku",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 酢豚",
+          "url": "https://ja.wikipedia.org/wiki/%E9%85%A2%E8%B1%9A"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "1aa9c04fce34ad6bd3f46b352159264659dbbdad5a860d9f514e68e0ff85fe75",
+      "reading": "すぶた",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_nikuman",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "nikuman",
+      "category_id": "yoshoku",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 中華まん(肉まん)",
+          "url": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E3%81%BE%E3%82%93"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "d5c1eebb113c0e809a8140d8b6ebe1df5e2c3379872eadb6af0a90cf3b83315d",
+      "reading": "にくまん",
+      "season": "겨울",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_tanmen",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "tanmen",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · タンメン",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%83%B3%E3%83%A1%E3%83%B3"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "1ad83e9f31fd19dda4782bc8a95e365c380a68437b2f82a9b31758093d97ddfc",
+      "reading": "たんめん",
+      "season": "사계절",
+      "representative_region": "도쿄"
+    },
+    {
+      "id": "food_nonramen_rebanira",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "rebanira",
+      "category_id": "yoshoku",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 2차: 대표 음식이 없던 현·나베·중화). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · レバニラ炒め",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%83%90%E3%83%8B%E3%83%A9%E7%82%92%E3%82%81"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "bf3890d89835b130d83b76d3e6e63841c56acdc7013e521bbae01dce3a466074",
+      "reading": "ればにらいため",
+      "season": "사계절",
+      "representative_region": "전국"
     }
   ],
   "discovery_source": "basics_v02",
-  "discovery_sha256": "b7075b4120f30a46d0450485ea9bcfc55bb82e2f13b069aadefb95501dfa69c0"
+  "discovery_sha256": "0109f748f570ee7f4123feca406b556bed55dd0f42ebd0fb35468a81e446cd6d"
 }
