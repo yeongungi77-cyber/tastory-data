@@ -45,12 +45,12 @@
     {
       "path": "Data/Encyclopedia/README.md",
       "bytes": 10504,
-      "sha256": "33b7a5039b1807f7e765669c28824268c53923a212e81f19cc2c0995fa5d831b"
+      "sha256": "71a2619fd3b2b000a140e8b93d61e4690df1f3785f3c8107a30c48efdcde744c"
     },
     {
       "path": "Data/Encyclopedia/catalog.json",
-      "bytes": 985955,
-      "sha256": "89c4c82c818372a6b024f280add7953e5f4981bd08b37e3c2a22a711ffb553b2"
+      "bytes": 1052085,
+      "sha256": "a623a18769cf93a2a242c355cc1ad63dfbfa0f0cb638c7be24642dcbaba17d4f"
     },
     {
       "path": "Data/Encyclopedia/photo_credits.json",
@@ -59,8 +59,8 @@
     },
     {
       "path": "Data/Encyclopedia/reviewed.json",
-      "bytes": 292646,
-      "sha256": "c9de07ce86c7a359e7db7363c7b88bc25a40efedb7979340ede549356e30f45a"
+      "bytes": 311838,
+      "sha256": "fc9108735be7cc3d31bed5d85783feea6b43608a2482e949bde603edbbafd0a8"
     },
     {
       "path": "Data/Home/README.txt",

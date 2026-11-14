@@ -5948,8 +5948,363 @@
       "reading": "ればにらいため",
       "season": "사계절",
       "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_kurume_ramen",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "kurume_ramen",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 3차: 후쿠오카 맛 기준표에만 있던 음식). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 久留米ラーメン",
+          "url": "https://ja.wikipedia.org/wiki/%E4%B9%85%E7%95%99%E7%B1%B3%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "5c74026f8a1db8da9717b99898b8710d3ada86fb07b9c299979a3d8497a53ed1",
+      "reading": "くるめらーめん",
+      "season": "사계절",
+      "representative_region": "후쿠오카"
+    },
+    {
+      "id": "food_nonramen_hakata_udon",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "hakata_udon",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 3차: 후쿠오카 맛 기준표에만 있던 음식). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 博多うどん",
+          "url": "https://ja.wikipedia.org/wiki/%E5%8D%9A%E5%A4%9A%E3%81%86%E3%81%A9%E3%82%93"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "ae09da3bc7aa5b50c8e115c116e6587d11174489f8ae7bcb6a39e394c2b48d70",
+      "reading": "はかたうどん",
+      "season": "사계절",
+      "representative_region": "후쿠오카"
+    },
+    {
+      "id": "food_nonramen_karamen",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "karamen",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 3차: 후쿠오카 맛 기준표에만 있던 음식). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 辛麺",
+          "url": "https://ja.wikipedia.org/wiki/%E8%BE%9B%E9%BA%BA"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "fcdb6054721ae816790a8012446f3b1b459ac165343fff8aadd47060edd0829e",
+      "reading": "からめん",
+      "season": "사계절",
+      "representative_region": "미야자키"
+    },
+    {
+      "id": "food_nonramen_yaki_ramen",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "yaki_ramen",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 3차: 후쿠오카 맛 기준표에만 있던 음식). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 焼きラーメン",
+          "url": "https://ja.wikipedia.org/wiki/%E7%84%BC%E3%81%8D%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "6d060ea1c10aa9a1d533b88d292c46fe6810c1ea3243d88b1b27b774912175d8",
+      "reading": "やきらーめん",
+      "season": "사계절",
+      "representative_region": "후쿠오카"
+    },
+    {
+      "id": "food_nonramen_chuka_soba",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "chuka_soba",
+      "category_id": "noodles",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 3차: 후쿠오카 맛 기준표에만 있던 음식). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · ラーメン(中華そば)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "be844fef46f3c30a53c09c7603571225a21f419a672d5a37622639371a6f4950",
+      "reading": "ちゅうかそば",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_ara_nabe",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "ara_nabe",
+      "category_id": "hotpot",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 3차: 후쿠오카 맛 기준표에만 있던 음식). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · クエ(あら)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%82%A8"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "2224d90b91049b458cf9eaa276c1f8645c4b4690f8cd1c0e2d32610c5319fcf0",
+      "reading": "あらだき・あらなべ",
+      "season": "겨울",
+      "representative_region": "후쿠오카"
+    },
+    {
+      "id": "food_nonramen_okyuuto",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "okyuuto",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 3차: 후쿠오카 맛 기준표에만 있던 음식). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · おきゅうと",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%8A%E3%81%8D%E3%82%85%E3%81%86%E3%81%A8"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "d0db5e493c96c8bca2ab3809dd1b35e0be955c9dc8ea838f4031e1cd0fbb18dc",
+      "reading": "おきゅうと",
+      "season": "사계절",
+      "representative_region": "후쿠오카"
+    },
+    {
+      "id": "food_nonramen_unagi_seiromushi",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "unagi_seiromushi",
+      "category_id": "rice",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 3차: 후쿠오카 맛 기준표에만 있던 음식). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 鰻のせいろ蒸し",
+          "url": "https://ja.wikipedia.org/wiki/%E9%B0%BB%E3%81%AE%E3%81%9B%E3%81%84%E3%82%8D%E8%92%B8%E3%81%97"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "577891d4a9537bfd7f04aaed00b5daf9ed567d559916e1abe3bb6d8fd1d60183",
+      "reading": "うなぎのせいろむし",
+      "season": "여름",
+      "representative_region": "후쿠오카"
+    },
+    {
+      "id": "food_nonramen_coffee",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "coffee",
+      "category_id": "drinks",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-14",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-14: 일본 특유의 커피 문화를 기술). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · コーヒー",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC"
+        },
+        {
+          "title": "위키백과(일본어) · 喫茶店",
+          "url": "https://ja.wikipedia.org/wiki/%E5%96%AB%E8%8C%B6%E5%BA%97"
+        },
+        {
+          "title": "위키백과(일본어) · 純喫茶",
+          "url": "https://ja.wikipedia.org/wiki/%E7%B4%94%E5%96%AB%E8%8C%B6"
+        },
+        {
+          "title": "위키백과(일본어) · モーニングサービス",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9"
+        },
+        {
+          "title": "위키백과(일본어) · 缶コーヒー",
+          "url": "https://ja.wikipedia.org/wiki/%E7%BC%B6%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "af733d619264bc634a5d35dc1c8584811761a57527990d8f87eb88a2c076b288",
+      "reading": "こーひー",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_coffee_jelly",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "coffee_jelly",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-14",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 3차: 후쿠오카 맛 기준표에만 있던 음식). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · コーヒーゼリー",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%82%BC%E3%83%AA%E3%83%BC"
+        },
+        {
+          "title": "위키백과(일본어) · 喫茶店",
+          "url": "https://ja.wikipedia.org/wiki/%E5%96%AB%E8%8C%B6%E5%BA%97"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "636bf2404ef5a8ed00dcfebebdd1d28e430ed892795b89e770078b8150a041be",
+      "reading": "こーひーぜりー",
+      "season": "여름",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_purin",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "purin",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-14",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-14: 일본 특유의 푸딩 문화를 기술). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · プリン",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AA%E3%83%B3"
+        },
+        {
+          "title": "위키백과(일본어) · プリンアラモード",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AA%E3%83%B3%E3%82%A2%E3%83%A9%E3%83%A2%E3%83%BC%E3%83%89"
+        },
+        {
+          "title": "위키백과(일본어) · 喫茶店",
+          "url": "https://ja.wikipedia.org/wiki/%E5%96%AB%E8%8C%B6%E5%BA%97"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "1b75ca775dcdbb087862ec53ea4eadbdfb2af0a51924df4eb7113fa07e4e531b",
+      "reading": "ぷりん",
+      "season": "사계절",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_soft_cream",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "soft_cream",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-14",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-14: 일본 특유의 소프트크림 문화를 기술). 지역별 맛은 널리 알려진 예시이며 특정 가게의 판매·가격·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · ソフトクリーム",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%95%E3%83%88%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%A0"
+        },
+        {
+          "title": "위키백과(일본어) · アイスクリーム",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%A0"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "e8490d0cbe179347cd31559138881ef35b049067cf4bdf81e88c6f6be91b17e8",
+      "reading": "そふとくりーむ",
+      "season": "여름",
+      "representative_region": "전국"
+    },
+    {
+      "id": "food_nonramen_umegae_mochi",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "umegae_mochi",
+      "category_id": "sweets",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-13",
+      "review_scope_ko": "백과 자료의 관련 내용을 대조해 기본 정의와 자세히(유래·먹는 때·먹는 법·지역 차이)를 편집(사장님 지시 2026-11-13 목차 확장 3차: 후쿠오카 맛 기준표에만 있던 음식). 유래는 알려진 설로 적었고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 주문 팁은 편집 안내이며 특정 가게의 판매·가격·옵션·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · 梅ヶ枝餅",
+          "url": "https://ja.wikipedia.org/wiki/%E6%A2%85%E3%83%B6%E6%9E%9D%E9%A4%85"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "1ab5d3e39d21f2b0cb1998d6e826849decc726b335b650d9ce659546a9374230",
+      "reading": "うめがえもち",
+      "season": "사계절",
+      "representative_region": "후쿠오카"
+    },
+    {
+      "id": "food_nonramen_sumotsu",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "sumotsu",
+      "category_id": "sides",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-14",
+      "review_scope_ko": "전용 백과 항목이 없어(일본어 위키백과에 해당 표제어 없음) 사장님 승인 2026-11-14 로 맛 기준표(후쿠오카 표)와 현지에서 널리 알려진 통례를 바탕으로 기본 정의를 편집함. 근거 링크는 조리·재료 일반의 관련 항목이며 이 음식 자체를 다룬 문헌은 아님. 유래·시기는 확정된 출처가 없는 통례 설명이고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 가게별 판매·가격·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · もつ鍋",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%82%E3%81%A4%E9%8D%8B"
+        },
+        {
+          "title": "위키백과(일본어) · ポン酢",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%83%B3%E9%85%A2"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "189ce699097bae074d6bd169e3ba887935062eb0755d9ba38136f56bae41ee27",
+      "reading": "すもつ",
+      "season": "사계절",
+      "representative_region": "후쿠오카"
+    },
+    {
+      "id": "food_nonramen_kakigoya",
+      "dataset": "basics_v02",
+      "group": "articles",
+      "source_id": "kakigoya",
+      "category_id": "grilled",
+      "status": "기본 정의·편집 안내",
+      "reviewed_on": "2026-11-14",
+      "review_scope_ko": "전용 백과 항목이 없어(일본어 위키백과에 해당 표제어 없음) 사장님 승인 2026-11-14 로 맛 기준표(후쿠오카 표)와 현지에서 널리 알려진 통례를 바탕으로 기본 정의를 편집함. 근거 링크는 조리·재료 일반의 관련 항목이며 이 음식 자체를 다룬 문헌은 아님. 유래·시기는 확정된 출처가 없는 통례 설명이고, 맛 표현은 대표 조리의 정성 설명이며 측정값이 아님. 가게별 판매·가격·알레르기 보장이 아님.",
+      "evidence": [
+        {
+          "title": "위키백과(일본어) · カキ(貝)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%AD_%28%E8%B2%9D%29"
+        },
+        {
+          "title": "위키백과(일본어) · 糸島市",
+          "url": "https://ja.wikipedia.org/wiki/%E7%B3%B8%E5%B3%B6%E5%B8%82"
+        }
+      ],
+      "photo": null,
+      "source_entry_sha256": "96385bd673038fab54b6c8554713b405fa3a4f0d83a1fb6f84bb85996a48e3e1",
+      "reading": "かきごや",
+      "season": "겨울",
+      "representative_region": "후쿠오카"
     }
   ],
   "discovery_source": "basics_v02",
-  "discovery_sha256": "0109f748f570ee7f4123feca406b556bed55dd0f42ebd0fb35468a81e446cd6d"
+  "discovery_sha256": "a2ed0e4f8486023e5bae4821ba17e254796aec1e89de69828991509c3f79492b"
 }
