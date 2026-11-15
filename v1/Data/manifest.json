@@ -49,8 +49,8 @@
     },
     {
       "path": "Data/Encyclopedia/catalog.json",
-      "bytes": 1052085,
-      "sha256": "a623a18769cf93a2a242c355cc1ad63dfbfa0f0cb638c7be24642dcbaba17d4f"
+      "bytes": 1321270,
+      "sha256": "327748657a46e7e3cbfeeeb33e9858e558c45bd341636693fdbc10f2b8dd71b1"
     },
     {
       "path": "Data/Encyclopedia/photo_credits.json",
@@ -59,8 +59,8 @@
     },
     {
       "path": "Data/Encyclopedia/reviewed.json",
-      "bytes": 311838,
-      "sha256": "fc9108735be7cc3d31bed5d85783feea6b43608a2482e949bde603edbbafd0a8"
+      "bytes": 397276,
+      "sha256": "2cb75bf89b084eef573f7ec0cb84a914d8732fb8d01f005edc7dbad2acd38d14"
     },
     {
       "path": "Data/Home/README.txt",
@@ -135,7 +135,7 @@
     {
       "path": "Data/Skins/skins_v2.json",
       "bytes": 12641,
-      "sha256": "ba432e31eedf150881d515a41f0cbf0433b5578e20214af6561b199b6b663c65"
+      "sha256": "4d3e972f34f8b879627f0287980a5b303ecde24722811307532523b6ca3b0b38"
     },
     {
       "path": "Data/Taste/SOURCE.txt",

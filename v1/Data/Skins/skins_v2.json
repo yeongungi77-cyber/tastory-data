@@ -5,20 +5,20 @@
     "mode": "light",
     "stage": 1,
     "ui": {
-      "bg": "#f1f5ef",
-      "nav": "#ffffff",
+      "bg": "#f5f3ec",
+      "nav": "#fbfaf6",
       "panel": "#ffffff",
-      "panel2": "#e5eee3",
-      "line": "#cad6c7",
-      "ink": "#203c31",
-      "mute": "#53665a",
-      "acc": "#285b46",
-      "accsoft": "#dce9db",
-      "gold": "#f0cd77",
-      "goldink": "#342b17",
-      "green": "#236443",
-      "red": "#a63140",
-      "shadow": "#203028"
+      "panel2": "#efede3",
+      "line": "#dedbcd",
+      "ink": "#1b2a22",
+      "mute": "#56625a",
+      "acc": "#1f4d3b",
+      "accsoft": "#e2ebdf",
+      "gold": "#e8c56d",
+      "goldink": "#2f2610",
+      "green": "#1f6a45",
+      "red": "#a8323e",
+      "shadow": "#1b2a22"
     },
     "map": {
       "base": "light",
@@ -56,10 +56,10 @@
       "lodging": "#245ca6",
       "border": "#ffffff",
       "label_bg": "#ffffff",
-      "label_ink": "#203c31",
-      "label_line": "#cad6c7"
+      "label_ink": "#1b2a22",
+      "label_line": "#dedbcd"
     },
-    "city_boundary": "#285b46"
+    "city_boundary": "#1f4d3b"
   },
   {
     "id": "night",
